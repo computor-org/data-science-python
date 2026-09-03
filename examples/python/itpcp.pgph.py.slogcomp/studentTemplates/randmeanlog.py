@@ -1,0 +1,3 @@
+def randmeanlog(R):
+    # ...
+    return R

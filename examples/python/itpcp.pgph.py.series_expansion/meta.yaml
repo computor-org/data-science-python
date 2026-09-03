@@ -1,0 +1,34 @@
+slug: itpcp.pgph.py.series_expansion
+version: 1.0.0
+title: Sine Series Expansion
+description: This exercise implements the Taylor series of the sine function without
+  loops using NumPy matrix operations. With np.meshgrid all series terms are calculated
+  simultaneously. The partial sums are compared with the analytical solution and displayed
+  graphically.
+language: de
+license: MIT
+authors:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Taylor series
+  url: https://en.wikipedia.org/wiki/Taylor_series
+- description: Wikipedia - Sine and cosine
+  url: https://en.wikipedia.org/wiki/Sine_and_cosine
+supportingMaterial:
+- description: NumPy meshgrid
+  url: https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html
+- description: NumPy shape
+  url: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.shape.html
+- description: NumPy ravel
+  url: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.ravel.html
+keywords:
+- python

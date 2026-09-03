@@ -1,0 +1,38 @@
+slug: itpcp.pgph.py.vector_create
+version: 1.0.0
+title: Creating Vectors
+description: This exercise covers various methods for creating NumPy vectors. Linear
+  and logarithmic spacings, as well as calculated sequences like powers of two and
+  triangular numbers are created. The commands arange, linspace, logspace and cumsum
+  are used.
+language: de
+license: MIT
+authors:
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Maximilian Philipp
+  affiliation: TU Graz
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - NumPy
+  url: https://en.wikipedia.org/wiki/NumPy
+supportingMaterial:
+- description: NumPy arange
+  url: https://numpy.org/doc/stable/reference/generated/numpy.arange.html
+- description: NumPy linspace
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+- description: NumPy cumsum
+  url: https://numpy.org/doc/stable/reference/generated/numpy.cumsum.html
+keywords:
+- python

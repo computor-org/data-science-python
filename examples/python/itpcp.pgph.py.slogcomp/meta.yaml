@@ -1,0 +1,41 @@
+slug: itpcp.pgph.py.slogcomp
+version: 1.0.1
+title: Comparison of Logical Indexing with Loop or Mathematics
+description: This exercise compares different programming approaches in Python using
+  the same task. Negative and positive values are replaced by their means - once with
+  logical indexing, once with loops. The np.sign function is presented as a mathematical
+  alternative.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Boolean indexing
+  url: https://en.wikipedia.org/wiki/Boolean_indexing
+supportingMaterial:
+- description: NumPy sign
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sign.html
+- description: NumPy flatten
+  url: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flatten.html
+- description: NumPy mean
+  url: https://numpy.org/doc/stable/reference/generated/numpy.mean.html
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/randmeanfor.py
+  - studentTemplates/randsignum.py
+  - studentTemplates/randmeanlog.py

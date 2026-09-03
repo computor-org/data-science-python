@@ -1,0 +1,31 @@
+slug: itpcp.pgph.py.vector_compute
+version: 1.0.1
+title: Computing with Vectors
+description: This exercise covers mathematical operations with NumPy vectors. The
+  same calculations as with scalars are now applied to vectors. The broadcasting behavior
+  of NumPy for element-wise operations is utilized.
+language: de
+license: MIT
+authors:
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Array Programming
+  url: https://en.wikipedia.org/wiki/Array_programming
+supportingMaterial:
+- description: NumPy arange
+  url: https://numpy.org/doc/stable/reference/generated/numpy.arange.html
+- description: NumPy Broadcasting
+  url: https://numpy.org/doc/stable/user/basics.broadcasting.html
+keywords:
+- python

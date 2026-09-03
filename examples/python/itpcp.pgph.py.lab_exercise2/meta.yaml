@@ -1,0 +1,43 @@
+slug: itpcp.pgph.py.lab_exercise2
+version: 1.0.1
+title: Lab Exercise 2
+description: 'In this exercise you will evaluate oscilloscope measurement data of
+  a damped harmonic
+
+  oscillation. You will calibrate the signal, plot the data and draw the
+
+  envelope exponential functions.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Damped oscillation
+  url: https://en.wikipedia.org/wiki/Damping
+supportingMaterial:
+- description: numpy.loadtxt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html
+- description: numpy.mean
+  url: https://numpy.org/doc/stable/reference/generated/numpy.mean.html
+- description: numpy.exp
+  url: https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+- description: matplotlib.pyplot
+  url: https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - oscillation.dat

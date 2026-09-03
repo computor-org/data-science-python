@@ -1,0 +1,40 @@
+slug: itpcp.pgph.py.cosine_function
+version: 1.0.1
+title: Decaying Cosine Function
+description: 'In this example you will write a function to calculate a decaying
+
+  cosine function in exponential form. You will practice working with complex numbers,
+
+  the Euler formula and learn to display the function graphically with an envelope
+  curve.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Euler's formula
+  url: https://en.wikipedia.org/wiki/Euler%27s_formula
+supportingMaterial:
+- description: numpy.exp
+  url: https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+- description: numpy.real
+  url: https://numpy.org/doc/stable/reference/generated/numpy.real.html
+- description: matplotlib.pyplot.plot
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+- description: matplotlib.pyplot.xlim
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlim.html
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/fun_exp.py

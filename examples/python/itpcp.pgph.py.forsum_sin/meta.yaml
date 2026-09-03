@@ -1,0 +1,40 @@
+slug: itpcp.pgph.py.forsum_sin
+version: 1.0.0
+title: Sine Taylor Series
+description: 'In this exercise you will calculate the Taylor series of the sine using
+  a for loop.
+
+  You will build the series step by step and visualize how the
+
+  approximation of the sine improves with an increasing number of terms.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-for
+  url: https://docs.python.org/3/tutorial/controlflow.html#for-statements
+supportingMaterial:
+- description: numpy.sin
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sin.html
+- description: math.factorial
+  url: https://docs.python.org/3/library/math.html#math.factorial
+- description: matplotlib.pyplot.plot
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+keywords:
+- python

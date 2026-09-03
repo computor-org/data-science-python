@@ -1,0 +1,45 @@
+slug: itpcp.pgph.py.damped_oscillation
+version: 1.0.0
+title: Fitting Damped Oscillations
+description: 'In this example you will fit a damped oscillation to measurement data.
+  You will learn
+
+  to use curve_fit and fmin from scipy to determine model parameters and
+
+  find extrema of a function. The results are displayed graphically.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: scipy.optimize.curve_fit
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html
+- description: scipy.optimize.fmin
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html
+supportingMaterial:
+- description: numpy.sin
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sin.html
+- description: numpy.exp
+  url: https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+- description: numpy.loadtxt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html
+- description: matplotlib.pyplot.plot
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - decay_osc.dat

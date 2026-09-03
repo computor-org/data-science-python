@@ -1,0 +1,36 @@
+slug: itpcp.pgph.py.machine_precision
+version: 1.0.1
+title: Comparison of Formulas
+description: 'In this exercise you will examine the equivalence of mathematical identities
+  and
+
+  learn about the significance of machine precision. You will compare numerical
+
+  calculations and understand why exact equality is problematic with floating-point
+  numbers.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Machine epsilon
+  url: https://en.wikipedia.org/wiki/Machine_epsilon
+supportingMaterial:
+- description: numpy.finfo
+  url: https://numpy.org/doc/stable/reference/generated/numpy.finfo.html
+- description: input
+  url: https://docs.python.org/3/library/functions.html#input
+- description: numpy.dtypes
+  url: https://numpy.org/doc/stable/reference/arrays.dtypes.html
+keywords:
+- python

@@ -1,0 +1,45 @@
+slug: itpcp.pgph.py.differentiate
+version: 1.0.0
+title: 'Curve Analysis: Analytical and Numerical Solution'
+description: 'In this exercise you will perform a curve analysis by solving a function
+
+  both analytically with SymPy and numerically with NumPy. You will determine
+
+  zeros, extrema and derivatives and visualize the results.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: sympy
+  url: https://docs.sympy.org/latest/index.html
+- description: numpy
+  url: https://numpy.org/doc/stable/
+supportingMaterial:
+- description: sympy.diff
+  url: https://docs.sympy.org/latest/modules/core.html#sympy.core.function.diff
+- description: sympy.solve
+  url: https://docs.sympy.org/latest/modules/solvers/solvers.html#sympy.solvers.solvers.solve
+- description: sympy.lambdify
+  url: https://docs.sympy.org/latest/modules/utilities/lambdify.html
+- description: numpy.gradient
+  url: https://numpy.org/doc/stable/reference/generated/numpy.gradient.html
+- description: numpy.sign
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sign.html
+keywords:
+- python

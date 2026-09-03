@@ -1,0 +1,35 @@
+slug: itpcp.pgph.py.simple_animation
+version: 1.0.0
+title: Animation
+description: 'In this example you will learn how to create animations with matplotlib.
+  You
+
+  will animate two cosine functions with the FuncAnimation class and export
+
+  the result as a GIF file.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: matplotlib-animation-tutorial
+  url: https://matplotlib.org/stable/tutorials/introductory/animation_tutorial.html
+supportingMaterial:
+- description: matplotlib.animation.FuncAnimation
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.animation.FuncAnimation.html
+- description: matplotlib.pyplot.subplots
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
+- description: numpy.cos
+  url: https://numpy.org/doc/stable/reference/generated/numpy.cos.html
+keywords:
+- python

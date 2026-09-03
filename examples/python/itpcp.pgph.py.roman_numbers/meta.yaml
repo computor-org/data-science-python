@@ -1,0 +1,32 @@
+slug: itpcp.pgph.py.roman_numbers
+version: 1.0.0
+title: Roman Numerals
+description: This exercise covers the conversion of Roman numerals to Arabic numerals
+  using Python dictionaries. The subtraction rule for Roman numerals (e.g. IV = 4)
+  is implemented. The function contains a docstring following numpy convention and
+  raises a ValueError for invalid input.
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Roman numerals
+  url: https://en.wikipedia.org/wiki/Roman_numerals
+supportingMaterial:
+- description: Python Dictionaries
+  url: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+- description: NumPy Docstring Format
+  url: https://numpydoc.readthedocs.io/en/latest/format.html
+- description: Python ValueError
+  url: https://docs.python.org/3/library/exceptions.html#ValueError
+keywords:
+- python

@@ -1,0 +1,41 @@
+slug: itpcp.pgph.py.custom_functions
+version: 1.0.0
+title: Creating and Plotting Custom Functions
+description: 'This exercise deals with creating and plotting custom functions.
+
+  You will learn to define Python functions with def, write docstrings and
+
+  implement the Gaussian bell curve and the hyperbolic secant as
+
+  probability distributions.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: wiki-Docstring
+  url: https://en.wikipedia.org/wiki/Docstring#Python
+supportingMaterial:
+- description: numpy.exp
+  url: https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+- description: numpy.cosh
+  url: https://numpy.org/doc/stable/reference/generated/numpy.cosh.html
+- description: numpy.sqrt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html
+- description: numpy.linspace
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/secansh.py

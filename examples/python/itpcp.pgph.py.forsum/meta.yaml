@@ -1,0 +1,43 @@
+slug: itpcp.pgph.py.forsum
+version: 1.0.1
+title: Sums and Loops
+description: 'In this exercise you will learn how to implement np.sum with for loops.
+
+  You will sum over rows, columns and all elements of a matrix, both with
+
+  NumPy functions and with manual loops.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-for
+  url: https://docs.python.org/3/tutorial/controlflow.html
+supportingMaterial:
+- description: numpy.sum
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sum.html
+- description: numpy.arange
+  url: https://numpy.org/doc/stable/reference/generated/numpy.arange.html
+- description: numpy.reshape
+  url: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.reshape.html
+- description: numpy.shape
+  url: https://numpy.org/doc/stable/reference/generated/numpy.shape.html
+- description: numpy.zeros
+  url: https://numpy.org/doc/stable/reference/generated/numpy.zeros.html
+keywords:
+- python

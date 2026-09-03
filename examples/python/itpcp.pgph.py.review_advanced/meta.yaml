@@ -1,0 +1,30 @@
+slug: itpcp.pgph.py.review_advanced
+version: 1.0.0
+title: Control Flow and Arrays Review
+description: Review of control structures, arrays, logical indexing, and visualization
+  in Python.
+language: de
+license: MIT
+authors:
+- name: Benedikt Stadlmeyr
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python
+  url: https://www.python.org/
+supportingMaterial:
+- description: python
+  url: https://www.python.org/
+keywords:
+- python
+- review
+- control flow
+- arrays
+- loops
+- visualization
+properties:
+  studentTemplates:
+  - studentTemplates/review_advanced.ipynb

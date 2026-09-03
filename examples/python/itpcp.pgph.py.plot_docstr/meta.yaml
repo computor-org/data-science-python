@@ -1,0 +1,33 @@
+slug: itpcp.pgph.py.plot_docstr
+version: 1.0.1
+title: Simple Plot with Docstring
+description: This exercise covers creating plots with matplotlib and documenting code
+  with docstrings. Three curves are plotted and a docstring is inserted at the beginning
+  of the script, which can be accessed via the help() function.
+language: de
+license: MIT
+authors:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Docstring
+  url: https://en.wikipedia.org/wiki/Docstring#Python
+supportingMaterial:
+- description: Matplotlib plot
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+- description: Matplotlib figure
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html
+- description: Python help
+  url: https://docs.python.org/3/library/functions.html#help
+keywords:
+- python

@@ -1,0 +1,39 @@
+slug: itpcp.pgph.py.pendulum
+version: 1.0.1
+title: Numerical Solution of Initial Value Problems
+description: This exercise covers the numerical solution of initial value problems
+  using the example of a simple pendulum. The explicit Euler method and the midpoint
+  method are implemented and compared with the scipy function solve_ivp. Additionally,
+  the energy conservation of the different methods is examined.
+language: de
+license: MIT
+authors:
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Pendulum
+  url: https://en.wikipedia.org/wiki/Pendulum
+- description: Wikipedia - Euler method
+  url: https://en.wikipedia.org/wiki/Euler_method
+- description: Wikipedia - Initial value problem
+  url: https://en.wikipedia.org/wiki/Initial_value_problem
+supportingMaterial:
+- description: SciPy solve_ivp
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.solve_ivp.html
+- description: NumPy Arrays
+  url: https://numpy.org/doc/stable/reference/generated/numpy.array.html
+- description: Matplotlib Subplot
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot.html
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/integrators.py
+  - studentTemplates/pendulum.py

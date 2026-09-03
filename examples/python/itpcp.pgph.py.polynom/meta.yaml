@@ -1,0 +1,36 @@
+slug: itpcp.pgph.py.polynom
+version: 1.0.0
+title: Polynomials
+description: In this exercise a Polynomial class is implemented that supports basic
+  mathematical operations such as addition, subtraction and multiplication. Additionally,
+  methods for differentiation and integration are implemented. The class uses operator
+  overloading with Python dunder methods.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Polynomial
+  url: https://en.wikipedia.org/wiki/Polynomial
+- description: Python Operator Overloading
+  url: https://www.geeksforgeeks.org/operator-overloading-in-python/
+supportingMaterial:
+- description: Python Dunder-Methoden
+  url: https://docs.python.org/3/reference/datamodel.html#special-method-names
+- description: Python Klassen
+  url: https://docs.python.org/3/tutorial/classes.html
+- description: pytest assert
+  url: https://docs.pytest.org/en/stable/how-to/assert.html
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/run.py

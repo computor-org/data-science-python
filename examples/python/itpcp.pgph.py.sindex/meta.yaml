@@ -1,0 +1,33 @@
+slug: itpcp.pgph.py.sindex
+version: 1.0.0
+title: Index and Colon
+description: This exercise deepens the understanding of indexing and slicing in Python.
+  Using a matrix, various accesses to elements, rows, columns and submatrices are
+  practiced. Additionally, replacing values and the use of np.nan are covered.
+language: de
+license: MIT
+authors:
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Array Slicing
+  url: https://en.wikipedia.org/wiki/Array_slicing
+supportingMaterial:
+- description: NumPy shape
+  url: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.shape.html
+- description: NumPy ravel
+  url: https://numpy.org/doc/stable/reference/generated/numpy.ravel.html
+- description: NumPy delete
+  url: https://numpy.org/doc/stable/reference/generated/numpy.delete.html
+keywords:
+- python

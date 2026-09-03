@@ -1,0 +1,41 @@
+slug: itpcp.pgph.py.lab_exercise1
+version: 1.0.1
+title: Lab Exercise 1
+description: 'This exercise shows how Python can be used in laboratory exercises.
+  You will read
+
+  temperature data from a file, calculate mean and standard deviation,
+
+  and create a labeled plot with f-strings.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-fstrings
+  url: https://docs.python.org/3/tutorial/inputoutput.html#tut-f-strings
+supportingMaterial:
+- description: numpy.loadtxt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html
+- description: numpy.mean
+  url: https://numpy.org/doc/stable/reference/generated/numpy.mean.html
+- description: numpy.std
+  url: https://numpy.org/doc/stable/reference/generated/numpy.std.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - data_lab1.dat

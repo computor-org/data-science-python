@@ -1,0 +1,5 @@
+dog Bernd 5
+cat Mila 8
+dog Dora 7
+pig Josh 3
+frog Fred 2

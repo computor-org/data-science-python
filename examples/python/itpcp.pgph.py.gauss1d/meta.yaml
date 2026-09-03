@@ -1,0 +1,42 @@
+slug: itpcp.pgph.py.gauss1d
+version: 1.0.1
+title: Gaussian Distribution
+description: 'In this exercise you will implement the Gaussian or normal distribution.
+  You will write
+
+  a function that calculates a sum of multiple Gaussian functions with different parameters
+
+  and visualize the result.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Normal distribution
+  url: https://en.wikipedia.org/wiki/Normal_distribution
+supportingMaterial:
+- description: numpy.exp
+  url: https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+- description: numpy.sqrt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html
+- description: numpy.zeros
+  url: https://numpy.org/doc/stable/reference/generated/numpy.zeros.html
+- description: numpy.linspace
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+keywords:
+- python

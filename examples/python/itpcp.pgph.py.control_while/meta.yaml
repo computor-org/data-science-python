@@ -1,0 +1,43 @@
+slug: itpcp.pgph.py.control_while
+version: 1.0.0
+title: 'Control Structures: The While Loop'
+description: This exercise covers while loops in Python. An array is repeatedly divided
+  by random numbers until all values are less than 1. The number of iterations is
+  counted and a limit can be set to terminate the loop early.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - While loop
+  url: https://en.wikipedia.org/wiki/While_loop
+supportingMaterial:
+- description: Python while
+  url: https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming
+- description: NumPy random.random_sample
+  url: https://numpy.org/doc/stable/reference/random/generated/numpy.random.random_sample.html
+- description: Python break
+  url: https://docs.python.org/3/reference/simple_stmts.html#break
+keywords:
+- python
+properties:
+  additionalFiles:
+  - while_test1.py
+  - while_test2.py
+  - while_test3.py
+  - while_test4.py
+  studentTemplates:
+  - studentTemplates/control_while.py

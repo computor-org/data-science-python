@@ -1,0 +1,34 @@
+slug: itpcp.pgph.py.pi_series
+version: 1.0.1
+title: Approximation of Pi with Series
+description: This exercise calculates Pi using various historical series expansions.
+  The Leibniz series, the Machin formula, the Euler series and the modern BBP formula
+  are implemented and their convergence behavior is compared. The calculations are
+  performed vectorized with NumPy.
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Leibniz formula for pi
+  url: https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80
+- description: Wikipedia - Bailey-Borwein-Plouffe formula
+  url: https://en.wikipedia.org/wiki/Bailey%E2%80%93Borwein%E2%80%93Plouffe_formula
+supportingMaterial:
+- description: NumPy cumsum
+  url: https://numpy.org/doc/stable/reference/generated/numpy.cumsum.html
+- description: NumPy float64
+  url: https://numpy.org/doc/stable/reference/arrays.scalars.html#numpy.float64
+- description: Matplotlib Semilogy
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.semilogy.html
+keywords:
+- python

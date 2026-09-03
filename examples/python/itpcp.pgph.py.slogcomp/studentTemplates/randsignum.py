@@ -1,0 +1,3 @@
+def randsignum(R):
+    # ...
+    return R

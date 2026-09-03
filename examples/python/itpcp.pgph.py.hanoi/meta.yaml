@@ -1,0 +1,33 @@
+slug: itpcp.pgph.py.hanoi
+version: 1.0.1
+title: Towers of Hanoi
+description: 'In this exercise you will program a recursive solution for the classic
+  problem
+
+  of the Towers of Hanoi. You will learn the concept of recursion, where a
+
+  function calls itself until a termination condition is reached.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Tower of Hanoi
+  url: https://en.wikipedia.org/wiki/Tower_of_Hanoi
+supportingMaterial:
+- description: python-functions
+  url: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+- description: python-print
+  url: https://docs.python.org/3/library/functions.html#print
+keywords:
+- python

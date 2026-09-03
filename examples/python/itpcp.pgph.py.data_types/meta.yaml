@@ -1,0 +1,42 @@
+slug: itpcp.pgph.py.data_types
+version: 1.0.1
+title: Data Types (Classes) in Python
+description: 'In this exercise you will learn about various numeric data types in
+  Python and NumPy.
+
+  You will create variables with different types (int8, uint8, float32, etc.),
+
+  learn type casting and understand the limits and dangers of type conversions.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: numpy-datatypes
+  url: https://numpy.org/doc/stable/user/basics.types.html
+supportingMaterial:
+- description: type
+  url: https://docs.python.org/3/library/functions.html#type
+- description: chr
+  url: https://docs.python.org/3/library/functions.html#chr
+- description: numpy.finfo
+  url: https://numpy.org/doc/stable/reference/generated/numpy.finfo.html
+- description: sys.float_info
+  url: https://docs.python.org/3/library/sys.html#sys.float_info
+keywords:
+- python

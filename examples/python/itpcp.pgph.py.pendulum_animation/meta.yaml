@@ -1,0 +1,36 @@
+slug: itpcp.pgph.py.pendulum_animation
+version: 1.0.0
+title: Animation of a Pendulum
+description: In this exercise a pendulum is animated and displayed in phase space.
+  The symplectic Euler method is adapted to restrict the angle to the range from -pi
+  to pi. Additionally, contours of constant total energy are displayed with matplotlib.
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Pendulum
+  url: https://en.wikipedia.org/wiki/Pendulum
+- description: Wikipedia - Phase space
+  url: https://en.wikipedia.org/wiki/Phase_space
+supportingMaterial:
+- description: Matplotlib Animation
+  url: https://matplotlib.org/stable/users/explain/animations/animations.html
+- description: Matplotlib Contour
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.contour.html
+- description: NumPy meshgrid
+  url: https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/pendulum_animation.py

@@ -1,0 +1,43 @@
+slug: itpcp.pgph.py.dict_and_json
+version: 1.0.0
+title: Dictionaries und JSON files
+description: 'In this exercise you will learn to save and read Python dictionaries
+  in JSON files.
+
+  You will read configuration parameters from a JSON file, generate
+
+  normally distributed random numbers and save the results with metadata
+
+  as a JSON file.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-json
+  url: https://docs.python.org/3/library/json.html#basic-usage
+- description: python-datetime
+  url: https://docs.python.org/3/library/datetime.html
+supportingMaterial:
+- description: numpy.random.normal
+  url: https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html
+- description: json.load
+  url: https://docs.python.org/3/library/json.html#json.load
+- description: json.dump
+  url: https://docs.python.org/3/library/json.html#json.dump
+keywords:
+- python
+properties:
+  additionalFiles:
+  - data_file.json

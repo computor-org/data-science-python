@@ -1,0 +1,30 @@
+slug: itpcp.pgph.py.review_fundamentals
+version: 1.0.0
+title: Python Fundamentals Review
+description: Review of Python basics including variables, functions, modules, data
+  types, and plotting.
+language: de
+license: MIT
+authors:
+- name: Benedikt Stadlmeyr
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python
+  url: https://www.python.org/
+supportingMaterial:
+- description: python
+  url: https://www.python.org/
+keywords:
+- python
+- review
+- fundamentals
+- functions
+- variables
+- data types
+properties:
+  studentTemplates:
+  - studentTemplates/review_fundamentals.ipynb

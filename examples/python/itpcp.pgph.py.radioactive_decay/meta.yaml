@@ -1,0 +1,36 @@
+slug: itpcp.pgph.py.radioactive_decay
+version: 1.0.0
+title: Fitting Radioactive Decays
+description: In this exercise radioactive decay in a decay chain is modeled and fitted
+  to measurement data. The decay constants are determined with scipy.optimize.curve_fit.
+  The maximum of the isotope concentration is calculated with scipy.optimize.fmin
+  and displayed graphically.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Radioactive decay
+  url: https://en.wikipedia.org/wiki/Radioactive_decay
+- description: Wikipedia - Decay chain
+  url: https://en.wikipedia.org/wiki/Decay_chain
+supportingMaterial:
+- description: SciPy curve_fit
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html
+- description: SciPy fmin
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html
+- description: Matplotlib pyplot
+  url: https://matplotlib.org/stable/api/pyplot_summary.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - expfun.dat

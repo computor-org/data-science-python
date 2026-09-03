@@ -1,0 +1,40 @@
+slug: itpcp.pgph.py.interpolate
+version: 1.0.0
+title: Data Interpolation
+description: 'In this example you will apply various interpolation methods to measurement
+  data.
+
+  You will compare nearest, linear, pchip and cubic spline interpolation and
+
+  visualize the results in a subplot.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: scipy.interpolate
+  url: https://docs.scipy.org/doc/scipy/reference/interpolate.html
+supportingMaterial:
+- description: scipy.interpolate.interp1d
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.interp1d.html
+- description: scipy.interpolate.PchipInterpolator
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.PchipInterpolator.html
+- description: scipy.interpolate.CubicSpline
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.CubicSpline.html
+- description: numpy.loadtxt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - inter_data.dat

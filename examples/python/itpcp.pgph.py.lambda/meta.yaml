@@ -1,0 +1,40 @@
+slug: itpcp.pgph.py.lambda
+version: 1.0.0
+title: Lambda Functions
+description: 'In this exercise you will learn about lambda functions in Python. You
+  will create anonymous
+
+  functions for various applications, use filter and sorted with lambda functions,
+
+  and calculate the mean value and RMS value of periodic signals.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Root mean square
+  url: https://en.wikipedia.org/wiki/Root_mean_square
+- description: Wikipedia - Arithmetic mean
+  url: https://en.wikipedia.org/wiki/Arithmetic_mean
+supportingMaterial:
+- description: python-lambda
+  url: https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
+- description: numpy.sign
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sign.html
+- description: numpy.mod
+  url: https://numpy.org/doc/stable/reference/generated/numpy.mod.html
+- description: scipy.integrate.simpson
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.simpson.html
+keywords:
+- python

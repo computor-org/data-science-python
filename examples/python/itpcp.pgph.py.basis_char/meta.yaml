@@ -1,0 +1,46 @@
+slug: itpcp.pgph.py.basis_char
+version: 1.0.1
+title: Characters and Strings
+description: 'In this exercise you will learn how to work with characters and strings
+  in
+
+  Python. You will practice joining, splitting and manipulating strings, work with
+
+  lists and learn important string methods such as split, join and upper.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-strings
+  url: https://docs.python.org/3/library/stdtypes.html#textseq
+- description: python-string-module
+  url: https://docs.python.org/3/library/string.html
+supportingMaterial:
+- description: str.join
+  url: https://docs.python.org/3/library/stdtypes.html#str.join
+- description: str.split
+  url: https://docs.python.org/3/library/stdtypes.html#str.split
+- description: str.upper
+  url: https://docs.python.org/3/library/stdtypes.html#str.upper
+- description: len
+  url: https://docs.python.org/3/library/functions.html#len
+- description: type
+  url: https://docs.python.org/3/library/functions.html#type
+- description: list
+  url: https://docs.python.org/3/library/stdtypes.html#typesseq
+keywords:
+- python

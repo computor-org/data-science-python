@@ -1,0 +1,3 @@
+def randmeanfor(R):
+    # ...
+    return R

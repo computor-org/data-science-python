@@ -1,0 +1,32 @@
+slug: itpcp.pgph.py.beat_oscillation
+version: 1.0.1
+title: Setting Default Values - Beat
+description: This exercise covers setting default values in Python functions using
+  the example of a beat function. From two superimposed oscillations, beats and Lissajous
+  figures are generated. The results are displayed in separate matplotlib figures.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Beat
+  url: https://en.wikipedia.org/wiki/Beat_(acoustics)
+- description: Wikipedia - Lissajous curve
+  url: https://en.wikipedia.org/wiki/Lissajous_curve
+supportingMaterial:
+- description: Matplotlib figure
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html
+- description: Matplotlib show
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html
+- description: NumPy linspace
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+keywords:
+- python

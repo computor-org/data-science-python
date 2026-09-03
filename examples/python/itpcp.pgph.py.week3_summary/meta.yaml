@@ -1,0 +1,41 @@
+slug: itpcp.pgph.py.week3_summary
+version: 1.0.2
+title: Beta-Absorption
+description: 'This example is a summary of the first 3 weeks of the exercise. It covers
+
+  the analysis of beta absorption and radioactive decay (Sr-90/Y-90) using the
+
+  Beer-Lambert law. You will learn to read data, process it, display it logarithmically,
+
+  and perform linear fits to determine mass absorption coefficients.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Mass attenuation coefficient
+  url: https://en.wikipedia.org/wiki/Mass_attenuation_coefficient
+supportingMaterial:
+- description: numpy.loadtxt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html
+- description: numpy.polyfit
+  url: https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html
+- description: numpy.log
+  url: https://numpy.org/doc/stable/reference/generated/numpy.log.html
+- description: matplotlib.pyplot.plot
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - beta_absorption.csv

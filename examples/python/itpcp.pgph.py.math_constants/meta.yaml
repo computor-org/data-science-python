@@ -1,0 +1,41 @@
+slug: itpcp.pgph.py.math_constants
+version: 1.0.0
+title: Mathematical Constants
+description: 'This first exercise introduces NumPy and shows how to define variables.
+
+  You will learn about mathematical constants like Pi and e, trigonometric functions,
+
+  complex numbers and the concept of numerical precision.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: numpy-matlab-cheatsheet
+  url: https://numpy.org/doc/stable/user/numpy-for-matlab-users.html
+- description: Wikipedia - Floating-point arithmetic
+  url: https://en.wikipedia.org/wiki/Floating-point_arithmetic
+supportingMaterial:
+- description: numpy.exp
+  url: https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+- description: numpy.sin
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sin.html
+- description: numpy.pi
+  url: https://numpy.org/doc/stable/reference/constants.html
+- description: python-modules
+  url: https://docs.python.org/3/tutorial/modules.html
+keywords:
+- python

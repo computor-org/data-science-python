@@ -1,0 +1,33 @@
+slug: itpcp.pgph.py.regular_polyhedra
+version: 1.0.1
+title: Regular Polyhedra
+description: This exercise calculates geometric properties of the five regular convex
+  polyhedra (tetrahedron, cube, octahedron, dodecahedron, icosahedron). For a given
+  edge length, volume, surface area and the radii of the inscribed and circumscribed
+  spheres are calculated. The function also processes vectors of edge lengths.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Platonic solid
+  url: https://en.wikipedia.org/wiki/Platonic_solid
+- description: Wikipedia - Regular polyhedron
+  url: https://en.wikipedia.org/wiki/Regular_polyhedron
+supportingMaterial:
+- description: Python String lower
+  url: https://python-reference.readthedocs.io/en/latest/docs/str/lower.html
+- description: Python Exceptions
+  url: https://docs.python.org/3/tutorial/errors.html#raising-exceptions
+- description: NumPy sqrt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html
+keywords:
+- python

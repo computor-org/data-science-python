@@ -1,0 +1,38 @@
+slug: itpcp.pgph.py.pytest
+version: 1.0.0
+title: Pytest & cProfile
+description: This exercise introduces the test framework pytest and the profiling
+  module cProfile. The bubble sort algorithm is implemented and verified with tests.
+  The runtime is analyzed with cProfile and compared with the built-in Python sort
+  function.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Bubble sort
+  url: https://en.wikipedia.org/wiki/Bubble_sort
+- description: Wikipedia - Time complexity
+  url: https://en.wikipedia.org/wiki/Time_complexity
+supportingMaterial:
+- description: pytest Dokumentation
+  url: https://docs.pytest.org/en/latest/
+- description: Python cProfile
+  url: https://docs.python.org/3/library/profile.html
+- description: Python sorted
+  url: https://docs.python.org/3/library/functions.html#sorted
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/test_sort_funcs.py
+  - studentTemplates/sort_funcs.py
+  - studentTemplates/run.py

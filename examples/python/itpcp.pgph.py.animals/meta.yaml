@@ -1,0 +1,44 @@
+slug: itpcp.pgph.py.animals
+version: 1.0.1
+title: Animals
+description: 'In this exercise you will learn about the advantages of abstract classes
+  in Python.
+
+  You will implement an Animal class with various subclasses (Dog, Cat, Pig, Frog)
+
+  and compare a switch-based implementation with an abstract class structure
+
+  using the Factory pattern.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-abc
+  url: https://docs.python.org/3/library/abc.html
+supportingMaterial:
+- description: python-classes
+  url: https://docs.python.org/3/tutorial/classes.html
+- description: python-match
+  url: https://docs.python.org/3/tutorial/controlflow.html#match-statements
+- description: python-exceptions
+  url: https://docs.python.org/3/tutorial/errors.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - animals.txt
+  - exotic_animals.txt
+  studentTemplates:
+  - studentTemplates/animals_switch.py
+  - studentTemplates/animals_abstract.py

@@ -1,0 +1,40 @@
+slug: itpcp.pgph.py.integrate
+version: 1.0.0
+title: Numerical Integration
+description: 'In this exercise you will implement numerical integration methods: the
+  trapezoidal method
+
+  and Simpson''s method. You will analyze the integration error as a function of
+
+  the step size and visualize the results in a log-log plot.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Trapezoidal rule
+  url: https://en.wikipedia.org/wiki/Trapezoidal_rule
+- description: Wikipedia - Simpson's rule
+  url: https://en.wikipedia.org/wiki/Simpson%27s_rule
+supportingMaterial:
+- description: numpy.sum
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sum.html
+- description: numpy.finfo
+  url: https://numpy.org/doc/stable/reference/generated/numpy.finfo.html
+- description: scipy.special.erf
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.erf.html
+- description: ValueError
+  url: https://docs.python.org/3/library/exceptions.html#ValueError
+keywords:
+- python

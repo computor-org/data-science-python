@@ -1,0 +1,40 @@
+slug: itpcp.pgph.py.gross_net
+version: 1.0.0
+title: Gross Net Calculator
+description: 'In this exercise you will implement a gross-net calculator based on
+  the
+
+  Austrian tax system. You will learn to calculate progressive income tax and
+
+  social security contributions and write a function that determines the
+
+  net salary from a gross salary.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Austrian income tax table
+  url: https://www.finanz.at/steuern/lohnsteuertabelle/#Lohnsteuertabelle_2024
+- description: Austrian social security
+  url: https://www.gesundheitskasse.at/cdscontent/?contentid=10007.870462
+supportingMaterial:
+- description: python-functions
+  url: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+- description: round
+  url: https://docs.python.org/3/library/functions.html#round
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/gross_net.py

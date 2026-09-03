@@ -1,0 +1,56 @@
+slug: itpcp.pgph.py.basis2
+version: 1.0.1
+title: Simple Plot of Vectors
+description: 'In this exercise you will learn how to create plots in Python. You will
+  learn
+
+  to translate mathematical notation into code, create vectors with arange and linspace,
+
+  calculate hyperbolic functions, and create and format graphics with matplotlib.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-numeric-types
+  url: https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
+- description: matplotlib-tutorials
+  url: https://matplotlib.org/stable/tutorials/index.html
+supportingMaterial:
+- description: numpy.arange
+  url: https://numpy.org/doc/stable/reference/generated/numpy.arange.html
+- description: numpy.linspace
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+- description: numpy.abs
+  url: https://numpy.org/doc/stable/reference/generated/numpy.absolute.html
+- description: matplotlib.pyplot.plot
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+- description: matplotlib.pyplot.xlim
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlim.html
+- description: matplotlib.pyplot.ylim
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylim.html
+- description: matplotlib.pyplot.xlabel
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html
+- description: matplotlib.pyplot.title
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html
+keywords:
+- python
+- python
+- plot
+- hyperbolic

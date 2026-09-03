@@ -1,0 +1,40 @@
+slug: itpcp.pgph.py.control_for
+version: 1.0.1
+title: 'Control Structures: For Loops'
+description: This exercise covers for loops in Python using climate data from the
+  city of Graz. Monthly average temperatures from different years are analyzed and
+  compared with long-term averages. The results are output as f-strings.
+language: de
+license: MIT
+authors:
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Viktoria Keusch
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - For loop
+  url: https://en.wikipedia.org/wiki/For_loop
+supportingMaterial:
+- description: Python enumerate
+  url: https://docs.python.org/3/library/functions.html#enumerate
+- description: Python f-strings
+  url: https://realpython.com/python-f-strings/#doing-string-interpolation-with-f-strings-in-python
+- description: NumPy loadtxt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - climate_data_graz.csv
+  - for_test1.py
+  - for_test2.py
+  - for_test3.py
+  - for_test4.py
+  - for_test5.py
+  - for_test6.py
+  - for_test7.py

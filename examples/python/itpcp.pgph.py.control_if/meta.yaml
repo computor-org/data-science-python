@@ -1,0 +1,46 @@
+slug: itpcp.pgph.py.control_if
+version: 1.0.0
+title: 'Control Structures: If Statements'
+description: This exercise familiarizes you with if statements in Python. A function
+  is written that returns different strings depending on the number of positive values
+  in an array. The commands np.all, np.any and np.ravel are used for arrays of arbitrary
+  dimensions.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Conditional statement
+  url: https://en.wikipedia.org/wiki/Conditional_(computer_programming)
+supportingMaterial:
+- description: Python if-Statements
+  url: https://docs.python.org/3/tutorial/controlflow.html#if-statements
+- description: NumPy all
+  url: https://numpy.org/doc/stable/reference/generated/numpy.all.html
+- description: NumPy any
+  url: https://numpy.org/doc/stable/reference/generated/numpy.any.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - if_test1.py
+  - if_test2.py
+  - if_test3.py
+  - if_test4.py
+  - if_test5.py
+  - if_test6.py
+  studentTemplates:
+  - studentTemplates/if_test.py

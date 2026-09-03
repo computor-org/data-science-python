@@ -1,0 +1,36 @@
+slug: itpcp.pgph.py.vector_random
+version: 1.0.0
+title: Generating Random Numbers
+description: This exercise introduces the generation of random numbers with NumPy.
+  Uniformly distributed and normally distributed random numbers as well as integer
+  random numbers in various intervals are generated. The numpy.random documentation
+  is used as a reference.
+language: de
+license: MIT
+authors:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Random number generation
+  url: https://en.wikipedia.org/wiki/Random_number_generation
+- description: Wikipedia - Normal distribution
+  url: https://en.wikipedia.org/wiki/Normal_distribution
+supportingMaterial:
+- description: NumPy random
+  url: https://numpy.org/doc/stable/reference/random/index.html
+- description: NumPy random.rand
+  url: https://numpy.org/doc/stable/reference/random/generated/numpy.random.rand.html
+- description: NumPy random.randn
+  url: https://numpy.org/doc/stable/reference/random/generated/numpy.random.randn.html
+keywords:
+- python

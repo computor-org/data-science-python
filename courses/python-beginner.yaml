@@ -1,0 +1,145 @@
+git:
+  delivery: git
+  provider: forgejo
+  student_repo_modes:
+  - managed
+  - download
+name: Data Science mit Python – Grundlagen
+description: 'Ein kompakter, deutschsprachiger Einstieg in Data Science mit Python.
+
+  Du lernst die Grundlagen der Programmierumgebung, Python-Syntax, Funktionen, Skripte,
+  Indizierung und erste Visualisierungen.'
+path: python.beginner
+services:
+- slug: itpcp.exec.py
+content_types:
+- color: green
+  kind: unit
+  slug: weekly
+  title: Woche
+- color: yellow
+  kind: assignment
+  slug: beginner
+  title: Aufgabe
+- color: '#00bd74'
+  kind: assignment
+  slug: exam
+  title: Wiederholung
+contents:
+- content_type: weekly
+  path: week_1
+  position: 1.0
+  contents:
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.math_constants
+    max_group_size: 1
+    path: math_constants
+    position: 1.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.basis1
+    max_group_size: 1
+    path: basis1
+    position: 2.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.basis2
+    max_group_size: 1
+    path: basis2
+    position: 3.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.plot_docstr
+    max_group_size: 1
+    path: plot_docstr
+    position: 4.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.simple_taylor
+    max_group_size: 1
+    path: simple_taylor
+    position: 5.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.chars
+    max_group_size: 1
+    path: chars
+    position: 6.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.easter_formula
+    max_group_size: 1
+    path: easter_formula
+    position: 7.0
+- content_type: weekly
+  path: week_2
+  position: 2.0
+  contents:
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.vector_compute
+    max_group_size: 1
+    path: vector_compute
+    position: 1.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.vector_create
+    max_group_size: 1
+    path: vector_create
+    position: 2.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.vector_random
+    max_group_size: 1
+    path: vector_random
+    position: 3.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.basis3
+    max_group_size: 1
+    path: basis3
+    position: 4.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.sindex
+    max_group_size: 1
+    path: sindex
+    position: 5.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.lab_exercise1
+    max_group_size: 1
+    path: lab_exercise1
+    position: 6.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.lab_exercise2
+    max_group_size: 1
+    path: lab_exercise2
+    position: 7.0
+- content_type: weekly
+  path: week_3
+  position: 3.0
+  contents:
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.lab_exercise3
+    max_group_size: 1
+    path: lab_exercise3
+    position: 1.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.kerr_cell
+    max_group_size: 1
+    path: kerr_cell
+    position: 2.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.custom_functions
+    max_group_size: 1
+    path: custom_functions
+    position: 3.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.cosine_function
+    max_group_size: 1
+    path: cosine_function
+    position: 4.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.beat_oscillation
+    max_group_size: 1
+    path: beat_oscillation
+    position: 5.0
+  - content_type: beginner
+    example_identifier: itpcp.pgph.py.week3_summary
+    max_group_size: 1
+    path: week3_summary
+    position: 6.0
+  - content_type: exam
+    example_identifier: itpcp.pgph.py.review_fundamentals
+    max_group_size: 1
+    path: review_fundamentals
+    position: 7.0

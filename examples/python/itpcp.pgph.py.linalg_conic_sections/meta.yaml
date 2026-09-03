@@ -1,0 +1,37 @@
+slug: itpcp.pgph.py.linalg_conic_sections
+version: 1.0.1
+title: Linear System, Conic Sections
+description: 'In this exercise you will determine the parameters of a conic section
+  by solving a
+
+  linear system of equations. You will learn the mathematical description of ellipses,
+
+  parabolas and hyperbolas and display the result as a 3D plot with contour lines.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Conic section
+  url: https://en.wikipedia.org/wiki/Conic_section
+supportingMaterial:
+- description: numpy.linalg.solve
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html
+- description: numpy.meshgrid
+  url: https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html
+- description: numpy.random.rand
+  url: https://numpy.org/doc/stable/reference/random/generated/numpy.random.rand.html
+- description: matplotlib.pyplot.contour
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.contour.html
+keywords:
+- python

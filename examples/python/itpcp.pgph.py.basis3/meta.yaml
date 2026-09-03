@@ -1,0 +1,48 @@
+slug: itpcp.pgph.py.basis3
+version: 1.0.0
+title: Combination of Functions
+description: 'This exercise deals with calculating and plotting simple functions.
+  You will learn
+
+  to calculate trigonometric function combinations, add colors and legends to graphics,
+
+  and practice commenting code for better structure.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: numpy
+  url: https://numpy.org/doc/stable/
+- description: matplotlib
+  url: https://matplotlib.org/stable/api/index.html
+- description: matplotlib-userguide
+  url: https://matplotlib.org/stable/users/index.html
+supportingMaterial:
+- description: numpy.linspace
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+- description: numpy.sin
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sin.html
+- description: matplotlib.pyplot.legend
+  url: https://matplotlib.org/stable/tutorials/intermediate/legend_guide.html
+- description: matplotlib.pyplot.xlim
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlim.html
+- description: matplotlib.pyplot.xlabel
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html
+- description: matplotlib.pyplot.ylabel
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html
+keywords:
+- python

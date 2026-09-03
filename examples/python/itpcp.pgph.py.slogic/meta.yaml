@@ -1,0 +1,35 @@
+slug: itpcp.pgph.py.slogic
+version: 1.0.1
+title: Simple Logical Indexing
+description: This exercise introduces logical indexing with NumPy. Using a matrix,
+  various conditions are formulated and logical arrays are created from them. np.all,
+  np.any, np.where and combinations of conditions are covered.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Boolean algebra
+  url: https://en.wikipedia.org/wiki/Boolean_algebra
+supportingMaterial:
+- description: NumPy all
+  url: https://numpy.org/doc/stable/reference/generated/numpy.all.html
+- description: NumPy any
+  url: https://numpy.org/doc/stable/reference/generated/numpy.any.html
+- description: NumPy where
+  url: https://numpy.org/doc/stable/reference/generated/numpy.where.html
+keywords:
+- python

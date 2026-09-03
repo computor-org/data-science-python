@@ -1,0 +1,30 @@
+slug: itpcp.pgph.py.quadratic_eq_eval
+version: 1.0.0
+title: Calculation of the Left Side of a Quadratic Equation
+description: In this exercise a function is written that evaluates the left side of
+  a quadratic equation for given solutions. This serves to verify the numerical accuracy
+  of calculated solutions. The function processes arrays of coefficients and solutions.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Quadratic equation
+  url: https://en.wikipedia.org/wiki/Quadratic_equation
+supportingMaterial:
+- description: NumPy nan
+  url: https://numpy.org/doc/stable/user/misc.html
+- description: NumPy Arrays
+  url: https://numpy.org/doc/stable/reference/generated/numpy.array.html
+keywords:
+- python

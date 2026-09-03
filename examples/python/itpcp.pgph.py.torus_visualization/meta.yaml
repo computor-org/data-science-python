@@ -1,0 +1,35 @@
+slug: itpcp.pgph.py.torus_visualization
+version: 1.0.1
+title: Plot of a Circular Torus
+description: 'In this example you will display the surface of a torus as a 3D plot.
+  You will learn
+
+  the parametric representation of a torus with toroidal and poloidal angles,
+
+  work with meshgrid and create a 3D surface graphic with matplotlib.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Torus
+  url: https://en.wikipedia.org/wiki/Torus
+supportingMaterial:
+- description: numpy.meshgrid
+  url: https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html
+- description: mplot3d-surface
+  url: https://matplotlib.org/stable/gallery/mplot3d/surface3d.html
+- description: matplotlib-colormaps
+  url: https://matplotlib.org/stable/users/explain/colors/colormaps.html
+keywords:
+- python

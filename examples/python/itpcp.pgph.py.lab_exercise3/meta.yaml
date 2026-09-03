@@ -1,0 +1,41 @@
+slug: itpcp.pgph.py.lab_exercise3
+version: 1.0.1
+title: Lab Exercise 3
+description: 'This exercise introduces fitting and plotting measurement data with
+  uncertainties.
+
+  You will fit a line to current-voltage measurements with polyfit and display the
+
+  results graphically with error bars.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Probability theory (TU Graz)
+  url: http://itp.tugraz.at/LV/wvl/Statistik/A_WS_pdf.pdf
+supportingMaterial:
+- description: numpy.polyfit
+  url: https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html
+- description: matplotlib.pyplot.errorbar
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html
+- description: matplotlib.pyplot.legend
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - data_lab3.dat

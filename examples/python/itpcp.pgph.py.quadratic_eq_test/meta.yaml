@@ -1,0 +1,36 @@
+slug: itpcp.pgph.py.quadratic_eq_test
+version: 1.0.0
+title: Analysis of Solutions of a Quadratic Equation 1
+description: This exercise combines the functions quadgl and quadgleval to analyze
+  solutions of quadratic equations. Random coefficient matrices are generated and
+  the numerical accuracy of the solutions is verified. Special cases with a=0 or b=0
+  are also handled.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Quadratic equation
+  url: https://en.wikipedia.org/wiki/Quadratic_equation
+supportingMaterial:
+- description: NumPy random.rand
+  url: https://numpy.org/doc/stable/reference/random/generated/numpy.random.rand.html
+- description: NumPy random.uniform
+  url: https://numpy.org/doc/stable/reference/random/generated/numpy.random.uniform.html
+- description: NumPy ceil
+  url: https://numpy.org/doc/stable/reference/generated/numpy.ceil.html
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/quadratic_eq_test.py

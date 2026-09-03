@@ -1,0 +1,32 @@
+slug: itpcp.pgph.py.pivot_index
+version: 1.0.0
+title: Finding the Pivot Index
+description: In this exercise a function is implemented that finds the pivot index
+  of an array. The pivot index is the position where the sum of all elements to the
+  left equals the sum of all elements to the right. The leftmost pivot index is returned,
+  or -1 if none exists.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Array data type
+  url: https://en.wikipedia.org/wiki/Array_(data_type)
+supportingMaterial:
+- description: Python sum
+  url: https://docs.python.org/3/library/functions.html#sum
+- description: Python Listen
+  url: https://docs.python.org/3/tutorial/datastructures.html#more-on-lists
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/pivot_index.py

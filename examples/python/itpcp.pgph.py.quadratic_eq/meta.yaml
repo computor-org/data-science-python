@@ -1,0 +1,39 @@
+slug: itpcp.pgph.py.quadratic_eq
+version: 1.0.0
+title: 'Control Structures: The For Loop vs. Logical Indexing'
+description: This exercise covers solving quadratic equations once with a for loop
+  and once with logical indexing. The function calculates the solutions of the general
+  quadratic equation ax^2 + bx + c = 0 for arrays of coefficients. Real and complex
+  solutions as well as special cases are considered.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Martin Tritthart
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Quadratic equation
+  url: https://en.wikipedia.org/wiki/Quadratic_equation
+- description: Wikipedia - Discriminant
+  url: https://en.wikipedia.org/wiki/Discriminant
+supportingMaterial:
+- description: NumPy nan
+  url: https://numpy.org/doc/stable/user/misc.html
+- description: NumPy ones_like
+  url: https://numpy.org/doc/stable/reference/generated/numpy.ones_like.html
+- description: NumPy sqrt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/quadratic_eq_for.py
+  - studentTemplates/quadratic_eq.py

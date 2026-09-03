@@ -1,0 +1,37 @@
+slug: itpcp.pgph.py.linalg_diag_matrix
+version: 1.0.1
+title: Linear System, Diagonal Matrix, Verification
+description: 'In this exercise you will solve a linear system of equations with a
+  tridiagonal matrix.
+
+  You will create the matrix with eye and diag, solve the system and perform a numerical
+
+  verification, taking rounding errors into account.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Tridiagonal matrix
+  url: https://en.wikipedia.org/wiki/Tridiagonal_matrix
+supportingMaterial:
+- description: numpy.diag
+  url: https://numpy.org/doc/stable/reference/generated/numpy.diag.html
+- description: numpy.eye
+  url: https://numpy.org/devdocs/reference/generated/numpy.eye.html
+- description: numpy.linalg.solve
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html
+- description: numpy.isclose
+  url: https://numpy.org/doc/stable/reference/generated/numpy.isclose.html
+keywords:
+- python

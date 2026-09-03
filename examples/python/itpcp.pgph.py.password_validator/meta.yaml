@@ -1,0 +1,38 @@
+slug: itpcp.pgph.py.password_validator
+version: 1.0.1
+title: Password Validator
+description: 'In this exercise you will program a password validator that checks the
+  strength of a
+
+  password according to various criteria: length, numbers, special characters,
+
+  uppercase letters and consecutive/repeating characters.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-string-module
+  url: https://docs.python.org/3/library/string.html
+supportingMaterial:
+- description: all
+  url: https://docs.python.org/3/library/functions.html#all
+- description: ord
+  url: https://docs.python.org/3/library/functions.html#ord
+- description: python-if
+  url: https://docs.python.org/3/tutorial/controlflow.html#if-statements
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/check_password.py

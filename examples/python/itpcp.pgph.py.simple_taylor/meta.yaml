@@ -1,0 +1,31 @@
+slug: itpcp.pgph.py.simple_taylor
+version: 1.0.0
+title: Taylor Series of the Sine
+description: This exercise visualizes the convergence of the Taylor series of the
+  sine. The first four terms of the series are calculated individually and compared
+  with the exact sine function. The results are displayed in a 2x2 subplot grid with
+  matplotlib.
+language: de
+license: MIT
+authors:
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Taylor series
+  url: https://en.wikipedia.org/wiki/Taylor_series
+supportingMaterial:
+- description: Matplotlib subplots
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
+- description: NumPy linspace
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+- description: Matplotlib xlim
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlim.html
+keywords:
+- python

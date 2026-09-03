@@ -1,0 +1,33 @@
+slug: itpcp.pgph.py.caesar
+version: 1.0.0
+title: Caesar Cipher
+description: Learn about Caesar cipher encryption and decryption. Implement encryption/decryption
+  functions and crack encoded messages with unknown keys.
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Caesar Cipher Wikipedia
+  url: https://en.wikipedia.org/wiki/Caesar_cipher
+supportingMaterial:
+- description: python
+  url: https://www.python.org/
+keywords:
+- python
+- cryptography
+- caesar cipher
+properties:
+  additionalFiles:
+  - enc.txt
+  studentTemplates:
+  - studentTemplates/caesar.py

@@ -1,0 +1,133 @@
+git:
+  delivery: git
+  provider: forgejo
+  student_repo_modes:
+  - managed
+  - download
+name: Data Science mit Python – Vertiefung
+description: Ein deutschsprachiger Vertiefungskurs mit selbstständigen mathematischen
+  und naturwissenschaftlichen Problemen, Gleichungssystemen, Kurvenanalyse, Differentialgleichungen
+  und objektorientierter Programmierung.
+path: python.advanced
+services:
+- slug: itpcp.exec.py
+content_types:
+- color: green
+  kind: unit
+  slug: weekly
+  title: Woche
+- color: yellow
+  kind: assignment
+  slug: advanced
+  title: Aufgabe
+- color: orange
+  kind: assignment
+  slug: extra
+  title: Zusatzaufgabe
+contents:
+- content_type: weekly
+  path: week_1
+  position: 1.0
+  contents:
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.linalg_network
+    max_group_size: 1
+    path: linalg_network
+    position: 1.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.linalg_diag_matrix
+    max_group_size: 1
+    path: linalg_diag_matrix
+    position: 2.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.linalg_conic_sections
+    max_group_size: 1
+    path: linalg_conic_sections
+    position: 3.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.vector_field
+    max_group_size: 1
+    path: vector_field
+    position: 4.0
+  - content_type: extra
+    example_identifier: itpcp.pgph.py.caesar
+    max_group_size: 1
+    path: caesar
+    position: 5.0
+- content_type: weekly
+  path: week_2
+  position: 2.0
+  contents:
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.differentiate
+    max_group_size: 1
+    path: differentiate
+    position: 1.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.integrate
+    max_group_size: 1
+    path: integrate
+    position: 2.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.pi_int
+    max_group_size: 1
+    path: pi_int
+    position: 3.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.pendulum
+    max_group_size: 1
+    path: pendulum
+    position: 4.0
+  - content_type: extra
+    example_identifier: itpcp.pgph.py.pendulum_animation
+    max_group_size: 1
+    path: pendulum_animation
+    position: 5.0
+- content_type: weekly
+  path: week_3
+  position: 3.0
+  contents:
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.uncertainties
+    max_group_size: 1
+    path: uncertainties
+    position: 1.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.pi_random
+    max_group_size: 1
+    path: pi_random
+    position: 2.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.pi_series
+    max_group_size: 1
+    path: pi_series
+    position: 3.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.pi_archimedes
+    max_group_size: 1
+    path: pi_archimedes
+    position: 4.0
+  - content_type: extra
+    example_identifier: itpcp.pgph.py.pytest
+    max_group_size: 1
+    path: pytest
+    position: 5.0
+- content_type: weekly
+  path: week_4
+  position: 4.0
+  contents:
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.planets
+    max_group_size: 1
+    path: planets
+    position: 1.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.polynom
+    max_group_size: 1
+    path: polynom
+    position: 2.0
+  - content_type: advanced
+    example_identifier: itpcp.pgph.py.animals
+    max_group_size: 1
+    path: animals
+    position: 3.0

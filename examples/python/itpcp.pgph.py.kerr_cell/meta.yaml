@@ -1,0 +1,43 @@
+slug: itpcp.pgph.py.kerr_cell
+version: 1.0.1
+title: Kerr Cell
+description: 'In this exercise you will evaluate data from a laboratory experiment
+  on the Kerr cell. You will learn
+
+  about Kerr''s empirical law, plot measurement data with error bars and perform
+
+  linear fits through the origin for different light wavelengths.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Birefringence
+  url: https://en.wikipedia.org/wiki/Birefringence
+- description: Probability theory (TU Graz)
+  url: http://itp.tugraz.at/LV/wvl/Statistik/A_WS_pdf.pdf
+supportingMaterial:
+- description: numpy.loadtxt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.loadtxt.html
+- description: matplotlib.pyplot.errorbar
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html
+- description: numpy.polyfit
+  url: https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html
+keywords:
+- python
+properties:
+  additionalFiles:
+  - kerrtab_pu.dat

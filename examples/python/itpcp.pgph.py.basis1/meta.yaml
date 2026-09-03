@@ -1,0 +1,44 @@
+slug: itpcp.pgph.py.basis1
+version: 1.0.1
+title: Simple Calculations
+description: 'In this exercise arithmetic operators (+, -, *, /) are introduced as
+  well as
+
+  the exponential function and trigonometric functions from NumPy are reviewed.
+
+  You will learn to perform simple calculations with variables and apply mathematical
+
+  functions such as sqrt, exp, sin and cos.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Michael Hadwiger
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-numeric-types
+  url: https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex
+- description: python-floatingpoint
+  url: https://docs.python.org/3/tutorial/floatingpoint.html
+supportingMaterial:
+- description: numpy.sqrt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html
+- description: numpy.exp
+  url: https://numpy.org/doc/stable/reference/generated/numpy.exp.html
+- description: numpy.sin
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sin.html
+- description: numpy.cos
+  url: https://numpy.org/doc/stable/reference/generated/numpy.cos.html
+keywords:
+- python

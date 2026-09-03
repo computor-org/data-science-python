@@ -1,0 +1,35 @@
+slug: itpcp.pgph.py.chars
+version: 1.0.1
+title: Strings
+description: 'In this example you will receive an introduction to working with strings
+
+  in Python. You will learn to create strings, concatenate them, index individual
+
+  characters, and convert between uppercase and lowercase.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: python-strings
+  url: https://docs.python.org/3/library/stdtypes.html#textseq
+supportingMaterial:
+- description: str.upper
+  url: https://docs.python.org/3/library/stdtypes.html#str.upper
+- description: str.lower
+  url: https://docs.python.org/3/library/stdtypes.html#str.lower
+- description: str.capitalize
+  url: https://docs.python.org/3/library/stdtypes.html#str.capitalize
+keywords:
+- python

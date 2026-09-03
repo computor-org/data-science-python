@@ -1,0 +1,33 @@
+slug: itpcp.pgph.py.linalg_network
+version: 1.0.1
+title: Linear Systems and Kirchhoff's Rules
+description: 'In this exercise you will solve an electrical network using Kirchhoff''s
+  laws.
+
+  You will set up the node and mesh equations as a linear system of equations
+
+  and calculate the currents for various voltage values.
+
+  '
+language: de
+license: MIT
+authors:
+- name: Johannes Mellak
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Kirchhoff's circuit laws
+  url: https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws
+supportingMaterial:
+- description: numpy.linalg.solve
+  url: https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html
+- description: numpy.array
+  url: https://numpy.org/doc/stable/reference/generated/numpy.array.html
+keywords:
+- python

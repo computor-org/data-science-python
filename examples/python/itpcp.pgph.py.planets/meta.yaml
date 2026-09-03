@@ -1,0 +1,37 @@
+slug: itpcp.pgph.py.planets
+version: 1.0.1
+title: Object-Oriented Programming in Python
+description: This exercise introduces object-oriented programming with Python. A Planet
+  class is created that stores properties such as mass, diameter and orbital period.
+  The density of the planets is calculated and the same functionality is also implemented
+  with dictionaries.
+language: de
+license: MIT
+authors:
+- name: Elias Wachmann
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Object-oriented programming
+  url: https://en.wikipedia.org/wiki/Object-oriented_programming
+- description: Wikipedia - Planet
+  url: https://en.wikipedia.org/wiki/Planet
+supportingMaterial:
+- description: Python Klassen
+  url: https://docs.python.org/3/tutorial/classes.html
+- description: Python Dictionaries
+  url: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+- description: Python Dunder-Methoden
+  url: https://docs.python.org/3/reference/datamodel.html#special-method-names
+keywords:
+- python
+properties:
+  studentTemplates:
+  - studentTemplates/planets_class.py
+  - studentTemplates/planets_dict.py

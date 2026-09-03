@@ -1,0 +1,33 @@
+slug: itpcp.pgph.py.pi_archimedes
+version: 1.0.1
+title: Method of Archimedes of Syracuse
+description: This exercise implements the classical method of Archimedes for calculating
+  Pi. By inscribing and circumscribing regular polygons around a unit circle, Pi is
+  iteratively approximated. The convergence is displayed both linearly and semi-logarithmically.
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Archimedes
+  url: https://en.wikipedia.org/wiki/Archimedes
+- description: Wikipedia - Pi
+  url: https://en.wikipedia.org/wiki/Pi
+supportingMaterial:
+- description: NumPy sqrt
+  url: https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html
+- description: Matplotlib Subplot
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplot.html
+- description: Matplotlib Semilogy
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.semilogy.html
+keywords:
+- python

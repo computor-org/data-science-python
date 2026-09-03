@@ -1,0 +1,34 @@
+slug: itpcp.pgph.py.pi_int
+version: 1.0.0
+title: Approximation of Pi with Integrals
+description: In this exercise Pi is approximated through numerical integration of
+  various functions. The normal distribution, the gamma function and the sinc function
+  are used. The convergence of the different integrals is calculated with scipy.integrate.quad
+  and displayed graphically.
+language: de
+license: MIT
+authors:
+- name: Patrick Lainer
+  email: patrick.lainer@tugraz.at
+  affiliation: TU Graz
+- name: Michael Meierhofer
+  email: mike@trigonal.at
+  affiliation: TU Graz
+maintainers:
+- name: Christopher Albert
+  email: albert@tugraz.at
+  affiliation: TU Graz
+links:
+- description: Wikipedia - Normal distribution
+  url: https://en.wikipedia.org/wiki/Normal_distribution
+- description: Wikipedia - Gamma function
+  url: https://en.wikipedia.org/wiki/Gamma_function
+supportingMaterial:
+- description: SciPy integrate.quad
+  url: https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.quad.html
+- description: Python Lambda-Funktionen
+  url: https://python-reference.readthedocs.io/en/latest/docs/operators/lambda.html
+- description: Matplotlib Semilogy
+  url: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.semilogy.html
+keywords:
+- python

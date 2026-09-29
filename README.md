@@ -28,3 +28,14 @@ maintainers, links, and `license` declaration in `meta.yaml`; the current
 snapshot declares MIT for all 70 Python examples. See [`RIGHTS.md`](RIGHTS.md)
 for the generated ledger and [`LANGUAGE_AUDIT.md`](LANGUAGE_AUDIT.md) for the
 German/English completeness check.
+
+### Licence
+
+Everything in this repository remains available under the MIT licence
+([`LICENSE`](LICENSE)), as declared by the upstream authors. In addition, the
+course texts — exercise descriptions, explanations, and course structure — are
+offered under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+([`LICENSE-CC-BY-4.0.txt`](LICENSE-CC-BY-4.0.txt)); choose whichever licence
+suits your reuse. Attribution: "Data Science mit Python — ITPcp, TU Graz and
+contributors (see RIGHTS.md), computor.at". Code (templates, solutions scaffolds,
+tests) stays MIT.

@@ -10,6 +10,11 @@ description: 'Ein kompakter, deutschsprachiger Einstieg in Data Science mit Pyth
   Du lernst die Grundlagen der Programmierumgebung, Python-Syntax, Funktionen, Skripte,
   Indizierung und erste Visualisierungen.'
 path: python.beginner
+properties:
+  assistant_policy:
+    action_mode: ask
+    completion: "off"
+    independent_check: false
 services:
 - slug: itpcp.exec.py
 content_types:

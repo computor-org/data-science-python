@@ -10,6 +10,11 @@ description: 'Ein deutschsprachiger Aufbaukurs zu Kontrollstrukturen, logischen 
 
   Die Aufgaben setzen die Grundlagen des Grundlagenkurses voraus.'
 path: python.intermediate
+properties:
+  assistant_policy:
+    action_mode: ask
+    completion: "off"
+    independent_check: false
 services:
 - slug: itpcp.exec.py
 content_types:

@@ -9,6 +9,11 @@ description: Ein deutschsprachiger Vertiefungskurs mit selbstständigen mathemat
   und naturwissenschaftlichen Problemen, Gleichungssystemen, Kurvenanalyse, Differentialgleichungen
   und objektorientierter Programmierung.
 path: python.advanced
+properties:
+  assistant_policy:
+    action_mode: ask
+    completion: "off"
+    independent_check: false
 services:
 - slug: itpcp.exec.py
 content_types:

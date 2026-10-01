@@ -18,6 +18,12 @@ published. The complete runnable/testing package remains in the private
 source repository used to refresh Computor. Student templates and public
 input/media files are retained where the metadata names them.
 
+## Start learning
+
+[Read the course map](COURSE_MAP.md) without signing in. For desktop VS Code or
+GitHub Codespaces, follow [Getting started](docs/GETTING_STARTED.md). Both options
+remain available when hosted Computor workspaces are full. Codespaces does not run an AI model on its VM. Enrolled learners can ask Luna through Computor course messages.
+
 ## Provenance and licensing
 
 The source snapshot is

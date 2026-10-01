@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "repository": "computor-org/data-science-python",
+  "assistant_policy": {
+    "action_mode": "ask",
+    "completion": "off",
+    "independent_check": false
+  }
+}

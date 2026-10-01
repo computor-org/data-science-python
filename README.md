@@ -22,8 +22,7 @@ input/media files are retained where the metadata names them.
 
 [Read the course map](COURSE_MAP.md) without signing in. For desktop VS Code or
 GitHub Codespaces, follow [Getting started](docs/GETTING_STARTED.md). Both options
-remain available when hosted Computor workspaces are full. Codespaces uses an
-external AI provider with your own key; it does not run a model on its VM.
+remain available when hosted Computor workspaces are full. Codespaces does not run an AI model on its VM. Enrolled learners can ask Luna through Computor course messages.
 
 ## Provenance and licensing
 

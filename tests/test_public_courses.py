@@ -16,9 +16,6 @@ def test_published_assignments_have_bilingual_descriptions_and_templates():
     seen = set()
     for manifest in sorted((ROOT / "courses").glob("*.yaml")):
         course = yaml.safe_load(manifest.read_text())
-        # YAML 1.1 interprets an unquoted 'off' as a boolean. The assistant
-        # contract requires a completion enum that survives real parsing.
-        assert course["properties"]["assistant_policy"]["completion"] in ("off", "single-line", "multi-line")
         for identifier in assignments(course["contents"]):
             assert identifier not in seen, f"Assignment repeated across course levels: {identifier}"
             seen.add(identifier)

@@ -21,11 +21,15 @@ A GitHub account is required; GitHub's quota and billing apply. The devcontainer
 installs the pinned Python dependencies and recommends the Computor extension.
 Code runs in your Codespace, not on Computor's servers. No AI model is installed.
 
-## Courses and Luna
+## Courses and Lena
 
 Sign into Computor to join a course, keep progress, submit your work, and ask
-Luna for hints or feedback in the course messages. A hosted workspace is optional:
+Lena for hints or feedback in the course messages. A hosted workspace is optional:
 you can continue in desktop VS Code or Codespaces when hosted capacity is full.
-Luna processes questions using TU Graz's private model service and cannot run
+Lena processes questions using TU Graz's private model service and cannot run
 code. Your account's course history contains the messages and submitted work
 according to the platform privacy notice.
+
+To ask Lena, type `@lena` in an assignment's course message, or type `@` and
+choose Lena from the suggestions. The older `@luna` and the short `@ai` reach
+the same tutor; choosing a suggestion is optional.

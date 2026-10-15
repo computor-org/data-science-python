@@ -30,6 +30,6 @@ Lena processes questions using TU Graz's private model service and cannot run
 code. Your account's course history contains the messages and submitted work
 according to the platform privacy notice.
 
-With the matching Computor backend update, type `@lena`, legacy `@luna` or
-`@ai` in course messages, or select Lena from autocomplete. All three handles
-reach the same tutor; autocomplete selection is optional.
+To ask Lena, type `@lena` in an assignment's course message, or type `@` and
+choose Lena from the suggestions. The older `@luna` and the short `@ai` reach
+the same tutor; choosing a suggestion is optional.

@@ -5,9 +5,8 @@ git:
   - managed
   - download
 name: Data Science mit Python – Vertiefung
-description: Ein deutschsprachiger Vertiefungskurs mit selbstständigen mathematischen
-  und naturwissenschaftlichen Problemen, Gleichungssystemen, Kurvenanalyse, Differentialgleichungen
-  und objektorientierter Programmierung.
+description: Eigenständige Aufgaben aus Mathematik und Naturwissenschaften mit Gleichungssystemen,
+  Kurvenanalyse, Differentialgleichungen und objektorientierter Programmierung.
 path: python.advanced
 services:
 - slug: itpcp.exec.py

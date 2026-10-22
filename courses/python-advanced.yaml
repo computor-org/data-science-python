@@ -27,106 +27,128 @@ contents:
 - content_type: weekly
   path: week_1
   position: 1.0
+  title: Woche 1
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.linalg_network
     max_group_size: 1
     path: linalg_network
     position: 1.0
+    title: Lineare Gleichungssysteme und die Kirchoffschen Regeln
   - content_type: advanced
     example_identifier: itpcp.pgph.py.linalg_diag_matrix
     max_group_size: 1
     path: linalg_diag_matrix
     position: 2.0
+    title: Lineare Gleichungssysteme, Diagonalmatrix, Probe
   - content_type: advanced
     example_identifier: itpcp.pgph.py.linalg_conic_sections
     max_group_size: 1
     path: linalg_conic_sections
     position: 3.0
+    title: Lineares Gleichungssystem, Kegelschnitte
   - content_type: advanced
     example_identifier: itpcp.pgph.py.vector_field
     max_group_size: 1
     path: vector_field
     position: 4.0
+    title: Vektorfelder und Eigenvektoren
   - content_type: extra
     example_identifier: itpcp.pgph.py.caesar
     max_group_size: 1
     path: caesar
     position: 5.0
+    title: Caesar Verschlüsselung
 - content_type: weekly
   path: week_2
   position: 2.0
+  title: Woche 2
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.differentiate
     max_group_size: 1
     path: differentiate
     position: 1.0
+    title: 'Kurvendiskussion: Analytische und Numerische Lösung'
   - content_type: advanced
     example_identifier: itpcp.pgph.py.integrate
     max_group_size: 1
     path: integrate
     position: 2.0
+    title: Numerische Integration
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pi_int
     max_group_size: 1
     path: pi_int
     position: 3.0
+    title: Approximation von π mit Integralen
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pendulum
     max_group_size: 1
     path: pendulum
     position: 4.0
+    title: Numerische Lösung von Anfangswertproblemen
   - content_type: extra
     example_identifier: itpcp.pgph.py.pendulum_animation
     max_group_size: 1
     path: pendulum_animation
     position: 5.0
+    title: Animation eines Pendels
 - content_type: weekly
   path: week_3
   position: 3.0
+  title: Woche 3
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.uncertainties
     max_group_size: 1
     path: uncertainties
     position: 1.0
+    title: 'Fehlerfortpflanzung: linear und Monte Carlo'
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pi_random
     max_group_size: 1
     path: pi_random
     position: 2.0
+    title: π – nur ein Zufall?
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pi_series
     max_group_size: 1
     path: pi_series
     position: 3.0
+    title: Approximation von π mit Reihen
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pi_archimedes
     max_group_size: 1
     path: pi_archimedes
     position: 4.0
+    title: Berechnung von π nach der Methode von Archimedes von Syrakus
   - content_type: extra
     example_identifier: itpcp.pgph.py.pytest
     max_group_size: 1
     path: pytest
     position: 5.0
+    title: Pytest & cProfile
 - content_type: weekly
   path: week_4
   position: 4.0
+  title: Woche 4
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.planets
     max_group_size: 1
     path: planets
     position: 1.0
+    title: Objektorientierte Programmierung in Python
   - content_type: advanced
     example_identifier: itpcp.pgph.py.polynom
     max_group_size: 1
     path: polynom
     position: 2.0
+    title: Polynome
   - content_type: advanced
     example_identifier: itpcp.pgph.py.animals
     max_group_size: 1
     path: animals
     position: 3.0
+    title: Tiere

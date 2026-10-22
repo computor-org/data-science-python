@@ -1,4 +1,5 @@
 """Published assignments must be readable in both offered languages."""
+import re
 from pathlib import Path
 import yaml
 
@@ -27,3 +28,31 @@ def test_published_assignments_have_bilingual_descriptions_and_templates():
             for filename in metadata.get("properties", {}).get("additionalFiles", []):
                 assert (folder / filename).is_file(), f"Missing public input file: {filename}"
     assert seen, "Published courses must contain accessible assignments"
+
+
+def plain_title(heading):
+    """A Markdown heading as plain text, as course titles are shown unrendered."""
+    return heading.replace("$\\pi$", "π").replace("$-$", "–").replace("*", "")
+
+
+def titled_nodes(nodes):
+    for node in nodes:
+        yield node
+        yield from titled_nodes(node.get("contents", []))
+
+
+def test_course_titles_are_german_and_match_the_assignment_heading():
+    """Without a title the server falls back to the path ("Math Constants")."""
+    for manifest in sorted((ROOT / "courses").glob("*.yaml")):
+        course = yaml.safe_load(manifest.read_text())
+        for node in titled_nodes(course["contents"]):
+            title = node.get("title")
+            assert title, f"{manifest.name}: '{node['path']}' has no title"
+            if "example_identifier" in node:
+                text = (ROOT / "examples" / "python" / node["example_identifier"]
+                        / "content" / "index_de.md").read_text()
+                heading = re.search(r"^#\s+(.+?)\s*#*\s*$", text, re.M).group(1)
+                assert title == plain_title(heading), f"{manifest.name}: {node['path']}"
+            else:
+                week = re.fullmatch(r"week_(\d+)", node["path"]).group(1)
+                assert title == f"Woche {week}", f"{manifest.name}: {node['path']}"

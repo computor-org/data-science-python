@@ -5,10 +5,8 @@ git:
   - managed
   - download
 name: Data Science mit Python – Aufbau
-description: 'Ein deutschsprachiger Aufbaukurs zu Kontrollstrukturen, logischen Operatoren
-  und der Analyse von Messdaten mit Python.
-
-  Die Aufgaben setzen die Grundlagen des Grundlagenkurses voraus.'
+description: Kontrollstrukturen, logische Operatoren und die Auswertung von Messdaten.
+  Baut auf dem Grundlagenkurs auf.
 path: python.intermediate
 services:
 - slug: itpcp.exec.py

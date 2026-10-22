@@ -5,10 +5,8 @@ git:
   - managed
   - download
 name: Data Science mit Python – Grundlagen
-description: 'Ein kompakter, deutschsprachiger Einstieg in Data Science mit Python.
-
-  Du lernst die Grundlagen der Programmierumgebung, Python-Syntax, Funktionen, Skripte,
-  Indizierung und erste Visualisierungen.'
+description: Der Einstieg in Python mit Programmierumgebung, Syntax, Funktionen, Skripten,
+  Indizierung und ersten Plots.
 path: python.beginner
 services:
 - slug: itpcp.exec.py

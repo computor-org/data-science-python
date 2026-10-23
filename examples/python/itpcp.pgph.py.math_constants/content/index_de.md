@@ -110,7 +110,7 @@ bevor Sie es „abgeben“.
 
 1. Starten Sie mit dem Import des Modules `numpy`.
 
-1. Definieren Sie die volgenden Variablen.
+1. Definieren Sie die folgenden Variablen.
 
 $$
 \begin{aligned}
@@ -150,7 +150,7 @@ $$
 
 - Best practice: Verwenden Sie wie in der Angabe beschrieben `np.exp(1)` anstatt `np.e`
   für die Eueler'sche Zahl `e`. Bei Verwendung von `np.e` wird im Test eine
-  Fehlermehldung ausgegeben. Dies liegt daran, dass `np.exp(1)` und `np.e` verschiedene
+  Fehlermeldung ausgegeben. Dies liegt daran, dass `np.exp(1)` und `np.e` verschiedene
   Datentypen haben. NumPy verwendet eigene Datentypen wie `numpy.float64`, um die
   Konsistenz in numerischen Berechnungen zu gewährleisten. Mit `np.exp(1)` ist der Wert
   kompatibel mit NumPy-Arrays, Funktionen, und weiteren Bibliotheken.

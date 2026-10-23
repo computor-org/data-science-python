@@ -53,6 +53,30 @@ def test_course_titles_are_german_and_match_the_assignment_heading():
                         / "content" / "index_de.md").read_text()
                 heading = re.search(r"^#\s+(.+?)\s*#*\s*$", text, re.M).group(1)
                 assert title == plain_title(heading), f"{manifest.name}: {node['path']}"
+            elif node["path"] == "welcome":
+                assert title == "Willkommen", f"{manifest.name}: {node['path']}"
             else:
                 week = re.fullmatch(r"week_(\d+)", node["path"]).group(1)
                 assert title == f"Woche {week}", f"{manifest.name}: {node['path']}"
+
+
+def test_beginner_course_opens_with_a_welcome_item_for_the_extension():
+    """The VS Code extension opens this item when a workspace launches.
+
+    The conditions mirror ``welcomeItem()`` in computor-vscode
+    (src/services/WorkspaceCourseLanding.ts) and the welcome ids of
+    computor-web/scripts/build-public-learning.mjs in computor-backend.
+    """
+    course = yaml.safe_load((ROOT / "courses" / "python-beginner.yaml").read_text())
+    welcome, first_week = course["contents"][:2]
+    kinds = {kind["slug"]: kind["kind"] for kind in course["content_types"]}
+    assert kinds[welcome["content_type"]] == "unit", "Only non-assignment items are welcome items"
+    assert welcome["position"] < first_week["position"]
+    assert welcome["path"] in ("welcome", "start_here", "introduction")
+    assert re.fullmatch(r"willkommen", welcome["title"], re.I)
+    assert not welcome.get("contents") and "example_identifier" not in welcome
+    text = welcome["description"]
+    first = first_week["contents"][0]
+    assert f"„{first_week['title']}“" in text and f"„{first['title']}“" in text
+    assert "@lena" in text, "Help in this course comes from Lena"
+    assert len(text) < 3000, "The welcome text should stay short"

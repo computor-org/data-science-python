@@ -11,6 +11,10 @@ path: python.beginner
 services:
 - slug: itpcp.exec.py
 content_types:
+- color: blue
+  kind: unit
+  slug: welcome
+  title: Einstieg
 - color: green
   kind: unit
   slug: weekly
@@ -24,6 +28,28 @@ content_types:
   slug: exam
   title: Wiederholung
 contents:
+- content_type: welcome
+  path: welcome
+  position: 0.0
+  title: Willkommen
+  description: |
+    In diesem Kurs lernen Sie in drei Wochen die Grundlagen von Python für die Datenanalyse: die Programmierumgebung, Variablen und Funktionen, Skripte, das Indizieren von Vektoren mit NumPy und erste Plots mit Matplotlib. Vorkenntnisse brauchen Sie keine, und in der Computor-Arbeitsumgebung im Browser ist alles bereits installiert.
+
+    So kommen Sie zur ersten Abgabe:
+
+    1. Klicken Sie links in der Aktivitätsleiste auf das Buchsymbol von Computor. Dort sehen Sie die Kursübersicht mit „Willkommen“ und den Wochen 1 bis 3.
+    2. Öffnen Sie „Woche 1“ und klicken Sie auf „Mathematische Konstanten“. Rechts erscheint die Aufgabenstellung. Lesen Sie sie zuerst ganz durch.
+    3. Klappen Sie die Aufgabe mit dem Pfeil davor auf. Darunter liegt die Python-Datei, in die Sie Ihre Lösung schreiben. Wie Sie das Programm ausführen, erklärt die erste Aufgabe.
+    4. Fahren Sie mit der Maus über die Zeile der Aufgabe, dann erscheinen rechts kleine Symbole. Ein Klick auf den Messkolben („Test Assignment“) testet Ihre Lösung, und nach wenigen Sekunden sehen Sie das Ergebnis.
+    5. Ein Klick auf die Wolke mit dem Pfeil („Submit“) gibt die Lösung ab. Ein grünes Häkchen neben der Aufgabe bedeutet „Tests bestanden“, ein grünes Doppelhäkchen „bestanden und abgegeben“. Dann ist die Aufgabe erledigt, und Sie machen mit der nächsten weiter.
+
+    Beim ersten Start legt Computor für Sie ein persönliches Git-Repository zu diesem Kurs an. Darin liegen Ihre Dateien zu den Aufgaben, und über dieses Repository geben Sie ab. Das kann beim ersten Mal einige Sekunden dauern.
+
+    Bei Fragen zu einer Aufgabe hilft Ihnen Lena, die KI-Tutorin dieses Kurses. Klicken Sie in der Zeile der Aufgabe auf die Sprechblasen („Show Messages“) und beginnen Sie Ihre Nachricht mit @lena. Lena gibt Hinweise und Rückmeldungen, führt aber keinen Code aus. Hilfe zu Computor selbst finden Sie mit einem Rechtsklick auf eine Zeile unter „Help“.
+
+    Ist die Arbeitsumgebung gerade nicht erreichbar, können Sie alle Aufgabentexte ohne Anmeldung auf der [öffentlichen Kursseite](https://computor.at/learn/python-beginner) lesen. Sie können auch lokal in VS Code arbeiten oder in GitHub Codespaces, wo Ihr Code bei GitHub statt auf den Servern von Computor läuft. Wie Sie beides einrichten, steht in der [Anleitung zum Einstieg](https://github.com/computor-org/data-science-python/blob/main/docs/GETTING_STARTED.md).
+
+    Diese Seite finden Sie jederzeit wieder, wenn Sie in der Kursübersicht auf „Willkommen“ klicken.
 - content_type: weekly
   path: week_1
   position: 1.0

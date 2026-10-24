@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.quadratic_eq_eval
-version: 1.0.0
+version: 1.0.1
 title: Calculation of the Left Side of a Quadratic Equation
 description: In this exercise a function is written that evaluates the left side of
   a quadratic equation for given solutions. This serves to verify the numerical accuracy

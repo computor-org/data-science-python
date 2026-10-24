@@ -24,11 +24,11 @@ Mithilfe von Slicing kann man Subarrays oder Teilmatrizen aus einer Matrix extra
 
 ## Aufgabe
 
-Schreiben Sie ein Python-Skript `sindex` (File: `sindex.py`), das für eine Matrix `M` folgende
-Aufgaben erledigt. Lesen Sie zuerst
+Schreib ein Python-Skript `sindex` (File: `sindex.py`), das für eine Matrix `M` folgende
+Aufgaben erledigt. Lies zuerst
 die Hinweise (siehe unten) durch:
 
-1. Speichern Sie folgende Information in den angegebenen Variablen:
+1. Speichere folgende Information in den angegebenen Variablen:
 
     Variable     | Aufgabe
     :------------|:------
@@ -38,7 +38,7 @@ die Hinweise (siehe unten) durch:
     `prop3` | Größe „Form" von `M`
     `prop4` | Anzahl der Elemente in `M`
 
-2. Speichern Sie folgende Skalare aus `M`:
+2. Speichere folgende Skalare aus `M`:
 
     Variable     | Aufgabe
     :------------|:------
@@ -47,7 +47,7 @@ die Hinweise (siehe unten) durch:
     `n3` | letzter Eintrag
     `n4` | vorletzter Eintrag
 
-3. Speichern Sie folgende Vektoren aus `M`:
+3. Speichere folgende Vektoren aus `M`:
   
     Variable     | Aufgabe
     :------------|:------
@@ -55,10 +55,10 @@ die Hinweise (siehe unten) durch:
     `z2` | erste bis letzte Position mit Schrittweite vier
     `z3` | zweite und vorletzte Position
     `z4` | dritte Zeile, alle Spalten
-    `z5` | letzte bis erste Position, denken Sie an die Verwendung von `-1` als Schrittweite.
+    `z5` | letzte bis erste Position, denk an die Verwendung von `-1` als Schrittweite.
     `z6` | die erste, zweimal die zweite, dreimal die dritte Position
 
-4. Speichern Sie folgende Vektoren aus `M`:
+4. Speichere folgende Vektoren aus `M`:
   
     Variable     | Aufgabe
     :------------|:------
@@ -67,7 +67,7 @@ die Hinweise (siehe unten) durch:
     `s3` | letzte bis erste Zeile, zweite Spalte
     `s4` | alle Zeilen, mittlere Spalte (siehe Hinweis)
 
-5. Speichern Sie folgende Matrizen aus `M`:
+5. Speichere folgende Matrizen aus `M`:
   
     Variable     | Aufgabe
     :------------|:------
@@ -78,8 +78,8 @@ die Hinweise (siehe unten) durch:
     `m5` | letzte bis erste Zeile, dritte bis zweite Spalte (zweite Spalte nicht inklusiv)
     `m6` | die drei mittleren Zeilen, die drei mittleren Spalten (siehe Hinweis)
 
-6. Erzeugen Sie fünf Matrizen `M1`, `M2`, `M3`, `M4` und `M5` mit dem gleichen Inhalt wie `M` und
- ersetzen Sie Teile ihres Inhalts:
+6. Erzeuge fünf Matrizen `M1`, `M2`, `M3`, `M4` und `M5` mit dem gleichen Inhalt wie `M` und
+ ersetze Teile ihres Inhalts:
   
     Variable     | Aufgabe
     :------------|:------
@@ -87,26 +87,31 @@ die Hinweise (siehe unten) durch:
     `M2` | erste bis letzte Zeile mit der Schrittweite 2, alle Spalten, durch Wert [np.nan]
     `M3` | zweite bis vorletzte Zeile, vorletzte Spalte, durch Wert Null
     `M4` | die vier Ecken durch [np.nan]
-    `M5` | schneiden Sie die zweite und vorletzte Zeile, bzw. die zweite und vorletzte Spalte aus ([np.delete])
+    `M5` | schneide die zweite und vorletzte Zeile, bzw. die zweite und vorletzte Spalte aus ([np.delete])
 
 ## Hinweise
 
 * Wichtige Befehle: [np.ndim], [len], [np.shape], [np.size], [np.ravel], [np.astype]
 
-* Beachten Sie, dass in Python die Listen- und Array-Indices mit 0 beginnen!
+* Beachte, dass in Python die Listen- und Array-Indices mit 0 beginnen!
 
 * Verwendet man in einer zweidimensionalen Matrix zwei Indices, dann steht der erste für die Zeile und der zweite für die Spalte.
 
-* Um das n-te Element einer Matrix zu erhalten (die Zahl an der n-ten Position) wandeln Sie die Matrix vorher in einen Vektor um ([np.ravel]).
+* Um das n-te Element einer Matrix zu erhalten (die Zahl an der n-ten Position) wandle die Matrix vorher in einen Vektor um ([np.ravel]).
 
-* Definieren Sie sich einen Vektor der Matrixelemente, um später nur auf diese Zuzugreifen. 
+* Definiere dir einen Vektor der Matrixelemente, um später nur auf diese zuzugreifen. 
  Z.B. `Avec = np.ravel(A)` um später `Avec[1]` anstatt `np.ravel(A)[1]`
 
-* Bei einer geraden Anzahl von Spalten gibt es keine mittlere Spalte. Gemeint ist
- dann die nachfolgende Spalte, also z.B. $6/2=3$, bzw. $5/2=2.5\rightarrow 3$.
+* Bei einer geraden Anzahl von Spalten gibt es keine mittlere Spalte. Gemeint ist dann die nachfolgende Spalte, also z.B. $6/2=3$, bzw. $5/2=2.5\rightarrow 3$.
  D.h., die mittlere Spalte bei sechs
  Spalten soll die dritte sein und die mittlere von fünf Spalten soll auch die dritte sein. Hier kann *Integer-Division* hilfreich sein.
 
-* Beachten Sie im Teil 6, dass [np.nan] als Float definiert ist, die Matrixeinträge von `M` aber Integers sind. Sie werden also den Datentyp der Matrix modifizieren müssen, um [np.nan] einsetzen zu können.
+* Beachte im Teil 6, dass [np.nan] als Float definiert ist, die Matrixeinträge von `M` aber Integers sind. Du wirst also den Datentyp der Matrix modifizieren müssen, um [np.nan] einsetzen zu können.
 
-* Wenn Sie eine Kopie von einer Matrix bearbeiten wollen, verwenden Sie bei der Zuweisung [np.copy] bzw. `matrix_name.copy()`, ansonsten verändern Sie die ursprüngliche Matrix (Ausprobieren!). Befehle wie [np.delete] und [np.astype] erzeugen natürlich immer eine Kopie.
+* Wenn du eine Kopie von einer Matrix bearbeiten willst, verwende bei der Zuweisung [np.copy] bzw. `matrix_name.copy()`, ansonsten veränderst du die ursprüngliche Matrix (Ausprobieren!). Befehle wie [np.delete] und [np.astype] erzeugen natürlich immer eine Kopie.
+
+
+## Keywords
+
+- Indizierung
+- Matrix Manipulation

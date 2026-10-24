@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.uncertainties
-version: 1.0.0
+version: 1.0.1
 title: 'Error Propagation: Linear vs Monte Carlo'
 description: This exercise compares linear error propagation with the Monte Carlo
   method. The Python package uncertainties is used to propagate measurement uncertainties.

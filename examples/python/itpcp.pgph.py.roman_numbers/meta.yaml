@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.roman_numbers
-version: 1.0.0
+version: 1.0.1
 title: Roman Numerals
 description: This exercise covers the conversion of Roman numerals to Arabic numerals
   using Python dictionaries. The subtraction rule for Roman numerals (e.g. IV = 4)

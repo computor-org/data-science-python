@@ -70,7 +70,7 @@ $$
 
 ### Teil 1
 
-Definieren Sie eine Funktion in `regular_polyhedra.py`, die mit
+Definiere eine Funktion in `regular_polyhedra.py`, die mit
 
 ```
 V, F, R, r = regpol(type, a)
@@ -95,47 +95,35 @@ In der Funktion sollen folgende Aufgaben erledigt werden:
    (Tetraeder, Würfel, Oktaeder, Dodekaeder, Ikosaeder) berechnet werden.
 
 2. Mit der String-Variable `type` soll der Typ des regulären Polyeders übergeben
-   werden. Verwenden Sie die Buchstaben `'t', 'c', 'o', 'd'` bzw. `'i'` um
-   einen der Polyeder auszuwählen. Stellen Sie sicher, dass der richtige
-   Polyeder ausgewählt wird für alle möglichen Eingabezeichenketten nicht
+   werden. Verwende die Buchstaben `'t', 'c', 'o', 'd'` bzw. `'i'` um
+   einen der Polyeder auszuwählen. Stelle sicher, dass der richtige
+   Polyeder ausgewählt wird für alle möglichen Eingabezeichenketten, nicht
    nur für einzelne Zeichen!
 
 3. Die Funktion soll für einen Vektor von `a`-Werten funktionieren und gleich
    lange Vektoren mit den Resultaten für `V`, `F`, `R` und `r` zurückgeben.
 
-4. Zur Unterscheidung der Fälle verwenden Sie die Steuerstrukturen, die Sie bereits kennengelernt haben!
+4. Verwende zur Unterscheidung der Fälle die Steuerstrukturen, die du bereits kennengelernt hast!
 
-    Überlegen Sie, welche Zeichenkette man als `type` übergeben kann, was `type[1]`
+    Überleg dir, welche Zeichenkette man als `type` übergeben kann, was `type[1]`
     bedeutet, und was der Befehl [lower] dabei bewirkt.
-    Sie sollten die Befehle wie immer in der Konsole ausprobieren.
+    Du solltest die Befehle wie immer in der Konsole ausprobieren.
 
 
 ### Teil 2
 
-Schreiben Sie ein Python Skript `regular_polyhedra_script.py`, das mit mehreren Aufrufen der von
-Ihnen implementierten Funktion `regpol` nun einige Variablen berechnet. Gehen Sie wie
+Schreibe ein Python Skript `regular_polyhedra_script.py`, das mit mehreren Aufrufen der von
+dir implementierten Funktion `regpol` nun einige Variablen berechnet. Gehe wie folgt vor:
 
-    ```
-    array([  6,  24,  54, 600])                              # F
-    array([0.8660254 , 1.73205081, 2.59807621, 8.66025404])  # R
-    array([0.5, 1. , 1.5, 5. ])                              # r
-    ```
+1. Definiere eine Variable `edge`, die die Einträge `[1,2,3]` hat.
 
-führen.
-
-Sie können Funktionen zum Testen übrigens auch ausführen, ohne die Ausgabewerte in Variablen zu speichern. Diese werden dann einfach in der Konsole ausgegeben.
-
-* Für jeden Polyeder muss man die Funktion `regpol` genau einmal aufrufen.folgt vor:
-
-1. Definieren Sie eine Variable `edge`, die die Einträge `[1,2,3]` hat.
-
-2. Berechnen Sie die in der nachfolgenden Tabelle geforderten *Größen* für den
-    entsprechenden *Polyeder* und speichern Sie diese in die angegebene *Variable*.
+2. Berechne die in der nachfolgenden Tabelle geforderten *Größen* für den
+    entsprechenden *Polyeder* und speichere diese in die angegebene *Variable*.
     Dabei soll die Funktion `regpol` für jeden Polyeder nur **einmal** aufgerufen
     werden und Größen, die **nicht** in der Tabelle gefragt sind, sollen auch
     **nicht** berechnet werden! (siehe evtl. Hinweise)
 
-| Polyeder | Groesse | Variable |
+| Polyeder | Größe | Variable |
 | ----| :----: | ----: |
 | Icosahedron | Volumen | `Volume_i` |
 | Tetrahedron | Volumen | `Volume_t` |
@@ -151,12 +139,12 @@ Sie können Funktionen zum Testen übrigens auch ausführen, ohne die Ausgabewer
 
 ## Hinweise
 
-* Programmieren Sie zuerst nur einen Fall (z.B.: Würfel) und probieren Sie
- diesen mit einem Skalar und einem Vektor als Input aus. Erledigen Sie
- erst dann die anderen Fälle. Damit ersparen Sie sich u.U. das
+* Programmiere zuerst nur einen Fall (z.B.: Würfel) und probiere
+ diesen mit einem Skalar und einem Vektor als Input aus. Erledige
+ erst dann die anderen Fälle. Damit ersparst du dir u.U. das
  Duplizieren von Fehlern und das mühsame Ausbessern.
 
-* Überprüfen Sie anhand der folgenden Inputs die richtige Funktionsweise ihrer
+* Überprüfe anhand der folgenden Inputs die richtige Funktionsweise deiner
     Funktion: Der Aufruf
 
     ```python
@@ -189,7 +177,7 @@ Sie können Funktionen zum Testen übrigens auch ausführen, ohne die Ausgabewer
 
     führen.
 
-    Sie können Funktionen zum Testen übrigens auch ausführen, ohne die Ausgabewerte in Variablen zu speichern. Diese werden dann einfach in der Konsole ausgegeben.
+    Du kannst Funktionen zum Testen übrigens auch ausführen, ohne die Ausgabewerte in Variablen zu speichern. Diese werden dann einfach in der Konsole ausgegeben.
 
 * Man kann die Position nicht benötigter Outputvariablen mit dem
     Zeichen `_` (Underscore) markieren, d.h. man kann schreiben

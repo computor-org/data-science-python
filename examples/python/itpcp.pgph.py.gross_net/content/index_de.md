@@ -4,7 +4,7 @@
 
 ## Einleitung
 
-In dieser Aufgabe wird es darum gehen einen Funktion zu implementieren, welche basierend auf einem gegebenen Bruttobetrag den Nettobetrag berechnet. Folgende Informationen zum Österreichischem Steuersystem sind dabei relevant:
+In dieser Aufgabe wird es darum gehen, eine Funktion zu implementieren, welche basierend auf einem gegebenen Bruttobetrag den Nettobetrag berechnet. Folgende Informationen zum österreichischen Steuersystem sind dabei relevant:
 
 ### Lohnsteuertabelle
 
@@ -43,7 +43,7 @@ Nettolohn: 16.319,04€
 
 
 ## Aufgabe
-1. Schreiben Sie eine Funktion die einen Bruttogehalt (float) nimmt und den zugehörigen Nettogehalt auf den nächsten Cent gerundet ausgibt. 
+1. Schreib eine Funktion, die einen Bruttogehalt (float) nimmt und den zugehörigen Nettogehalt auf den nächsten Cent gerundet ausgibt. 
 
 
 ## Hinweise

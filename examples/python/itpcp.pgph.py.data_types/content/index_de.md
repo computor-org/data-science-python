@@ -3,7 +3,7 @@
 ## Einleitung
 
 In dieser Aufgabe werden Variablen verschiedener (numerischer) Datentypen (File:
-`data_types.py`) erzeugt, der Datenyp der Variablen wird überprüft und die Variablen
+`data_types.py`) erzeugt, der Datentyp der Variablen wird überprüft und die Variablen
 werden umdeklariert (in einen anderen Typ verwandeln).
 
 ### Klassen in Python und NumPy
@@ -11,7 +11,7 @@ werden umdeklariert (in einen anderen Typ verwandeln).
 Grundsätzlich wird unterschieden zwischen den Klassen Boolean (logical), Numeric, Text
 (string), Funktions- und Objekt-Referenzen und Strukturen wie Listen, Tupel,
 Dictionaries, etc. Verschiedene Module können ihrerseits Klassen definieren (wir können
-auch eigene Klassen definieren), wie zum Beispiel das viel verwendetete NumPy-Array, das
+auch eigene Klassen definieren), wie zum Beispiel das viel verwendete NumPy-Array, das
 Zahlen von bestimmten Grundtypen enthalten kann. In dieser Übung beschränken wir uns auf
 die numerischen Typen.
 
@@ -56,8 +56,8 @@ beispielsweise eine Methode zur Addition von Polynomen definieren. Dadurch kann 
 Operatoren wie `+`, `-`, `*`, `/` usw. *überladen*. Ein `+`-Operator, angewendet auf ein
 Objekt der Klasse Polynome, würde dann die Polynomaddition durchführen.
 
-Mit dem Befehl `type(var_name)` können Sie sich in der Konsole die Klasse der Variable
-`var_name` anzeigen lassen. Um den Klassennamen als String zu speichern, greifen Sie auf
+Mit dem Befehl `type(var_name)` kannst du dir in der Konsole die Klasse der Variable
+`var_name` anzeigen lassen. Um den Klassennamen als String zu speichern, greifst du auf
 das Attribut `__name__` zu, also
 
 ```python
@@ -67,15 +67,15 @@ type(var_name).__name__
 Handelt es sich bei der Variable um ein NumPy-Array, so kann man mit dem Attribut
 `dtype` den Typ der gespeicherten numerischen Werte anzeigen.
 
-Mit dem Befehl `help(var_name)` können Sie von einer Variable deren Klasse und alle für
+Mit dem Befehl `help(var_name)` kannst du dir von einer Variable deren Klasse und alle für
 sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen lassen.
 
 ## Aufgabe
 
-1. Deklarieren Sie folgende 6 Variablen mit unterschiedlichen [NumPy-Datentypen] mit
-   folgenden Werten. Für das automatische Testen ist es unbedingt notwendig, dass Sie
-   <span style="color: red;">genau diese Namen</span> für Ihre Variablen verwenden!
-   Benutzen Sie die Konsole zum Testen Ihres Programms!
+1. Deklariere folgende 6 Variablen mit unterschiedlichen [NumPy-Datentypen] mit
+   folgenden Werten. Für das automatische Testen ist es unbedingt notwendig, dass du
+   <span style="color: red;">genau diese Namen</span> für deine Variablen verwendest!
+   Benutze die Konsole zum Testen deines Programms!
 
    | Variable | Wert                | Datentyp |
    | -------- | ------------------- | -------- |
@@ -86,7 +86,7 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
    | `e`      | $111.111$           | double   |
    | `f`      | $\frac{141}{4} \pi$ | single   |
 
-1. Speichern Sie nun die Datentypen der eben deklarierten Variablen `a` bis `f` unter
+1. Speichere nun die Datentypen der eben deklarierten Variablen `a` bis `f` unter
    den Namen `type_a` bis `type_f` ab.
 
 1. Analog zur Deklaration von Variablen kann man sie auch umdeklarieren (einen neuen
@@ -100,24 +100,24 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
 
    Es ist sofort einsichtig, dass das nicht immer gefahrlos ist.
 
-   Casten Sie nun alle eben definierten Dezimalzahlen als integer um (ersetzen Sie die
-   alten Variablen durch die neuen Werte). Verwenden Sie dabei **keine** Bit-Angaben (wie `int8` oder `uint16`).
+   Caste nun alle eben definierten Dezimalzahlen als integer um (ersetze die
+   alten Variablen durch die neuen Werte). Verwende dabei **keine** Bit-Angaben (wie `int8` oder `uint16`).
 
-   Als nächstes deklarieren Sie die Variablen `a` bis `f` mit der Funktion [chr] auf den
-   Datentyp `str` um. Speichern Sie das Ergebnis unter den Variablen `char_a` bis
+   Als nächstes deklarierst du die Variablen `a` bis `f` mit der Funktion [chr] auf den
+   Datentyp `str` um. Speichere das Ergebnis unter den Variablen `char_a` bis
    `char_f` ab.
 
    Die Klasse `str` in Python hat als Beispiel den Operator `+` so implementiert, dass
    dieser Zeichenketten einfach aneinanderreiht.
 
-   Erstellen Sie nun die Variable `word` wo Sie `char_a` bis `char_f` in alphabetischer
-   Reihenfolge zusammenfügen und geben Sie den resultierenden String mit `print` aus.
+   Erstelle nun die Variable `word`, in der du `char_a` bis `char_f` in alphabetischer
+   Reihenfolge zusammenfügst, und gib den resultierenden String mit `print` aus.
    Überrascht?
 
 1. Nun gehen wir auf die Gefahren dieser casts ein.
 
    Mit kleineren Datentypen kann einerseits Speicherplatz gespart werden, es kann daher
-   aber auch beim Umdeklarieren (casten) Information verloren gehen. Definieren Sie
+   aber auch beim Umdeklarieren (casten) Information verloren gehen. Definiere
    folgende Variablen als `double`:
 
    | Variable | Wert                  |
@@ -127,15 +127,15 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
    | `test3`  | $1.5$                 |
    | `test4`  | $128$                 |
 
-   Casten Sie die Variable `test1` auf den Typ `single` und speichern Sie das Ergebnis
+   Caste die Variable `test1` auf den Typ `single` und speichere das Ergebnis
    als `cast_test1` ab. Was passiert mit `test1`?
 
-   Versuchen Sie die Variablen `test2` bis `test4` auf den Typ `uint8` zu casten
-   (`cast_test2` bis `cast_test4`). Was fällt Ihnen auf? Was passiert, wenn Sie
-   `cast_test4` auf den Typ `int8` casten (`cast_test5`)? Probiere nun für dich aus, ob
-   das casten auch für `test_4` funktioniert. Beantworte dir selbst folgende Frage: Hat
+   Versuche, die Variablen `test2` bis `test4` auf den Typ `uint8` zu casten
+   (`cast_test2` bis `cast_test4`). Was fällt dir auf? Was passiert, wenn du
+   `cast_test4` auf den Typ `int8` castest (`cast_test5`)? Probiere nun für dich aus, ob
+   das Casten auch für `test_4` funktioniert. Beantworte dir selbst folgende Frage: Hat
    das etwas mit der Größe von dem Datentyp zu tun? (Um dies zu beantworten kann die
-   `view` member Funktion von numpy's Datenypen (`np.uint16(22).view(np.int16)`)
+   `view` member Funktion von numpy's Datentypen (`np.uint16(22).view(np.int16)`)
    verwendet werden)
 
    Die Unterschiede, die man sieht, hängen zum Teil mit den größten, bzw., kleinsten
@@ -145,10 +145,10 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
    systemabhängig. Um mehr herauszufinden, gibt es Befehle wie z.B.
    `np.finfo(np.float64)`, siehe Dokumentation zu [floatinfo] und [numpy.finfo].
 
-1. Bei der Kombinationen verschiedener Datentypen ist zu beachten, dass Python (bzw.
+1. Bei der Kombination verschiedener Datentypen ist zu beachten, dass Python (bzw.
    Numpy) automatisch auf den umfassenderen Datentyp castet.
 
-   Erstellen Sie folgende Variablen
+   Erstelle folgende Variablen
 
    | Variable    | Wert | Datentyp |
    | ----------- | ---- | -------- |
@@ -157,11 +157,11 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
    | `pos_var_3` | 1    | double   |
    | `pos_var_4` | 1    | uint8    |
 
-   Speichern Sie nun in den Variablen `p1_plus_p2`, `p1_plus_p3` und `p1_plus_p4` die
+   Speichere nun in den Variablen `p1_plus_p2`, `p1_plus_p3` und `p1_plus_p4` die
    Summe der ersten und der zweiten, der ersten und der dritten bzw. der ersten und der
    vierten Variable.
 
-   Stimmen die beiden Ergebnisse überein? Können Sie die Ergebnisse erklären?
+   Stimmen die beiden Ergebnisse überein? Kannst du die Ergebnisse erklären?
 
 ## Hinweise
 

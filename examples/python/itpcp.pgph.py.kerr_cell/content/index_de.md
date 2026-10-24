@@ -34,51 +34,51 @@ Die Datei `kerrtab_pu.dat` enthält folgende Daten:
 
 ## Aufgabe
 
-Schreiben Sie ein Python-Skript `kerr_cell`, in dem Sie die Daten des Laborversuchs auswerten:
+Schreib ein Python-Skript `kerr_cell`, in dem du die Daten des Laborversuchs auswertest:
 
-1. Laden Sie die Daten aus `kerrtab_pu.dat` mit Hilfe von [np.loadtxt].
+1. Lade die Daten aus `kerrtab_pu.dat` mit Hilfe von [np.loadtxt].
 
-2. Erzeugen Sie eine Grafik und plotten Sie mit [plt.errorbar] für die einzelnen Farben jeweils die $\Delta\phi$ inklusive deren Fehler in Abhängigkeit von $U^2$ (alle drei ins selbe Achsensystem). Hilfe zum Plotten mit Errorbars erhalten Sie in den Hinweisen.
+2. Erzeuge eine Grafik und plotte mit [plt.errorbar] für die einzelnen Farben jeweils die $\Delta\phi$ inklusive deren Fehler in Abhängigkeit von $U^2$ (alle drei ins selbe Achsensystem). Hilfe zum Plotten mit Errorbars erhältst du in den Hinweisen.
 
-    * Verwenden Sie als Linienfarbe entsprechend grün, gelb und blau.
-    * Für die Marker verwenden Sie `*`, `o` und `x`.
-    * Verbinden Sie die Datenpunkte **nicht**.
-    * Halten Sie sich an diese Plotreihenfolge.
-    * Geben Sie den Fehlerbalken-Kappen die Größe 8.
+    * Verwende als Linienfarbe entsprechend grün, gelb und blau.
+    * Verwende für die Marker `*`, `o` und `x`.
+    * Verbinde die Datenpunkte **nicht**.
+    * Halte dich an diese Plotreihenfolge.
+    * Gib den Fehlerbalken-Kappen die Größe 8.
 
-3. Führen Sie für die Konstanten `c_green`, `c_yellow` und
-  `c_blue` einen linearen Fit durch. Für das lineare Fitten erhalten Sie Hilfe in den Hinweisen.
+3. Führe für die Konstanten `c_green`, `c_yellow` und
+  `c_blue` einen linearen Fit durch. Für das lineare Fitten erhältst du Hilfe in den Hinweisen.
 
-4. Geben Sie alle Konstanten formatiert in der obigen
+4. Gib alle Konstanten formatiert in der obigen
    Reihenfolge auf folgende Art aus:
 
     `U^2 dependence of phi for green light: 0.00047174`
   
-    Achten Sie dabei auf die genaue Schreibweise!
+    Achte dabei auf die genaue Schreibweise!
 
-5. Plotten Sie die 3 Ausgleichsgeraden `y_green = c_green*x` etc., über einem Vektor
+5. Plotte die 3 Ausgleichsgeraden `y_green = c_green*x` etc., über einem Vektor
     `[0, 1.1*max(U^2)]` mit 100 Stützstellen.
 
-6. Schalten Sie das Gitternetz (`grid`) für die Grafik ein.
+6. Schalte das Gitternetz (`grid`) für die Grafik ein.
 
-7. Beschriften Sie die Achsen mit $U^2$ und $\Delta\phi$
+7. Beschrifte die Achsen mit $U^2$ und $\Delta\phi$
    (in LaTeX-Syntax, siehe Hinweis).
 
-8. Betiteln Sie die Grafik mit `Linear Fit`.
+8. Gib der Grafik den Titel `Linear Fit`.
 
-9. Erstellen Sie eine Legende mit `green`, `yellow` und
+9. Erstelle eine Legende mit `green`, `yellow` und
   `blue`. (Das ist auch sinnvoll, wenn das Bild schwarz-weiß
   ausgedruckt wird).
 
-10. Positionieren Sie die Legende links oben.
+10. Positioniere die Legende links oben.
 
-11. Speichern Sie die Grafik unter dem Dateinamen `voltage_dependence.png`.
+11. Speichere die Grafik unter dem Dateinamen `voltage_dependence.png`.
 
 ## Hinweise
 
-* Zum Einlesen der Daten können Sie [np.loadtxt] verwenden. `dtype=np.float64` kann hilfreich sein.
+* Zum Einlesen der Daten kannst du [np.loadtxt] verwenden. `dtype=np.float64` kann hilfreich sein.
 
-* Erstellen Sie zuerst alle Errorbars und anschließend die drei Ausgleichsgeraden.
+* Erstelle zuerst alle Errorbars und anschließend die drei Ausgleichsgeraden.
 
 * Man kann den Befehl [np.polyfit] zum linearen Fitten verwenden. Dabei wird jedoch die Ausgleichsgerade nicht unbedingt
  durch den Ursprung gelegt. Wenn man das erreichen will, darf man für
@@ -86,10 +86,10 @@ Schreiben Sie ein Python-Skript `kerr_cell`, in dem Sie die Daten des Laborversu
  einziger zu fittender Parameter die Steigung $k$. Diese ergibt sich aus ($N$ = Anzahl der Datenpunkte)
  $$k = \frac{\sum_{n=1}^{N}x_n y_n}{\sum_{n=1}^{N}x_n^2}$$
 
-* Für Interessierte: Die analytischen Berechnungen zur linearen Regression finden Sie
+* Für Interessierte: Die analytischen Berechnungen zur linearen Regression findest du
  im Skriptum [Wahrscheinlichkeitstheorie] ab Seite 296.
 
-* In Matplotlib-Grafiken können Sie in Beschriftungen und Titel LaTeX-Syntax auf die folgende Weise einfügen:
+* In Matplotlib-Grafiken kannst du in Beschriftungen und Titel LaTeX-Syntax auf die folgende Weise einfügen:
 
     ```python
     plt.title(r"$\Delta U$")
@@ -103,7 +103,7 @@ Schreiben Sie ein Python-Skript `kerr_cell`, in dem Sie die Daten des Laborversu
     U^2 dependence of phi for blue light: 0.00062186
     ```
 
-    Um die korrete Anzahl der Stellen der Zahl zu bekommen, verwenden Sie .nf wobei n die Anzahl der gewünschten Stellen angibt. Zum Beispiel:
+    Um die korrekte Anzahl der Stellen der Zahl zu bekommen, verwende .nf, wobei n die Anzahl der gewünschten Stellen angibt. Zum Beispiel:
 
     ```
     print(f"U^2 dependence of phi for green light: {c_green:.8f}")
@@ -112,7 +112,7 @@ Schreiben Sie ein Python-Skript `kerr_cell`, in dem Sie die Daten des Laborversu
     Achtung! Für den Test müssen die Werte auf genau 8 Stellen gerundet werden.
 
 
-* Wenn Sie alles richtig gemacht haben, sollte Ihre Grafik so aussehen:
+* Wenn du alles richtig gemacht hast, sollte deine Grafik so aussehen:
 
 <div align="center">
 <img src="mediaFiles/kerr_cell_image.png" alt="Test Image" width="100%" name="Kerrzelle"/>

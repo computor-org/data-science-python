@@ -26,7 +26,7 @@ The first column contains the time of measurement, the second contains the tempe
 
 2. Load the data from the file using [np.loadtxt] and save it in the variable `data`. The data is stored as an array. Check the dimension of the array with the attribute `.shape`.
 
-**!** Pay attention to the "form" of the entries in your data file. To continue calculating with `Numpy`, define the data type as `np.float64` when loading the data. See the hint for this.
+**<span style="color: red;">!!</span>** Pay attention to the "form" of the entries in your data file. To continue calculating with `Numpy`, define the data type as `np.float64` when loading the data. See the hint for this.
 
 3. Use your new knowledge about indexing and save the time values in the variable `t` and the temperature values in `T`.
 
@@ -50,7 +50,7 @@ The first column contains the time of measurement, the second contains the tempe
 
 * For the test, when loading the data using `np.loadtxt()`, only the name of the file may be entered, e.g., `np.loadtxt('Daten.dat', dtype=np.float64, comments="%")`. If a relative path is entered instead, the test cannot check this.
 
-* To test your code locally (without the testing system), you must first ensure your terminal is in the folder containing the python script. If it isn't, right-click the `lab_exercise1.py` file, select "Copy path" and paste it into your terminal as `cd <path/to/folder>`. You can then execute the script by clicking the "Run" button or by entering `python lab_exercise1.py` in your terminal.
+* To test your code locally (without the testing system), you must first ensure your terminal is in the folder containing the python script. If it isn't, right-click the `Lab Exercise1` exercise, select "Copy path" and paste it into your terminal as `cd <path/to/folder>`. You can then execute the script by clicking the "Run" button or by entering `python lab_exercise1.py` in your terminal. If you are prompted "*See text and images copied to the clipboard*", click "*Allow*".
 
 * In the first line in `data_lab1.dat`, you will find the description of the columns as a comment (`%`). When importing the data, difficulties arise in interpreting this description as a float like the following data points.
 To mark the comments in the data file as such when loading, add `comments="%"` within `np.loadtxt()`.
@@ -58,3 +58,9 @@ To mark the comments in the data file as such when loading, add `comments="%"` w
 * For automatic verification, attention must be paid to the spaces in the title!
 
 * The mean sought here is unweighted; the measurement times do not factor into its calculation.
+
+
+## Keywords
+- Data Analysis
+- Mean
+- Standard Deviation

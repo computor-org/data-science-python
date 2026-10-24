@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.pi_int
-version: 1.0.0
+version: 1.1.1
 title: Approximation of Pi with Integrals
 description: In this exercise Pi is approximated through numerical integration of
   various functions. The normal distribution, the gamma function and the sinc function

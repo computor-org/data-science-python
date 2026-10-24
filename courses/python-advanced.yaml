@@ -35,7 +35,7 @@ contents:
     max_group_size: 1
     path: linalg_network
     position: 1.0
-    title: Lineare Gleichungssysteme und die Kirchoffschen Regeln
+    title: Lineare Gleichungssysteme und die Kirchhoffschen Regeln
   - content_type: advanced
     example_identifier: itpcp.pgph.py.linalg_diag_matrix
     max_group_size: 1

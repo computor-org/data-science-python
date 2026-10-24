@@ -28,12 +28,18 @@ remain available when hosted Computor workspaces are full. Codespaces does not r
 
 The source snapshot is
 `git@gitlab.tugraz.at:codeability/development/examples.git` at
-[`0795847d119830e61e013c094ef4de73910ee26f`](https://gitlab.tugraz.at/codeability/development/examples/-/commit/0795847d119830e61e013c094ef4de73910ee26f)
-(2026-08-29T14:07:19+02:00; “Merge branch 'CleanUp-Unit1' into 'main'”). Each example keeps its upstream authors,
+[`ead0421d839d95f59b7ed20bb8e07081623fc2fa`](https://gitlab.tugraz.at/codeability/development/examples/-/commit/ead0421d839d95f59b7ed20bb8e07081623fc2fa)
+(2026-10-24T16:48:29+02:00; “Use du, correct Python hints and remove MATLAB comparisons”). Each example keeps its upstream authors,
 maintainers, links, and `license` declaration in `meta.yaml`; the current
 snapshot declares MIT for all 70 Python examples. See [`RIGHTS.md`](RIGHTS.md)
 for the generated ledger and [`LANGUAGE_AUDIT.md`](LANGUAGE_AUDIT.md) for the
 German/English completeness check.
+
+Exercise texts are edited in the source repository, not here. To refresh the
+mirror from a commit, branch or tag of a local checkout, run
+`python scripts/refresh_from_examples.py --source <checkout> --ref <ref>`; it
+applies the exclusions above and rewrites this paragraph, `RIGHTS.md` and
+`LANGUAGE_AUDIT.md`. With `--check` it only reports stale files.
 
 ### Licence
 

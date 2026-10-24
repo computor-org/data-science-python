@@ -18,7 +18,7 @@ It is very important that the lines to be executed during the `loop` are indente
 You can also iterate over the indices of an array or a list. For this, you can use the [enumerate] command. Here is an example:
 
 ```python
-for index, entry in mylist:
+for index, entry in enumerate(mylist):
     otherlist[index] = entry + 1
 ```
 

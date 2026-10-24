@@ -6,7 +6,7 @@
 
 ## Einleitung
 
-In dieser Übung lernen Sie eine neue Methode zur Reihenberechnung kennen.
+In dieser Übung lernst du eine neue Methode zur Reihenberechnung kennen.
 
 Als einfaches Beispiel für eine unendliche Reihe wird hier die Taylorreihe der Funktion sin($x$) verwendet. Diese ist gegeben durch
 
@@ -92,7 +92,7 @@ $f \cdot A$ (in Python `f.dot(A)`) für alle Werte von $x$ gleichzeitig den jewe
 
 ## Aufgabe
 
-Schreiben Sie eine Funktion `series_expansion`, die mit
+Schreibe eine Funktion `series_expansion`, die mit
 
 ```python
 r, u = series_expansion(x, n)
@@ -112,14 +112,14 @@ $$
 u = \sin(x).
 $$
 
-berechnet werden. Gehen Sie wie folgt vor:
+berechnet werden. Gehe wie folgt vor:
 
-1. Speichern Sie sich die Größe von `x` ([np.shape]) in einer Variable und wandeln Sie anschließend die Variable in einen Vektor um ([np.ravel]). Die weiteren Rechnungen sind mit einem Vektor angenehmer und durch das Speichern der ursprünglichen Größe geht keine Information verloren.
+1. Speichere dir die Größe von `x` ([np.shape]) in einer Variable und wandle anschließend die Variable in einen Vektor um ([np.ravel]). Die weiteren Rechnungen sind mit einem Vektor angenehmer und durch das Speichern der ursprünglichen Größe geht keine Information verloren.
 
-2. Verwenden Sie für die Berechnung der Reihe den Befehl [np.meshgrid], wie in der Einleitung beschrieben. Dadurch erübrigen sich for-Schleifen. Speichern Sie das Ergebnis der $n$-ten Partialsumme in `r`.
+2. Verwende für die Berechnung der Reihe den Befehl [np.meshgrid], wie in der Einleitung beschrieben. Dadurch erübrigen sich for-Schleifen. Speichere das Ergebnis der $n$-ten Partialsumme in `r`.
 
-3. Berechnen Sie den analytischen Wert für `u`.
+3. Berechne den analytischen Wert für `u`.
 
-4. Formen Sie mit der zuvor gespeicherten Variable die Vektoren `r` und `u` so um, dass sie die ursprüngliche Größe von `x` haben.
+4. Forme mit der zuvor gespeicherten Variable die Vektoren `r` und `u` so um, dass sie die ursprüngliche Größe von `x` haben.
 
-5. Berechnen und plotten Sie für $x \in [-\pi, \pi]$ (gleichverteilt mit 100 Stützstellen) die analytische Funktion zusammen mit den ersten 3 Partialsummen (also für $n = 0, 1, 2$). Verwenden Sie für die Partialsummen eine Schleife. Plotten Sie die analytische Funktion als gestrichelte Linie (`linestyle`-Argument) und lassen Sie die Partialsummen in der voreingestellten durchgezogenen Linie. Erstellen Sie eine Legende mit den Beschriftungen `'sin(x)'`, `'1. partial sum'`, `'2. partial sum'`, `'3. partial sum'` (in dieser Reihenfolge; $n = 0$ entspricht der 1. Partialsumme).
+5. Berechne und plotte für $x \in [-\pi, \pi]$ (gleichverteilt mit 100 Stützstellen) die analytische Funktion zusammen mit den ersten 3 Partialsummen (also für $n = 0, 1, 2$). Verwende für die Partialsummen eine Schleife. Plotte die analytische Funktion als gestrichelte Linie (`linestyle`-Argument) und lass die Partialsummen in der voreingestellten durchgezogenen Linie. Erstelle eine Legende mit den Beschriftungen `'sin(x)'`, `'1. partial sum'`, `'2. partial sum'`, `'3. partial sum'` (in dieser Reihenfolge; $n = 0$ entspricht der 1. Partialsumme).

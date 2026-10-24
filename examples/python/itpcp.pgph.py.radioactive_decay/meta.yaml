@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.radioactive_decay
-version: 1.0.0
+version: 1.0.1
 title: Fitting Radioactive Decays
 description: In this exercise radioactive decay in a decay chain is modeled and fitted
   to measurement data. The decay constants are determined with scipy.optimize.curve_fit.

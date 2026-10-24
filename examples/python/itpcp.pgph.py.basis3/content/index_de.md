@@ -26,15 +26,15 @@ Es ist empfehlenswert sich anzugewöhnen, den Code zu kommentieren, um in Zukunf
 
         # Plot the results
 
-    Nun lässt man die Kommentare einfach stehen, und schreibt unter die jeweiligen Zeilen den entsprechenden Code. Es mag hier trivial erscheinen, aber üben Sie das auch schon in einfachen Beispielen!
+    Nun lässt man die Kommentare einfach stehen, und schreibt unter die jeweiligen Zeilen den entsprechenden Code. Es mag hier trivial erscheinen, aber übe das auch schon in einfachen Beispielen!
 
 
 ## Aufgabe
 
-Erzeugen Sie im Skript `basis3` (File: `basis3.py`)
+Erzeuge im Skript `basis3` (File: `basis3.py`)
 ein Programm, das die Funktionen berechnet und graphisch darstellt.
 
-1. Erzeugen sie mit den Formeln
+1. Erzeuge mit den Formeln
     $$
     \begin{aligned}
     x_a  &= -2 \pi \\
@@ -44,10 +44,10 @@ ein Programm, das die Funktionen berechnet und graphisch darstellt.
     $$
     die Variablen `x_a`, `x_e` und `x_n`.
 
-2. Erzeugen Sie einen Vektor `x` mit `x_n` äquidistanten Werten zwischen
+2. Erzeuge einen Vektor `x` mit `x_n` äquidistanten Werten zwischen
     obigem Anfangs- und Endpunkt (`linspace`).
 
-3. Berechnen Sie damit die Funktionen (Namen: `f1`, `f2` und `f3`)
+3. Berechne damit die Funktionen (Namen: `f1`, `f2` und `f3`)
     $$
     \begin{aligned}
     f_1  &= \frac{x}{2\pi} \; \sin(x) \\
@@ -56,24 +56,31 @@ ein Programm, das die Funktionen berechnet und graphisch darstellt.
     \end{aligned}
     $$
 
-4. Plotten Sie in einer Figure die Funktionen $f_1(x)$
-    (rot), $f_2(x)$ (blau) und $f_3(x)$ (grün). Die genau [RGB](https://matplotlib.org/stable/users/explain/colors/colors.html)-Spezifizierung
-    ist `rot=(1.0, 0.0, 0.0, 1)`, `blau=(0.0, 0.0, 1.0, 1)` und `grün=(0.0, 1.0, 0.0, 1)`.
+4. Plotte in einer Figure die Funktionen $f_1(x)$
+    (rot), $f_2(x)$ (blau) und $f_3(x)$ (grün). 
 
-5. Versehen Sie die Zeichnung mit einer Beschriftung ([xlabel], [ylabel])
+5. Versieh die Zeichnung mit einer Beschriftung ([xlabel], [ylabel])
     der x-Achse (`x`) und der y-Achse (`f(x)`).
 
-6. Stellen Sie die Limits der x-Achse auf die Werte von $x_a$ und $x_e$ ein
+6. Stell die Limits der x-Achse auf die Werte von $x_a$ und $x_e$ ein
     ([xlim]).
 
 7. Außerdem soll es eine Legende ([legend]) geben, wobei
     die Bezeichnungen der Linien in der Legende `f1(x)`, `f2(x)` und
     `f3(x)` sein sollen.
-    Stellen Sie sicher, dass die Legende *explizit* gestetzt wird. Die Legende
+    Stell sicher, dass die Legende *explizit* gesetzt wird. Die Legende
     soll unten in der Mitte innerhalb des Plots platziert werden.
 
 ## Hinweise
 
-* Nutzen Sie die [NumPy]- und [Matplotlib]-Dokumentationen sowie den [Matplotlib-Userguide], um die richtige Verwendung der notwendigen Befehle herauszufinden!
+* Nutze die [NumPy]- und [Matplotlib]-Dokumentationen sowie den [Matplotlib-Userguide], um die richtige Verwendung der notwendigen Befehle herauszufinden!
 
-* Hinweise zur Positionierung der Legende finden Sie unter dem entsprechenden `loc`-Stichwort (siehe [legend]).
+* Die genaue [RGB](https://matplotlib.org/stable/users/explain/colors/colors.html)-Spezifizierung ist `rot=(1.0, 0.0, 0.0, 1)`, `blau=(0.0, 0.0, 1.0, 1)` und `grün=(0.0, 1.0, 0.0, 1)`.
+
+* Hinweise zur Positionierung der Legende findest du unter dem entsprechenden `loc`-Stichwort (siehe [legend]).
+
+
+## Keywords
+
+- Kommentare
+- Legende

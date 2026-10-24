@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.linalg_network
-version: 1.0.1
+version: 1.0.2
 title: Linear Systems and Kirchhoff's Rules
 description: 'In this exercise you will solve an electrical network using Kirchhoff''s
   laws.

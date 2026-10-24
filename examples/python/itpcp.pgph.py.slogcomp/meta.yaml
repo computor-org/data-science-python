@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.slogcomp
-version: 1.0.1
+version: 1.0.2
 title: Comparison of Logical Indexing with Loop or Mathematics
 description: This exercise compares different programming approaches in Python using
   the same task. Negative and positive values are replaced by their means - once with

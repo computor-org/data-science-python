@@ -29,3 +29,8 @@ following subtask.
 - An overview of mathematics commands can be found in the [numpy.random] documentation. Pay attention to which probability distribution and which number type (integers or floating-point numbers) is required.
 
 - Do not ask colleagues immediately, but try it yourself. After your own attempts, we will be happy to help you.
+
+
+## Keywords
+
+- Random Numbers

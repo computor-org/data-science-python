@@ -24,18 +24,18 @@ $$\pi = \sum ^{\infty} _{k=0} \frac{1}{16^k} \left( \frac{4}{8k+1} - \frac{2}{8k
 
 ## Aufgabe
 
-Erledigen Sie folgende Aufgaben:
+Erledige folgende Aufgaben:
 
-1. Erzeugen Sie die Variable `N = 25` und damit dann die Arrays `k0` (geht von `0` bis `N - 1`) und `k1` (geht von `1` bis `N`). `k0` soll dabei für jene Reihen verwendet werden, die bei Null beginnen und `k1` für jene, die mit $k = 1$ starten. Da Sie teilweise mit sehr kleine Zahlen arbeiten werden initialisieren Sie `k0` und `k1` als `np.float64`.
+1. Erzeuge die Variable `N = 25` und damit dann die Arrays `k0` (geht von `0` bis `N - 1`) und `k1` (geht von `1` bis `N`). `k0` soll dabei für jene Reihen verwendet werden, die bei Null beginnen und `k1` für jene, die mit $k = 1$ starten. Da du teilweise mit sehr kleinen Zahlen arbeiten wirst, initialisiere `k0` und `k1` als `np.float64`.
 
-2. Speichern Sie in den Arrays `pv1`, `pv2`, `pv3` und `pv4` die Approximation für die oben angeführten Reihen. Dabei sollen in `pv1` die einzelnen Schritte der Reihe von Leibniz stehen, in `pv2` die von Machin, in `pv3` die von Euler und in `pv4` die Werte der BBP-Formel. Am einfachsten ist es, Arrays zu erzeugen, die die einzelnen Summanden enthalten und diese dann mit [np.cumsum] zu addieren. [np.cumsum] bildet dabei jeweils die Summe aus allen vorangegangenen Komponenten. Achten Sie darauf, dass nicht alle Summen mit $k=0$ beginnen! Benutzen Sie keine Schleifen!
+2. Speichere in den Arrays `pv1`, `pv2`, `pv3` und `pv4` die Approximation für die oben angeführten Reihen. Dabei sollen in `pv1` die einzelnen Schritte der Reihe von Leibniz stehen, in `pv2` die von Machin, in `pv3` die von Euler und in `pv4` die Werte der BBP-Formel. Am einfachsten ist es, Arrays zu erzeugen, die die einzelnen Summanden enthalten und diese dann mit [np.cumsum] zu addieren. [np.cumsum] bildet dabei jeweils die Summe aus allen vorangegangenen Komponenten. Achte darauf, dass nicht alle Summen mit $k=0$ beginnen! Benutze keine Schleifen!
 
 3. Die Werte der Reihen müssen noch potenziert oder mit entsprechenden Vorfaktoren multipliziert werden, damit sie $\pi$ ergeben.
 
-4. Plotten Sie nun das Ergebnis in zwei übereinander liegenden Subplots. Als $x$-Achse soll für beide Plots die Anzahl der verwendeten Schritte zur Reihenapproximation verwendet werden (also von `1` bis `N`). Der erste Plot soll zum einen eine Gerade beim Wert $\pi$ und zum anderen die Werte der Reihen beinhalten. Der zweite Plot soll halblogarithmisch in $y$ ([semilogy]) sein. In diesen tragen Sie den Abstand ( = `abs(pv-pi)` ) zu $\pi$ ein.    
+4. Plotte nun das Ergebnis in zwei übereinander liegenden Subplots. Als $x$-Achse soll für beide Plots die Anzahl der verwendeten Schritte zur Reihenapproximation verwendet werden (also von `1` bis `N`). Der erste Plot soll zum einen eine Gerade beim Wert $\pi$ und zum anderen die Werte der Reihen beinhalten. Der zweite Plot soll halblogarithmisch in $y$ ([semilogy]) sein. In diesen trägst du den Abstand ( = `abs(pv-pi)` ) zu $\pi$ ein.    
 
 
-5.  Erstellen Sie passend zur Aufgabe Achsenbeschriftungen, Titel und Labels.
+5.  Erstelle passend zur Aufgabe Achsenbeschriftungen, Titel und Labels.
 
 
 ## Hinweise

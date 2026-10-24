@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.quadratic_eq
-version: 1.0.0
+version: 1.0.1
 title: 'Control Structures: The For Loop vs. Logical Indexing'
 description: This exercise covers solving quadratic equations once with a for loop
   and once with logical indexing. The function calculates the solutions of the general

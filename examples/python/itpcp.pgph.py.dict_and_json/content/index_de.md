@@ -13,8 +13,8 @@ NumPy-Arrays zum Beispiel müssen in Listen umgewandelt werden.
 
 ## Aufgabe
 
-In dieser Übungseinheit schreiben Sie ein Skript, welches beispielhaft ein JSON file mit
-Konfigurationsparametern einliest, und mit von Ihnen berechneten Werten befüllt.
+In dieser Übungseinheit schreibst du ein Skript, welches beispielhaft ein JSON file mit
+Konfigurationsparametern einliest und mit von dir berechneten Werten befüllt.
 
 Das Skript `generate_data.py` soll die Datei `data_file.json` mit dem [json] module als
 dictionary `data` einlesen. Jeder Eintrag im dict `'sim_config'` besteht aus einem Satz
@@ -22,12 +22,12 @@ von Parametern für eine bestimmte Berechnung. In diesem Beispiel handelt es sic
 Mittelwerte `mu`, Standardabweichungen `sig` und die Größen `size` von Arrays von
 normalverteilten Zufallszahlen.
 
-1. Generieren Sie die Arrays und fügen Sie diese als dictionary `results` auf gleicher
+1. Generiere die Arrays und füge diese als dictionary `results` auf gleicher
    Ebene wie `'sim_config'` und unter dem jeweiligen Namen der Simulation ('sim1',
    'sim2', ...) hinzu.
 
-1. Fügen Sie zusätzlich das dictionary `'metadata'` mit dem aktuellen Datum und der
-   Uhrzeit (Keys `'date'` bzw. `'time'`) hinzu ([datetime]). Nutzen Sie dazu das
+1. Füge zusätzlich das dictionary `'metadata'` mit dem aktuellen Datum und der
+   Uhrzeit (Keys `'date'` bzw. `'time'`) hinzu ([datetime]). Nutze dazu das
    `"%Y-%m-%d"` bzw. das `"%H:%M"` Format. Das erhaltene dict sollte also folgenden
    Aufbau haben:
 
@@ -38,10 +38,10 @@ normalverteilten Zufallszahlen.
    }
    ```
 
-1. Speichern Sie nun das nested dictionary in einer Datei `results.json`. Das Schreiben
-   funktioniert ähnlich wie das Einlesen, wobei Sie beim Aufruf von `open()` das
-   Argument `"w"` anstelle von `"r"` verwenden müssen (write statt read). Danach
-   verwenden Sie `json.dump(data, fp, indent=4)`.
+1. Speichere nun das nested dictionary in einer Datei `results.json`. Das Schreiben
+   funktioniert ähnlich wie das Einlesen, wobei du beim Aufruf von `open()` das
+   Argument `"w"` anstelle von `"r"` verwenden musst (write statt read). Danach
+   verwendest du `json.dump(data, fp, indent=4)`.
 
 [datetime]: https://docs.python.org/3/library/datetime.html
 [json]: https://docs.python.org/3/library/json.html#basic-usage

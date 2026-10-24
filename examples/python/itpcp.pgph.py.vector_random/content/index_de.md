@@ -6,13 +6,13 @@
 
 ## Einleitung
 
-In diesem Beispiel bekommen Sie eine Einführung in die Erzeugung von Zufallszahlen mit Python. Da es extrem wichtig ist, dass man sich in der Python-Dokumentation zurechtfindet, werden für die
+In diesem Beispiel bekommst du eine Einführung in die Erzeugung von Zufallszahlen mit Python. Da es extrem wichtig ist, dass man sich in der Python-Dokumentation zurechtfindet, werden für die
 folgende Teilaufgabe nicht alle Befehle angeführt.
 
 
 ## Aufgabe
 
-1. Erzeugen Sie im File `vector_random.py` folgende Vektoren mit Zufallszahlen:
+1. Erzeuge im File `vector_random.py` folgende Vektoren mit Zufallszahlen:
 
 | Variable      |Wert|
 |---------------|:-----------------------------------------|
@@ -26,7 +26,11 @@ folgende Teilaufgabe nicht alle Befehle angeführt.
 
 ## Hinweise
 
-- Einen Überblick über Mathematik-Befehle finden Sie in der [numpy.random]-Dokumentation. Achten Sie darauf, welche Wahrscheinlichkeitsverteilung und welcher Zahlentyp (Ganzzahlen oder Gleitkommazahlen) gefragt ist.
+- Einen Überblick über Mathematik-Befehle findest du in der [numpy.random]-Dokumentation. Achte darauf, welche Wahrscheinlichkeitsverteilung und welcher Zahlentyp (Ganzzahlen oder Gleitkommazahlen) gefragt ist.
 
-- Fragen Sie nicht sofort Kolleg:innen, sondern versuchen Sie es selbst. Nach eigenen Versuchen helfen wir
-Ihnen gerne.
+- Frag nicht sofort Kolleg:innen, sondern versuche es selbst. Nach eigenen Versuchen helfen wir dir gerne.
+
+
+## Keywords
+
+- Zufallszahlen

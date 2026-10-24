@@ -18,16 +18,16 @@ Mit dem Mittelwert $\mu$ und der Standardabweichung $\sigma$.
 ## Aufgaben
 
 1. **Helper-file**
-    - Erstellen Sie ein Python-file mit dem Namen `helpers.py`. Fügen Sie in dieses alle Funktionen ein, die Sie verwenden.
-    - Importieren Sie dann die Funktionen in das Python-script `histogram.py`.
+    - Erstelle ein Python-file mit dem Namen `helpers.py`. Füge in dieses alle Funktionen ein, die du verwendest.
+    - Importiere dann die Funktionen in das Python-script `histogram.py`.
     ```python
     from helpers import func1, func2, func3
     ```
 
 2. **Gauß-Verteilung**
-    - Implementieren Sie die Funktion `calc_gauss`, welche die Gauß-Verteilung mit den Parametern `mu` (Mittelwert) und `sigma` (Standardabweichung) berechnet. 
+    - Implementiere die Funktion `calc_gauss`, welche die Gauß-Verteilung mit den Parametern `mu` (Mittelwert) und `sigma` (Standardabweichung) berechnet. 
 3. **Erzeugung von Stichprobenmittelwerten**
-    - Implementieren Sie die Funktion `get_dice_mean`. Diese soll die Stichprobenmittelwerte eines fairen Würfels als Liste ausgeben (`N` Stichproben zu jeweil `N_throws` Würfen).
+    - Implementiere die Funktion `get_dice_mean`. Diese soll die Stichprobenmittelwerte eines fairen Würfels als Liste ausgeben (`N` Stichproben zu jeweils `N_throws` Würfen).
     ```python
     def get_dice_mean(N, N_throws = 10000):
         """
@@ -46,7 +46,7 @@ Mit dem Mittelwert $\mu$ und der Standardabweichung $\sigma$.
     ```
 
 5. **Unsicherheitsabschätzung**
-    - Implementieren Sie die Funktion `calc_frequentist_uncertainty`, welche die Höhe der bins, deren Unsicherheit und deren Zentrum ausgibt.
+    - Implementiere die Funktion `calc_frequentist_uncertainty`, welche die Höhe der bins, deren Unsicherheit und deren Zentrum ausgibt.
     ```python
     def calc_frequentist_uncertainty(sample_means, N_bins):
     """
@@ -62,7 +62,7 @@ Mit dem Mittelwert $\mu$ und der Standardabweichung $\sigma$.
         bin_centers: array with centers of the bins
     """
     ```
-    - Nutzen Sie dafür `np.histogram` und die Formeln für ein normiertes Histogramm
+    - Nutze dafür `np.histogram` und die Formeln für ein normiertes Histogramm
     $$
       h_i = \frac{N_i}{N b_i}
     $$
@@ -72,13 +72,13 @@ Mit dem Mittelwert $\mu$ und der Standardabweichung $\sigma$.
     $$
     wobei $N_i$ die Anzahl an Werten in bin $i$ ist und $b_i$ die Breite von bin $i$ (für uns haben alle bins die gleiche Breite).
 1. **Visualisierung**
-    - Visualisieren Sie nun die Ergebnisse in `histogram` in Form eines (Überraschung) Histogramms. Setzen Sie dafür den Parameter `density` in der Funktion `matplotlib.pyplot.hist` auf `True` um die Wahrscheinlichkeitsdichte zu erhalten.
-    - Erstellen Sie die zu ihren Stichprobenmittelwerte-korrespondierende Gauß-Verteilung.
-    - Erstellen Sie errorbars mittels `calc_frequentist_uncertainty`.
-    - Beschriften Sie die Graphik.
+    - Visualisiere nun die Ergebnisse in `histogram` in Form eines (Überraschung) Histogramms. Setze dafür den Parameter `density` in der Funktion `matplotlib.pyplot.hist` auf `True`, um die Wahrscheinlichkeitsdichte zu erhalten.
+    - Erstelle die zu deinen Stichprobenmittelwerten korrespondierende Gauß-Verteilung.
+    - Erstelle errorbars mittels `calc_frequentist_uncertainty`.
+    - Beschrifte die Graphik.
 
 2. **Überlegungen**
-    - Ändern Sie die die Parameter `N`, `N_throws` und `bins`. Welche Schlüsse ziehen Sie daraus?
+    - Ändere die Parameter `N`, `N_throws` und `bins`. Welche Schlüsse ziehst du daraus?
     - Welche Schwachstelle hat unsere Fehlerabschätzung?
 
 ## Hinweise

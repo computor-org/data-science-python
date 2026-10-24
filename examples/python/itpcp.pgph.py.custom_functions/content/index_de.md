@@ -9,13 +9,13 @@
 
 Die Übung beschäftigt sich mit dem Erstellen und Plotten eigener Funktionen.
 Hierfür sind zwei Python-Funktionen `sgauss` und `secansh`, sowie ein Python-Skript `pscript` zu erzeugen.
-Beachten Sie, dass <span style="color: red;">3 verschiedene py-Files</span> von Ihnen zu befüllen sind!
+Beachte, dass du <span style="color: red;">3 verschiedene py-Files</span> befüllen musst!
 
 ### Funktionen
 
 Funktionen ermöglichen es, einen bestimmten Code (z.B. einen Algorithmus) nur einmal zu definieren, und öfters mit unterschiedlichen Parametern auszuführen.
 Funktionen erhalten beim Aufruf Werte für die Inputvariablen, (Argumente), führen damit Berechnungen durch und geben Outputvariablen zurück.
-(Sie haben in den bisherigen Übungen auch schon einige vordefinierte Funktionen kennengelernt, zum Beispiel `print` oder `plot`).
+(Du hast in den bisherigen Übungen auch schon einige vordefinierte Funktionen kennengelernt, zum Beispiel `print` oder `plot`).
 
 Funktionen werden mit dem Schlüsselwort **`def`** definiert.
 Ein Beispiel für eine einfache Funktion mit Namen `compute_sum`, welche zwei Variablen `a` und `b` erhält, die Summe berechnet und das Ergebnis mit dem Schlüsselwort **`return`** zurückgibt, ist:
@@ -27,12 +27,12 @@ def compute_sum(a, b):
     return result
 ```
 
-Wichtig ist in Python die Einrückung der Funktionsdefinition! Im Gegensatz zu einigen anderen Programmiersprachen, in denen mit { ... } der Funkionsblock abgegrenzt wird, gehört in Python alles, was in der gleichen *Ebene* eingerückt ist, zur Funktion.
+Wichtig ist in Python die Einrückung der Funktionsdefinition! Im Gegensatz zu einigen anderen Programmiersprachen, in denen mit { ... } der Funktionsblock abgegrenzt wird, gehört in Python alles, was in der gleichen *Ebene* eingerückt ist, zur Funktion.
 
 Am Anfang der Funktionsdefinition sollte zwischen drei doppelten Anführungszeichen `""" ... """` ein sogenannter *[Docstring]* stehen, der eine kurze Beschreibung der Funktion gibt.
 Dieser lässt sich später anzeigen z.B. mit `help(compute_sum)`.
 
-Diese obrige Funktion kann dann wie folgt aufgerufen werden:
+Diese obige Funktion kann dann wie folgt aufgerufen werden:
 
 ```python
 new_var = compute_sum(3, 4)
@@ -56,9 +56,9 @@ ab_sum, ab_diff = sum_and_diff(3, 4)
 
 Hier erhalten wir für `ab_sum` den Wert 7 und für `ab_diff` den Wert -1.
 
-Es ist sinnvoll, wichtige Funktionen getrennt vom Hauptskript in eigenen Dateien zu definieren. So können sie von anderen Programmen wiederverwendet werdenund helfen dabei, schwer auffindbare Fehler zu vermeiden. 
+Es ist sinnvoll, wichtige Funktionen getrennt vom Hauptskript in eigenen Dateien zu definieren. So können sie von anderen Programmen wiederverwendet werden und helfen dabei, schwer auffindbare Fehler zu vermeiden. 
 
-Angenommen, wir definieren unsere beiden Funktionen `compute_sum` and `sum_and_diff` in einem File `my_functions.py` im selben Verzeichnis, mit dem Inhalt
+Angenommen, wir definieren unsere beiden Funktionen `compute_sum` und `sum_and_diff` in einem File `my_functions.py` im selben Verzeichnis, mit dem Inhalt
 
 ```python
 # ...put necessary imports for the function definitions here
@@ -75,7 +75,7 @@ def sum_and_diff(a, b):
     return a + b, a - b
 ```
 
-dann können wir uns unserem Hauptskript diese Funktionen importieren und verwenden:
+dann können wir in unserem Hauptskript diese Funktionen importieren und verwenden:
 
 ```python
 from my_functions import compute_sum, sum_and_diff
@@ -90,20 +90,20 @@ ab_sum, ab_diff = sum_and_diff(3, 4)
 * Die Funktion $$g = \frac{1}{s\sqrt{2\pi}} \exp \left( -\frac{(x-x_0)^2}{2s^2} \right)$$
     ist die Gaussfunktion. Sie dient der Berechnung und dem einfachen Plotten der Gaußschen Glockenkurve. Ebenso kann der Secans Hyperbolicus auf Basis der Funktion [exp] erzeugt werden.
 
-* Überlegen Sie sich, was passiert, wenn man die Funktionsfiles wie ein Python-Skript ausführt! Die Funktion `g` entspricht der Wahrscheinlichkeitsdichte einer Wahrscheinlichkeitsverteilung, nämlich der Normalverteilung. Eine Wahrscheinlichkeitsdichte genügt der Bedingung, dass die Fläche unter der gesamten Funktion den Wert 1 annimmt. Diese sogenannte Normierung wird durch den Normierungsfaktor sichergestellt. Der Normierungsfaktor der Funktion g ist der Term $1/(s\sqrt{2\pi})$.
+* Überleg dir, was passiert, wenn man die Funktionsfiles wie ein Python-Skript ausführt! Die Funktion `g` entspricht der Wahrscheinlichkeitsdichte einer Wahrscheinlichkeitsverteilung, nämlich der Normalverteilung. Eine Wahrscheinlichkeitsdichte genügt der Bedingung, dass die Fläche unter der gesamten Funktion den Wert 1 annimmt. Diese sogenannte Normierung wird durch den Normierungsfaktor sichergestellt. Der Normierungsfaktor der Funktion g ist der Term $1/(s\sqrt{2\pi})$.
 
 * Die Funktion $$h = \frac{1}{\pi s} {\operatorname{sech}} \left( -\frac{x-x_0}{s} \right)$$
     ist der Secans Hyperbolicus. Er stellt wie die Gaussfunktion eine
     Wahrscheinlichkeitsdichte dar und genügt daher ebenfalls der Bedingung, dass die
     Fläche unter der gesamten Funktion den Wert 1 annimmt.
-    Der Normierungsfaktor der Funktionen `h` ist der
+    Der Normierungsfaktor der Funktion `h` ist der
     Term $1/(\pi s)$.
 
 ## Aufgabe
 
 ### Berechnung der Gaussschen Glockenkurve
 
-Erzeugen Sie die Funktion `sgauss` im gleichnamigen File,
+Erzeuge die Funktion `sgauss` im gleichnamigen File,
 die mit dem Aufruf
 
 ```python
@@ -122,7 +122,7 @@ sein.
 
 ### Berechnung der Funktion Secans Hyperbolicus
 
-Erzeugen Sie die Funktion `secansh` im gleichnamigen File,
+Erzeuge die Funktion `secansh` im gleichnamigen File,
 die mit dem Aufruf
 
 ```python
@@ -142,15 +142,15 @@ sein.
 
 ### Berechnung und einfaches Plotten der Gaussschen Glockenkurve und des Secans Hyperbolicus
 
-Erzeugen Sie im Skript `pscript.py` ein Programm, das die beiden
+Erzeuge im Skript `pscript.py` ein Programm, das die beiden
 Funktionen berechnet und graphisch darstellt.
 
-Wählen Sie für die Parameter die Werte
+Wähle für die Parameter die Werte
 $x_0 = 2$ und $s = 0.2$, wobei $x_0$ die Lage des Maximums und $s$ die
 Halbwertsbreite sind.
-(Sie können testweise auch andere `x_0` und `s` ausprobieren. Wie verhalten sich dann die Kurven?)
+(Du kannst testweise auch andere `x_0` und `s` ausprobieren. Wie verhalten sich dann die Kurven?)
 
-1. Erzeugen Sie mit den Formeln
+1. Erzeuge mit den Formeln
     $$
     \begin{aligned}
       x_a  &= x_0 - 5s \\
@@ -160,16 +160,16 @@ Halbwertsbreite sind.
     $$
     die Variablen `x_a`, `x_e` und `x_n`.
 
-2. Erzeugen Sie damit einen Vektor `x` mit
+2. Erzeuge damit einen Vektor `x` mit
     `x_n` äquidistanten Werten zwischen obigem Anfangs- und Endpunkt (`linspace`).
 
-3. Berechnen Sie nun mit Hilfe **Ihrer eigenen** Funktionen `sgauss` und `secansh` die Variablen
+3. Berechne nun mit Hilfe **deiner eigenen** Funktionen `sgauss` und `secansh` die Variablen
     `g` als Ergebnis von `sgauss` und `h` als Ergebnis von `secansh`.
 
-4. Plotten Sie in einer Figure die beiden Funktionen $g(x)$ (rot)
+4. Plotte in einer Figure die beiden Funktionen $g(x)$ (rot)
     und $h(x)$ (blau).
 
-5. Versehen Sie die Zeichnung mit einer Beschriftung der x-Achse (`x`) und der y-Achse (`f(x)`).
+5. Versieh die Zeichnung mit einer Beschriftung der x-Achse (`x`) und der y-Achse (`f(x)`).
     Ausserdem soll es eine Legende geben, wobei die Bezeichnung der beiden
     Linien in der Legende `Gauss` und `Sech` sein soll.
 
@@ -178,9 +178,9 @@ Halbwertsbreite sind.
 * Der Secans Hyperbolicus ist definiert als
 $$ \operatorname{sech} (x) = 1 / \cosh (x) $$
 
-* Python-Hilfe zu einzelnen Befehlen finden Sie unter [sqrt], [exp], [cosh].
+* Python-Hilfe zu einzelnen Befehlen findest du unter [sqrt], [exp], [cosh].
 
-* Die Zahl $e$ als solches existiert in Python nicht. Sie muss mit Hilfe
+* Die Zahl $e$ als solche existiert in Python nicht. Sie muss mit Hilfe
 der Funktion [exp] erzeugt werden.
 
-* Überlegen Sie sich, was passiert, wenn man die Funktionsfiles wie ein Python-Skript ausführt!
+* Überleg dir, was passiert, wenn man die Funktionsfiles wie ein Python-Skript ausführt!

@@ -45,7 +45,7 @@ the hints (see below):
     `n1` | second row, first column
     `n2` | third entry
     `n3` | last entry
-    `n4` | second to last entry
+    `n4` | penultimate entry
 
 3. Save the following vectors from `M`:
 
@@ -53,7 +53,7 @@ the hints (see below):
     :------------|:------
     `z1` | second to fourth position
     `z2` | first to last position with step size four
-    `z3` | second and second to last position
+    `z3` | second and penultimate position
     `z4` | third row, all columns
     `z5` | last to first position, think about using `-1` as step size.
     `z6` | the first, twice the second, three times the third position
@@ -63,7 +63,7 @@ the hints (see below):
     Variable     | Task
     :------------|:------
     `s1` | all rows, third column
-    `s2` | first to second to last row, second to last column
+    `s2` | first to penultimate row, penultimate column
     `s3` | last to first row, second column
     `s4` | all rows, middle column (see hint)
 
@@ -73,7 +73,7 @@ the hints (see below):
     :------------|:------
     `m1` | second to third row, all columns
     `m2` | first to last row with step size 2, all columns
-    `m3` | all rows, second to second to last column
+    `m3` | all rows, second to penultimate column
     `m4` | first to last row with step size 3, first to last column with step size 2;
     `m5` | last to first row, third to second column (second column not inclusive)
     `m6` | the three middle rows, the three middle columns (see hint)
@@ -85,9 +85,9 @@ the hints (see below):
     :------------|:------
     `M1` | first to last position with step size 2, by value [np.nan]
     `M2` | first to last row with step size 2, all columns, by value [np.nan]
-    `M3` | second to second to last row, second to last column, by value zero
+    `M3` | second to penultimate row, penultimate column, by value zero
     `M4` | the four corners by [np.nan]
-    `M5` | cut out the second and second to last row, and the second and second to last column ([np.delete])
+    `M5` | cut out the second and penultimate row, and the second and penultimate column ([np.delete])
 
 ## Hints
 
@@ -102,10 +102,15 @@ the hints (see below):
 * Define a vector of the matrix elements to later access only these.
  E.g., `Avec = np.ravel(A)` to later use `Avec[1]` instead of `np.ravel(A)[1]`
 
-* With an even number of columns, there is no middle column. Then the
- following column is meant, e.g., $6/2=3$, or $5/2=2.5\rightarrow 3$.
+* With an even number of columns, there is no middle column. Then the successive column is meant, e.g., $6/2=3$, or $5/2=2.5\rightarrow 3$.
  I.e., the middle column with six columns should be the third, and the middle of five columns should also be the third. *Integer division* can be helpful here.
 
 * Note in part 6 that [np.nan] is defined as a float, but the matrix entries of `M` are integers. So you will need to modify the data type of the matrix to be able to insert [np.nan].
 
 * If you want to edit a copy of a matrix, use [np.copy] or `matrix_name.copy()` when assigning, otherwise you will change the original matrix (try it!). Commands like [np.delete] and [np.astype] of course always create a copy.
+
+
+## Keywords
+
+- Indexing
+- Matrix Manipulation

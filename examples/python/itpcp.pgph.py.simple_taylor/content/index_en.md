@@ -63,12 +63,12 @@ are conventionally called `fig, axs` and refer to the
 [figure] and the contained coordinate systems ([axes]). The latter is a two-dimensional
 array, where the first index stands for the row and the second index for the column.
 `plot` is then applied to these coordinate systems - so instead of `plt.plot(...)`,
-you write e.g. `ax[1, 0].plot(...)` to draw in the coordinate system in the second row
+you write e.g. `axs[1, 0].plot(...)` to draw in the coordinate system in the second row
 and first column.
 
 - To prevent the subplots from "interfering" with each other, it is recommended to apply
 the command `fig.tight_layout()` before `plt.show()`, where `fig` as mentioned before is the first
-output argument of `plot.subplots(...)`.
+output argument of `plt.subplots(...)`.
 
 - Since the variables `y1` to `y4` only contain the individual terms
 of the series, it is not enough to just plot e.g. `y4` over `x`.

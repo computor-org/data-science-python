@@ -6,9 +6,11 @@
 
 For initial value problems, we discretize time using $t_n = t_0 + n \Delta t$ and introduce the notation $y_n = y(t_n)$. With this, we write
 
-$$\begin{align*}
+$$
+\begin{align*}
 \dot{y}_n &= f(t_n, y_n) \\
-y_{n + 1} &= y_n + \int_{t_n}^{t_{n+1}}dt' f(t', y(t')), \end{align*}
+y_{n + 1} &= y_n + \int_{t_n}^{t_{n+1}}dt' f(t', y(t')),
+\end{align*}
 $$
 
 which is still exact. We can now approximate the integral in various ways.
@@ -121,5 +123,5 @@ where $ \omega = \dot{\theta}$ is the angular velocity.
 
 * Reference plot:
 <div align="center">
-<img src="mediaFiles/pendulum_solutions.png" alt="Image" width="100%" name="pendulum_solutions"/>
+<img src="mediaFiles/pendulum_reference.png" alt="Image" width="100%" name="pendulum_reference"/>
 </div>

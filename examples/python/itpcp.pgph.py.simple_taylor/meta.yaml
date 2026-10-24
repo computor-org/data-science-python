@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.simple_taylor
-version: 1.0.0
+version: 1.0.1
 title: Taylor Series of the Sine
 description: This exercise visualizes the convergence of the Taylor series of the
   sine. The first four terms of the series are calculated individually and compared

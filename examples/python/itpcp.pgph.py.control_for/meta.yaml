@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.control_for
-version: 1.0.1
+version: 1.0.2
 title: 'Control Structures: For Loops'
 description: This exercise covers for loops in Python using climate data from the
   city of Graz. Monthly average temperatures from different years are analyzed and

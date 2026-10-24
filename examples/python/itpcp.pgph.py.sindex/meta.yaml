@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.sindex
-version: 1.0.0
+version: 1.0.1
 title: Index and Colon
 description: This exercise deepens the understanding of indexing and slicing in Python.
   Using a matrix, various accesses to elements, rows, columns and submatrices are

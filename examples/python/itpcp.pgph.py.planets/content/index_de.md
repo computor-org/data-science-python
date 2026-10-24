@@ -29,7 +29,7 @@ mein_zweites_objekt.zeige_wert()  # Gibt "20" aus
 
 In diesem Beispiel haben wir eine Klasse `MeineKlasse` definiert, die einen Wert speichert und diesen Wert ausgeben kann. Die Methode `__init__` ist ein spezieller Konstruktor, der aufgerufen wird, wenn ein neues Objekt der Klasse erstellt wird. Das passiert in der Zeile `mein_objekt = MeineKlasse(10)`, wo wir ein neues Objekt `mein_objekt` erstellen und ihm den Wert `10` übergeben. Dann rufen wir die Methode `zeige_wert` auf, um den Wert des Objekts auszugeben.
 
-Der `self`-Parameter ist eine Referenz auf das Objekt selbst und wird automatisch an alle Methoden übergeben. `self` referenzieren die Attribute und Methoden des Objekts, auf das die Methode angewendet wird. Nachdem wir in der Methode `__init__` das Attribut `wert` erstellt haben, können wir darauf in der Methode `zeige_wert` mit `self.wert` darauf zugreifen. `mein_objekt.zeige_wert()` gibt uns also die Variable `wert` des Objekts `mein_objekt` zurück und gibt so `10` aus. `mein_zweites_objekt.zeige_wert()` gibt uns die Variable `wert` des Objekts `mein_zweites_objekt` zurück und gibt so `20` aus.
+Der `self`-Parameter ist eine Referenz auf das Objekt selbst und wird automatisch an alle Methoden übergeben. `self` referenzieren die Attribute und Methoden des Objekts, auf das die Methode angewendet wird. Nachdem wir in der Methode `__init__` das Attribut `wert` erstellt haben, können wir in der Methode `zeige_wert` mit `self.wert` darauf zugreifen. `mein_objekt.zeige_wert()` gibt uns also die Variable `wert` des Objekts `mein_objekt` zurück und gibt so `10` aus. `mein_zweites_objekt.zeige_wert()` gibt uns die Variable `wert` des Objekts `mein_zweites_objekt` zurück und gibt so `20` aus.
 
 ### Wieso sollte ich Klassen verwenden
 
@@ -43,7 +43,7 @@ Wir möchten eine Klasse erstellen, die einen Planeten repräsentiert und Inform
 
 Hier ist die Angabe für das Problem:
 
-1. Schreiben Sie eine Python-Klasse namens `Planet`, die folgende Attribute hat:
+1. Schreibe eine Python-Klasse namens `Planet`, die folgende Attribute hat:
 
 - `name`: Name des Planeten (als Zeichenkette)
 - `mass`: Masse des Planeten in Kilogramm (als Gleitkommazahl)
@@ -56,7 +56,7 @@ Hier ist die Angabe für das Problem:
 - `__init__(self, name, mass, diameter, orbital_period_around_sun, distance_from_sun)`: Ein Konstruktor, der die Attribute initialisiert.
 - `calc_avg_density(self)`: Eine Methode, die die durchschnittliche Dichte des Planeten berechnet und zurückgibt. Die Dichte eines Planeten wird berechnet, indem die Masse des Planeten durch sein Volumen geteilt wird. 
 
-3. Verwenden Sie die folgenden Werte für die Erde als Beispiel:
+3. Verwende die folgenden Werte für die Erde als Beispiel:
 
 - Name: "Earth"
 - Masse: 5.972 × 10^24 kg
@@ -64,7 +64,7 @@ Hier ist die Angabe für das Problem:
 - Umlaufzeit um die Sonne: 365.24 Tage
 - Abstand zur Sonne: 149.6 Millionen km
 
-4. Erstellen Sie dann ein Objekt für die Erde, speicheres in die Variable `earth`.
+4. Erstelle dann ein Objekt für die Erde und speichere es in der Variable `earth`.
 
 5. Erstelle auch Objekte für den Merkur, Venus, Mars, Jupiter, Saturn, Uranus und Neptun mit den entsprechenden Werten.  
 Speichere die Objekte in den Variablen `mercury`, `venus`, `mars`, `jupiter`, `saturn`, `uranus` und `neptune`.

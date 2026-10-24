@@ -4,7 +4,8 @@ git:
   student_repo_modes:
   - managed
   - download
-name: Data Science mit Python – Aufbau
+name: Data Science mit Python II – Aufbau
+position: 20
 description: Kontrollstrukturen, logische Operatoren und die Auswertung von Messdaten.
   Baut auf dem Grundlagenkurs auf.
 path: python.intermediate

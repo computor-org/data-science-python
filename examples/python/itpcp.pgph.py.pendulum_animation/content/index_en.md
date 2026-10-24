@@ -10,7 +10,7 @@ We now want to animate our pendulum. Use [animation] for this.
 ## Task
 
 
-1. Modify the function `euler_symplectic(fun, dt, t_max, y_0)` (and your own functions from the last exercise) so that $\theta$ can now only go from $-\pi$ to $\pi$, since a value of $\theta = 3.2$ also corresponds to $\theta = 3.2 - \pi$.
+1. Modify the function `euler_symplectic(fun, dt, t_max, y_0)` (and your own functions from the last exercise) so that $\theta$ can now only go from $-\pi$ to $\pi$, since a value of $\theta = 3.2$ also corresponds to $\theta = 3.2 - 2\pi$.
 
 2. Create an animation. This should consist of a subplot with two columns. On the left, the pendulum should be displayed, and on the right, the position in phase space. This is described by $\theta$ on the $x$-axis and $\omega$ on the $y$-axis (reminder: $\dot{\theta} = \omega$, the angular velocity).
 

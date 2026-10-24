@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.damped_oscillation
-version: 1.0.0
+version: 1.0.1
 title: Fitting Damped Oscillations
 description: 'In this example you will fit a damped oscillation to measurement data.
   You will learn

@@ -10,19 +10,19 @@
 
 In dieser Aufgabe werden arithmetische Operatoren (`+`, `-`, `*`, `/`) vorgestellt. Aus der Aufgabe `01_math_constants` werden die Exponentialfunktion `exp` und trigonometrische Funktionen wiederholt. 
 
-Für das automatische Testen ist es unbedingt notwendig, dass Sie <span style="color: red;">genau diese Namen</span> für Ihre Variablen verwenden!
-Probieren Sie Ihr Programm in der Konsole aus, bevor Sie es abgeben.
+Für das automatische Testen ist es unbedingt notwendig, dass du <span style="color: red;">genau diese Namen</span> für deine Variablen verwendest!
+Probier dein Programm in der Konsole aus, bevor du es abgibst.
 
-In den Hinweisen finden Sie weitere Erläuterungen zu den Operatoren und Funktionen. 
+In den Hinweisen findest du weitere Erläuterungen zu den Operatoren und Funktionen. 
 
 
 ## Aufgabe
 
-1. Erzeugen Sie im Python-Skript `basis1` (File: `basis1.py`)
-die Variablen `a` und `b` und geben Sie ihnen die Werte
+1. Erzeuge im Python-Skript `basis1` (File: `basis1.py`)
+die Variablen `a` und `b` und gib ihnen die Werte
 `5.4` und `1.2`.
 
-2. Berechnen Sie nun folgende Größen, wobei links die Variablennamen stehen. Benutzen Sie dazu das Pythonmodul `numpy`, wie in Aufgabe 01.
+2. Berechne nun folgende Größen, wobei links die Variablennamen stehen. Benutze dazu das Pythonmodul `numpy`, wie in Aufgabe 01.
 
 $$
 \begin{aligned}
@@ -42,12 +42,12 @@ $$
 
 ## Hinweise
 
-* Python-Hilfe zu einzelnen Befehlen finden Sie unter [sqrt], [exp],
+* Python-Hilfe zu einzelnen Befehlen findest du unter [sqrt], [exp],
 [sin], [cos]. Die Operatoren `+`, `-`, `*` und `/` bezeichnet man als [arithmetische Operatoren].
 Das Python-Tutorial befasst sich darüber hinaus mit Einschränkungen bei der Verwendung von
 [Gleitkommazahlen].
 
-* Die Zahl $e$ als solches existiert in Python nicht. Sie muss mit Hilfe
+* Die Zahl $e$ als solche existiert in Python nicht. Sie muss mit Hilfe
 der Funktion [exp] erzeugt werden.
 
 * Variablennamen, die bereits von Python belegt sind (wie zum Beispiel ```sum```) sollten unbedingt vermieden werden, da diese Funktionen ansonsten nicht aufrufbar sind! 

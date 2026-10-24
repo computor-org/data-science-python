@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.control_while
-version: 1.0.0
+version: 1.0.1
 title: 'Control Structures: The While Loop'
 description: This exercise covers while loops in Python. An array is repeatedly divided
   by random numbers until all values are less than 1. The number of iterations is

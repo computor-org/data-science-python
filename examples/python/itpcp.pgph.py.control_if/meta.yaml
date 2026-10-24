@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.control_if
-version: 1.0.0
+version: 1.0.1
 title: 'Control Structures: If Statements'
 description: This exercise familiarizes you with if statements in Python. A function
   is written that returns different strings depending on the number of positive values

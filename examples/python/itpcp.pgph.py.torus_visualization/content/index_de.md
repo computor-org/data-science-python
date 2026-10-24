@@ -17,9 +17,9 @@ $$
 
 mit den folgenden Toruskoordinaten:
 
-* $\phi$: der toroidaler Winkel $\phi \in [0, 2 \pi]$ und entspricht `t` auf Wikipedia.
+* $\phi$: der toroidale Winkel $\phi \in [0, 2 \pi]$ und entspricht `t` auf Wikipedia.
 
-* $\theta$: der poloidaler Winkel mit $\theta \in [0, 2 \pi]$ und entspricht `p` auf Wikipedia.
+* $\theta$: der poloidale Winkel mit $\theta \in [0, 2 \pi]$ und entspricht `p` auf Wikipedia.
 
 * $R$: der Hauptradius, sprich der Abstand vom Mittelpunkt bis zum Mittelpunkt der Röhre.
 
@@ -28,15 +28,15 @@ mit den folgenden Toruskoordinaten:
 
 ## Aufgabe
 
-Schreiben Sie nun das Skript `torus`, in dem Sie einen Torus darstellen. 
+Schreib nun das Skript `torus`, in dem du einen Torus darstellst. 
 
-1. Für die Berechnung der Toruskoordinaten schreiben Sie eine Funktion `torus_coor(phi, theta, r, R)`, die die eindimensionalen Winkel und skalaren Radien als Input nimmt und die zweidimensionalen ([meshgrid]) Koordinaten `x`, `y` und `z` ausgibt.
+1. Für die Berechnung der Toruskoordinaten schreibst du eine Funktion `torus_coor(phi, theta, r, R)`, die die eindimensionalen Winkel und skalaren Radien als Input nimmt und die zweidimensionalen ([meshgrid]) Koordinaten `x`, `y` und `z` ausgibt.
 
-2. Ploten Sie anschließend die Oberfläche des Torus in einem 3D-Plot, wobei Sie die Stützstellen frei wählen können, sowie die Details der Darstellung im Plot. Die Beschriftung sollte allerdings sinnvoll sein.
+2. Plotte anschließend die Oberfläche des Torus in einem 3D-Plot, wobei du die Stützstellen frei wählen kannst, sowie die Details der Darstellung im Plot. Die Beschriftung sollte allerdings sinnvoll sein.
 
-3. Achten Sie das die Achsen gleich skaliert sind.
+3. Achte darauf, dass die Achsen gleich skaliert sind.
 
-4. Zum Schluss speichern Sie das Bild als `.png`-Datei ab.
+4. Zum Schluss speicherst du das Bild als `.png`-Datei ab.
 
 ## Hinweise
 * [meshgrid]

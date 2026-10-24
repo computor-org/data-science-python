@@ -39,7 +39,7 @@ insbesondere Zeichenketten mit unterschiedlicher Länge.
 |`l = [s, s2]`|`['abc', 'abcabc']`|
 |`l[0]`|`'abc'`|
 
-Die korrekte aber umständliche Scheibweise `s = 'a' + 'b' + 'c'` ersetzt man
+Die korrekte aber umständliche Schreibweise `s = 'a' + 'b' + 'c'` ersetzt man
 sinnvollerweise durch `s = 'abc'` mit dem gleichen Ergebnis.
 
 Auf einzelne Zeichen in einer Zeichenkette kann man mit Hilfe eines Index zugreifen, `s2[3]`
@@ -51,16 +51,16 @@ also z.B. `s2[3:]`. Im Gegensatz zu „echten“ Arrays (und Listen) sind Zeiche
 Python aber nicht in Skalare (hier also einzelne Zeichen) zerlegbar: Tatsächlich liefert
 `s2[3]` eine Zeichenkette der Länge 1; diese Schreibweise entspricht demnach `s2[3:4]`.
 
-Ein weiterer Unterschied ist, dass Zeichenketten in Python unveränderbar sind. Sie können
+Ein weiterer Unterschied ist, dass Zeichenketten in Python unveränderbar sind. Du kannst
 also mit der Index-Notation eine bestehende Zeichenkette im Nachhinein nicht mehr modifizieren.
 
 ## Aufgabe
 
 ### Elementarer Umgang mit Zeichenketten
 
-Führen Sie im Python-Skript `basis_char` einige einfache Definitionen von Variablen durch:
+Führe im Python-Skript `basis_char` einige einfache Definitionen von Variablen durch:
 
-1. Weisen Sie folgenden Variablen die angegebenen Werte zu:
+1. Weise folgenden Variablen die angegebenen Werte zu:
 
     |Variable|Wert|
     |---|---|
@@ -74,66 +74,66 @@ Führen Sie im Python-Skript `basis_char` einige einfache Definitionen von Varia
     |`blank`|*ein Leerzeichen*
     |`exclaim`|*ein Rufzeichen*
 
-    <span style="color: red;">Achtung:</span> Die letzten beiden Variablen-Werte sind so zu verstehen,dass die Variable `exclaim` bspw. nur das Zeichen *!* enthalten soll. Wenn Sie also in der
-    Konsole `exclaim` eingeben soll die Ausgabe `'!'` lauten.
+    <span style="color: red;">Achtung:</span> Die letzten beiden Variablen-Werte sind so zu verstehen, dass die Variable `exclaim` bspw. nur das Zeichen *!* enthalten soll. Wenn du also in der
+    Konsole `exclaim` eingibst, soll die Ausgabe `'!'` lauten.
 
-2. Erzeugen Sie nun die Variable `s3` durch Verbinden der Variablen `s1` und `s2`.
+2. Erzeuge nun die Variable `s3` durch Verbinden der Variablen `s1` und `s2`.
 
-3. Erzeugen Sie aus den Variablen `c1` und `c5` die Variablen `C1` und `C5`, wobei jetzt der
-    erste Buchstabe ein Großbuchstabe sein soll ([upper]). Verwenden Sie dabei
-    wirklich die Variable `c1` und schreiben Sie nicht `C1='Das'`. `C1` wird also aus `c1`
+3. Erzeuge aus den Variablen `c1` und `c5` die Variablen `C1` und `C5`, wobei jetzt der
+    erste Buchstabe ein Großbuchstabe sein soll ([upper]). Verwende dabei
+    wirklich die Variable `c1` und schreib nicht `C1='Das'`. `C1` wird also aus `c1`
     „zusammengestückelt“. Auf einzelne Zeichen in einer Zeichenkette kann man mit einem
     Index zugreifen (z.B.: `C1[0]` ist das erste Zeichen in `C1`).
 
-4. Setzen Sie nun die Variable `sentence` aus `C1`, `c2`, `c3`, `c4` und `C5` zusammen, wobei
+4. Setze nun die Variable `sentence` aus `C1`, `c2`, `c3`, `c4` und `C5` zusammen, wobei
     zwischen den Worten ein Leerzeichen und am Ende des Satzes ein Rufzeichen stehen soll.
-    (Verwenden Sie dazu die definierten Variablen.)
+    (Verwende dazu die definierten Variablen.)
 
-5. Ermitteln Sie mit Hilfe des Befehls [type] den Datentyp von Variablen:
+5. Ermittle mit Hilfe des Befehls [type] den Datentyp von Variablen:
 
     |Variable|Wert|
     |---|---|
     |`type_sentence`|Datentyp der Variable `sentence`|
     |`type_number`|Datentyp der Zahl `12`|
 
-    Wenn Sie den Datentyp als Zeichenkette verwenden wollen, müssen sie auf diese Variablen
+    Wenn du den Datentyp als Zeichenkette verwenden willst, musst du auf diese Variablen
     z.B. mit `type_number.__name__` zugreifen.
 
-6. Ermitteln Sie mit [len] die Anzahl der Zeichen in `sentence` und speichern Sie
+6. Ermittle mit [len] die Anzahl der Zeichen in `sentence` und speichere
     diese Information in der Variable `length_sentence`.
 
-7. Erzeugen Sie folgende Variablen:
+7. Erzeuge folgende Variablen:
 
     |Variable|Wert|
     |---|---|
-    |`all_upper`|Alle Großuchstaben von `A` bis `Z` in einer Zeichenkette|
+    |`all_upper`|Alle Großbuchstaben von `A` bis `Z` in einer Zeichenkette|
     |`all_lower`|Alle Kleinbuchstaben von `a` bis `z` in einer Zeichenkette|
     |`all_both` |Obige Zeichenketten als zwei Elemente einer Liste|
 
-    Sie können dafür die Konstanten im Modul [string] verwenden.
+    Du kannst dafür die Konstanten im Modul [string] verwenden.
 
 ### Umgang mit Zeichenketten mithilfe von Listen
 
 Hier noch ein kleines Beispiel zum Thema Teilen und
 Zusammensetzen von Zeichenketten mit Hilfe der Befehle
-[split], [join], [list]. Beachten Sie, dass `split` und `join` als **Methoden**
+[split], [join], [list]. Beachte, dass `split` und `join` als **Methoden**
 den Zeichenketten nachgestellt sind, also z.B. `s.join()` statt `join(s)`.
 
-1. Speichern Sie in der Variablen `str1` die Zeichenkette:
+1. Speichere in der Variablen `str1` die Zeichenkette:
 
     'abcdef'
 
-2. Teilen Sie die Zeichenkette `str1` mit [list] in einzelne Zeichen und
-   speichern Sie das Ergebnis in `list1`:
+2. Teile die Zeichenkette `str1` mit [list] in einzelne Zeichen und
+   speichere das Ergebnis in `list1`:
 
     ['a', 'b', 'c', 'd', 'e', 'f']
 
-3.  Erzeugen Sie aus `list1` mit [join] folgende Zeichenkette in der
+3.  Erzeuge aus `list1` mit [join] folgende Zeichenkette in der
     Variablen `str2`:
 
     'a- -b- -c- -d- -e- -f'
 
-4. Teilen Sie `str2` mit [split] beim Leerzeichen und speichern Sie das Ergebnis
+4. Teile `str2` mit [split] beim Leerzeichen und speichere das Ergebnis
    in `list2`.
 
     ['a-', '-b-', '-c-', '-d-', '-e-', '-f']
@@ -143,8 +143,8 @@ indiziert werden, aber auf jedem Platz beliebige Python-Konstrukte beinhalten, a
 nicht nur eine Zahl oder einen Buchstaben, sondern ganze Arrays oder ganze
 Zeichenketten.
 
-Lässt sich Unterpunkt 2 auch mit [split] lösen? Probieren Sie aus, was Sie mit
-`str1.split()` und `str1.split('')` erhalten.
+Lässt sich Unterpunkt 2 auch mit [split] lösen? Probier aus, was du mit
+`str1.split()` und `str1.split('')` erhältst.
 
 ## Hinweise
 
@@ -164,6 +164,6 @@ Lässt sich Unterpunkt 2 auch mit [split] lösen? Probieren Sie aus, was Sie mit
 * Da es bei der Verbindung von Zeichenketten auf die Reihenfolge der jeweiligen Zeichenketten ankommt,
 ist der Operator `+` bei Zeichenketten nicht wie gewohnt kommutativ.
 
-* Sie können Zeichenketten wie `'ABC...Z'` auch unter Zuhilfenahme von `range`, `ord`, `chr` erzeugen.
+* Du kannst Zeichenketten wie `'ABC...Z'` auch unter Zuhilfenahme von `range`, `ord`, `chr` erzeugen.
 Dafür sind allerdings kompliziertere Konstrukte wie `for`-Schleifen oder die Funktion `map` erforderlich.
 

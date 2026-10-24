@@ -10,9 +10,9 @@ Wenn der Index am linken Rand des Arrays liegt, ist die linke Summe 0, da keine 
 
 ## Aufgabe
 
-1. Gegeben ist ein Array von Ganzzahlen `nums`. Schreiben Sie eine Funktion, die den linksten Pivot-Index des Arrays zurückgibt.
+1. Gegeben ist ein Array von Ganzzahlen `nums`. Schreibe eine Funktion, die den linksten Pivot-Index des Arrays zurückgibt.
 
-2. Geben Sie den linksten Pivot-Index zurück. Wenn kein solcher Index existiert, soll -1 zurückgegeben werden.
+2. Gib den linksten Pivot-Index zurück. Wenn kein solcher Index existiert, soll -1 zurückgegeben werden.
 
 ## Hinweise
 

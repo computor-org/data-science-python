@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.torus_visualization
-version: 1.0.1
+version: 1.0.2
 title: Plot of a Circular Torus
 description: 'In this example you will display the surface of a torus as a 3D plot.
   You will learn

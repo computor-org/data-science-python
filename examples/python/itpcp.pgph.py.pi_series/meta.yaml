@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.pi_series
-version: 1.0.1
+version: 1.0.2
 title: Approximation of Pi with Series
 description: This exercise calculates Pi using various historical series expansions.
   The Leibniz series, the Machin formula, the Euler series and the modern BBP formula

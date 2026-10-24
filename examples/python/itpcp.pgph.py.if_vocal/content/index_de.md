@@ -4,7 +4,7 @@
 
 ## Einleitung
 
-Schreiben Sie eine Python-Funktion `if_vocal`, die Folgendes ausgibt:
+Schreib eine Python-Funktion `if_vocal`, die Folgendes ausgibt:
 
 ```python
 result = if_vocal(character)
@@ -21,7 +21,7 @@ result = if_vocal(character)
 
 2. Der Eingabewert `character` kann sowohl ein Groß- als auch ein Kleinbuchstabe sein.
 
-3. Überlegen Sie, welche Entscheidungsstruktur hier am ehesten geeignet ist.
+3. Überleg dir, welche Entscheidungsstruktur hier am ehesten geeignet ist.
 
 4. Vokale sind: `a,ä,e,i,o,ö,u,ü`
 
@@ -30,7 +30,7 @@ result = if_vocal(character)
 ### Listen
 
 
-Eine einfache Methode, um zu überprüfen ob ein Element (z.b. eine Zahl oder auch ein String) in einer Liste vorhanden ist, ist die folgende:
+Eine einfache Methode, um zu überprüfen, ob ein Element (z.B. eine Zahl oder auch ein String) in einer Liste vorhanden ist, ist die folgende:
 
 ```python
 found_4 = 4 in [1, 2, 3, 4, 5]    # This will be True
@@ -55,7 +55,7 @@ isInList('ab', ['Was geht ab', 'ab', 4, 'Name'])
 >>> Variable gefunden!
 ```
 
-* Beachten Sie, dass im ersten Fall der Sub-String `'ab'` nicht gefunden wurde!
+* Beachte, dass im ersten Fall der Sub-String `'ab'` nicht gefunden wurde!
 
-* Verwenden Sie diese Methode in diesem Beispiel um unübersichtliche `if` Abfragen zu vermeiden!
+* Verwende diese Methode in diesem Beispiel, um unübersichtliche `if` Abfragen zu vermeiden!
 

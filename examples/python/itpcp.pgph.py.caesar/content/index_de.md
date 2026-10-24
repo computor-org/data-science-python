@@ -23,17 +23,17 @@ Für den Schlüssel $z=3$ sieht die Verschlüsselungstabelle wie folgt aus:
 
 ### 1. Verschlüsselung & Entschlüsselung
 
-1. Schreiben Sie eine Funktion `caesar_encrypt(text: str, key: int, alphasize: int = 85) -> str`, die einen Text `text` mit einem Schlüssel `key` verschlüsselt. Das Alphabet hat eine Größe von `alphasize` Zeichen.
+1. Schreib eine Funktion `caesar_encrypt(text: str, key: int, alphasize: int = 85) -> str`, die einen Text `text` mit einem Schlüssel `key` verschlüsselt. Das Alphabet hat eine Größe von `alphasize` Zeichen.
 
-2. Schreiben Sie eine Funktion `caesar_decrypt(text: str, key: int, alphasize: int = 85) -> str`, die einen verschlüsselten Text `text` mit einem Schlüssel `key` entschlüsselt. Das Alphabet hat eine Größe von `alphasize` Zeichen.
+2. Schreib eine Funktion `caesar_decrypt(text: str, key: int, alphasize: int = 85) -> str`, die einen verschlüsselten Text `text` mit einem Schlüssel `key` entschlüsselt. Das Alphabet hat eine Größe von `alphasize` Zeichen.
 
-3. Beide Funktionen sollen für alle Schlüssel $0 \leq z$ funktionieren (falls $z$ größer als die Anzahl der Buchstaben im Alphabet ist, soll die Verschiebung von vorne beginnen; Sprich $z=\mathrm{alphasize} + 1$ verschlüsselt gleich wie $z=1$).
+3. Beide Funktionen sollen für alle Schlüssel $0 \leq z$ funktionieren (falls $z$ größer als die Anzahl der Buchstaben im Alphabet ist, soll die Verschiebung von vorne beginnen; sprich $z=\mathrm{alphasize} + 1$ verschlüsselt gleich wie $z=1$).
 
 ### 2. Codes knacken
 
-So jetzt wollen wir einmal richtig codes knacken! 
+So jetzt wollen wir einmal richtig Codes knacken! 
 
-1. Lesen Sie den Text aus der Datei `enc.txt` ein und entschlüsseln Sie ihn. Folgendes ist dabei zu beachten: 
+1. Lies den Text aus der Datei `enc.txt` ein und entschlüssle ihn. Folgendes ist dabei zu beachten: 
 
     Der Text gliedert sich in 3 Unterabschnitte, die jeweils unterschiedlich verschlüsselt wurden und sukzessive schwerer zu entschlüsseln sind.
 

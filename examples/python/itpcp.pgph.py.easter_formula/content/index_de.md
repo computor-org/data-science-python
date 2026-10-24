@@ -11,7 +11,7 @@
 
 Bei der Gaußschen Osterformel handelt es sich um einen Satz von Gleichungen, mithilfe welcher das Datum des Ostersonntages für ein gewähltes Jahr berechnet werden kann.
 
-Im folgenden werden nur die Gleichungen wiedergegeben (Variable `X` ist die Jahreszahl). 
+Im Folgenden werden nur die Gleichungen wiedergegeben (Variable `X` ist die Jahreszahl). 
 Nähere Informationen zum Algorithmus findet man in diesem [Wikipedia-Artikel].
 
 $$
@@ -40,22 +40,22 @@ Modulo wird in Python mit dem Operator `%` notiert, d.h. `5 % 3` liefert als Erg
 
 ## Aufgabe
 
-Erzeugen Sie ein Python-Skript `easter_formula`, welches das Datum
+Erzeuge ein Python-Skript `easter_formula`, welches das Datum
 des Ostersonntages in einem bestimmten Jahr mit der Gaußschen
 Osterformel berechnet.
 
 
 Das Skript soll folgende Dinge tun:
 
- 1. Lesen Sie die Jahreszahl unter der Variablen `X` von der Tastatur ein ([input]).
-  Der Text für die Eingabeaufforderung sollte **`"Year for calculating Easter: "`** lauten. Um die eingelesene Zeichenkette in eine Ganzzahl umzuwandeln, verwenden
-  Sie die Funktion [int].
+ 1. Lies die Jahreszahl unter der Variablen `X` von der Tastatur ein ([input]).
+  Der Text für die Eingabeaufforderung sollte **`"Year for calculating Easter: "`** lauten. Um die eingelesene Zeichenkette in eine Ganzzahl umzuwandeln, verwende
+  die Funktion [int].
 
-2. Berechnen Sie die Formeln aus dem Einführungsteil. Verwenden Sie dabei die gleichen
+2. Berechne die Formeln aus dem Einführungsteil. Verwende dabei die gleichen
     Variablennamen.
 
 3. Wie im Einführungsteil beschrieben, erhält man das Datum des Ostersonntages in Märztagen.
-  Schöner wäre es aber die Trennung in die Monate März und April vorzunehmen. Fügen Sie
+  Schöner wäre es aber, die Trennung in die Monate März und April vorzunehmen. Füge
   dazu bitte vor dem [print]-Befehl die Programmzeilen
   ```python
   if easter_sunday <= 31:
@@ -65,11 +65,11 @@ Das Skript soll folgende Dinge tun:
       month = 'April'
   ```
   ein. Die obige if-else-Steuerstruktur, welche die Zuordnung zum richtigen Monat
-  vornimmt, wird in einer späteren Woche näher behandelt und soll Sie hier nicht weiter beirren.
+  vornimmt, wird in einer späteren Woche näher behandelt und soll dich hier nicht weiter beirren.
   Der Operator `-=` bedeutet, dass von der Variable `easter_sunday` der Wert 31
   subtrahiert wird; mit dieser Schreibweise muss man den Variablennamen nicht wiederholen.
 
-4.  Geben Sie das Datum des Ostersonntages formatiert mit der Funktion
+4.  Gib das Datum des Ostersonntages formatiert mit der Funktion
   [print] aus. Um die jeweiligen Werte in die
   Zeichenkette einzusetzen, bieten sich [f-string]s an. Folgender Satz (Zeichenkette) sollte von `print` ausgegeben werden:
 
@@ -78,12 +78,12 @@ Das Skript soll folgende Dinge tun:
 
 ## Hinweise
 
-* Dieses Skript verwendet die Python-Funktion [input]. Benutzen Sie daher _Run Python File_ statt _Run in Interactive Window_, um das Skript im _Terminal_ auszuführen, wo Sie das gewünschte Jahr eingeben können
+* Dieses Skript verwendet die Python-Funktion [input]. Benutze daher _Run Python File_ statt _Run in Interactive Window_, um das Skript im _Terminal_ auszuführen, wo du das gewünschte Jahr eingeben kannst
 
-* Achten Sie darauf, die Variablen der Osterformel richtig zu berechnen, siehe Einleitung. 
-Achten Sie ebenfalls auf die korrekte Wahl der verwendeten Operatoren.
+* Achte darauf, die Variablen der Osterformel richtig zu berechnen, siehe Einleitung. 
+Achte ebenfalls auf die korrekte Wahl der verwendeten Operatoren.
 
-* Probieren Sie Ihre Osterformel selbst aus!
+* Probiere deine Osterformel selbst aus!
 
 Einige Ostersonntage zum selbstständigen Testen:
 

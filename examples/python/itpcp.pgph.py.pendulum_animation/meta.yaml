@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.pendulum_animation
-version: 1.0.0
+version: 1.0.1
 title: Animation of a Pendulum
 description: In this exercise a pendulum is animated and displayed in phase space.
   The symplectic Euler method is adapted to restrict the angle to the range from -pi

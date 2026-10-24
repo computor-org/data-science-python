@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.integrate
-version: 1.0.0
+version: 1.0.1
 title: Numerical Integration
 description: 'In this exercise you will implement numerical integration methods: the
   trapezoidal method

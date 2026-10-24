@@ -6,9 +6,11 @@
 
 Für Anfangswertprobleme diskretisieren wir die Zeit mittels $t_n = t_0 + n \Delta t$ und führen die Schreibweise $y_n = y(t_n)$ ein. Damit schreiben wir
 
-$$\begin{align*}
+$$
+\begin{align*}
 \dot{y}_n &= f(t_n, y_n) \\
-y_{n + 1} &= y_n + \int_{t_n}^{t_{n+1}}dt' f(t', y(t')), \end{align*}
+y_{n + 1} &= y_n + \int_{t_n}^{t_{n+1}}dt' f(t', y(t')),
+\end{align*}
 $$
 
 was immer noch exakt ist. Das Integral können wir jetzt auf verschiedene Weisen approximieren.
@@ -26,13 +28,13 @@ wobei wir $y_{n + 1/2}$ als $y_n + f(t_n, y_n) \Delta t / 2$
 
 ## Physikalische Einführung
 
-Ein einfaches Pendel besteht aus einer Masse $m$, die an einem starren, masselosen Stab oder Faden mit Länge $L$ befestigt ist und sich unter dem Einfluss der Schwerkraft frei bewegen kann. Die Bewegung des Pendels lässt sich durch die Bogenlänge $s$, der Weg den die Masse entlang ihres Kreisbogens zurücklegt, beschreiben. Wie man aus der Skizze sehen kann ist die Kraft entlang von $s$
+Ein einfaches Pendel besteht aus einer Masse $m$, die an einem starren, masselosen Stab oder Faden mit Länge $L$ befestigt ist und sich unter dem Einfluss der Schwerkraft frei bewegen kann. Die Bewegung des Pendels lässt sich durch die Bogenlänge $s$, den Weg, den die Masse entlang ihres Kreisbogens zurücklegt, beschreiben. Wie man aus der Skizze sehen kann, ist die Kraft entlang von $s$
 
 $$
 F_s = -m g \sin(\theta),
 $$
 
-wobei $g$ die Gravitationsbeschleunigung und $\theta$ der Winkel zwischen der Vertikalen und dem Pendel ist. Da es sich um eine Kreisbewegung handelt steht $s$ mit $\theta$ über die Gleichung $s = L \theta$ in Verbindung. Die Bewegungsgleichung wird daher zu
+wobei $g$ die Gravitationsbeschleunigung und $\theta$ der Winkel zwischen der Vertikalen und dem Pendel ist. Da es sich um eine Kreisbewegung handelt, steht $s$ mit $\theta$ über die Gleichung $s = L \theta$ in Verbindung. Die Bewegungsgleichung wird daher zu
 
 $$
 m \ddot{s} = -m g \sin(\theta) \\
@@ -46,14 +48,14 @@ $$
 </div>
 
 
-Unsere Methode können jedoch nur gewöhnliche Differentialgleichungen erster Ordnung lösen. Daher müssen wir die gewöhnliche Differentialgleichung zweiter Ordnung in ein System von gewöhnlichen Differentialgleichungen erster Ordnung umwandeln. Dazu führen wir die Variablen $\theta_1 = \theta$ und $\theta_2 = \dot{\theta}$ ein. Damit haben wir
+Unsere Methoden können jedoch nur gewöhnliche Differentialgleichungen erster Ordnung lösen. Daher müssen wir die gewöhnliche Differentialgleichung zweiter Ordnung in ein System von gewöhnlichen Differentialgleichungen erster Ordnung umwandeln. Dazu führen wir die Variablen $\theta_1 = \theta$ und $\theta_2 = \dot{\theta}$ ein. Damit haben wir
 
 $$
 \begin{bmatrix} \dot{\theta_1} \\ \dot{\theta_2}  \end{bmatrix} =
 \begin{bmatrix} \theta_2 \\ -\frac{g}{L} \sin(\theta_1) \end{bmatrix} \; .
 $$
 
-Das bedeutet, dass die Funktion $f$ im Pendelfall nicht explizit von der Zeit abhängigt und wir die Funktion schreiben können als
+Das bedeutet, dass die Funktion $f$ im Pendelfall nicht explizit von der Zeit abhängt und wir die Funktion schreiben können als
 
 ```python
 def pendulum_ode(t, y, g = 9.81, L = 3.0):
@@ -77,7 +79,7 @@ wobei $ \omega = \dot{\theta}$ die Winkelgeschwindigkeit ist.
 
 
 
-  1. Schreiben Sie in `integrators.py` eine Funktion, die das Explizites Euler-Verfahren nach oben angegebener Formel nutzt.
+  1. Schreib in `integrators.py` eine Funktion, die das explizite Euler-Verfahren nach oben angegebener Formel nutzt.
 ```python
   def euler_explicit(fun, dt, t_max, y_0):
       """
@@ -93,7 +95,7 @@ wobei $ \omega = \dot{\theta}$ die Winkelgeschwindigkeit ist.
       """
 ```
 
-2. Schreiben Sie in `integrators.py` analog dazu eine Funktion, die das Mittelpunkt-Verfahren nach oben angegebener Formel nutzt.
+2. Schreib in `integrators.py` analog dazu eine Funktion, die das Mittelpunkt-Verfahren nach oben angegebener Formel nutzt.
 
 
 ```python
@@ -113,14 +115,14 @@ wobei $ \omega = \dot{\theta}$ die Winkelgeschwindigkeit ist.
 
 
 
-3. Nutzen Sie  in `pendulum.py` nun Ihre Funktionen um das Anfangswertproblem zu lösen. Erstellen Sie dazu einen Subplot der den Winkel sowie die Winkelgeschwindigkeit darstellt. Testen Sie verschiedene Zeitschritte `dt` $(\Delta t)$ und Anfangsbedingungen `y_0` aus. Fügen Sie außerdem die Lösungen des Runge-Kutta 45 Verfahren (RK45) von [solve_ivp], sowie die der symplektischen Eulermethode hinzu.
+3. Nutze in `pendulum.py` nun deine Funktionen, um das Anfangswertproblem zu lösen. Erstelle dazu einen Subplot, der den Winkel sowie die Winkelgeschwindigkeit darstellt. Teste verschiedene Zeitschritte `dt` $(\Delta t)$ und Anfangsbedingungen `y_0` aus. Füge außerdem die Lösungen des Runge-Kutta 45 Verfahrens (RK45) von [solve_ivp], sowie die der symplektischen Eulermethode hinzu.
 
 
-4. Schreiben Sie in `pendulum.py` die Funktion `compute_energy(y, m=2.0, L=3.0, g=9.81,)`, welche die Gesamtenergie des Pendels retourniert (Kinetische- und Potentielle Energie). Dabei soll die potentielle Energie $0$ sein, wenn sich das Pendel in Ruhelage befindet. Plotten Sie die Energie als Funktion der Zeit. Überprüfen Sie ob die Energie konstant bleibt (erhöhen Sie hierfür `t_max`).
+4. Schreib in `pendulum.py` die Funktion `compute_energy(y, m=2.0, L=3.0, g=9.81,)`, welche die Gesamtenergie des Pendels retourniert (kinetische und potentielle Energie). Dabei soll die potentielle Energie $0$ sein, wenn sich das Pendel in Ruhelage befindet. Plotte die Energie als Funktion der Zeit. Überprüfe, ob die Energie konstant bleibt (erhöhe hierfür `t_max`).
 
 ### Hinweise
 
 * Referenzplot:
 <div align="center">
-<img src="mediaFiles/pendulum_solutions.png" alt="Image" width="100%" name="pendulum_solutions"/>
+<img src="mediaFiles/pendulum_reference.png" alt="Image" width="100%" name="pendulum_reference"/>
 </div>

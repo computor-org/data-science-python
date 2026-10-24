@@ -78,7 +78,7 @@ This example should make the concept of eigenvectors and eigenvalues intuitive. 
 
 * For the linear transformation you can use the `@` operator or `np.matmul`.
 
-* The commands `np.vstack` and `np.flatten` could be helpful.
+* The commands `np.vstack` and `np.ravel` could be helpful.
 
 * For normalization you can use either the function `np.linalg.norm` or the function `np.sqrt`.
 

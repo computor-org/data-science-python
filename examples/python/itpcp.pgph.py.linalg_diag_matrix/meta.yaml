@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.linalg_diag_matrix
-version: 1.0.1
+version: 1.0.2
 title: Linear System, Diagonal Matrix, Verification
 description: 'In this exercise you will solve a linear system of equations with a
   tridiagonal matrix.

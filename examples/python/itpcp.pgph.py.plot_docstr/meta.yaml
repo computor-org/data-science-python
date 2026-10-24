@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.plot_docstr
-version: 1.0.1
+version: 1.0.2
 title: Simple Plot with Docstring
 description: This exercise covers creating plots with matplotlib and documenting code
   with docstrings. Three curves are plotted and a docstring is inserted at the beginning

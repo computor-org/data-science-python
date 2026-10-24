@@ -1,7 +1,7 @@
 # Steuerstrukturen: Die for-Schleife
 
-In dieser Aufgabe sollen von Ihnen quadratische
-Gleichungen einmal mithilfe einer `for`-Schleife und einmal mithilfe von logischer Indizierung gelöst werden.
+In dieser Aufgabe löst du quadratische
+Gleichungen einmal mithilfe einer `for`-Schleife und einmal mithilfe von logischer Indizierung.
 
 ## Mathematische Grundlagen
 
@@ -45,7 +45,7 @@ gibt es keine Lösung.
 ## Aufgabe
 
 ### For-Schleife
-Erstellen Sie das Python-Skript `quadratic_eq_for`, welches die Funktion `quadratic_eq_for`
+Erstelle das Python-Skript `quadratic_eq_for`, welches die Funktion `quadratic_eq_for`
 beinhaltet, die mit dem Aufruf
 
 ```python
@@ -69,14 +69,14 @@ die quadratische Gleichung mit den Koeffizienten `a`, `b` und `c` löst.
 1. Zur Lösung des Problems sind eine `for`-Schleife, `if` und `elif` zu verwenden und es
    empfiehlt sich folgende Strategie:
 
-   - Legen Sie für `x_1` und `x_2` Arrays der Größe von `a` an und beschreiben Sie diese
-     überall mit dem Wert [nan] (verwenden Sie dafür z.B. [ones_like]). Achten Sie darauf, dass die Arrays den richtigen Datentyp haben, damit sie später auch komplexe Werte speichern können.
-   - Gehen Sie anschließend in einer Schleife alle Werte der Arrays `a`, `b`, `c` durch,
-     machen Sie eine Fallunterscheidung bezüglich der aktuellen Parameter, berechnen Sie
-     demnach die Lösungen $x_1$ (und $x_2$) und speichern Sie diese auf der
-     entsprechenden Stelle in `x_1` (bzw. `x_2`). Machen Sie **keine** Fallunterscheidung bezüglich der Diskriminante!
+   - Lege für `x_1` und `x_2` Arrays der Größe von `a` an und beschreibe diese
+     überall mit dem Wert [nan] (verwende dafür z.B. [ones_like]). Achte darauf, dass die Arrays den richtigen Datentyp haben, damit sie später auch komplexe Werte speichern können.
+   - Gehe anschließend in einer Schleife alle Werte der Arrays `a`, `b`, `c` durch,
+     mache eine Fallunterscheidung bezüglich der aktuellen Parameter, berechne
+     demnach die Lösungen $x_1$ (und $x_2$) und speichere diese auf der
+     entsprechenden Stelle in `x_1` (bzw. `x_2`). Mache **keine** Fallunterscheidung bezüglich der Diskriminante!
 
-1. Um die Funktion zu überprüfen, legen Sie im selben Skript nach der Funktion folgende
+1. Um die Funktion zu überprüfen, lege im selben Skript nach der Funktion folgende
    Arrays an:
 
 $$
@@ -87,11 +87,11 @@ $$
   \end{aligned}
 $$
 
-5. Rufen Sie danach Ihre Funktion mit diesen Koeffizienten auf und überprüfen Sie das
+5. Rufe danach deine Funktion mit diesen Koeffizienten auf und überprüfe das
    Ergebnis auf Plausibilität.
   
 ### Logische Indizierung
-Erstellen Sie das Python-Skript `quadratic_eq`, welches die Funktion `quadratic_eq`
+Erstelle das Python-Skript `quadratic_eq`, welches die Funktion `quadratic_eq`
 beinhaltet, die mit dem Aufruf
 
 ```python
@@ -104,12 +104,12 @@ die quadratische Gleichung mit den Koeffizienten `a`, `b` und `c` löst.
 
 1. Der Beginn der Aufgabe gleicht dem vorherigen Beispiel mit `for`-Schleife. Zur Lösung des Problems ist diesmal *logische Indizierung* zu verwenden und es empfiehlt sich folgende Strategie:
 
-   - Legen Sie für `x_1` und `x_2` Arrays der Größe von `a` an und beschreiben Sie diese
-     überall mit dem Wert [nan] (verwenden Sie dafür z.B. [ones_like]). Achten Sie auch hier darauf, dass die Arrays den richtigen Datentyp haben, damit sie später auch komplexe Werte speichern können.
-   - Machen Sie anschließend mittels logischer Indizierung eine Fallunterscheidung bezüglich der aktuellen Parameter mit der Sie demnach die Lösungen $x_1$ (und $x_2$) berechnen und diese auf der
-    entsprechenden Stelle in `x_1` (bzw. `x_2`) speichern. Machen Sie **keine** Fallunterscheidung bezüglich der Diskriminante!
+   - Lege für `x_1` und `x_2` Arrays der Größe von `a` an und beschreibe diese
+     überall mit dem Wert [nan] (verwende dafür z.B. [ones_like]). Achte auch hier darauf, dass die Arrays den richtigen Datentyp haben, damit sie später auch komplexe Werte speichern können.
+   - Mache anschließend mittels logischer Indizierung eine Fallunterscheidung bezüglich der aktuellen Parameter, mit der du demnach die Lösungen $x_1$ (und $x_2$) berechnest und diese auf der
+    entsprechenden Stelle in `x_1` (bzw. `x_2`) speicherst. Mache **keine** Fallunterscheidung bezüglich der Diskriminante!
 
-1. Um die Funktion zu überprüfen, legen Sie im selben Skript nach der Funktion folgende
+1. Um die Funktion zu überprüfen, lege im selben Skript nach der Funktion folgende
    Matrizen an:
 
 ```python
@@ -118,24 +118,24 @@ b = a + 1
 c = a - 1
 ```
 
-5. Rufen Sie danach Ihre Funktion mit diesen Koeffizienten auf und überprüfen Sie das
+5. Rufe danach deine Funktion mit diesen Koeffizienten auf und überprüfe das
    Ergebnis auf Plausibilität.
 
 Drei Dinge sollte man sich noch überlegen und berücksichtigen:
 
-- Warum ist es besser die Diskriminante nur einmal zu berechnen und dann in der Formel
-  für $x_{1,2}$ zu verwenden? Ist es eigentlich nicht auch besser, vorher die Wurzel aus der Diskriminante zu ziehen
+- Warum ist es besser, die Diskriminante nur einmal zu berechnen und dann in der Formel
+  für $x_{1,2}$ zu verwenden? Ist es eigentlich nicht auch besser, vorher die Wurzel aus der Diskriminante zu ziehen,
   um dann gleich diese Größe in der Formel für $x_{1,2}$ zu verwenden?
 - Kann die Diskriminante auch negativ werden? Inwiefern ist dies zu berücksichtigen?
 - Wie könnte man die `for`-Schleifen Variante so anpassen, dass sie auch mehrdimensionale Indizierung unterstützt?
 
 ## Hinweise
 
-- Wenn Sie die Arrays anfangs mit `nan`-Einträgen erzeugen, müssen Sie im Fall einer
+- Wenn du die Arrays anfangs mit `nan`-Einträgen erzeugst, musst du im Fall einer
   nicht existenten Lösung natürlich nicht noch einmal `nan` in das Array speichern.
 
-- Sie können mit `np.sqrt()` auch die Wurzel von negativen Zahlen ziehen, indem Sie
-  `dtype=np.complex128` hinzufügen. Zum Beispiel `np.sqrt(-1, dtype=np.complex128)`.
+- Du kannst mit `np.sqrt()` auch die Wurzel von negativen Zahlen ziehen, indem du
+  `dtype=np.complex128` hinzufügst. Zum Beispiel `np.sqrt(-1, dtype=np.complex128)`.
 
 - Beispiele für einen $x_1$ output könnten so aussehen:
 

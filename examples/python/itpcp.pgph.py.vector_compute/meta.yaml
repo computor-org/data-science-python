@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.vector_compute
-version: 1.0.1
+version: 1.0.2
 title: Computing with Vectors
 description: This exercise covers mathematical operations with NumPy vectors. The
   same calculations as with scalars are now applied to vectors. The broadcasting behavior

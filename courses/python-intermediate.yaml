@@ -221,7 +221,7 @@ contents:
     max_group_size: 1
     path: damped_oscillation
     position: 2.0
-    title: Fitten von abklingenden Oszillation
+    title: Fitten von abklingenden Oszillationen
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.radioactive_decay
     max_group_size: 1

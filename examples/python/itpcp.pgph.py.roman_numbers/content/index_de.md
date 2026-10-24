@@ -31,15 +31,15 @@ Die römischen Ziffern und entsprechenden arabischen Zahlen der obigen Tabelle s
 
 ## Aufgabe
 
-1. Schreiben Sie eine Funktion in `int_roman.py`, die als Eingabe römische Ziffern in Form von `strings` nimmt und diese in arabische Zahlen umwandelt, etwa
+1. Schreibe eine Funktion in `int_roman.py`, die als Eingabe römische Ziffern in Form von `strings` nimmt und diese in arabische Zahlen umwandelt, etwa
 
 ```python
 arabic = int_roman("XV")  # ergibt 15
 ```
 
-2. Weiteres soll die Funktion eine Docs-String haben, die die Funktionsweise der Funktion beschreibt, dieser sollte die [numpy-docstring](https://numpydoc.readthedocs.io/en/latest/format.html) Konventionen folgen.
+2. Weiters soll die Funktion einen Docs-String haben, der die Funktionsweise der Funktion beschreibt, dieser sollte den [numpy-docstring](https://numpydoc.readthedocs.io/en/latest/format.html) Konventionen folgen.
 
-3. Ebenfalls soll die Funktion eine `ValueError` werfen, wenn die Eingabe keine römischen Ziffern nicht den Datentyp `str` enthält.
+3. Ebenfalls soll die Funktion einen `ValueError` werfen, wenn die Eingabe keine römischen Ziffern enthält oder nicht vom Datentyp `str` ist.
 
 ## Hinweise
 

@@ -1,6 +1,6 @@
 [linalg.solve]: <https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html> "linalg.solve"
 
-# Lineare Gleichungssysteme und die Kirchoffschen Regeln
+# Lineare Gleichungssysteme und die Kirchhoffschen Regeln
 
 ## Einleitung
 
@@ -74,7 +74,7 @@ $
 \begin{bmatrix} 0 \\ U_1 \\ U_2 \end{bmatrix} \; .
 $
 
-Wobei die erste Zeile der Koeffizientenmatrix unsere Gleichung aus der Kontenregel ist und die anderen zwei Zeilen aus der Maschenregel kommen. Allgemein schreiben wir unseren "Stromvektor" als Vektor $\mathbf{x}$
+Wobei die erste Zeile der Koeffizientenmatrix unsere Gleichung aus der Knotenregel ist und die anderen zwei Zeilen aus der Maschenregel kommen. Allgemein schreiben wir unseren "Stromvektor" als Vektor $\mathbf{x}$
 
 $
 \begin{bmatrix}
@@ -86,20 +86,20 @@ $
 
 ## Aufgabe
 
-Schreiben Sie nun das Skript `linalg_network`, das dieses Gleichungssystem für verschiedene Werte von $U_{1}$ und $U_{2}$ löst:
+Schreib nun das Skript `linalg_network`, das dieses Gleichungssystem für verschiedene Werte von $U_{1}$ und $U_{2}$ löst:
 
-1. Speichern Sie den Lösungsvektor des Gleichungssystems für $U_1=90$, $U_2=80$ als Variable `I1`.
+1. Speichere den Lösungsvektor des Gleichungssystems für $U_1=90$, $U_2=80$ als Variable `I1`.
 
-2. Speichern Sie den Lösungsvektor des Gleichungssystems für $U_1=125$, $U_2=90$ als Variable `I2`.
+2. Speichere den Lösungsvektor des Gleichungssystems für $U_1=125$, $U_2=90$ als Variable `I2`.
 
-3. Lösen Sie das Gleichungssystem **gleichzeitig** für die drei rechten Seiten
+3. Löse das Gleichungssystem **gleichzeitig** für die drei rechten Seiten
        $$
        \begin{bmatrix} 0 \\ 90 \\ 80 \end{bmatrix},
        \begin{bmatrix} 0 \\ 125 \\ 90 \end{bmatrix},
        \begin{bmatrix} 0 \\ 150 \\ 70 \end{bmatrix}
        $$
 
-    und speichern Sie das Ergebnis in der Matrix `I`.
+    und speichere das Ergebnis in der Matrix `I`.
 
 Dies bedeutet, dass aus $\mathbf{b}$ eine Matrix wird, wodurch auch $\mathbf{x}$ (in unserem Fall `I`) zu einer wird.
 
@@ -108,4 +108,4 @@ Dies bedeutet, dass aus $\mathbf{b}$ eine Matrix wird, wodurch auch $\mathbf{x}$
 * Welche Dimension die beteiligten Vektoren haben müssen, überlegt man sich 
  am besten direkt am Gleichungssystem $\mathbf{Ax}=\mathbf{b}$.
 
-* Die Koeffizienten wurden in diesem Beispiel so gewählt, dass in der Lösung nur ganze Zahlen vorkommen. Überprüfen Sie Ihre Ergebnisse!  
+* Die Koeffizienten wurden in diesem Beispiel so gewählt, dass in der Lösung nur ganze Zahlen vorkommen. Überprüfe deine Ergebnisse!  

@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.vector_random
-version: 1.0.0
+version: 1.0.1
 title: Generating Random Numbers
 description: This exercise introduces the generation of random numbers with NumPy.
   Uniformly distributed and normally distributed random numbers as well as integer

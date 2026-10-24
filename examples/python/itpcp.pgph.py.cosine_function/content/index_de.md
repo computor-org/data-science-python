@@ -2,7 +2,7 @@
 
 ## Einleitung
 
-In diesem Beispiel sollen Sie Ihr Wissen aus dieser Woche ohne viele Hinweise anwenden. Schreiben Sie folgende Funktion `fun_exp` mit spezifizierten In- und Output:
+In diesem Beispiel sollst du dein Wissen aus dieser Woche ohne viele Hinweise anwenden. Schreibe folgende Funktion `fun_exp` mit spezifizierten In- und Output:
 
 ```python
 cos_exp, envelope = fun_exp(x, d)
@@ -26,7 +26,7 @@ $$
 
 ## Darstellen der Funktionen
 
-Folgender Variablen sind von Ihnen im Skript `cos_exp.py` zu erzeugen:
+Folgende Variablen sollst du im Skript `cos_exp.py` erzeugen:
 
 |Variable|Wert|
 |:-|:-|
@@ -34,23 +34,23 @@ Folgender Variablen sind von Ihnen im Skript `cos_exp.py` zu erzeugen:
 |`d`| Skalar $0.1$ |
 |`y`, `A` | Aufruf der eigenen Funktion mit $y = \text{cos\_exp}(x)$, $A = \text{envelope}(x)$ |
 
-Erzeugen Sie damit eine Figure mit mehreren Linien:
+Erzeuge damit eine Figure mit mehreren Linien:
 
-1. Plotten Sie $y(x) \cdot A(x)$; durchgehende Linie; schwarz
-2. Plotten Sie $A(x)$; durchgehende Linie; blau
-3. Plotten Sie $-A(x)$; durchgehende Linie; blau
+1. Plotte $y(x) \cdot A(x)$; durchgehende Linie; schwarz
+2. Plotte $A(x)$; durchgehende Linie; blau
+3. Plotte $-A(x)$; durchgehende Linie; blau
 4. Limits für Abszisse auf Minimum und Maximum von $x$
 5. Limits für Ordinate auf Minimum von $-A(x)$ und Maximum von $A(x)$
-6. Bezeichnen Sie die Abszisse mit $x$
-7. Bezeichnen Sie die Ordinate mit $y(x)$
-8. Schreiben Sie einen Titel mit der Bezeichnung `Decaying Cosine`
+6. Bezeichne die Abszisse mit $x$
+7. Bezeichne die Ordinate mit $y(x)$
+8. Schreibe einen Titel mit der Bezeichnung `Decaying Cosine`
 
 
 ## Hinweise
 
-* Erinnern Sie sich, mit welchem Symbol die imaginäre Einheit in Python dargestellt wird.
+* Erinnere dich, mit welchem Symbol die imaginäre Einheit in Python dargestellt wird.
 
-* Sie sollten eine Warnung erhalten, dass der Imaginärteil ignoriert wird. Überlgen Sie sich, wie Sie diese Warnung vermeiden können.
+* Du solltest eine Warnung erhalten, dass der Imaginärteil ignoriert wird. Überleg dir, wie du diese Warnung vermeiden kannst.
 
 * Das Ergebnis sollte so ausschauen:
 

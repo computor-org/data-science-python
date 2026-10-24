@@ -76,7 +76,17 @@ def test_beginner_course_opens_with_a_welcome_item_for_the_extension():
     assert re.fullmatch(r"willkommen", welcome["title"], re.I)
     assert not welcome.get("contents") and "example_identifier" not in welcome
     text = welcome["description"]
+    # CourseContent.description is String(4096) in computor-backend.
+    assert len(text) <= 4096, "Both languages must fit into one description"
+    # One section per language behind a "<!-- lang: xx -->" line, as read by
+    # the extension and the public reader; German comes first as the fallback.
+    parts = re.split(r"^<!--\s*lang:\s*([a-z]{2})\s*-->\s*$", text, flags=re.M)
+    assert not parts[0].strip(), "Nothing may precede the first language marker"
+    sections = dict(zip(parts[1::2], (part.strip() for part in parts[2::2])))
+    assert list(sections) == ["de", "en"]
     first = first_week["contents"][0]
-    assert f"„{first_week['title']}“" in text and f"„{first['title']}“" in text
-    assert "@lena" in text, "Help in this course comes from Lena"
-    assert len(text) < 3000, "The welcome text should stay short"
+    for language, section in sections.items():
+        assert first_week["title"] in section and first["title"] in section, language
+        assert "@lena" in section, "Help in this course comes from Lena"
+        assert len(section) < 2000, "The welcome text should stay short"
+    assert not re.search(r"\b(Sie|Ihre?[nmrs]?)\b", sections["de"]), "The German text says du, like the web UI"

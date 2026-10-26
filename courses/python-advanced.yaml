@@ -4,7 +4,8 @@ git:
   student_repo_modes:
   - managed
   - download
-name: Data Science mit Python – Vertiefung
+name: Data Science mit Python III – Vertiefung
+position: 30
 description: Eigenständige Aufgaben aus Mathematik und Naturwissenschaften mit Gleichungssystemen,
   Kurvenanalyse, Differentialgleichungen und objektorientierter Programmierung.
 path: python.advanced

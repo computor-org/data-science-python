@@ -12,7 +12,7 @@ Die Türme von Hanoi sind ein Spiel, bei dem alle Scheiben vom Startstab (im Bil
 ## Aufgabe
 
 
-Programmiere Sie die Funktion
+Programmiere die Funktion
 ```python
 solve_hanoi(n, start, destination, auxiliary)
 ```
@@ -20,7 +20,7 @@ die die Türme von Hanoi löst.
 
 Dabei ist `n` die Anzahl an Scheiben, `start` die Position am Anfang (A, B oder C), `destination` das Ziel und `auxiliary` der verbliebene Stab.
 
-Die Funktion soll Ihnen mittels Printbefehlnen die Anweisungen für die Lösung geben. Für `solve_hanoi(3, 'A', 'B', 'C')` sollte Sie folgendes erhalten:
+Die Funktion soll dir mittels Printbefehlen die Anweisungen für die Lösung geben. Für `solve_hanoi(3, 'A', 'B', 'C')` solltest du Folgendes erhalten:
 
 Move disk 1 from A to B.\
 Move disk 2 from A to C.\
@@ -32,4 +32,4 @@ Move disk 1 from A to B.
 
 ## Hinweis
 
-* Schreiben Sie eine Funktion, die sich selbst so lange aufruft, bis eine Abbruchbedingung erfüllt ist.
+* Schreib eine Funktion, die sich selbst so lange aufruft, bis eine Abbruchbedingung erfüllt ist.

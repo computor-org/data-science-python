@@ -33,11 +33,11 @@ wobei $x_{0k}$ und $\sigma_k$ die gleiche Bedeutung wie vorher haben. Die Summat
 
 ## Aufgabe
 
-Es sind von Ihnen zwei Files zu erstellen:
+Du sollst zwei Files erstellen:
 
 ### Funktion
 
-Schreiben Sie eine Funktion `gauss1d`, die mit folgendem Aufruf
+Schreib eine Funktion `gauss1d`, die mit folgendem Aufruf
 
 ```python
 g = gauss1d(x, x0, sig)
@@ -45,34 +45,34 @@ g = gauss1d(x, x0, sig)
 
 die Gaussverteilung als Funktion des Vektors `x` berechnet.
 
-1. Setzen Sie die Default-Werte
+1. Setze die Default-Werte
 
     ```python
         x0 = [-1.0, 1.0]
         sig = [ 0.5, 1.0]
     ```
       
-2. Initialisieren Sie `g` als Feld mit Nullen in der Größe von `x`.
+2. Initialisiere `g` als Feld mit Nullen in der Größe von `x`.
 
-3. Bilden Sie die Summe über alle $k$-Werte der Parameter ($k = 1, \dotsc, n$) mit
-  Hilfe einer einzigen for-Schleife. Vergessen Sie dabei nicht,
+3. Bilde die Summe über alle $k$-Werte der Parameter ($k = 1, \dotsc, n$) mit
+  Hilfe einer einzigen for-Schleife. Vergiss dabei nicht,
   dass $x$ ein Array sein kann.
     
 ### Skript
 
-Schreiben Sie ein Skript `gauss1d_script.py` und erledigen Sie folgende
+Schreib ein Skript `gauss1d_script.py` und erledige folgende
 Aufgaben:
 
-1. Erzeugen Sie einen Zeilenvektor `v` mit `400` Werten zwischen `-5` und `5`.
+1. Erzeuge einen Zeilenvektor `v` mit `400` Werten zwischen `-5` und `5`.
 
-2. Definieren Sie `max_val = [-2,0,2,4]`.
+2. Definiere `max_val = [-2,0,2,4]`.
 
-3. Definieren Sie `sig_val = [0.5,0.25,0.125,0.0625]`. Überlegen Sie, wie man diesen Vektor 
+3. Definiere `sig_val = [0.5,0.25,0.125,0.0625]`. Überleg dir, wie man diesen Vektor 
   leicht, ohne die Werte so hinzuschreiben, erzeugen kann!
 
-4. Berechnen Sie unter Verwendung dieser Werte mit `gauss1d` die Variable `y`.
+4. Berechne unter Verwendung dieser Werte mit `gauss1d` die Variable `y`.
 
-5. Plotten Sie `y(v)`.
+5. Plotte `y(v)`.
 
 
 ## Hinweise

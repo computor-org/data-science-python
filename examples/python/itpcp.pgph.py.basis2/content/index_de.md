@@ -17,7 +17,7 @@
 ## Einleitung
 
 In dieser Aufgabe wird vorgestellt, wie Plots in Python erzeugt werden können.
-Es sollte Ihnen außerdem klar werden, wie mathematische Schreibweisen von
+Es sollte dir außerdem klar werden, wie mathematische Schreibweisen von
 algebraischen Ausdrücken in der programmiertechnischen Umsetzung standardmäßig umgesetzt werden.
 
 Ein paar Beispiele:
@@ -39,7 +39,7 @@ In Python verwendet man zum Potenzieren von Skalaren den Operator `**`.
 
 ## Aufgabe
 
-1. Erzeugen Sie im Python-Skript `basis2` (File: `basis2.py`)
+1. Erzeuge im Python-Skript `basis2` (File: `basis2.py`)
 folgende Variablen:
 
     |Variable| Wert  |
@@ -48,16 +48,16 @@ folgende Variablen:
     |`x_end`| `3`   |
     |`n`| `200` 
 
-2. Erzeugen Sie den Zeilenvektor `x_1` mit Werten zwischen `x_start` und `x_end`
-und einer Schrittweite von `Eins`. Verwenden Sie dafür [arange] (achten Sie auf die Intervalldefinition).
+2. Erzeuge den Zeilenvektor `x_1` mit Werten zwischen `x_start` und `x_end`
+und einer Schrittweite von `Eins`. Verwende dafür [arange] (achte auf die Intervalldefinition).
 
-3. Rechnen Sie damit folgende Formel aus: $$y_{1} = x_{1} \lvert x_{1} \rvert$$
+3. Rechne damit folgende Formel aus: $$y_{1} = x_{1} \lvert x_{1} \rvert$$
 
-4. Erzeugen Sie mit [linspace] einen Vektor ```x_2```
+4. Erzeuge mit [linspace] einen Vektor ```x_2```
    von `x_start` bis `x_end` mit `n` Werten.
 
 
-5. Berechnen Sie damit 3 hyperbolische Funktionen in folgenden Variablen:
+5. Berechne damit 3 hyperbolische Funktionen in folgenden Variablen:
 
     |Variable|Wert|
     |---|---|
@@ -65,10 +65,10 @@ und einer Schrittweite von `Eins`. Verwenden Sie dafür [arange] (achten Sie auf
     |`ycosh`|$\cosh(x_2)$|
     |`ytanh`|$\tanh(x_2)$|
 
-    Damit sollten Sie nun insgesamt 4 Zeilenvektoren der Länge `n` haben, die man zeichnen
+    Damit solltest du nun insgesamt 4 Zeilenvektoren der Länge `n` haben, die man zeichnen
     kann.
 
-6. Um unsere Funktionen zu visualisieren, werden wir die [matplotlib] Bibliothek verwenden. Plotten Sie in einer [figure] die folgenden Größen in der vorgegebenen Reihenfolge:
+6. Um unsere Funktionen zu visualisieren, werden wir die [matplotlib] Bibliothek verwenden. Plotte in einer [figure] die folgenden Größen in der vorgegebenen Reihenfolge:
 
     | Abszisse |Ordinate|Linienspezifikation|
     |----------|---|---|
@@ -80,7 +80,7 @@ und einer Schrittweite von `Eins`. Verwenden Sie dafür [arange] (achten Sie auf
      Dazu eignet sich der matplotlib-Befehl [plot]. In der dazugehörigen Dokumentation
     sind auch Linienarten spezifiziert.
 
-7.  Setzen Sie die Achsenlimits mit den Befehlen [xlim] und [ylim] auf
+7.  Setze die Achsenlimits mit den Befehlen [xlim] und [ylim] auf
     folgende Werte:
 
     |Achse|Minimum|      Maximum      |
@@ -89,9 +89,9 @@ und einer Schrittweite von `Eins`. Verwenden Sie dafür [arange] (achten Sie auf
     |`y`-Achse|$-\max(\sinh(x_2))$| $+\max(\sinh(x_2))$ |
 
     Wenn man öfter die gleiche Berechnung benötigt, ist es viel besser, die
-    benötigte Größe in einer Variablen zu speichern und diese dann zu verwenden. Anstatt das Minimum und Maximum für [ylim] extra einzugeben, überlegen Sie sich wie Sie dazu eine Varaible `y_max` verwenden können.
+    benötigte Größe in einer Variablen zu speichern und diese dann zu verwenden. Anstatt das Minimum und Maximum für [ylim] extra einzugeben, überleg dir, wie du dazu eine Variable `y_max` verwenden kannst.
 
-8.  Erzeugen Sie Beschriftungen der Achsen (Labels) und einen Achsen-Titel in folgender Form:
+8.  Erzeuge Beschriftungen der Achsen (Labels) und einen Achsen-Titel in folgender Form:
 
     |Befehl|Text|
     |---|---|
@@ -101,24 +101,24 @@ und einer Schrittweite von `Eins`. Verwenden Sie dafür [arange] (achten Sie auf
 
     Um die Grafik anzuzeigen, ist nach den [plot]-Befehlen noch der [show]-Befehl notwendig.
 
-9. Überlegen Sie sich, warum die rote Kurve (die mit `x_1` erzeugt wurde)
+9. Überleg dir, warum die rote Kurve (die mit `x_1` erzeugt wurde)
 viel eckiger aussieht als die anderen Kurven
 
 
 ## Hinweise
 
 * In Python sind Intervalle rechtsoffen, d.h. bei [arange] und ähnlichen Funktionen
-sind die Endpunkte im erzeugten Array nicht inbegriffen. Überlegen Sie sich, wie sie
-den Endpunkt in Unterpunkt 2 trotzdem inkludieren können.
+sind die Endpunkte im erzeugten Array nicht inbegriffen. Überleg dir, wie du
+den Endpunkt in Unterpunkt 2 trotzdem inkludieren kannst.
 
 * Im Testbetrieb ist es unbedingt notwendig, dass die Kurven in der angegebenen Reihenfolge
     gezeichnet werden. Hier also unbedingt in der Reihenfolge Sinus Hyperbolicus, Cosinus Hyperbolicus und Tangens Hyperbolicus.
 
-* Wenn Sie statt `plt.title('Ihr Titel')` in Ihrem Programm
-    `plt.title = 'Ihr Titel'` schreiben und dieses Programm ausführen, dann
-    bekommt die Grafik keinen Titel, sondern Sie ändern die Variable `plt.title`.
+* Wenn du statt `plt.title('Dein Titel')` in deinem Programm
+    `plt.title = 'Dein Titel'` schreibst und dieses Programm ausführst, dann
+    bekommt die Grafik keinen Titel, sondern du änderst die Variable `plt.title`.
     Ab diesem Zeitpunkt ist die Verwendung des matplotlib-Befehls [title] nicht
-    möglich, da Ihre Definition Vorrang hat. Lösen kann man das Problem nur mit Klick
+    möglich, da deine Definition Vorrang hat. Lösen kann man das Problem nur mit Klick
     auf _Restart_ im _Interactive Window_.
 
 

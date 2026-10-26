@@ -5,7 +5,7 @@
 
 ## Einleitung
 
-In diesem Beispiel erhalten Sie eine Einführung in den Umgang mit Zeichenketten in Python. Fortgeschrittene Manipulationen werden in einer späteren Woche wieder aufgegriffen.
+In diesem Beispiel erhältst du eine Einführung in den Umgang mit Zeichenketten in Python. Fortgeschrittene Manipulationen werden in einer späteren Woche wieder aufgegriffen.
 
 ### Zeichenketten
 
@@ -35,12 +35,12 @@ print(s1 + 'c' + s2)
 
 bracket
 ```
-Da `strings` eine Abfolge von Zeichenketten darstellen, kann man durch Indizierung auf einzelne Zeichen zugreifen. Beachten Sie
-hierbei, dass in Python die Indizes immer bei `0` beginnen. Weitere Informationen zum Arbeiten mit Zeichenketten und zur Indizierung finden Sie in den Hinweisen.
+Da `strings` eine Abfolge von Zeichenketten darstellen, kann man durch Indizierung auf einzelne Zeichen zugreifen. Beachte
+hierbei, dass in Python die Indizes immer bei `0` beginnen. Weitere Informationen zum Arbeiten mit Zeichenketten und zur Indizierung findest du in den Hinweisen.
  
 ## Aufgabe
 
-1. Weisen Sie im Skript `strings.py` den nachfolgenden Variablen die entsprechenden Werte zu:
+1. Weise im Skript `strings.py` den nachfolgenden Variablen die entsprechenden Werte zu:
 
     |Variable|Wert|
     |:-|:-|
@@ -50,19 +50,19 @@ hierbei, dass in Python die Indizes immer bei `0` beginnen. Weitere Informatione
     |`s_4`| `great`|
     |`s_5`| `city!`|
 
-2. Wandeln Sie die Variablen `s_1` und `s_5` in `S_1` und `S_5` um wobei der erste Buchstabe nun ein Großbuchstabe sein soll.
+2. Wandle die Variablen `s_1` und `s_5` in `S_1` und `S_5` um, wobei der erste Buchstabe nun ein Großbuchstabe sein soll.
 
-3. Setzen Sie nun aus den Variablen `S_1`,`s_2`,`s_3`,`s_4`,`S_5` die Variable `s` zusammen und fügen Sie zwischen den Worten Leerzeichen ein.
+3. Setze nun aus den Variablen `S_1`,`s_2`,`s_3`,`s_4`,`S_5` die Variable `s` zusammen und füge zwischen den Worten Leerzeichen ein.
 
-4. Wandeln Sie anschließend den gesamten Satz in Großbuchstaben um und speichern Sie diesen in die Variable `S`.
+4. Wandle anschließend den gesamten Satz in Großbuchstaben um und speichere ihn in der Variable `S`.
 
 ## Hinweise
 
-* Weitere Informationen, wie man Großbuchstaben in Kleinbuchstaben umwandelt und umgekehrt finden Sie unter [python strings].
+* Weitere Informationen, wie man Großbuchstaben in Kleinbuchstaben umwandelt und umgekehrt, findest du unter [python strings].
 
 * Für die Indizierung verwenden wir die eckigen Klammern `[]` und den Index des Zeichens, auf das wir zugreifen möchten. Zum Beispiel, wenn wir eine Zeichenkette `s = "Hello"` haben, können wir auf das erste Zeichen mit `s[0]` zugreifen, was `'H'` zurückgibt. Um den Rest der Zeichenkette zu erhalten, können wir Slicing verwenden, z.B. `s[1:]` gibt `'ello'` zurück.
 
-* Für diese Aufgabe gibt es mehrere Lösungswegen und Funktionen, welche zum korrekten Endergebnis führen. Probieren Sie ruhig verschiedene aus!
+* Für diese Aufgabe gibt es mehrere Lösungswege und Funktionen, welche zum korrekten Endergebnis führen. Probier ruhig verschiedene aus!
 
 
 ## Keywords

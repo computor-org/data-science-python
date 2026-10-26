@@ -3,7 +3,7 @@
 This is the first task. You must solve this task in the editor by defining
 all variables that are specified in the table below.
 
-- You can run your program at any time by selecting *Run File in Interactive
+- You can run your program at any time by selecting *Run Current File in Interactive
   Window*. In this view, called console in the further description,
   you see the output of your program and an input line.
 
@@ -26,9 +26,8 @@ In this task, the NumPy module is introduced and used to define initial variable
 
 ### NumPy
 
-Unlike Matlab, Python was not specifically developed for numerics, but
-for general applications. Numerics is, in a sense, an additional function that must be imported from a
-[module]. The simplest variant, which is also assumed in the [NumPy documentation], can be used with an abbreviation:
+The NumPy [module] provides functions for numerical calculations in Python.
+As in the [NumPy documentation], we use the abbreviation `np`:
 
 ```python
 import numpy as np
@@ -138,8 +137,6 @@ $$
 
 ## Hints:
 
-- In the [Cheatsheet] you will find a comparison between the Python module NumPy and MATLAB.
-
 - Python help for individual commands can be found at [exp] and [sin].
 
 - Best practice: Use `np.exp(1)` instead of `np.e` as described in the task
@@ -158,7 +155,6 @@ $$
 - A very practical form of help is available in the console. For example, you can call Python help for $\sin$ simply with `help(np.sin)`.
 
 [arithmetic operators]: https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex "arithmetic operators"
-[cheatsheet]: https://numpy.org/doc/stable/user/numpy-for-matlab-users.html "Cheatsheet"
 [double]: https://numpy.org/doc/stable/user/basics.types.html "double"
 [NumPy documentation]: https://numpy.org/doc/stable/index.html "NumPy documentation"
 [exp]: https://numpy.org/doc/stable/reference/generated/numpy.exp.html "exp"

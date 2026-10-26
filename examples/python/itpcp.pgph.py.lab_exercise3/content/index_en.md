@@ -15,7 +15,7 @@ The function uses a so-called *linear least squares* method, in which the parame
 calculated to best describe the data. For a polynomial of degree `n`, the function is applied as follows:
 
 ```python
-popt, pcov = np.polyfit(xdata, ydata, deg=n, pcov=True)
+popt, pcov = np.polyfit(xdata, ydata, deg=n, cov=True)
 ```
 
 Here `popt` are the optimized parameters and `pcov` is the so-called covariance matrix. The square roots of the diagonal elements of the matrix are the standard deviation of the determined parameters

@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.pendulum
-version: 1.0.1
+version: 1.0.2
 title: Numerical Solution of Initial Value Problems
 description: This exercise covers the numerical solution of initial value problems
   using the example of a simple pendulum. The explicit Euler method and the midpoint

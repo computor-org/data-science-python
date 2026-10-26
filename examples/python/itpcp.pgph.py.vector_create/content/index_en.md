@@ -40,3 +40,9 @@ In the submission version of the example, no output should be made in the consol
 ## Hints
 
 - Try to find the corresponding commands using the NumPy or SciPy documentation. Helpful functions can be found under [numpy.arange], [numpy.linspace] and [numpy.cumsum].
+
+
+## Keywords
+
+- Cumulative Sum
+- Logspace

@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.pytest
-version: 1.0.0
+version: 1.0.1
 title: Pytest & cProfile
 description: This exercise introduces the test framework pytest and the profiling
   module cProfile. The bubble sort algorithm is implemented and verified with tests.

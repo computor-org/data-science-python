@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.slogic
-version: 1.0.1
+version: 1.0.2
 title: Simple Logical Indexing
 description: This exercise introduces logical indexing with NumPy. Using a matrix,
   various conditions are formulated and logical arrays are created from them. np.all,

@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.pivot_index
-version: 1.0.0
+version: 1.0.1
 title: Finding the Pivot Index
 description: In this exercise a function is implemented that finds the pivot index
   of an array. The pivot index is the position where the sum of all elements to the

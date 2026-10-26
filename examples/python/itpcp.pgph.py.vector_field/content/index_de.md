@@ -17,19 +17,19 @@ $$
 $$
 gelöst werden, wobei $\hat{I}$ die Einheitsmatrix ist.
 
-Dieses Beispiel sollte das Konzept der Eigenvektoren und Eigenwerte anschaulich machen. Zusätzlich erhalten Sie einen Einblick in die Visualisierung von Vektorfeldern.
+Dieses Beispiel sollte das Konzept der Eigenvektoren und Eigenwerte anschaulich machen. Zusätzlich erhältst du einen Einblick in die Visualisierung von Vektorfeldern.
 
 
 ## Aufgabe
 
-1. Erzeugen Sie mittels dem Befehl `np.meshgrid` ein Gitter von $x$- und $y$-Werten. Sie können die Start- und Endwerte für $x$ und $y$ frei wählen. Die Gitter sollte $N \times N$ Punkte haben. Wählen Sie $N$ so zu Begin klein, z.B. $N=10$.
+1. Erzeuge mittels des Befehls `np.meshgrid` ein Gitter von $x$- und $y$-Werten. Du kannst die Start- und Endwerte für $x$ und $y$ frei wählen. Das Gitter sollte $N \times N$ Punkte haben. Wähle $N$ zu Beginn klein, z.B. $N=10$.
 
-2. Berechnen Sie mittels der Funktion `gradient_field` das Gradientenfeld für das Skalarfeld $V(r) = r^2$.
+2. Berechne mittels der Funktion `gradient_field` das Gradientenfeld für das Skalarfeld $V(r) = r^2$.
 
 
-3. Plotten Sie das Gradientenfeld mit Hilfe von [quiver](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.quiver.html) in einem Subplot. Hier bietet es sich an die Vektoren zu normalisieren, damit die Vektoren nicht zu groß werden. Die Größe der Änderung des Skalarfeldes können Sie farblich darstellen.
+3. Plotte das Gradientenfeld mit Hilfe von [quiver](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.quiver.html) in einem Subplot. Hier bietet es sich an, die Vektoren zu normalisieren, damit die Vektoren nicht zu groß werden. Die Größe der Änderung des Skalarfeldes kannst du farblich darstellen.
 
-4. Plotten Sie die Basisvektor und die Vektoren `v1` und `v2`, wobei
+4. Plotte die Basisvektoren und die Vektoren `v1` und `v2`, wobei
 
   ```math
   \vec{v}_1 = \begin{bmatrix}
@@ -43,7 +43,7 @@ Dieses Beispiel sollte das Konzept der Eigenvektoren und Eigenwerte anschaulich 
   \end{bmatrix}.
   ```
 
-5. Führen Sie eine lineare Transformation des Gradientenfeldes durch. Dabei soll die Transformationsmatrix `transformation_matrix` gleich
+5. Führe eine lineare Transformation des Gradientenfeldes durch. Dabei soll die Transformationsmatrix `transformation_matrix` gleich
 
   ```math
   \hat{A} = \begin{bmatrix}
@@ -54,13 +54,13 @@ Dieses Beispiel sollte das Konzept der Eigenvektoren und Eigenwerte anschaulich 
 
   sein.
 
-6. Plotten Sie das transformierte Gradientenfeld in einem Subplot neben dem ursprünglichen Gradientenfeld. Dieses sollte auch normiert sein und die Farbe sollte die Größe der Änderung des Skalarfeldes darstellen.
+6. Plotte das transformierte Gradientenfeld in einem Subplot neben dem ursprünglichen Gradientenfeld. Dieses sollte auch normiert sein und die Farbe sollte die Größe der Änderung des Skalarfeldes darstellen.
 
-7. Plotten Sie zusätzlich die transformierten Basisvektoren und `v1_trans` und `v2_trans`.
+7. Plotte zusätzlich die transformierten Basisvektoren und `v1_trans` und `v2_trans`.
 
-8. Stellen Sie die Eigenvektoren der Transformationsmatrix $\hat{A}$ im Plot da.
+8. Stelle die Eigenvektoren der Transformationsmatrix $\hat{A}$ im Plot dar.
 
-9. Wählen Sie eine andere Transformationsmatrix und achten Sie was passiert.
+9. Wähle eine andere Transformationsmatrix und beobachte, was passiert.
   Warum kann die Transformation
 
   ```math
@@ -78,10 +78,10 @@ Dieses Beispiel sollte das Konzept der Eigenvektoren und Eigenwerte anschaulich 
 
 ## Hinweise
 
-* Für die lineare Transformation können Sie den `@` Operator oder `np.matmul` verwenden.
+* Für die lineare Transformation kannst du den `@` Operator oder `np.matmul` verwenden.
 
-* Die Befehle `np.vstack` und `np.flatten` könnten hilfreich sein.
+* Die Befehle `np.vstack` und `np.ravel` könnten hilfreich sein.
 
-* Für die Normierung können Sie entweder die Funktion `np.linalg.norm` oder die Funktion `np.sqrt` verwenden.
+* Für die Normierung kannst du entweder die Funktion `np.linalg.norm` oder die Funktion `np.sqrt` verwenden.
 
-* Für dieses Beispiel gibt es beschränkte Tests. Überprüfen Sie daher anhand der Abbildung, ob Ihre Lösung korrekt ist.
+* Für dieses Beispiel gibt es beschränkte Tests. Überprüfe daher anhand der Abbildung, ob deine Lösung korrekt ist.

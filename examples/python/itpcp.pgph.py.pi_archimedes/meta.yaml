@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.pi_archimedes
-version: 1.0.1
+version: 1.0.2
 title: Method of Archimedes of Syracuse
 description: This exercise implements the classical method of Archimedes for calculating
   Pi. By inscribing and circumscribing regular polygons around a unit circle, Pi is

@@ -2,11 +2,11 @@
 
 ## Einleitung
 
-Der Sinn dieser Aufagbe ist es, zu verstehen, wie man den praktischen Befehl [np.sum]
+Der Sinn dieser Aufgabe ist es, zu verstehen, wie man den praktischen Befehl [np.sum]
 mit [for]-Schleifen realisieren müsste. Beim weiteren Programmieren mit Python verwendet
 man dafür natürlich immer [np.sum] und keine Schleife.
 
-Erzeugen Sie zu Testzwecken eine Matrix `M` mit 4 Zeilen und 6 Spalten. Die Einträge der
+Erzeuge zu Testzwecken eine Matrix `M` mit 4 Zeilen und 6 Spalten. Die Einträge der
 Matrix sollen von 1 bis 24 entlang der Spalten laufen:
 
 $$
@@ -23,40 +23,40 @@ erzeugt werden.
 
 ## Aufgabe
 
-Erzeugen Sie ein Python-Skript `forsum`, das folgende Aufgaben erfüllt:
+Erzeuge ein Python-Skript `forsum`, das folgende Aufgaben erfüllt:
 
-1. Berechnen Sie mit Hilfe des Befehls [np.sum] die Summe über alle Zeilen und speichern
-   Sie diese in die Variable `sum_s1`. Mit *Summation über alle Zeilen* ist gemeint,
+1. Berechne mit Hilfe des Befehls [np.sum] die Summe über alle Zeilen und speichere
+   diese in die Variable `sum_s1`. Mit *Summation über alle Zeilen* ist gemeint,
    dass man alle Zeilen addiert:
 
    ```
         Zeile 1 + Zeile 2 + Zeile 3 + ... (punktweise)
    ```
 
-1. Berechnen Sie analog die Summe über alle Spalten und speichern Sie das Ergebnis in
+1. Berechne analog die Summe über alle Spalten und speichere das Ergebnis in
    `sum_s2`. *Summation über alle Spalten* entspricht
 
    ```
         Spalte 1 + Spalte 2 + Spalte 3 + ... (punktweise)
    ```
 
-1. Berechnen Sie mit [np.sum] die Summe über alle Werte des Arrays und speichern Sie
+1. Berechne mit [np.sum] die Summe über alle Werte des Arrays und speichere
    diese in `sum_st`.
 
-1. Bestimmen Sie die Anzahl der Zeilen (`nz`), der Spalten (`ns`) und der Elemente
-   (`nn`) von `M` und speichern Sie diese in die angegebenen Variablen ([np.shape],
+1. Bestimme die Anzahl der Zeilen (`nz`), der Spalten (`ns`) und der Elemente
+   (`nn`) von `M` und speichere diese in die angegebenen Variablen ([np.shape],
    [np.size]).
 
-1. Führen Sie die Summationen über alle Zeilen (`sum_f1`), alle Spalten (`sum_f2`)
+1. Führe die Summationen über alle Zeilen (`sum_f1`), alle Spalten (`sum_f2`)
    und alle Elemente (`sum_ft`) nun in drei unterschiedlichen [for]-Schleifen durch.
-   Speichern Sie diese Ergebnisse in die angegebenen Variablen. Verwenden Sie als
+   Speichere diese Ergebnisse in die angegebenen Variablen. Verwende als
    Schleifenindex die Variablen `i_z`, `i_s` bzw. `i_n`.
 
-1. **Beachten Sie die Hinweise**
+1. **Beachte die Hinweise**
 
-1. Überlegt euch welche Dimensionen ihr euch bei diesen Operatorionen erwarten würdet
-   und schaut mittels dem `shape` member von den numpy Arrays ihre eigentliche Dimension
-   nach. Was fällt euch auf? Wieso dürfte das wohl so sein?
+1. Überleg dir, welche Dimensionen du dir bei diesen Operationen erwarten würdest,
+   und schau mittels dem `shape` member von den numpy Arrays ihre eigentliche Dimension
+   nach. Was fällt dir auf? Wieso dürfte das wohl so sein?
 
 ## Hinweise
 

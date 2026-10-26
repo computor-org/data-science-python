@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.math_constants
-version: 1.0.0
+version: 1.0.2
 title: Mathematical Constants
 description: 'This first exercise introduces NumPy and shows how to define variables.
 
@@ -24,8 +24,6 @@ maintainers:
   email: albert@tugraz.at
   affiliation: TU Graz
 links:
-- description: numpy-matlab-cheatsheet
-  url: https://numpy.org/doc/stable/user/numpy-for-matlab-users.html
 - description: Wikipedia - Floating-point arithmetic
   url: https://en.wikipedia.org/wiki/Floating-point_arithmetic
 supportingMaterial:

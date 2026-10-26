@@ -56,8 +56,7 @@ that calculates and graphically displays the functions.
     $$
 
 4. Plot the functions $f_1(x)$
-    (red), $f_2(x)$ (blue), and $f_3(x)$ (green) in a Figure. The exact [RGB](https://matplotlib.org/stable/users/explain/colors/colors.html) specification
-    is `red=(1.0, 0.0, 0.0, 1)`, `blue=(0.0, 0.0, 1.0, 1)`, and `green=(0.0, 1.0, 0.0, 1)`.
+    (red), $f_2(x)$ (blue), and $f_3(x)$ (green) in a Figure.
 
 5. Provide the drawing with labels ([xlabel], [ylabel])
     for the x-axis (`x`) and the y-axis (`f(x)`).
@@ -75,4 +74,12 @@ that calculates and graphically displays the functions.
 
 * Use the [NumPy] and [Matplotlib] documentation as well as the [Matplotlib-Userguide] to find out how to correctly use the necessary commands!
 
+* The exact [RGB](https://matplotlib.org/stable/users/explain/colors/colors.html) specification is `red=(1.0, 0.0, 0.0, 1)`, `blue=(0.0, 0.0, 1.0, 1)`, and `green=(0.0, 1.0, 0.0, 1)`.
+
 * Hints for positioning the legend can be found under the corresponding `loc` keyword (see [legend]).
+
+
+## Keywords
+
+- Comments
+- Legend

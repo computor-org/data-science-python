@@ -24,3 +24,7 @@ variables the same and add the suffix `_vec`, so `diff` becomes `diff_vec`, for 
 ## Hints
 
 * When creating vectors, pay attention to whether the endpoint is included (see [numpy.arange]).
+
+## Keywords
+
+- Vector computation

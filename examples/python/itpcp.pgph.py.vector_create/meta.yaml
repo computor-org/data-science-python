@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.vector_create
-version: 1.0.0
+version: 1.0.1
 title: Creating Vectors
 description: This exercise covers various methods for creating NumPy vectors. Linear
   and logarithmic spacings, as well as calculated sequences like powers of two and

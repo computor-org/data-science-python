@@ -8,11 +8,11 @@
 
 ## Einleitung
 
-In dieser Aufgabe werden erneut drei Kurven mithilfe des Befehls [plot] erzeugt. Oft ist es nützlich, einem Code eine kurze Erklärung oder Informationen, wann und von wem dieser geschrieben wurde hinzuzufügen. Dies wird mithilfe eines [docstring] durchgeführt.
+In dieser Aufgabe werden erneut drei Kurven mithilfe des Befehls [plot] erzeugt. Oft ist es nützlich, einem Code eine kurze Erklärung oder Informationen, wann und von wem dieser geschrieben wurde, hinzuzufügen. Dies wird mithilfe eines [docstring] durchgeführt.
 
 ### Docstring
 
-Docstrings werden dazu verwendet, allgemeine Informationen zu einer Klasse, eines Moduls, oder einer Funktion anzugeben. 
+Docstrings werden dazu verwendet, allgemeine Informationen zu einer Klasse, einem Modul oder einer Funktion anzugeben. 
 Meist ist dies ein beschreibender Text, um näher zu erläutern, welche Funktion die folgenden Codezeilen (bzw. die Klasse, das Modul, die Funktion) haben und wie sie verwendet werden. 
 Am Anfang eines Codes werden auch Informationen wie das Erstellungsdatum, welche Person den Code zu welchem Zweck schrieb, die Version, etc. als Docstring angegeben.
 Ein Docstring ist also wichtig für die Dokumentation des Codes.
@@ -25,7 +25,7 @@ g = 9.81            # [m/s^2], durchschnittliche Erdbeschleunigung
 F_g = m * g         # Gewichtskraft
 ```
 
-werden Docstrings mithilfe mehrzeiliger Kommentare eingebaut. Am Anfang eines Skriptes könnte dies beispielweise so realisiert werden:
+werden Docstrings mithilfe mehrzeiliger Kommentare eingebaut. Am Anfang eines Skriptes könnte dies beispielsweise so realisiert werden:
 
 ```python
 """
@@ -39,9 +39,9 @@ Date: 23.09.2024
 
 
 ## Aufgabe 
- Folgender Plot ist von Ihnen im Skript `plot_docstr.py` zu erzeugen:
+ Erzeuge im Skript `plot_docstr.py` folgenden Plot:
 
-1. Definieren Sie die Variablen
+1. Definiere die Variablen
 
     |Variable|Wert|
     |:--|:--|
@@ -50,20 +50,20 @@ Date: 23.09.2024
     |`y_2`| $y_{2} = x^{2}$|
     |`y_3`| $y_{3} = x^{3}$|
 
-2. Erzeugen Sie eine matplotlib-Figure mit mehreren Linien: Plotten Sie
+2. Erzeuge eine matplotlib-Figure mit mehreren Linien: Plotte
     * $y_{1}(x)$; durchgehende Linie; rot
     * $y_{2}(x)$; strichlierte Linie; blau
     * $y_{3}(x)$; punktierte Linie; schwarz
 
-3. Setzen Sie die Limits der Abszisse auf Minimum und Maximum von $x$, die Limits der Ordinate auf Minimum und Maximum von $y_{3}$.
+3. Setze die Limits der Abszisse auf Minimum und Maximum von $x$, die Limits der Ordinate auf Minimum und Maximum von $y_{3}$.
 
-4. Bezeichnen Sie die Abszisse mit $x$, die Ordinate mit $f(x)$ und geben Sie der Figure den Titel `Test`.
+4. Bezeichne die Abszisse mit $x$, die Ordinate mit $f(x)$ und gib der Figure den Titel `Test`.
 
-5. Schreiben Sie am Anfang des Skripts einen [docstring]: Dieser soll dann in der
+5. Schreibe am Anfang des Skripts einen [docstring]: Dieser soll dann in der
 Konsole (`python` im Terminal, nicht im File selbst oder Interactive Window) 
 mit dem Befehl `help(plot_docstr)` aufgerufen werden können. Da Python [help] 
 dies nur für Module, Klassen und Funktionen ermöglicht, muss man bei diesem Versuch 
-zu einem Trick greifen: Geben Sie zuvor in der Konsole `import plot_docstr` ein, 
+zu einem Trick greifen: Gib zuvor in der Konsole `import plot_docstr` ein, 
 um `plot_docstr.py` wie ein Modul zu importieren.
 
 Zur automatischen Überprüfung soll der Hilfetext Folgendes enthalten:
@@ -76,12 +76,12 @@ Zur automatischen Überprüfung soll der Hilfetext Folgendes enthalten:
 
 ## Hinweise
 
-* Sie können den Hilfetext hier in der Angabe (Punkt 5) kopieren und dann im Programm
-einfügen (Copy&Paste). Ersetzen Sie alles unter Anführungszeichen (`"`) durch
+* Du kannst den Hilfetext hier in der Angabe (Punkt 5) kopieren und dann im Programm
+einfügen (Copy&Paste). Ersetze alles unter Anführungszeichen (`"`) durch
 den notwendigen Text oder das notwendige Datum, also `"Vorname"` z.B. durch
-`Carmen`. Andere Teile des Textes belassen Sie, wie sie sind.
+`Carmen`. Andere Teile des Textes lässt du, wie sie sind.
 
-* Für den Test dürfen die Anfürhungszeichen (`"`) im docstring **nicht** bestehen bleiben.
+* Für den Test dürfen die Anführungszeichen (`"`) im docstring **nicht** bestehen bleiben.
 
 
 ## Keywords

@@ -41,3 +41,9 @@ In the following task, you should read measurement data from an oscilloscope mea
 <div align="center">
 <img src="mediaFiles/Lab_exercise2.png" alt="Test Image" width="50%" name="Schwingung"/>
 </div>
+
+
+## Keywords
+
+- Data processing
+- Plotting

@@ -8,20 +8,20 @@ In dieser Aufgabe lernen wir, wie man mithilfe von for-Schleifen eine Summe übe
 
 ## Aufgabe
 
-Erzeugen Sie ein Python-Skript `for_sum_sin`, das folgende Aufgaben
+Erzeuge ein Python-Skript `for_sum_sin`, das folgende Aufgaben
 erfüllt:
 
-1. Erzeugen Sie einen Vektor $x$ mit $100$ Punkten zwischen $-\pi$ und $\pi$
+1. Erzeuge einen Vektor $x$ mit $100$ Punkten zwischen $-\pi$ und $\pi$
     und einen gleich großen Vektor $y$ mit lauter Nullen.
 
-2. Erzeugen Sie eine Figure und plotten Sie $y(x)$.
+2. Erzeuge eine Figure und plotte $y(x)$.
 
-3. Addieren Sie nun in einer [for]-Schleife von $n=0$ bis $n=6$
+3. Addiere nun in einer [for]-Schleife von $n=0$ bis $n=6$
     jeweils eine Teilsumme $s_n$ der Reihe für den Sinus
     $$ s_n(x) = (-1)^n \frac{x^{2n+1}}{(2n+1)!} $$
-    zum vorherigen Wert von $y$ und plotten Sie in der gleichen Figure $y(x)$.
+    zum vorherigen Wert von $y$ und plotte in der gleichen Figure $y(x)$.
 
-4. Nach der Schleife plotten Sie noch $\sin(x)$ in einer anderen Farbe.
+4. Nach der Schleife plottest du noch $\sin(x)$ in einer anderen Farbe.
 
 ## Hinweise
 
@@ -36,6 +36,6 @@ erfüllt:
     $$
     sehen. Schlussendlich nähert sich $S_n(x)$ dem Sinus an.
 
-* Sie werden in einer späteren Übung andere Methoden kennenlernen um Reihen
+* Du wirst in einer späteren Übung andere Methoden kennenlernen, um Reihen
  zu berechnen. Hier soll nur verstanden werden, wie das mit Hilfe einer
  [for]-Schleife bewerkstelligt wird.

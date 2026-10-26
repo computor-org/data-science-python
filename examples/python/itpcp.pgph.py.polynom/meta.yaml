@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.polynom
-version: 1.0.0
+version: 1.0.1
 title: Polynomials
 description: In this exercise a Polynomial class is implemented that supports basic
   mathematical operations such as addition, subtraction and multiplication. Additionally,

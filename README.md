@@ -28,8 +28,8 @@ remain available when hosted Computor workspaces are full. Codespaces does not r
 
 The source snapshot is
 `git@gitlab.tugraz.at:codeability/development/examples.git` at
-[`ead0421d839d95f59b7ed20bb8e07081623fc2fa`](https://gitlab.tugraz.at/codeability/development/examples/-/commit/ead0421d839d95f59b7ed20bb8e07081623fc2fa)
-(2026-10-24T16:48:29+02:00; “Use du, correct Python hints and remove MATLAB comparisons”). Each example keeps its upstream authors,
+[`172ed0eeec021ac072debbd67990e5809f30228f`](https://gitlab.tugraz.at/codeability/development/examples/-/commit/172ed0eeec021ac072debbd67990e5809f30228f)
+(2026-10-26T13:12:39+01:00; “Merge branch 'epic529/content' into 'main'”). Each example keeps its upstream authors,
 maintainers, links, and `license` declaration in `meta.yaml`; the current
 snapshot declares MIT for all 70 Python examples. See [`RIGHTS.md`](RIGHTS.md)
 for the generated ledger and [`LANGUAGE_AUDIT.md`](LANGUAGE_AUDIT.md) for the

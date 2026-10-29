@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.if_vocal
-version: 1.0.2
-title: Vowel or Consonant
-description: 'In this exercise you will write a function that determines whether a
-  given
-
-  letter is a vowel or a consonant. You will practice working with strings,
-
-  lists and the if decision structure.
-
-  '
+version: 1.0.3
+title: Vokal oder Konsonant
+title_i18n:
+  de: Vokal oder Konsonant
+  en: Vowel or Consonant
+description: Du schreibst eine Funktion, die entscheidet, ob ein gegebener Buchstabe
+  ein Vokal oder ein Konsonant ist. Dabei übst du den Umgang mit Zeichenketten, Listen
+  und der if-Entscheidung.
+description_i18n:
+  de: Du schreibst eine Funktion, die entscheidet, ob ein gegebener Buchstabe ein
+    Vokal oder ein Konsonant ist. Dabei übst du den Umgang mit Zeichenketten, Listen
+    und der if-Entscheidung.
+  en: In this exercise you will write a function that determines whether a given letter
+    is a vowel or a consonant. You will practice working with strings, lists and the
+    if decision structure.
 language: de
 license: MIT
 authors:

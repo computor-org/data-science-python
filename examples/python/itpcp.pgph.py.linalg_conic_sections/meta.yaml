@@ -1,14 +1,20 @@
 slug: itpcp.pgph.py.linalg_conic_sections
-version: 1.0.2
-title: Linear System, Conic Sections
-description: 'In this exercise you will determine the parameters of a conic section
-  by solving a
-
-  linear system of equations. You will learn the mathematical description of ellipses,
-
-  parabolas and hyperbolas and display the result as a 3D plot with contour lines.
-
-  '
+version: 1.0.3
+title: Lineares Gleichungssystem, Kegelschnitte
+title_i18n:
+  de: Lineares Gleichungssystem, Kegelschnitte
+  en: Linear System of Equations, Conic Sections
+description: Du bestimmst die Parameter eines Kegelschnitts, indem du ein lineares
+  Gleichungssystem löst. Dabei lernst du die mathematische Beschreibung von Ellipsen,
+  Parabeln und Hyperbeln kennen und stellst das Ergebnis als 3D-Plot mit Höhenlinien
+  dar.
+description_i18n:
+  de: Du bestimmst die Parameter eines Kegelschnitts, indem du ein lineares Gleichungssystem
+    löst. Dabei lernst du die mathematische Beschreibung von Ellipsen, Parabeln und
+    Hyperbeln kennen und stellst das Ergebnis als 3D-Plot mit Höhenlinien dar.
+  en: In this exercise you will determine the parameters of a conic section by solving
+    a linear system of equations. You will learn the mathematical description of ellipses,
+    parabolas and hyperbolas and display the result as a 3D plot with contour lines.
 language: de
 license: MIT
 authors:

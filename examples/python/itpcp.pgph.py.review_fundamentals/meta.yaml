@@ -1,8 +1,16 @@
 slug: itpcp.pgph.py.review_fundamentals
-version: 1.0.1
-title: Python Fundamentals Review
-description: Review of Python basics including variables, functions, modules, data
-  types, and plotting.
+version: 1.0.2
+title: Python Grundlagen Review
+title_i18n:
+  de: Python Grundlagen Review
+  en: Python Fundamentals Review
+description: 'Wiederholung der Python-Grundlagen: Variablen, Funktionen, Module, Datentypen
+  und Plots.'
+description_i18n:
+  de: 'Wiederholung der Python-Grundlagen: Variablen, Funktionen, Module, Datentypen
+    und Plots.'
+  en: Review of Python basics including variables, functions, modules, data types,
+    and plotting.
 language: de
 license: MIT
 authors:

@@ -72,3 +72,59 @@ def test_course_item_titles_are_unique_within_a_course():
                 f"and '{node['path']}'"
             )
             seen[title] = node["path"]
+
+
+LANGUAGES = ("de", "en")
+
+
+def heading(folder, language):
+    text = (folder / "content" / f"index_{language}.md").read_text()
+    return plain_title(re.search(r"^#\s+(.+?)\s*#*\s*$", text, re.M).group(1))
+
+
+def assert_bilingual(label, entry, key, source):
+    """Both reading languages are filled; German, the source, equals the plain field."""
+    variants = entry.get(key)
+    assert isinstance(variants, dict), f"{label}: no {key}"
+    for language in LANGUAGES:
+        text = variants.get(language)
+        assert isinstance(text, str) and text.strip(), f"{label}: {key} has no '{language}'"
+    assert variants["de"] == entry.get(source), f"{label}: {key}['de'] differs from {source}"
+
+
+def test_course_metadata_is_bilingual():
+    """The server shows these maps in the reader's language (computor-org/issues#551)."""
+    for manifest in sorted((ROOT / "courses").glob("*.yaml")):
+        course = yaml.safe_load(manifest.read_text())
+        name = manifest.name
+        assert course.get("language_code") == "de", f"{name}: language_code"
+        assert_bilingual(name, course, "title_i18n", "name")
+        assert_bilingual(name, course, "description_i18n", "description")
+        for content_type in course["content_types"]:
+            label = f"{name}: content type {content_type['slug']}"
+            assert_bilingual(label, content_type, "title_i18n", "title")
+            assert_bilingual(label, content_type, "description_i18n", "description")
+        for node in titled_nodes(course["contents"]):
+            label = f"{name}: {node['path']}"
+            assert_bilingual(label, node, "title_i18n", "title")
+            if "example_identifier" in node:
+                meta = yaml.safe_load((ROOT / "examples" / "python" / node["example_identifier"]
+                                       / "meta.yaml").read_text())
+                assert node["title_i18n"] == meta["title_i18n"], label
+            else:
+                assert_bilingual(label, node, "description_i18n", "description")
+
+
+def test_example_metadata_is_bilingual_and_matches_the_headings():
+    for manifest in sorted((ROOT / "courses").glob("*.yaml")):
+        course = yaml.safe_load(manifest.read_text())
+        for identifier in assignments(course["contents"]):
+            folder = ROOT / "examples" / "python" / identifier
+            meta = yaml.safe_load((folder / "meta.yaml").read_text())
+            assert meta["language"] == "de", identifier
+            assert_bilingual(identifier, meta, "title_i18n", "title")
+            assert_bilingual(identifier, meta, "description_i18n", "description")
+            for language in LANGUAGES:
+                assert meta["title_i18n"][language] == heading(folder, language), (
+                    f"{identifier}: title_i18n['{language}'] is not the heading of index_{language}.md"
+                )

@@ -1,9 +1,19 @@
 slug: itpcp.pgph.py.beat_oscillation
-version: 1.1.1
-title: Setting Default Values - Beat
-description: This exercise covers setting default values in Python functions using
-  the example of a beat function. From two superimposed oscillations, beats and Lissajous
-  figures are generated. The results are displayed in separate matplotlib figures.
+version: 1.1.2
+title: Setzen von Default-Werten – Schwebung
+title_i18n:
+  de: Setzen von Default-Werten – Schwebung
+  en: Setting Default Values - Beat Frequency
+description: Am Beispiel einer Schwebung lernst du, in Python-Funktionen Default-Werte
+  für Argumente zu setzen. Aus zwei überlagerten Schwingungen erzeugst du Schwebungen
+  und Lissajous-Figuren, die du in getrennten matplotlib-Abbildungen darstellst.
+description_i18n:
+  de: Am Beispiel einer Schwebung lernst du, in Python-Funktionen Default-Werte für
+    Argumente zu setzen. Aus zwei überlagerten Schwingungen erzeugst du Schwebungen
+    und Lissajous-Figuren, die du in getrennten matplotlib-Abbildungen darstellst.
+  en: This exercise covers setting default values in Python functions using the example
+    of a beat function. From two superimposed oscillations, beats and Lissajous figures
+    are generated. The results are displayed in separate matplotlib figures.
 language: de
 license: MIT
 authors:

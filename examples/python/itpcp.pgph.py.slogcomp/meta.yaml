@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.slogcomp
-version: 1.0.2
-title: Comparison of Logical Indexing with Loop or Mathematics
-description: This exercise compares different programming approaches in Python using
-  the same task. Negative and positive values are replaced by their means - once with
-  logical indexing, once with loops. The np.sign function is presented as a mathematical
-  alternative.
+version: 1.0.3
+title: Vergleich logische Indizierung mit Schleife bzw. Mathematik
+title_i18n:
+  de: Vergleich logische Indizierung mit Schleife bzw. Mathematik
+  en: Comparison of Logical Indexing with Loops and Mathematics
+description: 'Du vergleichst verschiedene Programmieransätze in Python an derselben
+  Aufgabe: Negative und positive Werte werden durch ihren jeweiligen Mittelwert ersetzt,
+  einmal mit logischer Indizierung und einmal mit Schleifen. Als mathematische Alternative
+  lernst du die Funktion np.sign kennen.'
+description_i18n:
+  de: 'Du vergleichst verschiedene Programmieransätze in Python an derselben Aufgabe:
+    Negative und positive Werte werden durch ihren jeweiligen Mittelwert ersetzt,
+    einmal mit logischer Indizierung und einmal mit Schleifen. Als mathematische Alternative
+    lernst du die Funktion np.sign kennen.'
+  en: This exercise compares different programming approaches in Python using the
+    same task. Negative and positive values are replaced by their means - once with
+    logical indexing, once with loops. The np.sign function is presented as a mathematical
+    alternative.
 language: de
 license: MIT
 authors:

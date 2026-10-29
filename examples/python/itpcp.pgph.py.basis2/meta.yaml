@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.basis2
-version: 1.0.2
-title: Simple Plot of Vectors
-description: 'In this exercise you will learn how to create plots in Python. You will
-  learn
-
-  to translate mathematical notation into code, create vectors with arange and linspace,
-
-  calculate hyperbolic functions, and create and format graphics with matplotlib.
-
-  '
+version: 1.0.3
+title: Einfacher Plot von Vektoren - P1
+title_i18n:
+  de: Einfacher Plot von Vektoren - P1
+  en: Simple Plot of Vectors - P1
+description: In dieser Aufgabe lernst du, in Python Plots zu erstellen. Du übersetzt
+  mathematische Schreibweise in Code, erzeugst Vektoren mit arange und linspace, berechnest
+  Hyperbelfunktionen und erstellst und formatierst Grafiken mit matplotlib.
+description_i18n:
+  de: In dieser Aufgabe lernst du, in Python Plots zu erstellen. Du übersetzt mathematische
+    Schreibweise in Code, erzeugst Vektoren mit arange und linspace, berechnest Hyperbelfunktionen
+    und erstellst und formatierst Grafiken mit matplotlib.
+  en: In this exercise you will learn how to create plots in Python. You will learn
+    to translate mathematical notation into code, create vectors with arange and linspace,
+    calculate hyperbolic functions, and create and format graphics with matplotlib.
 language: de
 license: MIT
 authors:

@@ -1,10 +1,21 @@
 slug: itpcp.pgph.py.simple_taylor
-version: 1.0.1
-title: Taylor Series of the Sine
-description: This exercise visualizes the convergence of the Taylor series of the
-  sine. The first four terms of the series are calculated individually and compared
-  with the exact sine function. The results are displayed in a 2x2 subplot grid with
-  matplotlib.
+version: 1.0.2
+title: Taylorreihe des Sinus
+title_i18n:
+  de: Taylorreihe des Sinus
+  en: Taylor Series of the Sine
+description: Du veranschaulichst, wie sich die Taylorreihe des Sinus mit jedem weiteren
+  Glied der exakten Sinusfunktion annähert. Du berechnest die ersten vier Glieder
+  einzeln, vergleichst sie mit dem Sinus und stellst die Ergebnisse mit matplotlib
+  in einem 2×2-Raster von Subplots dar.
+description_i18n:
+  de: Du veranschaulichst, wie sich die Taylorreihe des Sinus mit jedem weiteren Glied
+    der exakten Sinusfunktion annähert. Du berechnest die ersten vier Glieder einzeln,
+    vergleichst sie mit dem Sinus und stellst die Ergebnisse mit matplotlib in einem
+    2×2-Raster von Subplots dar.
+  en: This exercise visualizes the convergence of the Taylor series of the sine. The
+    first four terms of the series are calculated individually and compared with the
+    exact sine function. The results are displayed in a 2x2 subplot grid with matplotlib.
 language: de
 license: MIT
 authors:

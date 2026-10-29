@@ -1,10 +1,20 @@
 slug: itpcp.pgph.py.pi_series
-version: 1.0.2
-title: Approximation of Pi with Series
-description: This exercise calculates Pi using various historical series expansions.
-  The Leibniz series, the Machin formula, the Euler series and the modern BBP formula
-  are implemented and their convergence behavior is compared. The calculations are
-  performed vectorized with NumPy.
+version: 1.0.3
+title: Approximation von π mit Reihen
+title_i18n:
+  de: Approximation von π mit Reihen
+  en: Approximation of π with Series
+description: 'Du berechnest π mit mehreren historischen Reihenentwicklungen: der Leibniz-Reihe,
+  der Machin-Formel, der Euler-Reihe und der modernen BBP-Formel. Du vergleichst ihr
+  Konvergenzverhalten und rechnest dabei vektorisiert mit NumPy.'
+description_i18n:
+  de: 'Du berechnest π mit mehreren historischen Reihenentwicklungen: der Leibniz-Reihe,
+    der Machin-Formel, der Euler-Reihe und der modernen BBP-Formel. Du vergleichst
+    ihr Konvergenzverhalten und rechnest dabei vektorisiert mit NumPy.'
+  en: This exercise calculates Pi using various historical series expansions. The
+    Leibniz series, the Machin formula, the Euler series and the modern BBP formula
+    are implemented and their convergence behavior is compared. The calculations are
+    performed vectorized with NumPy.
 language: de
 license: MIT
 authors:

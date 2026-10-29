@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.kerr_cell
-version: 1.1.1
-title: Kerr Cell
-description: 'In this exercise you will evaluate data from a laboratory experiment
-  on the Kerr cell. You will learn
-
-  about Kerr''s empirical law, plot measurement data with error bars and perform
-
-  linear fits through the origin for different light wavelengths.
-
-  '
+version: 1.1.2
+title: Kerrzelle
+title_i18n:
+  de: Kerrzelle
+  en: Kerr Cell
+description: Du wertest Daten eines Laborversuchs zur Kerrzelle aus. Dabei lernst
+  du das empirische Kerr-Gesetz kennen, plottest Messdaten mit Fehlerbalken und legst
+  für verschiedene Wellenlängen des Lichts Ausgleichsgeraden durch den Ursprung.
+description_i18n:
+  de: Du wertest Daten eines Laborversuchs zur Kerrzelle aus. Dabei lernst du das
+    empirische Kerr-Gesetz kennen, plottest Messdaten mit Fehlerbalken und legst für
+    verschiedene Wellenlängen des Lichts Ausgleichsgeraden durch den Ursprung.
+  en: In this exercise you will evaluate data from a laboratory experiment on the
+    Kerr cell. You will learn about Kerr's empirical law, plot measurement data with
+    error bars and perform linear fits through the origin for different light wavelengths.
 language: de
 license: MIT
 authors:

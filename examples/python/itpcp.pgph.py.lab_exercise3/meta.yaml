@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.lab_exercise3
-version: 1.0.3
-title: Lab Exercise 3
-description: 'This exercise introduces fitting and plotting measurement data with
-  uncertainties.
-
-  You will fit a line to current-voltage measurements with polyfit and display the
-
-  results graphically with error bars.
-
-  '
+version: 1.0.4
+title: Laborübung 3
+title_i18n:
+  de: Laborübung 3
+  en: Lab Exercise 3
+description: Diese Aufgabe führt in das Anpassen und Plotten von Messdaten mit Unsicherheiten
+  ein. Du legst mit polyfit eine Gerade durch Strom-Spannungs-Messungen und stellst
+  die Ergebnisse mit Fehlerbalken grafisch dar.
+description_i18n:
+  de: Diese Aufgabe führt in das Anpassen und Plotten von Messdaten mit Unsicherheiten
+    ein. Du legst mit polyfit eine Gerade durch Strom-Spannungs-Messungen und stellst
+    die Ergebnisse mit Fehlerbalken grafisch dar.
+  en: This exercise introduces fitting and plotting measurement data with uncertainties.
+    You will fit a line to current-voltage measurements with polyfit and display the
+    results graphically with error bars.
 language: de
 license: MIT
 authors:

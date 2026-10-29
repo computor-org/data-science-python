@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.basis_char
-version: 1.0.2
-title: Characters and Strings
-description: 'In this exercise you will learn how to work with characters and strings
-  in
-
-  Python. You will practice joining, splitting and manipulating strings, work with
-
-  lists and learn important string methods such as split, join and upper.
-
-  '
+version: 1.0.3
+title: Zeichen und Zeichenketten
+title_i18n:
+  de: Zeichen und Zeichenketten
+  en: Characters and Strings
+description: In dieser Aufgabe arbeitest du mit Zeichen und Zeichenketten in Python.
+  Du fügst Zeichenketten zusammen, teilst und veränderst sie, arbeitest mit Listen
+  und lernst wichtige String-Methoden wie split, join und upper kennen.
+description_i18n:
+  de: In dieser Aufgabe arbeitest du mit Zeichen und Zeichenketten in Python. Du fügst
+    Zeichenketten zusammen, teilst und veränderst sie, arbeitest mit Listen und lernst
+    wichtige String-Methoden wie split, join und upper kennen.
+  en: In this exercise you will learn how to work with characters and strings in Python.
+    You will practice joining, splitting and manipulating strings, work with lists
+    and learn important string methods such as split, join and upper.
 language: de
 license: MIT
 authors:

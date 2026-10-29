@@ -1,8 +1,16 @@
 slug: itpcp.pgph.py.review_advanced
-version: 1.0.1
-title: Control Flow and Arrays Review
-description: Review of control structures, arrays, logical indexing, and visualization
-  in Python.
+version: 1.0.2
+title: Kontrollstrukturen und Arrays Review
+title_i18n:
+  de: Kontrollstrukturen und Arrays Review
+  en: Control Flow and Arrays Review
+description: Wiederholung von Kontrollstrukturen, Arrays, logischer Indizierung und
+  Visualisierung in Python.
+description_i18n:
+  de: Wiederholung von Kontrollstrukturen, Arrays, logischer Indizierung und Visualisierung
+    in Python.
+  en: Review of control structures, arrays, logical indexing, and visualization in
+    Python.
 language: de
 license: MIT
 authors:

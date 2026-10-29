@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.damped_oscillation
-version: 1.0.1
-title: Fitting Damped Oscillations
-description: 'In this example you will fit a damped oscillation to measurement data.
-  You will learn
-
-  to use curve_fit and fmin from scipy to determine model parameters and
-
-  find extrema of a function. The results are displayed graphically.
-
-  '
+version: 1.0.2
+title: Fitten von abklingenden Oszillationen
+title_i18n:
+  de: Fitten von abklingenden Oszillationen
+  en: Fitting Damped Oscillations
+description: Du passt eine gedämpfte Schwingung an Messdaten an. Mit curve_fit und
+  fmin aus scipy bestimmst du die Modellparameter und die Extrema der Funktion und
+  stellst die Ergebnisse grafisch dar.
+description_i18n:
+  de: Du passt eine gedämpfte Schwingung an Messdaten an. Mit curve_fit und fmin aus
+    scipy bestimmst du die Modellparameter und die Extrema der Funktion und stellst
+    die Ergebnisse grafisch dar.
+  en: In this example you will fit a damped oscillation to measurement data. You will
+    learn to use curve_fit and fmin from scipy to determine model parameters and find
+    extrema of a function. The results are displayed graphically.
 language: de
 license: MIT
 authors:

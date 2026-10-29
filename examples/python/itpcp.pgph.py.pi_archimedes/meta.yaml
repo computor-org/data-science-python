@@ -1,9 +1,19 @@
 slug: itpcp.pgph.py.pi_archimedes
-version: 1.0.2
-title: Method of Archimedes of Syracuse
-description: This exercise implements the classical method of Archimedes for calculating
-  Pi. By inscribing and circumscribing regular polygons around a unit circle, Pi is
-  iteratively approximated. The convergence is displayed both linearly and semi-logarithmically.
+version: 1.0.3
+title: Berechnung von π nach der Methode von Archimedes von Syrakus
+title_i18n:
+  de: Berechnung von π nach der Methode von Archimedes von Syrakus
+  en: Calculation of π According to the Method of Archimedes of Syracuse
+description: Du implementierst das klassische Verfahren des Archimedes zur Berechnung
+  von π. Indem du einem Einheitskreis regelmäßige Vielecke ein- und umschreibst, näherst
+  du π schrittweise an und stellst die Konvergenz linear und halblogarithmisch dar.
+description_i18n:
+  de: Du implementierst das klassische Verfahren des Archimedes zur Berechnung von
+    π. Indem du einem Einheitskreis regelmäßige Vielecke ein- und umschreibst, näherst
+    du π schrittweise an und stellst die Konvergenz linear und halblogarithmisch dar.
+  en: This exercise implements the classical method of Archimedes for calculating
+    Pi. By inscribing and circumscribing regular polygons around a unit circle, Pi
+    is iteratively approximated. The convergence is displayed both linearly and semi-logarithmically.
 language: de
 license: MIT
 authors:

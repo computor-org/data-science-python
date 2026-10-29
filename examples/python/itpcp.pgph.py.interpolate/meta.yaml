@@ -1,14 +1,20 @@
 slug: itpcp.pgph.py.interpolate
-version: 1.0.2
-title: Data Interpolation
-description: 'In this example you will apply various interpolation methods to measurement
-  data.
-
-  You will compare nearest, linear, pchip and cubic spline interpolation and
-
-  visualize the results in a subplot.
-
-  '
+version: 1.0.3
+title: Interpolation von Daten
+title_i18n:
+  de: Interpolation von Daten
+  en: Data Interpolation
+description: Du wendest verschiedene Interpolationsverfahren auf Messdaten an. Du
+  vergleichst die Interpolation mit dem nächsten Nachbarn (nearest), die lineare,
+  die pchip- und die kubische Spline-Interpolation und stellst die Ergebnisse in Subplots
+  dar.
+description_i18n:
+  de: Du wendest verschiedene Interpolationsverfahren auf Messdaten an. Du vergleichst
+    die Interpolation mit dem nächsten Nachbarn (nearest), die lineare, die pchip-
+    und die kubische Spline-Interpolation und stellst die Ergebnisse in Subplots dar.
+  en: In this example you will apply various interpolation methods to measurement
+    data. You will compare nearest, linear, pchip and cubic spline interpolation and
+    visualize the results in a subplot.
 language: de
 license: MIT
 authors:

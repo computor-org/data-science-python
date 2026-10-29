@@ -1,9 +1,19 @@
 slug: itpcp.pgph.py.sindex
-version: 1.0.1
-title: Index and Colon
-description: This exercise deepens the understanding of indexing and slicing in Python.
-  Using a matrix, various accesses to elements, rows, columns and submatrices are
-  practiced. Additionally, replacing values and the use of np.nan are covered.
+version: 1.0.2
+title: Index und Doppelpunkt
+title_i18n:
+  de: Index und Doppelpunkt
+  en: Index and Colon
+description: Diese Aufgabe vertieft das Indizieren und Slicing in Python. An einer
+  Matrix übst du den Zugriff auf Elemente, Zeilen, Spalten und Teilmatrizen, ersetzt
+  Werte und verwendest np.nan.
+description_i18n:
+  de: Diese Aufgabe vertieft das Indizieren und Slicing in Python. An einer Matrix
+    übst du den Zugriff auf Elemente, Zeilen, Spalten und Teilmatrizen, ersetzt Werte
+    und verwendest np.nan.
+  en: This exercise deepens the understanding of indexing and slicing in Python. Using
+    a matrix, various accesses to elements, rows, columns and submatrices are practiced.
+    Additionally, replacing values and the use of np.nan are covered.
 language: de
 license: MIT
 authors:

@@ -1,14 +1,21 @@
 slug: itpcp.pgph.py.data_types
-version: 1.0.2
-title: Data Types (Classes) in Python
-description: 'In this exercise you will learn about various numeric data types in
-  Python and NumPy.
-
-  You will create variables with different types (int8, uint8, float32, etc.),
-
-  learn type casting and understand the limits and dangers of type conversions.
-
-  '
+version: 1.0.3
+title: Datentypen (Klassen) in Python
+title_i18n:
+  de: Datentypen (Klassen) in Python
+  en: Data Types (Classes) in Python
+description: Du lernst verschiedene numerische Datentypen in Python und NumPy kennen.
+  Du legst Variablen unterschiedlichen Typs an (int8, uint8, float32 und andere),
+  wandelst Typen ineinander um und erfährst, wo die Grenzen und Gefahren solcher Umwandlungen
+  liegen.
+description_i18n:
+  de: Du lernst verschiedene numerische Datentypen in Python und NumPy kennen. Du
+    legst Variablen unterschiedlichen Typs an (int8, uint8, float32 und andere), wandelst
+    Typen ineinander um und erfährst, wo die Grenzen und Gefahren solcher Umwandlungen
+    liegen.
+  en: In this exercise you will learn about various numeric data types in Python and
+    NumPy. You will create variables with different types (int8, uint8, float32, etc.),
+    learn type casting and understand the limits and dangers of type conversions.
 language: de
 license: MIT
 authors:

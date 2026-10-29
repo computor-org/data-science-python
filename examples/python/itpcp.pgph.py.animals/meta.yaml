@@ -1,16 +1,22 @@
 slug: itpcp.pgph.py.animals
-version: 1.0.2
-title: Animals
-description: 'In this exercise you will learn about the advantages of abstract classes
-  in Python.
-
-  You will implement an Animal class with various subclasses (Dog, Cat, Pig, Frog)
-
-  and compare a switch-based implementation with an abstract class structure
-
-  using the Factory pattern.
-
-  '
+version: 1.0.3
+title: Tiere
+title_i18n:
+  de: Tiere
+  en: Animals
+description: In dieser Aufgabe lernst du die Vorteile abstrakter Klassen in Python
+  kennen. Du implementierst eine Klasse Animal mit mehreren Unterklassen (Dog, Cat,
+  Pig, Frog) und vergleichst eine Lösung mit Fallunterscheidung mit einer abstrakten
+  Klassenstruktur nach dem Factory-Muster.
+description_i18n:
+  de: In dieser Aufgabe lernst du die Vorteile abstrakter Klassen in Python kennen.
+    Du implementierst eine Klasse Animal mit mehreren Unterklassen (Dog, Cat, Pig,
+    Frog) und vergleichst eine Lösung mit Fallunterscheidung mit einer abstrakten
+    Klassenstruktur nach dem Factory-Muster.
+  en: In this exercise you will learn about the advantages of abstract classes in
+    Python. You will implement an Animal class with various subclasses (Dog, Cat,
+    Pig, Frog) and compare a switch-based implementation with an abstract class structure
+    using the Factory pattern.
 language: de
 license: MIT
 authors:

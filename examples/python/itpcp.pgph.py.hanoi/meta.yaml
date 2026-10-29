@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.hanoi
-version: 1.0.3
-title: Towers of Hanoi
-description: 'In this exercise you will program a recursive solution for the classic
-  problem
-
-  of the Towers of Hanoi. You will learn the concept of recursion, where a
-
-  function calls itself until a termination condition is reached.
-
-  '
+version: 1.0.4
+title: Türme von Hanoi
+title_i18n:
+  de: Türme von Hanoi
+  en: Towers of Hanoi
+description: Du programmierst eine rekursive Lösung für das klassische Problem der
+  Türme von Hanoi. Dabei lernst du das Prinzip der Rekursion kennen, bei der eine
+  Funktion sich selbst aufruft, bis eine Abbruchbedingung erreicht ist.
+description_i18n:
+  de: Du programmierst eine rekursive Lösung für das klassische Problem der Türme
+    von Hanoi. Dabei lernst du das Prinzip der Rekursion kennen, bei der eine Funktion
+    sich selbst aufruft, bis eine Abbruchbedingung erreicht ist.
+  en: In this exercise you will program a recursive solution for the classic problem
+    of the Towers of Hanoi. You will learn the concept of recursion, where a function
+    calls itself until a termination condition is reached.
 language: de
 license: MIT
 authors:

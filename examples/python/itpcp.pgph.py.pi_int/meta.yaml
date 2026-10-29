@@ -1,10 +1,20 @@
 slug: itpcp.pgph.py.pi_int
-version: 1.1.1
-title: Approximation of Pi with Integrals
-description: In this exercise Pi is approximated through numerical integration of
-  various functions. The normal distribution, the gamma function and the sinc function
-  are used. The convergence of the different integrals is calculated with scipy.integrate.quad
-  and displayed graphically.
+version: 1.1.2
+title: Approximation von π mit Integralen
+title_i18n:
+  de: Approximation von π mit Integralen
+  en: Approximation of π with Integrals
+description: Du näherst π durch numerische Integration verschiedener Funktionen an,
+  nämlich der Normalverteilung, der Gammafunktion und der sinc-Funktion. Die Integrale
+  berechnest du mit scipy.integrate.quad und stellst ihre Konvergenz grafisch dar.
+description_i18n:
+  de: Du näherst π durch numerische Integration verschiedener Funktionen an, nämlich
+    der Normalverteilung, der Gammafunktion und der sinc-Funktion. Die Integrale berechnest
+    du mit scipy.integrate.quad und stellst ihre Konvergenz grafisch dar.
+  en: In this exercise Pi is approximated through numerical integration of various
+    functions. The normal distribution, the gamma function and the sinc function are
+    used. The convergence of the different integrals is calculated with scipy.integrate.quad
+    and displayed graphically.
 language: de
 license: MIT
 authors:

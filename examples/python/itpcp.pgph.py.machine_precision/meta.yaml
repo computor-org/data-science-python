@@ -1,15 +1,22 @@
 slug: itpcp.pgph.py.machine_precision
-version: 1.0.2
-title: Comparison of Formulas
-description: 'In this exercise you will examine the equivalence of mathematical identities
-  and
-
-  learn about the significance of machine precision. You will compare numerical
-
-  calculations and understand why exact equality is problematic with floating-point
-  numbers.
-
-  '
+version: 1.0.3
+title: Vergleich von Formeln
+title_i18n:
+  de: Vergleich von Formeln
+  en: Comparison of Formulas
+description: Du prüfst, ob mathematisch gleichwertige Formeln auch numerisch dasselbe
+  Ergebnis liefern, und lernst dabei die Bedeutung der Maschinengenauigkeit kennen.
+  Du vergleichst numerische Rechnungen und verstehst, warum ein Test auf exakte Gleichheit
+  bei Gleitkommazahlen problematisch ist.
+description_i18n:
+  de: Du prüfst, ob mathematisch gleichwertige Formeln auch numerisch dasselbe Ergebnis
+    liefern, und lernst dabei die Bedeutung der Maschinengenauigkeit kennen. Du vergleichst
+    numerische Rechnungen und verstehst, warum ein Test auf exakte Gleichheit bei
+    Gleitkommazahlen problematisch ist.
+  en: In this exercise you will examine the equivalence of mathematical identities
+    and learn about the significance of machine precision. You will compare numerical
+    calculations and understand why exact equality is problematic with floating-point
+    numbers.
 language: de
 license: MIT
 authors:

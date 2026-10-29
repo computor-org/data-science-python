@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.pivot_index
-version: 1.0.1
-title: Finding the Pivot Index
-description: In this exercise a function is implemented that finds the pivot index
-  of an array. The pivot index is the position where the sum of all elements to the
-  left equals the sum of all elements to the right. The leftmost pivot index is returned,
-  or -1 if none exists.
+version: 1.0.2
+title: Finden des Pivot-Index
+title_i18n:
+  de: Finden des Pivot-Index
+  en: Finding the Pivot Index
+description: Du schreibst eine Funktion, die den Pivot-Index eines Arrays findet,
+  also die Stelle, an der die Summe aller Elemente links davon gleich der Summe aller
+  Elemente rechts davon ist. Die Funktion gibt den am weitesten links liegenden Pivot-Index
+  zurück oder -1, wenn es keinen gibt.
+description_i18n:
+  de: Du schreibst eine Funktion, die den Pivot-Index eines Arrays findet, also die
+    Stelle, an der die Summe aller Elemente links davon gleich der Summe aller Elemente
+    rechts davon ist. Die Funktion gibt den am weitesten links liegenden Pivot-Index
+    zurück oder -1, wenn es keinen gibt.
+  en: In this exercise a function is implemented that finds the pivot index of an
+    array. The pivot index is the position where the sum of all elements to the left
+    equals the sum of all elements to the right. The leftmost pivot index is returned,
+    or -1 if none exists.
 language: de
 license: MIT
 authors:

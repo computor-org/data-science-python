@@ -1,8 +1,18 @@
 slug: itpcp.pgph.py.caesar
-version: 1.0.2
-title: Caesar Cipher
-description: Learn about Caesar cipher encryption and decryption. Implement encryption/decryption
-  functions and crack encoded messages with unknown keys.
+version: 1.0.3
+title: Caesar Verschlüsselung
+title_i18n:
+  de: Caesar Verschlüsselung
+  en: Caesar Cipher
+description: Du lernst die Caesar-Verschlüsselung kennen, schreibst Funktionen zum
+  Ver- und Entschlüsseln und knackst verschlüsselte Nachrichten, deren Schlüssel du
+  nicht kennst.
+description_i18n:
+  de: Du lernst die Caesar-Verschlüsselung kennen, schreibst Funktionen zum Ver- und
+    Entschlüsseln und knackst verschlüsselte Nachrichten, deren Schlüssel du nicht
+    kennst.
+  en: Learn about Caesar cipher encryption and decryption. Implement encryption/decryption
+    functions and crack encoded messages with unknown keys.
 language: de
 license: MIT
 authors:

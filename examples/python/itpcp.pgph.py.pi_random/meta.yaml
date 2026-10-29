@@ -1,10 +1,20 @@
 slug: itpcp.pgph.py.pi_random
-version: 1.1.1
-title: Pi - Just a Coincidence?
-description: This exercise demonstrates the Monte Carlo method for calculating Pi.
-  By randomly distributing points in a square and counting the points inside an inscribed
-  circle, Pi is approximated. The convergence is improved through repeated experiments
-  and averaging.
+version: 1.1.2
+title: π – nur ein Zufall?
+title_i18n:
+  de: π – nur ein Zufall?
+  en: π - Just a Coincidence?
+description: Du berechnest π mit der Monte-Carlo-Methode. Dazu verteilst du Punkte
+  zufällig in einem Quadrat und zählst, wie viele davon in einem einbeschriebenen
+  Kreis liegen; durch wiederholte Versuche und Mittelung verbesserst du die Konvergenz.
+description_i18n:
+  de: Du berechnest π mit der Monte-Carlo-Methode. Dazu verteilst du Punkte zufällig
+    in einem Quadrat und zählst, wie viele davon in einem einbeschriebenen Kreis liegen;
+    durch wiederholte Versuche und Mittelung verbesserst du die Konvergenz.
+  en: This exercise demonstrates the Monte Carlo method for calculating Pi. By randomly
+    distributing points in a square and counting the points inside an inscribed circle,
+    Pi is approximated. The convergence is improved through repeated experiments and
+    averaging.
 language: de
 license: MIT
 authors:

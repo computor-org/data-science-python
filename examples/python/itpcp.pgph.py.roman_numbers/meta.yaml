@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.roman_numbers
-version: 1.0.1
-title: Roman Numerals
-description: This exercise covers the conversion of Roman numerals to Arabic numerals
-  using Python dictionaries. The subtraction rule for Roman numerals (e.g. IV = 4)
-  is implemented. The function contains a docstring following numpy convention and
-  raises a ValueError for invalid input.
+version: 1.0.2
+title: Römische Ziffern
+title_i18n:
+  de: Römische Ziffern
+  en: Roman Numerals
+description: Du wandelst römische Zahlen mithilfe von Python-Dictionaries in arabische
+  Zahlen um und setzt dabei die Subtraktionsregel um (etwa IV = 4). Deine Funktion
+  bekommt einen Docstring nach NumPy-Konvention und löst bei ungültiger Eingabe einen
+  ValueError aus.
+description_i18n:
+  de: Du wandelst römische Zahlen mithilfe von Python-Dictionaries in arabische Zahlen
+    um und setzt dabei die Subtraktionsregel um (etwa IV = 4). Deine Funktion bekommt
+    einen Docstring nach NumPy-Konvention und löst bei ungültiger Eingabe einen ValueError
+    aus.
+  en: This exercise covers the conversion of Roman numerals to Arabic numerals using
+    Python dictionaries. The subtraction rule for Roman numerals (e.g. IV = 4) is
+    implemented. The function contains a docstring following numpy convention and
+    raises a ValueError for invalid input.
 language: de
 license: MIT
 authors:

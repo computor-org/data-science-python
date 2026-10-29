@@ -5,9 +5,30 @@ git:
   - managed
   - download
 name: Data Science mit Python III – Vertiefung
+title_i18n:
+  de: Data Science mit Python III – Vertiefung
+  en: Data Science with Python III – Advanced
 position: 30
-description: Eigenständige Aufgaben aus Mathematik und Naturwissenschaften mit Gleichungssystemen,
-  Kurvenanalyse, Differentialgleichungen und objektorientierter Programmierung.
+description: |-
+  Die Vertiefung richtet sich an alle, die den Aufbaukurs abgeschlossen haben oder Python bereits sicher beherrschen. Statt einzelne Sprachelemente zu üben, löst du größere Aufgaben aus Mathematik und Naturwissenschaften weitgehend selbstständig: Du löst lineare Gleichungssysteme, etwa für elektrische Netzwerke, führst Kurvendiskussionen mit SymPy durch, integrierst numerisch, löst Anfangswertprobleme und schätzt Unsicherheiten mit Fehlerfortpflanzung und Monte-Carlo-Methoden ab. Zum Abschluss schreibst du eigene Klassen und lernst die objektorientierte Programmierung kennen; außerdem testest du Code mit pytest und misst seine Laufzeit mit cProfile.
+
+  Der Kurs umfasst vier Wochen mit jeweils drei bis fünf Aufgaben, ergänzt durch Zusatzaufgaben. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet.
+
+  Du solltest mit dem Stoff von „Data Science mit Python II – Aufbau“ vertraut sein, vor allem mit Schleifen, logischer Indizierung und NumPy-Arrays, und Grundkenntnisse in linearer Algebra und Analysis mitbringen. Du brauchst ein Computor-Konto und arbeitest in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
+description_i18n:
+  de: |-
+    Die Vertiefung richtet sich an alle, die den Aufbaukurs abgeschlossen haben oder Python bereits sicher beherrschen. Statt einzelne Sprachelemente zu üben, löst du größere Aufgaben aus Mathematik und Naturwissenschaften weitgehend selbstständig: Du löst lineare Gleichungssysteme, etwa für elektrische Netzwerke, führst Kurvendiskussionen mit SymPy durch, integrierst numerisch, löst Anfangswertprobleme und schätzt Unsicherheiten mit Fehlerfortpflanzung und Monte-Carlo-Methoden ab. Zum Abschluss schreibst du eigene Klassen und lernst die objektorientierte Programmierung kennen; außerdem testest du Code mit pytest und misst seine Laufzeit mit cProfile.
+
+    Der Kurs umfasst vier Wochen mit jeweils drei bis fünf Aufgaben, ergänzt durch Zusatzaufgaben. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet.
+
+    Du solltest mit dem Stoff von „Data Science mit Python II – Aufbau“ vertraut sein, vor allem mit Schleifen, logischer Indizierung und NumPy-Arrays, und Grundkenntnisse in linearer Algebra und Analysis mitbringen. Du brauchst ein Computor-Konto und arbeitest in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
+  en: |-
+    The advanced course is for anyone who has completed the intermediate course or is already confident with Python. Instead of practising single language features, you work largely on your own through larger problems from mathematics and science: you solve linear systems of equations, for example for electrical networks, analyse curves with SymPy, integrate numerically, solve initial value problems and estimate uncertainties with error propagation and Monte Carlo methods. To finish, you write your own classes and learn object-oriented programming; you also test code with pytest and measure its run time with cProfile.
+
+    The course runs over four weeks with three to five assignments each, complemented by extra assignments. Every assignment has instructions in German and English, and the solution you submit is tested automatically.
+
+    You should be familiar with the material of "Data Science with Python II – Intermediate", above all loops, logical indexing and NumPy arrays, and bring basic linear algebra and calculus. You need a Computor account and work in a workspace provided by Computor or locally in VS Code with the Computor extension.
+language_code: de
 path: python.advanced
 services:
 - slug: itpcp.exec.py
@@ -16,19 +37,48 @@ content_types:
   kind: unit
   slug: weekly
   title: Woche
+  title_i18n:
+    de: Woche
+    en: Week
+  description: Eine Kurswoche mit ihren Aufgaben.
+  description_i18n:
+    de: Eine Kurswoche mit ihren Aufgaben.
+    en: One week of the course with its assignments.
 - color: yellow
   kind: assignment
   slug: advanced
   title: Aufgabe
+  title_i18n:
+    de: Aufgabe
+    en: Assignment
+  description: Eine Programmieraufgabe, die du einreichst und die automatisch getestet
+    wird.
+  description_i18n:
+    de: Eine Programmieraufgabe, die du einreichst und die automatisch getestet wird.
+    en: A programming assignment that you submit and that is tested automatically.
 - color: orange
   kind: assignment
   slug: extra
   title: Zusatzaufgabe
+  title_i18n:
+    de: Zusatzaufgabe
+    en: Extra assignment
+  description: Eine zusätzliche Aufgabe für alle, die mehr üben wollen.
+  description_i18n:
+    de: Eine zusätzliche Aufgabe für alle, die mehr üben wollen.
+    en: An additional assignment for anyone who wants more practice.
 contents:
 - content_type: weekly
   path: week_1
   position: 1.0
   title: Woche 1
+  title_i18n:
+    de: Woche 1
+    en: Week 1
+  description: Lineare Gleichungssysteme, Kegelschnitte, Vektorfelder und Eigenvektoren.
+  description_i18n:
+    de: Lineare Gleichungssysteme, Kegelschnitte, Vektorfelder und Eigenvektoren.
+    en: Linear systems of equations, conic sections, vector fields and eigenvectors.
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.linalg_network
@@ -36,34 +86,59 @@ contents:
     path: linalg_network
     position: 1.0
     title: Lineare Gleichungssysteme und die Kirchhoffschen Regeln
+    title_i18n:
+      de: Lineare Gleichungssysteme und die Kirchhoffschen Regeln
+      en: Linear Systems of Equations and Kirchhoff's Rules
   - content_type: advanced
     example_identifier: itpcp.pgph.py.linalg_diag_matrix
     max_group_size: 1
     path: linalg_diag_matrix
     position: 2.0
     title: Lineare Gleichungssysteme, Diagonalmatrix, Probe
+    title_i18n:
+      de: Lineare Gleichungssysteme, Diagonalmatrix, Probe
+      en: Linear Systems of Equations, Diagonal Matrix, Verification
   - content_type: advanced
     example_identifier: itpcp.pgph.py.linalg_conic_sections
     max_group_size: 1
     path: linalg_conic_sections
     position: 3.0
     title: Lineares Gleichungssystem, Kegelschnitte
+    title_i18n:
+      de: Lineares Gleichungssystem, Kegelschnitte
+      en: Linear System of Equations, Conic Sections
   - content_type: advanced
     example_identifier: itpcp.pgph.py.vector_field
     max_group_size: 1
     path: vector_field
     position: 4.0
     title: Vektorfelder und Eigenvektoren
+    title_i18n:
+      de: Vektorfelder und Eigenvektoren
+      en: Vector Fields and Eigenvectors
   - content_type: extra
     example_identifier: itpcp.pgph.py.caesar
     max_group_size: 1
     path: caesar
     position: 5.0
     title: Caesar Verschlüsselung
+    title_i18n:
+      de: Caesar Verschlüsselung
+      en: Caesar Cipher
 - content_type: weekly
   path: week_2
   position: 2.0
   title: Woche 2
+  title_i18n:
+    de: Woche 2
+    en: Week 2
+  description: Kurvendiskussion mit SymPy, numerische Integration und Anfangswertprobleme
+    am Beispiel des Pendels.
+  description_i18n:
+    de: Kurvendiskussion mit SymPy, numerische Integration und Anfangswertprobleme
+      am Beispiel des Pendels.
+    en: Curve analysis with SymPy, numerical integration and initial value problems,
+      using the pendulum as an example.
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.differentiate
@@ -71,34 +146,59 @@ contents:
     path: differentiate
     position: 1.0
     title: 'Kurvendiskussion: Analytische und Numerische Lösung'
+    title_i18n:
+      de: 'Kurvendiskussion: Analytische und Numerische Lösung'
+      en: 'Curve Analysis: Analytical and Numerical Solution'
   - content_type: advanced
     example_identifier: itpcp.pgph.py.integrate
     max_group_size: 1
     path: integrate
     position: 2.0
     title: Numerische Integration
+    title_i18n:
+      de: Numerische Integration
+      en: Numerical Integration
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pi_int
     max_group_size: 1
     path: pi_int
     position: 3.0
     title: Approximation von π mit Integralen
+    title_i18n:
+      de: Approximation von π mit Integralen
+      en: Approximation of π with Integrals
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pendulum
     max_group_size: 1
     path: pendulum
     position: 4.0
     title: Numerische Lösung von Anfangswertproblemen
+    title_i18n:
+      de: Numerische Lösung von Anfangswertproblemen
+      en: Numerical Solution of Initial Value Problems
   - content_type: extra
     example_identifier: itpcp.pgph.py.pendulum_animation
     max_group_size: 1
     path: pendulum_animation
     position: 5.0
     title: Animation eines Pendels
+    title_i18n:
+      de: Animation eines Pendels
+      en: Animation of a Pendulum
 - content_type: weekly
   path: week_3
   position: 3.0
   title: Woche 3
+  title_i18n:
+    de: Woche 3
+    en: Week 3
+  description: Fehlerfortpflanzung, Monte-Carlo-Methoden und Näherungen für π sowie
+    Tests und Laufzeitmessung.
+  description_i18n:
+    de: Fehlerfortpflanzung, Monte-Carlo-Methoden und Näherungen für π sowie Tests
+      und Laufzeitmessung.
+    en: Error propagation, Monte Carlo methods and approximations of π, plus testing
+      and profiling.
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.uncertainties
@@ -106,34 +206,56 @@ contents:
     path: uncertainties
     position: 1.0
     title: 'Fehlerfortpflanzung: linear und Monte Carlo'
+    title_i18n:
+      de: 'Fehlerfortpflanzung: linear und Monte Carlo'
+      en: 'Error Propagation: Linear and Monte Carlo'
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pi_random
     max_group_size: 1
     path: pi_random
     position: 2.0
     title: π – nur ein Zufall?
+    title_i18n:
+      de: π – nur ein Zufall?
+      en: π - Just a Coincidence?
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pi_series
     max_group_size: 1
     path: pi_series
     position: 3.0
     title: Approximation von π mit Reihen
+    title_i18n:
+      de: Approximation von π mit Reihen
+      en: Approximation of π with Series
   - content_type: advanced
     example_identifier: itpcp.pgph.py.pi_archimedes
     max_group_size: 1
     path: pi_archimedes
     position: 4.0
     title: Berechnung von π nach der Methode von Archimedes von Syrakus
+    title_i18n:
+      de: Berechnung von π nach der Methode von Archimedes von Syrakus
+      en: Calculation of π According to the Method of Archimedes of Syracuse
   - content_type: extra
     example_identifier: itpcp.pgph.py.pytest
     max_group_size: 1
     path: pytest
     position: 5.0
     title: Pytest & cProfile
+    title_i18n:
+      de: Pytest & cProfile
+      en: Pytest & cProfile
 - content_type: weekly
   path: week_4
   position: 4.0
   title: Woche 4
+  title_i18n:
+    de: Woche 4
+    en: Week 4
+  description: Objektorientierte Programmierung mit eigenen und abstrakten Klassen.
+  description_i18n:
+    de: Objektorientierte Programmierung mit eigenen und abstrakten Klassen.
+    en: Object-oriented programming with your own and abstract classes.
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.planets
@@ -141,15 +263,24 @@ contents:
     path: planets
     position: 1.0
     title: Objektorientierte Programmierung in Python
+    title_i18n:
+      de: Objektorientierte Programmierung in Python
+      en: Object-Oriented Programming in Python
   - content_type: advanced
     example_identifier: itpcp.pgph.py.polynom
     max_group_size: 1
     path: polynom
     position: 2.0
     title: Polynome
+    title_i18n:
+      de: Polynome
+      en: Polynomials
   - content_type: advanced
     example_identifier: itpcp.pgph.py.animals
     max_group_size: 1
     path: animals
     position: 3.0
     title: Tiere
+    title_i18n:
+      de: Tiere
+      en: Animals

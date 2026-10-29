@@ -1,16 +1,20 @@
 slug: itpcp.pgph.py.gross_net
-version: 1.0.1
-title: Gross Net Calculator
-description: 'In this exercise you will implement a gross-net calculator based on
-  the
-
-  Austrian tax system. You will learn to calculate progressive income tax and
-
-  social security contributions and write a function that determines the
-
-  net salary from a gross salary.
-
-  '
+version: 1.0.2
+title: Brutto Netto Rechner
+title_i18n:
+  de: Brutto Netto Rechner
+  en: Gross Net Calculator
+description: Du schreibst einen Brutto-Netto-Rechner nach dem österreichischen Steuersystem.
+  Dabei berechnest du die progressive Einkommensteuer und die Sozialversicherungsbeiträge
+  und schreibst eine Funktion, die aus einem Bruttogehalt das Nettogehalt ermittelt.
+description_i18n:
+  de: Du schreibst einen Brutto-Netto-Rechner nach dem österreichischen Steuersystem.
+    Dabei berechnest du die progressive Einkommensteuer und die Sozialversicherungsbeiträge
+    und schreibst eine Funktion, die aus einem Bruttogehalt das Nettogehalt ermittelt.
+  en: In this exercise you will implement a gross-net calculator based on the Austrian
+    tax system. You will learn to calculate progressive income tax and social security
+    contributions and write a function that determines the net salary from a gross
+    salary.
 language: de
 license: MIT
 authors:

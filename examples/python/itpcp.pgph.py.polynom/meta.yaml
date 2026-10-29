@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.polynom
-version: 1.0.1
-title: Polynomials
-description: In this exercise a Polynomial class is implemented that supports basic
-  mathematical operations such as addition, subtraction and multiplication. Additionally,
-  methods for differentiation and integration are implemented. The class uses operator
-  overloading with Python dunder methods.
+version: 1.0.2
+title: Polynome
+title_i18n:
+  de: Polynome
+  en: Polynomials
+description: Du implementierst eine Klasse Polynomial, die Grundrechenarten wie Addition,
+  Subtraktion und Multiplikation beherrscht, und ergänzt Methoden zum Differenzieren
+  und Integrieren. Die Klasse nutzt Operatorüberladung mit den Dunder-Methoden von
+  Python.
+description_i18n:
+  de: Du implementierst eine Klasse Polynomial, die Grundrechenarten wie Addition,
+    Subtraktion und Multiplikation beherrscht, und ergänzt Methoden zum Differenzieren
+    und Integrieren. Die Klasse nutzt Operatorüberladung mit den Dunder-Methoden von
+    Python.
+  en: In this exercise a Polynomial class is implemented that supports basic mathematical
+    operations such as addition, subtraction and multiplication. Additionally, methods
+    for differentiation and integration are implemented. The class uses operator overloading
+    with Python dunder methods.
 language: de
 license: MIT
 authors:

@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.cosine_function
-version: 1.0.2
-title: Decaying Cosine Function
-description: 'In this example you will write a function to calculate a decaying
-
-  cosine function in exponential form. You will practice working with complex numbers,
-
-  the Euler formula and learn to display the function graphically with an envelope
-  curve.
-
-  '
+version: 1.0.3
+title: Abklingende Cosinus-Funktion
+title_i18n:
+  de: Abklingende Cosinus-Funktion
+  en: Decaying Cosine Function
+description: Du schreibst eine Funktion, die eine abklingende Kosinusfunktion in Exponentialform
+  berechnet. Dabei rechnest du mit komplexen Zahlen und der Eulerschen Formel und
+  stellst die Funktion zusammen mit ihrer Einhüllenden grafisch dar.
+description_i18n:
+  de: Du schreibst eine Funktion, die eine abklingende Kosinusfunktion in Exponentialform
+    berechnet. Dabei rechnest du mit komplexen Zahlen und der Eulerschen Formel und
+    stellst die Funktion zusammen mit ihrer Einhüllenden grafisch dar.
+  en: In this example you will write a function to calculate a decaying cosine function
+    in exponential form. You will practice working with complex numbers, the Euler
+    formula and learn to display the function graphically with an envelope curve.
 language: de
 license: MIT
 authors:

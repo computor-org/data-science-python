@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.basis3
-version: 1.1.1
-title: Combination of Functions
-description: 'This exercise deals with calculating and plotting simple functions.
-  You will learn
-
-  to calculate trigonometric function combinations, add colors and legends to graphics,
-
-  and practice commenting code for better structure.
-
-  '
+version: 1.1.2
+title: Kombination von Funktionen
+title_i18n:
+  de: Kombination von Funktionen
+  en: Combination of Functions
+description: In dieser Aufgabe berechnest und plottest du einfache Funktionen. Du
+  kombinierst Winkelfunktionen, versiehst Grafiken mit Farben und Legenden und übst,
+  deinen Code durch Kommentare übersichtlich zu gliedern.
+description_i18n:
+  de: In dieser Aufgabe berechnest und plottest du einfache Funktionen. Du kombinierst
+    Winkelfunktionen, versiehst Grafiken mit Farben und Legenden und übst, deinen
+    Code durch Kommentare übersichtlich zu gliedern.
+  en: This exercise deals with calculating and plotting simple functions. You will
+    learn to calculate trigonometric function combinations, add colors and legends
+    to graphics, and practice commenting code for better structure.
 language: de
 license: MIT
 authors:

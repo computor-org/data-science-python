@@ -1,9 +1,19 @@
 slug: itpcp.pgph.py.plot_docstr
-version: 1.0.2
-title: Simple Plot with Docstring
-description: This exercise covers creating plots with matplotlib and documenting code
-  with docstrings. Three curves are plotted and a docstring is inserted at the beginning
-  of the script, which can be accessed via the help() function.
+version: 1.0.3
+title: Einfacher Plot mit DocString
+title_i18n:
+  de: Einfacher Plot mit DocString
+  en: Simple Plot with DocString
+description: Du erstellst Plots mit matplotlib und dokumentierst deinen Code mit Docstrings.
+  Du zeichnest drei Kurven und stellst an den Anfang des Skripts einen Docstring,
+  den die Funktion help() anzeigt.
+description_i18n:
+  de: Du erstellst Plots mit matplotlib und dokumentierst deinen Code mit Docstrings.
+    Du zeichnest drei Kurven und stellst an den Anfang des Skripts einen Docstring,
+    den die Funktion help() anzeigt.
+  en: This exercise covers creating plots with matplotlib and documenting code with
+    docstrings. Three curves are plotted and a docstring is inserted at the beginning
+    of the script, which can be accessed via the help() function.
 language: de
 license: MIT
 authors:

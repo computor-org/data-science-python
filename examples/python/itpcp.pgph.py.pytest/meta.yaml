@@ -1,10 +1,21 @@
 slug: itpcp.pgph.py.pytest
-version: 1.0.1
+version: 1.0.2
 title: Pytest & cProfile
-description: This exercise introduces the test framework pytest and the profiling
-  module cProfile. The bubble sort algorithm is implemented and verified with tests.
-  The runtime is analyzed with cProfile and compared with the built-in Python sort
-  function.
+title_i18n:
+  de: Pytest & cProfile
+  en: Pytest & cProfile
+description: Diese Aufgabe führt in das Testframework pytest und das Profiling-Modul
+  cProfile ein. Du implementierst den Bubblesort-Algorithmus, prüfst ihn mit Tests,
+  analysierst seine Laufzeit mit cProfile und vergleichst sie mit der eingebauten
+  Sortierfunktion von Python.
+description_i18n:
+  de: Diese Aufgabe führt in das Testframework pytest und das Profiling-Modul cProfile
+    ein. Du implementierst den Bubblesort-Algorithmus, prüfst ihn mit Tests, analysierst
+    seine Laufzeit mit cProfile und vergleichst sie mit der eingebauten Sortierfunktion
+    von Python.
+  en: This exercise introduces the test framework pytest and the profiling module
+    cProfile. The bubble sort algorithm is implemented and verified with tests. The
+    runtime is analyzed with cProfile and compared with the built-in Python sort function.
 language: de
 license: MIT
 authors:

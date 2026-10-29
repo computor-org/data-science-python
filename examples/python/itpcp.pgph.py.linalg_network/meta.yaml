@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.linalg_network
-version: 1.0.2
-title: Linear Systems and Kirchhoff's Rules
-description: 'In this exercise you will solve an electrical network using Kirchhoff''s
-  laws.
-
-  You will set up the node and mesh equations as a linear system of equations
-
-  and calculate the currents for various voltage values.
-
-  '
+version: 1.0.3
+title: Lineare Gleichungssysteme und die Kirchhoffschen Regeln
+title_i18n:
+  de: Lineare Gleichungssysteme und die Kirchhoffschen Regeln
+  en: Linear Systems of Equations and Kirchhoff's Rules
+description: Du berechnest ein elektrisches Netzwerk mit den Kirchhoffschen Regeln.
+  Dazu stellst du die Knoten- und Maschengleichungen als lineares Gleichungssystem
+  auf und berechnest die Ströme für verschiedene Spannungen.
+description_i18n:
+  de: Du berechnest ein elektrisches Netzwerk mit den Kirchhoffschen Regeln. Dazu
+    stellst du die Knoten- und Maschengleichungen als lineares Gleichungssystem auf
+    und berechnest die Ströme für verschiedene Spannungen.
+  en: In this exercise you will solve an electrical network using Kirchhoff's laws.
+    You will set up the node and mesh equations as a linear system of equations and
+    calculate the currents for various voltage values.
 language: de
 license: MIT
 authors:

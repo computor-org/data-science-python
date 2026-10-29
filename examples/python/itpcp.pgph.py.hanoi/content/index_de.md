@@ -20,15 +20,17 @@ Diese Funktion soll die Türme von Hanoi lösen.
 
 Dabei ist `n` die Anzahl an Scheiben, `start` die Position am Anfang (A, B oder C), `destination` das Ziel und `auxiliary` der verbliebene Stab.
 
-Die Funktion soll dir mittels Printbefehlen die Anweisungen für die Lösung geben. Für `solve_hanoi(3, 'A', 'B', 'C')` solltest du Folgendes erhalten:
+Die Funktion soll dir mittels `print`-Befehlen die Anweisungen für die Lösung geben. Für `solve_hanoi(3, 'A', 'B', 'C')` solltest du Folgendes erhalten (die Ausgabe bleibt englisch):
 
-Move disk 1 from A to B.\
-Move disk 2 from A to C.\
-Move disk 1 from B to C.\
-Move disk 3 from A to B.\
-Move disk 1 from C to A.\
-Move disk 2 from C to B.\
+```text
 Move disk 1 from A to B.
+Move disk 2 from A to C.
+Move disk 1 from B to C.
+Move disk 3 from A to B.
+Move disk 1 from C to A.
+Move disk 2 from C to B.
+Move disk 1 from A to B.
+```
 
 ## Hinweis
 

@@ -11,7 +11,7 @@ ein Kreis eine Spezialform davon ist (1), eine Parabel (3) oder eine Hyperbel (4
 </div>
 
 Geht die schneidende Fläche durch die Kegelspitze, so kann ein Punkt, eine Gerade oder
-ein Geradepaar herauskommen.
+ein Geradenpaar herauskommen.
 
 <div align="center">
 <img src="mediaFiles/kegelschnitt2dmittelpunkt.png" width="40%"/>
@@ -118,7 +118,7 @@ $$
 1. Erzeuge dafür zwei Vektoren `x` und `y` mit `30` Punkten zwischen `-1` und `1`.
    Alle Kombinationen von `x`- und `y`-Werten (die man für einen 3-dimensionalen Plot
    benötigt) kann man mit dem Befehl [np.meshgrid] erzeugen und erhält damit die
-   Matrizen `xx` und `yy`. Durch Auswertung der ersten Gleichung in der *Einführung*
+   Matrizen `xx` und `yy`. Durch Auswertung der ersten Gleichung in der *Einleitung*
    erhält man für diese Matrizen `zz(xx,yy)`.
 
 1. Stelle die Fläche `zz` [graphisch] in einem 3D-Plot dar, wobei die Farbe den
@@ -151,14 +151,14 @@ $$
 </div>
 
 - Wenn du das Python-Skript nicht im Interactive-Mode, sondern im Terminal startest
-  ("Run Python-File" in VSCode), öffnet sich für den Plot ein Fenster, in dem du den 3D
-  Plot mit dem Cursor drehen und die Perspektive ändern kannst. (plt.show() nicht
+  ("Run Python File" in VSCode), öffnet sich für den Plot ein Fenster, in dem du den
+  3D-Plot mit dem Cursor drehen und die Perspektive ändern kannst. (`plt.show()` nicht
   vergessen!)
 
 - Setze, bevor du das erste Mal Zufallszahlen mit numpy generierst, den Seed auf
   einen fixen Wert. Du kannst den Wert ändern, um verschiedene Pseudo-Zufallszahlen
   und damit unterschiedliche Kegelschnitte zu erhalten. Damit der Test funktioniert, musst
-  du den seed jedoch auf $3$ setzen.
+  du den Seed jedoch auf $3$ setzen.
 
 ```python
 np.random.seed(3)

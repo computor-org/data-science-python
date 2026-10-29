@@ -11,9 +11,9 @@ In dieser Aufgabe soll ein lineares Gleichungssystem gelöst werden. Das Ergebni
 Schreib ein Skript `linalg_diag_matrix`, welches ein gegebenes Gleichungssystem löst und das Ergebnis einer Probe unterzieht.
 
 
-1. Lies eine Variable `n` mithilfe von input ein. Stelle sicher, dass `n` ein integer ist. Falls `n` kein integer ist, setze `n` = $5$.
+1. Lies eine Variable `n` mithilfe von `input` ein. Stelle sicher, dass `n` ein Integer ist. Falls `n` kein Integer ist, setze `n` = $5$.
 
-2. Erstelle eine $2n \times 2n$ Matrix `A`, deren Hauptdiagonale aus Einsern besteht und deren Nebendiagonalen ausschließlich `0.5` enthalten. Erzeuge diese Matrix mit den Befehlen [eye] und [diag].
+2. Erstelle eine $2n \times 2n$-Matrix `A`, deren Hauptdiagonale aus Einsern besteht und deren Nebendiagonalen ausschließlich `0.5` enthalten. Erzeuge diese Matrix mit den Befehlen [eye] und [diag].
     $$
       A = 
       \begin{bmatrix}
@@ -57,15 +57,15 @@ Schreib ein Skript `linalg_diag_matrix`, welches ein gegebenes Gleichungssystem 
 
 ## Hinweise
 
-* Bei der Ausgabe von `check` sieht man, dass diese Probe fehlschlägt. Dies liegt daran, dass durch die endliche Genauigkeit der Zahlen stets Rundungsfehler auftreten. Aus diesem Grund ist es **nicht sinnvoll**, auf **Gleichheit** zu prüfen. Es macht lediglich Sinn, auf **beinahe Gleichheit** zu prüfen. Dazu kann der *relative* oder der *absolute* Fehler verwendet werden. Hier soll eine absolute Fehlerschranke verwendet werden. 
+* Bei der Ausgabe von `check` sieht man, dass diese Probe fehlschlägt. Dies liegt daran, dass durch die endliche Genauigkeit der Zahlen stets Rundungsfehler auftreten. Aus diesem Grund ist es **nicht sinnvoll**, auf **Gleichheit** zu prüfen. Es macht lediglich Sinn, auf **näherungsweise Gleichheit** zu prüfen. Dazu kann der *relative* oder der *absolute* Fehler verwendet werden. Hier soll eine absolute Fehlerschranke verwendet werden. 
 
 		error_limit = 1E-8
 
-    Auch nutzen kann man hier die numpy Funktion [isclose]! Damit ist nun die Durchführung einer sinnvollen Probe der Form
+    Auch nutzen kann man hier die NumPy-Funktion [isclose]! Damit ist nun die Durchführung einer sinnvollen Probe der Form
     ```python
     if ...:
         print('Check successful')
     else:
         print('Check unsuccessful')
     ```
-    möglich.
+    möglich. Die Ausgabe `Check successful` bleibt englisch, weil der Test genau diesen Text prüft.

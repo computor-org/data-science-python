@@ -100,7 +100,7 @@ the hints (see below):
 * To get the n-th element of a matrix (the number at the n-th position), first convert the matrix to a vector ([np.ravel]).
 
 * Define a vector of the matrix elements to later access only these.
- E.g., `Avec = np.ravel(A)` to later use `Avec[1]` instead of `np.ravel(A)[1]`
+ E.g., `Avec = np.ravel(A)` to later use `Avec[1]` instead of `np.ravel(A)[1]`.
 
 * With an even number of columns, there is no middle column. Then the successive column is meant, e.g., $6/2=3$, or $5/2=2.5\rightarrow 3$.
  I.e., the middle column with six columns should be the third, and the middle of five columns should also be the third. *Integer division* can be helpful here.

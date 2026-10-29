@@ -42,14 +42,14 @@ Create a Python script `forsum` that accomplishes the following tasks:
 1. Calculate the sum over all values of the array with [np.sum] and save
    it in `sum_st`.
 
-1. Determine the number of rows (`nz`), columns (`ns`), and elements
+1. Determine the number of rows (`nr`), columns (`nc`), and elements
    (`nn`) of `M` and save them in the specified variables ([np.shape],
    [np.size]).
 
 1. Now perform the summations over all rows (`sum_f1`), all columns (`sum_f2`),
    and all elements (`sum_ft`) in three different [for] loops.
-   Save these results in the specified variables. Use as
-   loop index the variables `i_z`, `i_s`, and `i_n` respectively.
+   Save these results in the specified variables. Use the
+   variables `i_r`, `i_c`, and `i_n`, respectively, as loop indices.
 
 1. **Note the hints**
 

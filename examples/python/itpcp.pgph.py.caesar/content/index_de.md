@@ -1,4 +1,4 @@
-<!-- Ceasar source wiki -->
+<!-- Caesar source wiki -->
 [caesar]: <https://en.wikipedia.org/wiki/Caesar_cipher> "caesar"
 
 # Caesar-Verschlüsselung
@@ -31,7 +31,7 @@ Für den Schlüssel $z=3$ sieht die Verschlüsselungstabelle wie folgt aus:
 
 ### 2. Codes knacken
 
-So jetzt wollen wir einmal richtig Codes knacken! 
+So, jetzt wollen wir einmal richtig Codes knacken! 
 
 1. Lies den Text aus der Datei `enc.txt` ein und entschlüssle ihn. Folgendes ist dabei zu beachten: 
 

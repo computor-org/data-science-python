@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Write a Python function `if_vocal` that outputs the following:
+Write a Python function `if_vocal` that is called as follows:
 
 ```python
 result = if_vocal(character)
@@ -13,7 +13,7 @@ result = if_vocal(character)
 | **InOut** | **Name** | **Description** | **Type** |
 |-|-|-|-|
 | Input | `character` | Any letter (uppercase or lowercase) | `str` |
-| Output | `result` | String *Vowel* or *Consonant* | `str` |
+| Output | `result` | String `'Vowel'` or `'Consonant'` | `str` |
 
 ## Task
 
@@ -57,4 +57,4 @@ isInList('ab', ['Was geht ab', 'ab', 4, 'Name'])
 
 * Note that in the first case the substring `'ab'` was not found!
 
-* Use this method in this example to avoid confusing `if` queries!
+* Use this method in this example to avoid confusing `if` statements!

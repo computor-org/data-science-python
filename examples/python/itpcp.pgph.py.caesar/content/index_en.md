@@ -37,7 +37,7 @@ Now let's crack some codes!
 
     The text is divided into 3 subsections, each encrypted differently and progressively harder to decrypt.
 
-    1) Well this is easy: This text was encrypted with an unknown key, try to crack it. Save the decrypted text in the file `dec1.txt`.
+    1) Well, this is easy: This text was encrypted with an unknown key, try to crack it. Save the decrypted text in the file `dec1.txt`.
     2) This is a bit harder: Perhaps the lines in this text are encrypted differently. The title and text from 1) might give a hint. Are there character sequences that occur frequently? Save the decrypted text in the file `dec2.txt`.
     3) This is the hardest: This is probably even more difficult. Perhaps there are tips in text 2). Save the decrypted text in the file `dec3.txt`.
 

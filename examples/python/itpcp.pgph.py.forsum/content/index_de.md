@@ -43,19 +43,19 @@ Erzeuge ein Python-Skript `forsum`, das folgende Aufgaben erfüllt:
 1. Berechne mit [np.sum] die Summe über alle Werte des Arrays und speichere
    diese in `sum_st`.
 
-1. Bestimme die Anzahl der Zeilen (`nz`), der Spalten (`ns`) und der Elemente
+1. Bestimme die Anzahl der Zeilen (`nr`), der Spalten (`nc`) und der Elemente
    (`nn`) von `M` und speichere diese in die angegebenen Variablen ([np.shape],
    [np.size]).
 
 1. Führe die Summationen über alle Zeilen (`sum_f1`), alle Spalten (`sum_f2`)
    und alle Elemente (`sum_ft`) nun in drei unterschiedlichen [for]-Schleifen durch.
    Speichere diese Ergebnisse in die angegebenen Variablen. Verwende als
-   Schleifenindex die Variablen `i_z`, `i_s` bzw. `i_n`.
+   Schleifenindex die Variablen `i_r`, `i_c` bzw. `i_n`.
 
 1. **Beachte die Hinweise**
 
 1. Überleg dir, welche Dimensionen du dir bei diesen Operationen erwarten würdest,
-   und schau mittels dem `shape` member von den numpy Arrays ihre eigentliche Dimension
+   und schau mit dem `shape`-Member von den NumPy-Arrays ihre eigentliche Dimension
    nach. Was fällt dir auf? Wieso dürfte das wohl so sein?
 
 ## Hinweise

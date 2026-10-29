@@ -1,22 +1,22 @@
 slug: itpcp.pgph.py.quadratic_eq_test
-version: 1.0.3
+version: 1.0.5
 title: Analyse der Lösungen einer quadratischen Gleichung 1
 title_i18n:
   de: Analyse der Lösungen einer quadratischen Gleichung 1
   en: Analysis of Solutions of a Quadratic Equation 1
-description: Du kombinierst die Funktionen quadgl und quadgleval, um die Lösungen
-  quadratischer Gleichungen zu untersuchen. Du erzeugst zufällige Koeffizientenmatrizen,
+description: Du kombinierst die Funktionen quadratic_eq und quadratic_eq_eval, um
+  die Lösungen quadratischer Gleichungen zu untersuchen. Du erzeugst zufällige Koeffizientenmatrizen,
   prüfst die numerische Genauigkeit der Lösungen und behandelst auch die Sonderfälle
   a = 0 und b = 0.
 description_i18n:
-  de: Du kombinierst die Funktionen quadgl und quadgleval, um die Lösungen quadratischer
-    Gleichungen zu untersuchen. Du erzeugst zufällige Koeffizientenmatrizen, prüfst
-    die numerische Genauigkeit der Lösungen und behandelst auch die Sonderfälle a
-    = 0 und b = 0.
-  en: This exercise combines the functions quadgl and quadgleval to analyze solutions
-    of quadratic equations. Random coefficient matrices are generated and the numerical
-    accuracy of the solutions is verified. Special cases with a=0 or b=0 are also
-    handled.
+  de: Du kombinierst die Funktionen quadratic_eq und quadratic_eq_eval, um die Lösungen
+    quadratischer Gleichungen zu untersuchen. Du erzeugst zufällige Koeffizientenmatrizen,
+    prüfst die numerische Genauigkeit der Lösungen und behandelst auch die Sonderfälle
+    a = 0 und b = 0.
+  en: This exercise combines the functions quadratic_eq and quadratic_eq_eval to analyze
+    solutions of quadratic equations. Random coefficient matrices are generated and
+    the numerical accuracy of the solutions is verified. Special cases with a=0 or
+    b=0 are also handled.
 language: de
 license: MIT
 authors:

@@ -29,9 +29,9 @@ my_second_object.show_value()  # Outputs "20"
 
 In this example, we have defined a class `MyClass` that stores a value and can output this value. The method `__init__` is a special constructor that is called when a new object of the class is created. This happens in the line `my_object = MyClass(10)`, where we create a new object `my_object` and pass it the value `10`. Then we call the method `show_value` to output the value of the object.
 
-The `self` parameter is a reference to the object itself and is automatically passed to all methods. `self` references the attributes and methods of the object to which the method is applied. After we have created the attribute `value` in the method `__init__`, we can access it in the method `show_value` with `self.value`. `my_object.show_value()` thus returns the variable `value` of the object `my_object` and outputs `10`. `my_second_object.show_value()` returns the variable `value` of the object `my_second_object` and outputs `20`.
+The `self` parameter is a reference to the object itself and is automatically passed to all methods. `self` references the attributes and methods of the object to which the method is applied. After we have created the attribute `value` in the method `__init__`, we can access it in the method `show_value` with `self.value`. `my_object.show_value()` thus reads the variable `value` of the object `my_object` and outputs `10`. `my_second_object.show_value()` reads the variable `value` of the object `my_second_object` and outputs `20`.
 
-### Why Should I Use Classes
+### Why Should I Use Classes?
 
 Classes are a powerful tool for modeling complex data structures and behaviors. They allow data and functions to be encapsulated and organized, leading to clearer and more maintainable code. Classes also enable efficient code reuse, as we will see later.
 
@@ -58,24 +58,24 @@ Here is the specification for the problem:
 
 3. Use the following values for Earth as an example:
 
-- Name: "Earth"
+- Name: `"Earth"`
 - Mass: 5.972 x 10^24 kg
-- Diameter: 12.742 km
+- Diameter: 12,742 km
 - Orbital period around the sun: 365.24 days
 - Distance from the sun: 149.6 million km
 
-4. Then create an object for Earth, save it in the variable `earth`.
+4. Then create an object for Earth and save it in the variable `earth`.
 
 5. Also create objects for Mercury, Venus, Mars, Jupiter, Saturn, Uranus, and Neptune with the corresponding values.
 Save the objects in the variables `mercury`, `venus`, `mars`, `jupiter`, `saturn`, `uranus`, and `neptune`.
 
-- Mercury: 3.285 x 10^23 kg, 4.880 km, 87.97 days, 57.9 million km
-- Venus: 4.867 x 10^24 kg, 12.104 km, 224.7 days, 108.2 million km
-- Mars: 6.39 x 10^23 kg, 6.779 km, 686.98 days, 227.9 million km
-- Jupiter: 1.898 x 10^27 kg, 139.822 km, 4,332.59 days, 778.6 million km
-- Saturn: 5.683 x 10^26 kg, 116.464 km, 10,759.22 days, 1,433.5 million km
-- Uranus: 8.681 x 10^25 kg, 50.724 km, 30,687.15 days, 2,872.5 million km
-- Neptune: 1.024 x 10^26 kg, 49.244 km, 60,190.03 days, 4,495.1 million km
+- Mercury: 3.285 x 10^23 kg, 4,880 km, 87.97 days, 57.9 million km
+- Venus: 4.867 x 10^24 kg, 12,104 km, 224.7 days, 108.2 million km
+- Mars: 6.39 x 10^23 kg, 6,779 km, 686.98 days, 227.9 million km
+- Jupiter: 1.898 x 10^27 kg, 139,822 km, 4,332.59 days, 778.6 million km
+- Saturn: 5.683 x 10^26 kg, 116,464 km, 10,759.22 days, 1,433.5 million km
+- Uranus: 8.681 x 10^25 kg, 50,724 km, 30,687.15 days, 2,872.5 million km
+- Neptune: 1.024 x 10^26 kg, 49,244 km, 60,190.03 days, 4,495.1 million km
 
 6. Which planet has the highest average density?
 Save the name of the planet with the highest density in the variable `planet_with_highest_density`.
@@ -88,4 +88,4 @@ Each planet should be its own dictionary and all planets should be stored in a p
 
 Use the same values as in the previous task for the planets.
 
-3. Calculate the average density of each planet and again save the name of the planet with the highest density in the variable `planet_with_highest_density`.
+2. Calculate the average density of each planet and again save the name of the planet with the highest density in the variable `planet_with_highest_density`.

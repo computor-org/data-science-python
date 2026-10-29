@@ -33,7 +33,7 @@ From our sketch, it becomes clear that our result will be closer to the correct 
 
 
 
-  1. Write in `numeric_int.py` a function that uses the trapezoidal method according to the formula given above. Proceed without loops.
+  1. In `numeric_int.py`, write a function that uses the trapezoidal method according to the formula given above. Proceed without loops.
 ```python
   def trapezoidal(fun, a, b, N):
     """
@@ -49,7 +49,7 @@ From our sketch, it becomes clear that our result will be closer to the correct 
 
 ```
 
-2. Write in `numeric_int.py` analogously a function that uses the Simpson method. This uses $3$ points for each partial integral and the total integral is approximated as
+2. In `numeric_int.py`, write an analogous function that uses the Simpson method. This uses $3$ points for each partial integral and the total integral is approximated as
 
 $$
 \int_{a}^{b} f(x) \, dx \approx I_\mathrm{s} = \frac{h}{3} (f_0 + 4 f_1 + 2 f_2 + 4 f_3 + \dots + 2 f_{N-2} + 4 f_{N - 1} + f_N).
@@ -72,7 +72,7 @@ Proceed here also without loops. Use [ValueError] if $N$ is odd, since the equat
 ```
 
 
-3. Now use your functions in `integrate.py` to calculate analytically solvable integrals. Use lambda functions for $\int_0^1 x~dx, \int_0^1 x^2~dx, \int_0^1 x^3~dx, \int_0^1 x^4~dx$ and $\int_0^1 e^{-x^2}~dx$. This allows us to analyze the absolute error of the methods as a function of the interval spacing, $h$. Create the $3$-dimensional array `errors` with dimensions `(i, j, 2)`, where in `[i, j, 0]` the errors for the trapezoidal method and `[i, j, 1]` the errors for the Simpson method should be stored. Here $i$ is the index for the different functions and $j$ is the index for the different $N$ (and thus $h$ since when we increase the number of intervals, we thereby decrease the interval width). Here $N$ should take the values `[10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000]`. However, first try your function with lower values of $N$ (You will have to wait a long time here if you used loops).
+3. Now use your functions in `integrate.py` to calculate analytically solvable integrals. Use lambda functions for $\int_0^1 x~dx, \int_0^1 x^2~dx, \int_0^1 x^3~dx, \int_0^1 x^4~dx$ and $\int_0^1 e^{-x^2}~dx$. This allows us to analyze the absolute error of the methods as a function of the interval spacing, $h$. Create the $3$-dimensional array `errors` with dimensions `(i, j, 2)`, where in `[i, j, 0]` the errors for the trapezoidal method and `[i, j, 1]` the errors for the Simpson method should be stored. Here $i$ is the index for the different functions and $j$ is the index for the different $N$ (and thus $h$ since when we increase the number of intervals, we thereby decrease the interval width). Here $N$ should take the values `[10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000]`. However, first try your function with lower values of $N$ (you will have to wait a long time here if you used loops).
 
 4. Set errors that are smaller than the machine precision (epsilon) to [epsilon].
 
@@ -82,7 +82,7 @@ Proceed here also without loops. Use [ValueError] if $N$ is odd, since the equat
 ## Hints
 * $\int_0^1 e^{-x^2}~dx = \frac{\sqrt{\pi}}{2} \cdot \text{erf(1)}$, where [erf] is the error function.
 
-* Use [np.sum] instead of sum for the integration methods. Do you see a difference?
+* Use [np.sum] instead of `sum` for the integration methods. Do you see a difference?
 
 * Food for thought: Why do the errors of the different functions scale differently? Think about why the error increases for very small values of $h$. What do you conclude from this?
 

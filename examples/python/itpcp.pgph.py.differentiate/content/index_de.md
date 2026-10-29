@@ -1,4 +1,4 @@
-# Kurvendiskussion: Analytische und Numerische Lösung
+# Kurvendiskussion: Analytische und numerische Lösung
 
 ## Einleitung
 
@@ -13,14 +13,14 @@ Die Kurvendiskussion ist ein wichtiger Schritt in der Untersuchung von Funktione
   
   Verwende in `analyt_curve_sketching.py` `sympy.diff()` zur Berechnung von Ableitungen und `sympy.solve()` zur Bestimmung von Nullstellen.
   Nutze `sympy.lambdify()`, um SymPy-Funktionen in numerische Funktionen umzuwandeln, die mit NumPy verwendet werden können.
-  Speichere die Positionen der (reellen!) Nullstellen als `roots_fun`. Die der Extremwerte als `roots_fun_prime` und `eval_fun_prime`.
+  Speichere die Positionen der (reellen!) Nullstellen als `roots_fun` und die der Extremwerte als `roots_fun_prime` und `eval_fun_prime`.
 
 
 ### Numerische Lösung mit NumPy
 
   Nutze in `num_curve_sketching.py` die Funktion `np.gradient()`, um numerische Ableitungen zu berechnen.
   Zur Bestimmung der Nullstellen verwendest du den Wert vor dem Nullübergang. Verwende dafür die Befehle `np.sign()` und `np.where()`, um die Indexe der Nullstellen zu finden. Nutze $x$-Werte von $-3$ bis $3$ mit $10000$ gleichmäßig verteilten Werten.
-  Speichere die Positionen der Nullstellen als `x_zero`. Die der Extremwerte als `x_extrem` und `y_extrem`.
+  Speichere die Positionen der Nullstellen als `x_zero` und die der Extremwerte als `x_extrem` und `y_extrem`.
 
 ### Funktionen
 
@@ -44,10 +44,10 @@ $$
 
   2. Bestimme die Nullstellen (roots) der Funktion und ihrer Ableitung (siehe Hinweis). Speichere die Nullstellen als Liste in der Reihenfolge, wie `sympy.solve()` sie zurückgibt, aber entferne alle Lösungen mit imaginären Anteilen.
 
-  3. Visualisiere die Funktionen sowie ihre Nullstellen und Extrempunkte, sowie die erste Ableitung. Verwende verschiedene Marker für die Nullstellen und Extrempunkte, um sie leicht erkennbar zu machen. Erzeuge ebenfalls eine passende Legende, sowie Titel und Achsenbeschriftung.
+  3. Visualisiere die Funktionen sowie ihre Nullstellen und Extrempunkte sowie die erste Ableitung. Verwende verschiedene Marker für die Nullstellen und Extrempunkte, um sie leicht erkennbar zu machen. Erzeuge ebenfalls eine passende Legende sowie Titel und Achsenbeschriftung.
 
 
-  4. Gib mit dem `print` Befehl die Werte für $f(x) = 0$ und $f(0)$ aus.
+  4. Gib mit dem `print`-Befehl die Werte für $f(x) = 0$ und $f(0)$ aus.
 
   5. Mach dasselbe für die abgeleitete Funktion.
   

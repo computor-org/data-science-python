@@ -80,20 +80,20 @@ Funktion `beat` graphisch darstellt.
       Die erste Linie soll $x(t)$ und die zweite Linie $y(t)$ darstellen.
       Der $y(t)$-Graph ist außerdem in roter Farbe zu zeichnen.
 
-    * Gib der Figure den Titel *Beat Oscillation*, beschrifte die x-Achse
-      mit *t*, die y-Achse mit *Amplitude*
+    * Gib der Figure den Titel `Beat Oscillation` (der Titel bleibt englisch), beschrifte die x-Achse
+      mit `t`, die y-Achse mit `Amplitude`.
 
 4. Erstelle eine weitere Figure, die eine Lissajous-Figur darstellt:
     * Stell $y(x)$ dar. Das Ergebnis ergibt eine Lissajous-Figur
-      (vorausgesetzt, `nu1` und `nu2` bilden ein rationales Verhältnis)
+      (vorausgesetzt, `nu1` und `nu2` bilden ein rationales Verhältnis).
 
-    * Gib der Figure den Titel *Lissajous-Figure*, beschrifte die x-Achse
-      mit *x*, die y-Achse mit *y*.
+    * Gib der Figure den Titel `Lissajous-Figure` (auch dieser Titel bleibt englisch), beschrifte die x-Achse
+      mit `x`, die y-Achse mit `y`.
 
 ## Hinweise
 
 * Es sind zwei Plots in getrennten Fenstern zu erstellen. Die erste
-    Graphik soll eine Schwebung, und die zweite eine Lissajous-Figur darstellen.
+    Graphik soll eine Schwebung und die zweite eine Lissajous-Figur darstellen.
     Um ein neues Fenster für einen Plot zu initialisieren, existieren die Funktionen [plt.figure] und [plt.show]. Für jede der Graphiken sind diese wie folgt zu verwenden:
 
 ```python

@@ -10,7 +10,7 @@ Wir wollen nun unser Pendel animieren. Nutze dazu [animation].
 ## Aufgabe
 
 
-1. Ändere die Funktion `euler_symplectic(fun, dt, t_max, y_0)` (und deine eigenen Funktionen aus der letzten Übung) so, dass $\theta$ nun nur noch von $-\pi$ bis $\pi$ gehen kann, da ein Wert von $\theta = 3.2$ auch zu $\theta = 3.2 - 2\pi$ korrespondiert.
+1. Ändere die Funktion `euler_symplectic(fun, dt, t_max, y_0)` (und deine eigenen Funktionen aus der letzten Übung) so, dass $\theta$ nun nur noch von $-\pi$ bis $\pi$ gehen kann, da ein Wert von $\theta = 3{,}2$ auch $\theta = 3{,}2 - 2\pi$ entspricht.
 
 2. Erstelle eine Animation. Diese soll aus einem Subplot mit zwei Spalten bestehen. Links soll das Pendel dargestellt werden und rechts die Position im Phasenraum. Dieser wird durch $\theta$ auf der $x$-Achse und $\omega$ auf der $y$-Achse beschrieben (Erinnerung: $\dot{\theta} = \omega$, die Winkelgeschwindigkeit).
 

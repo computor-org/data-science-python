@@ -41,9 +41,9 @@ Create the Python script `compare`, which verifies mathematical identities.
 
 3. Check whether the two arrays have the same contents. Use the operator `==` for this and save the result in the variable `v_exact`. As you will notice, not all columns will match. This is because differences in the last decimal places can occur due to the different calculation methods.
 
-4. Therefore, check whether the absolute difference of the arrays is less than $10 \varepsilon$ and save the result in the variable `v_epsilon`. $\varepsilon$ is the machine precision, which indicates the upper limit for rounding errors and the distance between 1.0 and the next higher decimal number. For `np.float64`, $\varepsilon$ is $2^{-52}$. In a few cases, even $\varepsilon$ is not sufficient to numerically demonstrate the equivalence of two results, but with $10 \varepsilon$ you are usually on the safe side.
+4. Therefore, check whether the absolute difference of the arrays is less than $10 \varepsilon$ and save the result in the variable `v_epsilon`. $\varepsilon$ is the machine precision, which indicates the upper limit for rounding errors and the distance between 1.0 and the next higher representable floating-point number. For `np.float64`, $\varepsilon$ is $2^{-52}$. In a few cases, even $\varepsilon$ is not sufficient to numerically demonstrate the equivalence of two results, but with $10 \varepsilon$ you are usually on the safe side.
 
-5. Output `v_exact` and `v_epsilon` using [print] with preceding explanatory text. Think about or discuss with your tutor about the output of this example.
+5. Output `v_exact` and `v_epsilon` using [print] with preceding explanatory text. Think about the output of this example or discuss it with your tutor.
 
 ## Hints
 

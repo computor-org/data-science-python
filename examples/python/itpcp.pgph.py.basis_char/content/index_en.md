@@ -74,7 +74,7 @@ Perform some simple variable definitions in the Python script `basis_char`:
     |`blank`|*a space character*
     |`exclaim`|*an exclamation mark*
 
-    <span style="color: red;">Attention:</span> The last two variable values are to be understood such that the variable `exclaim` should only contain the character *!*. So if you type `exclaim` in the
+    <span style="color: red;">Attention:</span> The last two variable values are to be understood such that the variable `exclaim` should, for example, only contain the character *!*. So if you type `exclaim` in the
     console, the output should be `'!'`.
 
 2. Now create the variable `s3` by concatenating the variables `s1` and `s2`.
@@ -128,7 +128,7 @@ follow the strings, i.e., `s.join()` instead of `join(s)`.
 
     ['a', 'b', 'c', 'd', 'e', 'f']
 
-3.  Create from `list1` using [join] the following string in the
+3.  Use [join] to create the following string from `list1` in the
     variable `str2`:
 
     'a- -b- -c- -d- -e- -f'
@@ -149,7 +149,7 @@ Can subtask 2 also be solved with [split]? Try out what you get with
 ## Hints
 
 * If you want to extract multiple consecutive characters from a string, for example
-    the first three entries of a string `s`, this is principally possible with
+    the first three entries of a string `s`, this is possible in principle with
 
     s[0] + s[1] + s[2]
 
@@ -162,7 +162,7 @@ Can subtask 2 also be solved with [split]? Try out what you get with
     s[:3]
 
 * Since the order of the respective strings matters when concatenating strings,
-the `+` operator for strings is not commutative as usual.
+the `+` operator for strings is, unlike the usual addition, not commutative.
 
 * You can also create strings like `'ABC...Z'` using `range`, `ord`, `chr`.
 However, this requires more complicated constructs like `for` loops or the `map` function.

@@ -6,14 +6,14 @@
 
 ## Einleitung
 
-In einem Skript `simpleanim` sollen zwei Kurven animiert werden:
+In einem Skript `simple_anim` sollen zwei Kurven animiert werden:
 
 $f_1(x, t) = \cos(x) \cos(t)$
 
 $f_2(x, t) = \cos(x-t)$
 
 Matplotlib-Plots lassen sich auf zwei Arten animieren. Einerseits kannst du in einer Schleife für jeden Zeitschritt abwechselnd die Linie updaten und danach manuell für eine bestimmte Zeit pausieren. Wir verwenden hier allerdings die Matplotlib-Klasse [FuncAnimation], die unter anderem den Vorteil bietet, die Animation als Video exportieren zu können.
-Für [FuncAnimation] musst du nur eine update-Funktion definieren, die für jedes Frame die Grafikobjekte updated.
+Für [FuncAnimation] musst du nur eine `update`-Funktion definieren, die für jedes Frame die Grafikobjekte updatet.
  
 ## Aufgabe  
   Gehe zur Erstellung der Animation mit [FuncAnimation] wie folgt vor:
@@ -24,15 +24,15 @@ Für [FuncAnimation] musst du nur eine update-Funktion definieren, die für jede
 
 3. Erzeuge einen Vektor `t` mit `48` Punkten zwischen `0` und $2 \pi$. Dieser Vektor stellt die Zeitskala dar, über die die Animation laufen soll. Berechne `cos_t = cos(t)`.
 
-4. Erzeuge vor der eigentlichen Animation eine figure mit [plt.subplots].
-Speichere in `line1` und `line2` die Plot-handles von zwei lines (plt.plot), wobei sowohl die `x_data` als auch die `y_data` leer
+4. Erzeuge vor der eigentlichen Animation eine Figure mit [plt.subplots].
+Speichere in `line1` und `line2` die Plot-Handles von zwei Lines (`plt.plot`), wobei sowohl die `x_data` als auch die `y_data` leer
  sein sollen (`[]`). Gib als Label jeweils die Funktionsdefinition für $f_1$ und $f_2$ (siehe oben) an und erzeuge die Legende.
- Die Daten für die Linien werden während der Animation geupdated.
+ Die Daten für die Linien werden während der Animation geupdatet.
 
-5. Setze die Achsenlimits für `x` und `y` auf das Minimum und Maximum von `x`, bzw. auf `-1` und `1`.
+5. Setze die Achsenlimits für `x` und `y` auf das Minimum und Maximum von `x` bzw. auf `-1` und `1`.
 
-6. [FuncAnimation] benötigt nun eine Funktion, welche für jeden Zeitschritt die Plots updated.
-Die Funktion bekommt als Argument die aktuelle Frame-Zahl, welche als Index für die Zeitwerte `t` genommen werden kann. Die Plot-handles müssen als Rückgabewerte zurückgegeben werden.
+6. [FuncAnimation] benötigt nun eine Funktion, welche für jeden Zeitschritt die Plots updatet.
+Die Funktion bekommt als Argument die aktuelle Frame-Zahl, welche als Index für die Zeitwerte `t` genommen werden kann. Die Plot-Handles müssen als Rückgabewerte zurückgegeben werden.
 ```python
 def update(frame_num):
     """ for each frame, update the data stored on each artist. """
@@ -47,16 +47,16 @@ def update(frame_num):
 ```
 Hier wird die Funktion `f(t)` für die `y`-Werte vorausgesetzt.
 
-7. Nun kannst du ein Objekt der Klasse [FuncAnimation] erstellen, dem du die Figure, die update-Funktion, eine Anzahl an Frames (hier 48), und ein Interval (hier 16) übergibst. Übergib außerdem das Argument `blit=True`. Anschließend kannst du mit `plt.show()` die Animation anzeigen. Eventuell funktioniert die Darstellung nur, wenn du das Skript in einem Python Terminal ausführst und nicht im Interactive Mode. Mehr dazu siehe [MatplotlibTutorial].
+7. Nun kannst du ein Objekt der Klasse [FuncAnimation] erstellen, dem du die Figure, die `update`-Funktion, eine Anzahl an Frames (hier 48) und ein Intervall (hier 16) übergibst. Übergib außerdem das Argument `blit=True`. Anschließend kannst du mit `plt.show()` die Animation anzeigen. Eventuell funktioniert die Darstellung nur, wenn du das Skript in einem Python-Terminal ausführst und nicht im Interactive Mode. Mehr dazu siehe [MatplotlibTutorial].
 
 
 8. Exportiere mit
     ```python
     ani.save(filename="cos_animation.gif", writer="pillow")
     ```
-    ein Gif der Animation, wobei `ani` das FuncAnimation-Object ist.
+    ein Gif der Animation, wobei `ani` das FuncAnimation-Objekt ist.
 
 
 ## Hinweise
 
-* Alle Graphikbefehle in Matplotlib haben als Rückgabewert eine Referenz, die einen späteren Zugriff auf das erstellte Objekt ermöglicht. Damit kann man also alle Eigenschaften von Graphikobjekten nach deren Erzeugung verändern. Dies gilt natürlich auch für die Daten von Linien um die Animation zu beeinflussen.
+* Alle Graphikbefehle in Matplotlib haben als Rückgabewert eine Referenz, die einen späteren Zugriff auf das erstellte Objekt ermöglicht. Damit kann man also alle Eigenschaften von Graphikobjekten nach deren Erzeugung verändern. Dies gilt natürlich auch für die Daten von Linien, um die Animation zu beeinflussen.

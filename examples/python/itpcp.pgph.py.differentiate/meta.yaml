@@ -1,8 +1,8 @@
 slug: itpcp.pgph.py.differentiate
-version: 1.0.2
-title: 'Kurvendiskussion: Analytische und Numerische Lösung'
+version: 1.0.3
+title: 'Kurvendiskussion: Analytische und numerische Lösung'
 title_i18n:
-  de: 'Kurvendiskussion: Analytische und Numerische Lösung'
+  de: 'Kurvendiskussion: Analytische und numerische Lösung'
   en: 'Curve Analysis: Analytical and Numerical Solution'
 description: In dieser Kurvendiskussion untersuchst du eine Funktion analytisch mit
   SymPy und numerisch mit NumPy. Du bestimmst Nullstellen, Extrema und Ableitungen

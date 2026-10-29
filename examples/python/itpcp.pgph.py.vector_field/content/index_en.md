@@ -11,11 +11,11 @@ $$
 
 where $\hat{A}$ is the transformation matrix, $\vec{x}$ is the eigenvector, and $\lambda$ is the eigenvalue.
 
-This equation can be solved by:
+Rearranged, it reads
 $$
-\det(\hat{A} - \lambda \hat{I})\vec{x} = 0
+(\hat{A} - \lambda \hat{I})\vec{x} = 0 ,
 $$
-where $\hat{I}$ is the identity matrix.
+where $\hat{I}$ is the identity matrix. A solution $\vec{x} \neq 0$ exists if and only if $\det(\hat{A} - \lambda \hat{I}) = 0$; this condition gives the eigenvalues.
 
 This example should make the concept of eigenvectors and eigenvalues intuitive. Additionally, you will gain insight into the visualization of vector fields.
 
@@ -70,9 +70,9 @@ This example should make the concept of eigenvectors and eigenvalues intuitive. 
 
   not be displayed?
 
-<dev align="center">
+<div align="center">
   <img src="mediaFiles/gradient_field.png" width="100%">
-</dev>
+</div>
 
 ## Hints
 

@@ -4,7 +4,7 @@
 
 ## Einleitung
 
-Schreib eine Python-Funktion `if_vocal`, die Folgendes ausgibt:
+Schreib eine Python-Funktion `if_vocal`, die wie folgt aufgerufen wird:
 
 ```python
 result = if_vocal(character)
@@ -13,11 +13,11 @@ result = if_vocal(character)
 | **InOut** | **Name** | **Description** | **Type** |
 |-|-|-|-|
 | Input | `character` | Beliebiger Buchstabe (groß oder klein geschrieben) | `str` |
-| Output | `result` | Zeichenkette *Vowel* oder *Consonant* | `str` |
+| Output | `result` | Zeichenkette `'Vowel'` oder `'Consonant'` | `str` |
 
 ## Aufgabe
 
-1. Diese Funktion liefert als Ausgabewert den String `'Consonant'` oder `'Vowel'`.
+1. Diese Funktion liefert als Rückgabewert den String `'Consonant'` oder `'Vowel'` (die Rückgabewerte bleiben englisch).
 
 2. Der Eingabewert `character` kann sowohl ein Groß- als auch ein Kleinbuchstabe sein.
 
@@ -57,5 +57,5 @@ isInList('ab', ['Was geht ab', 'ab', 4, 'Name'])
 
 * Beachte, dass im ersten Fall der Sub-String `'ab'` nicht gefunden wurde!
 
-* Verwende diese Methode in diesem Beispiel, um unübersichtliche `if` Abfragen zu vermeiden!
+* Verwende diese Methode in diesem Beispiel, um unübersichtliche `if`-Abfragen zu vermeiden!
 

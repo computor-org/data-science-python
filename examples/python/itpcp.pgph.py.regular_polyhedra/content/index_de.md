@@ -89,13 +89,13 @@ r   : Vektor, Radius der einbeschriebenen Kugel
 
 In der Funktion sollen folgende Aufgaben erledigt werden:
 
-1. Für eine vorgegebene Kantenlänge `a` soll das Volumen `V`, die Oberfläche `F`,
+1. Für eine vorgegebene Kantenlänge `a` sollen das Volumen `V`, die Oberfläche `F`,
    der Radius der umschreibenden Kugel `R` und der Radius der eingeschriebenen Kugel
    `r` wahlweise für einen der 5 regulären konvexen Polyeder
    (Tetraeder, Würfel, Oktaeder, Dodekaeder, Ikosaeder) berechnet werden.
 
 2. Mit der String-Variable `type` soll der Typ des regulären Polyeders übergeben
-   werden. Verwende die Buchstaben `'t', 'c', 'o', 'd'` bzw. `'i'` um
+   werden. Verwende die Buchstaben `'t', 'c', 'o', 'd'` bzw. `'i'`, um
    einen der Polyeder auszuwählen. Stelle sicher, dass der richtige
    Polyeder ausgewählt wird für alle möglichen Eingabezeichenketten, nicht
    nur für einzelne Zeichen!
@@ -106,13 +106,13 @@ In der Funktion sollen folgende Aufgaben erledigt werden:
 4. Verwende zur Unterscheidung der Fälle die Steuerstrukturen, die du bereits kennengelernt hast!
 
     Überleg dir, welche Zeichenkette man als `type` übergeben kann, was `type[1]`
-    bedeutet, und was der Befehl [lower] dabei bewirkt.
+    bedeutet und was der Befehl [lower] dabei bewirkt.
     Du solltest die Befehle wie immer in der Konsole ausprobieren.
 
 
 ### Teil 2
 
-Schreibe ein Python Skript `regular_polyhedra_script.py`, das mit mehreren Aufrufen der von
+Schreibe ein Python-Skript `regular_polyhedra_script.py`, das mit mehreren Aufrufen der von
 dir implementierten Funktion `regpol` nun einige Variablen berechnet. Gehe wie folgt vor:
 
 1. Definiere eine Variable `edge`, die die Einträge `[1,2,3]` hat.

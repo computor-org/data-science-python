@@ -36,13 +36,13 @@ Create a Python script `slogic` that accomplishes the following tasks:
 
 3. Calculate in `num_L2_L4` the number of values for which the conditions `L2` and `L4` are true.
 
-4. Create a vector consisting of the values from matrix `M` that satisfy the following condition:
+4. Create one vector each, consisting of the values from matrix `M` that satisfy the following condition:
 
     * `L6` (Variable: `w_L6`)
     * not `L5` (Variable: `w_L5`)
     * `L2` and `L5` (Variable: `w_L2_L5`).
 
-5. Calculate the **row and column indices** of the values for which the condition `L6` is true, in the variables `iz6` and `is6` ([np.where]).
+5. Calculate the **row and column indices** of the values for which the condition `L6` is true, in the variables `ir6` and `ic6` ([np.where]).
 
 6. Calculate the **linear** (flattened) **indices** of the values for which the condition `L6` is true, in the variable `i6` ([np.where], [np.ravel]).
 
@@ -75,11 +75,11 @@ Variable     | Task
 :------------|:------
 `s1`   | Sum over all rows along the columns of `M`
 `sm1`  | Mean of the values in `s1`
-`Lsm1` | Logical vector; `true` where `s1` is between 80% and 100% of `sm1` (inclusive).
+`Lsm1` | Logical vector; `True` where `s1` is between 80% and 100% of `sm1` (inclusive).
 `Ssm1` | Those parts (columns) of `M` for which `Lsm1` is true
 `s2`   | Sum over all columns along the rows of `M`.
 `sm2`  | Mean of the values in `s2`
-`Lsm2` | Logical vector; `true` where `s2` is between 80% and 100% of `sm2` (inclusive).
+`Lsm2` | Logical vector; `True` where `s2` is between 80% and 100% of `sm2` (inclusive).
 `Ssm2` | Those parts (rows) of `M` for which `Lsm2` is true
 `S3`   | Those parts of `M` for which `Lsm1` and `Lsm2` are true
 

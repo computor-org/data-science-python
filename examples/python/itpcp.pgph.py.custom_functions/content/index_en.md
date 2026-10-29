@@ -8,12 +8,12 @@
 ## Introduction
 
 This exercise deals with creating and plotting custom functions.
-For this, two Python functions `sgauss` and `secansh`, as well as a Python script `pscript` need to be created.
+For this, two Python functions `sgauss` and `secansh`, as well as a Python script `pscript`, need to be created.
 Note that <span style="color: red;">3 different py files</span> need to be filled by you!
 
 ### Functions
 
-Functions allow you to define a specific code (e.g., an algorithm) only once and execute it multiple times with different parameters.
+Functions allow you to define a specific piece of code (e.g., an algorithm) only once and execute it multiple times with different parameters.
 Functions receive values for the input variables (arguments) when called, perform calculations with them, and return output variables.
 (You have already encountered some predefined functions in the previous exercises, for example `print` or `plot`).
 
@@ -32,7 +32,7 @@ Important in Python is the indentation of the function definition! Unlike some o
 At the beginning of the function definition, between three double quotation marks `""" ... """`, there should be a so-called *[Docstring]* that gives a brief description of the function.
 This can be displayed later, e.g., with `help(compute_sum)`.
 
-This above function can then be called as follows:
+The function above can then be called as follows:
 
 ```python
 new_var = compute_sum(3, 4)
@@ -144,7 +144,7 @@ s   : Scalar, half-width
 Create a program in the script `pscript.py` that calculates and graphically displays the two
 functions.
 
-Choose for the parameters the values
+For the parameters, choose the values
 $x_0 = 2$ and $s = 0.2$, where $x_0$ is the location of the maximum and $s$ is the
 half-width.
 (You can also test with other `x_0` and `s` values. How do the curves behave then?)
@@ -161,7 +161,7 @@ half-width.
 2. Create a vector `x` with
     `x_n` equidistant values between the above start and end point (`linspace`).
 
-3. Now calculate using **your own** functions `sgauss` and `secansh` the variables
+3. Now use **your own** functions `sgauss` and `secansh` to calculate the variables
     `g` as the result of `sgauss` and `h` as the result of `secansh`.
 
 4. Plot both functions $g(x)$ (red)

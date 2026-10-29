@@ -57,7 +57,7 @@ Write a Python script `kerr_cell` in which you analyze the data from the laborat
     Pay attention to the exact spelling!
 
 5. Plot the 3 regression lines `y_green = c_green*x` etc., over a vector
-    `[0, 1.1*max(U^2)]` with 100 support points.
+    `[0, 1.1*max(U^2)]` with 100 points.
 
 6. Turn on the grid for the graph.
 
@@ -81,12 +81,12 @@ Write a Python script `kerr_cell` in which you analyze the data from the laborat
 
 * You can use the command [np.polyfit] for linear fitting. However, this does not necessarily
  place the regression line through the origin. If you want to achieve this, you may only use
- the formula $y = kx$ for the line. This leaves only
+ the formula $y = kx$ for the line. This leaves
  the slope $k$ as the only parameter to be fitted. This is calculated from ($N$ = number of data points)
  $$k = \frac{\sum_{n=1}^{N}x_n y_n}{\sum_{n=1}^{N}x_n^2}$$
 
 * For those interested: The analytical calculations for linear regression can be found
- in the script [Probability Theory] from page 296.
+ in the lecture notes [Probability Theory] from page 296.
 
 * In Matplotlib graphics, you can insert LaTeX syntax in labels and titles as follows:
 
@@ -102,7 +102,7 @@ Write a Python script `kerr_cell` in which you analyze the data from the laborat
     U^2 dependence of phi for blue light: 0.00062186
     ```
 
-    To get the correct number of digits, use .nf where n indicates the number of desired digits. For example:
+    To get the correct number of decimal places, use `.nf` where `n` indicates the number of desired decimal places. For example:
 
     ```
     print(f"U^2 dependence of phi for green light: {c_green:.8f}")

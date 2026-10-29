@@ -76,13 +76,13 @@ The sum over all $k$ values can then be obtained using the `np.sum` command, whe
 array([-2730,    -6,     0,     6,  2730])
 ```
 
-Each element of `S`, ($\{S\}_{x}$) is calculated by summing over the $x$ column
+Each element of `S` ($\{S\}_{x}$) is calculated by summing over the $x$ column
 
 $$\{S\}_{x} = \sum_{k = 0}^{n} A_{k, x} = A_{0, x} + \dotsb + A_{n, x} \; .$$
 
 Since NumPy is optimized for matrix calculations, the program runs significantly faster with larger data sets than with the usual for loops.
 
-Instead of using the sum, the entire series evaluation can also be performed using matrix multiplication. From linear algebra, it is known that for a $(1 \times n)$ vector $f$ (row vector) and an $(n \times m)$ matrix $A$
+Instead of using the sum, the entire series evaluation can also be performed using matrix multiplication. From linear algebra, it is known that for a $(1 \times n)$ vector $f$ (row vector) and an $(n \times m)$ matrix $A$, the following holds:
 
 $\{f \cdot A\}_{l} = \sum_{k} f_{k} A_{kl} \; . $
 
@@ -121,4 +121,4 @@ should also be calculated. Proceed as follows:
 
 4. Reshape the vectors `r` and `u` with the previously saved variable so that they have the original size of `x`.
 
-5. Calculate and plot for $x \in [-\pi, \pi]$ (uniformly distributed with 100 support points) the analytical function together with the first 3 partial sums (i.e. for $n = 0, 1, 2$). Use a loop for the partial sums. Plot the analytical function as a dashed line (`linestyle` argument) and leave the partial sums in the default solid line style. Create a legend with the labels `'sin(x)'`, `'1. partial sum'`, `'2. partial sum'`, `'3. partial sum'` (in that order; `n = 0` is labelled as the 1st partial sum).
+5. Calculate and plot for $x \in [-\pi, \pi]$ (uniformly distributed with 100 sample points) the analytical function together with the first 3 partial sums (i.e. for $n = 0, 1, 2$). Use a loop for the partial sums. Plot the analytical function as a dashed line (`linestyle` argument) and leave the partial sums in the default solid line style. Create a legend with the labels `'sin(x)'`, `'1. partial sum'`, `'2. partial sum'`, `'3. partial sum'` (in that order; `n = 0` is labelled as the 1st partial sum).

@@ -11,19 +11,19 @@ Die Stärke wird dabei nach folgenden Kriterien erhoben:
 
 ## Aufgabe
 
-Schreib im Script `check_password.py` die Funktion `check_password(pw)`, die einen `string` als mögliches Passwort einliest und oben genannten Kriterien abprüft.
+Schreib im Script `check_password.py` die Funktion `check_password(pw)`, die einen `string` als mögliches Passwort einliest und die oben genannten Kriterien abprüft.
 Diese Funktion soll nichts zurückgeben! Geh folgendermaßen vor:
 
-1. Prüfe die Kriterien mit `if` und/oder `elif`/`else` Statements ab.
+1. Prüfe die Kriterien mit `if` und/oder `elif`/`else`-Statements ab.
 1. Um zu überprüfen, ob das Passwort Sonderzeichen, Zahlen und Großbuchstaben enthält, kannst du das Modul [string] importieren und mit den dort definierten Formaten arbeiten (z.B. mit `string.digits`).
-1. Du kannst dann über die Ziffern/Großbuchstaben/Sonderzeichen iterieren und überprüfen, ob mindestens eines davon im vorgeschlagenen Passwort vorhanden ist. Wenn die Kriterien nicht erfüllt sind, sollen folgende strings in der Konsole ausgegeben werden:
-   - Weniger als 8 Zeichen: *"Password too short!"*
-   - Keine Zahl: *"Password contains no number!"*
-   - Kein Sonderzeichen: *"Password contains no special character!"*
-   - Keine Großbuchstaben: *"Password contains no uppercase letter!"*
-   - fortlaufende oder sich wiederholende Zahlen/Buchstaben: *"Password contains more than 3 consecutive or repeated characters!"*
-1. Die logische Überprüfung, ob *keines* der definierten Zeichen vorhanden ist, kann elegant mit den keywords [all] und `not` gelöst werden.
-1. Wenn alle Kriterien erfüllt sind, soll in der Konsole *"Strong password"* ausgegeben werden.
+1. Du kannst dann über die Ziffern/Großbuchstaben/Sonderzeichen iterieren und überprüfen, ob mindestens eines davon im vorgeschlagenen Passwort vorhanden ist. Wenn die Kriterien nicht erfüllt sind, sollen folgende Strings in der Konsole ausgegeben werden (die Ausgaben bleiben englisch):
+   - Weniger als 8 Zeichen: `"Password too short!"`
+   - Keine Zahl: `"Password contains no number!"`
+   - Kein Sonderzeichen: `"Password contains no special character!"`
+   - Keine Großbuchstaben: `"Password contains no uppercase letter!"`
+   - fortlaufende oder sich wiederholende Zahlen/Buchstaben: `"Password contains more than 3 consecutive or repeated characters!"`
+1. Die logische Überprüfung, ob *keines* der definierten Zeichen vorhanden ist, kann elegant mit den Keywords [all] und `not` gelöst werden.
+1. Wenn alle Kriterien erfüllt sind, soll in der Konsole `"Strong password"` ausgegeben werden.
 
 ## Hinweise
 

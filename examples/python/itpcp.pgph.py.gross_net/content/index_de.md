@@ -9,7 +9,7 @@ In dieser Aufgabe wird es darum gehen, eine Funktion zu implementieren, welche b
 ### Lohnsteuertabelle
 
 In Österreich gilt folgende Lohnsteuertabelle: 
-| (Jahres-) Einkommen (2024) | Steuersatz (2024) |
+| (Jahres-)Einkommen (2024) | Steuersatz (2024) |
 |------------------|-------------------|
 | bis 12.816 Euro | 0 % |
 | bis 20.818 Euro | 20 % |
@@ -19,13 +19,13 @@ In Österreich gilt folgende Lohnsteuertabelle:
 | bis 1.000.000 Euro | 50 % |
 | ab 1.000.000 Euro | 55 % |
 
-Wichtig die Steuerstufen sind progressiv: sprich auf die ersten 12.816€ zahlt man keine Steuern schließlich 20% usw. 
+Wichtig: Die Steuerstufen sind progressiv: sprich auf die ersten 12.816€ zahlt man keine Steuern, schließlich 20% usw. 
 
 Siehe auch [Lohnsteuer]. 
 
 ### Sozialversicherung 
 
-Für die Sozialversicherung wird vom Bruttolohn **vor** Steuer **ab** einem Einkommen von **über 518€ (monatlich) 18,12% abgezogen**. Die **Höchstbeitragsgrundlage sind 6.060€ pro Monat**, man zahlt also maximal 13.176,86€ (6.060 * 12 * 0,1812) Sozialversicherung im Jahr. Alle weiteren Einkommen über 72720€ (6.060 * 12) erhöhen somit den SV-Beitrag nicht weiter. 
+Für die Sozialversicherung wird vom Bruttolohn **vor** Steuer **ab** einem Einkommen von **über 518€ (monatlich) 18,12% abgezogen**. Die **Höchstbeitragsgrundlage beträgt 6.060€ pro Monat**, man zahlt also maximal 13.176,86€ (6.060 * 12 * 0,1812) Sozialversicherung im Jahr. Alle weiteren Einkommen über 72720€ (6.060 * 12) erhöhen somit den SV-Beitrag nicht weiter. 
 
 Anmerkung: Die Regeln zum SV-Beitrag wurden leicht angepasst. 
 
@@ -33,7 +33,7 @@ Siehe auch [Sozialversicherung].
 
 ### Beispiel 21.000€ Bruttojahreseinkommen
 
-21.000 * 18,12% = 3.805,20€ (SV-Beitrag - unter Höchstbeitragsgrundlage von 72720€ p.a. aber über 518€ pro Monat)
+21.000 * 18,12% = 3.805,20€ (SV-Beitrag - unter Höchstbeitragsgrundlage von 72720€ p.a., aber über 518€ pro Monat)
 Steuergrundlage = 17.194,8€
 bis 12.816€ -> 12.816 * 0% = 0
 bis 20.818€ -> 4.378,8 * 20% = 875,76
@@ -43,9 +43,9 @@ Nettolohn: 16.319,04€
 
 
 ## Aufgabe
-1. Schreib eine Funktion, die einen Bruttogehalt (float) nimmt und den zugehörigen Nettogehalt auf den nächsten Cent gerundet ausgibt. 
+1. Schreib eine Funktion `gross_net`, die ein Bruttogehalt (`float`) nimmt und das zugehörige Nettogehalt auf den nächsten Cent gerundet zurückgibt. 
 
 
 ## Hinweise
 
-* Relevant für unsere Berechnung hier ist lediglich die Lohnsteuer vom Bruttobetrag abzüglich der Sozialversicherung. Es handelt sich hier um eine abgewandelte Formel zur tatsächlich verwendeten. 
+* Relevant für unsere Berechnung hier ist lediglich die Lohnsteuer vom Bruttobetrag abzüglich der Sozialversicherung. Die Formel ist gegenüber der tatsächlich verwendeten abgewandelt. 

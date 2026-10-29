@@ -13,14 +13,14 @@ Curve analysis is an important step in examining functions, where properties suc
 
   Use `sympy.diff()` in `analyt_curve_sketching.py` to calculate derivatives and `sympy.solve()` to determine zeros.
   Use `sympy.lambdify()` to convert SymPy functions to numerical functions that can be used with NumPy.
-  Save the positions of the (real!) zeros as `roots_fun`. Those of the extreme values as `roots_fun_prime` and `eval_fun_prime`.
+  Save the positions of the (real!) zeros as `roots_fun` and those of the extreme values as `roots_fun_prime` and `eval_fun_prime`.
 
 
 ### Numerical Solution with NumPy
 
   Use the function `np.gradient()` in `num_curve_sketching.py` to calculate numerical derivatives.
-  For determining zeros, use the value before the zero crossing. Use the command `np.sign()` and `np.where()` to find the indices of the zeros. Use $x$ values from $-3$ to $3$ with $10000$ evenly distributed values.
-  Save the positions of the zeros as `x_zero`. Those of the extreme values as `x_extrem` and `y_extrem`.
+  For determining zeros, use the value before the zero crossing. Use the commands `np.sign()` and `np.where()` to find the indices of the zeros. Use $x$ values from $-3$ to $3$ with $10000$ evenly distributed values.
+  Save the positions of the zeros as `x_zero` and those of the extreme values as `x_extrem` and `y_extrem`.
 
 ### Functions
 
@@ -42,14 +42,14 @@ $$
 
   1. Define the function to be analyzed. Use one of the given functions or think of your own.
 
-  2. Determine the zeros (roots) of the function and its derivative (see Hint). Save the roots as a list in the order that `sympy.solve()` returns it, but remove any solutions with imaginary parts.
+  2. Determine the zeros (roots) of the function and its derivative (see Hint). Save the roots as a list in the order that `sympy.solve()` returns them, but remove any solutions with imaginary parts.
 
-  3. Visualize the functions as well as their zeros and extreme points, as well as the first derivative. Use different markers for zeros and extreme points to make them easily recognizable. Also create an appropriate legend, as well as title and axis labels.
+  3. Visualize the functions as well as their zeros and extreme points, as well as the first derivative. Use different markers for zeros and extreme points to make them easily recognizable. Also create an appropriate legend, as well as a title and axis labels.
 
 
   4. Output the values for $f(x) = 0$ and $f(0)$ with the `print` command.
 
-  5. Do the same for the derived function.
+  5. Do the same for the derivative.
 
   6. What do you notice when comparing the output of numerical and analytical values?
 

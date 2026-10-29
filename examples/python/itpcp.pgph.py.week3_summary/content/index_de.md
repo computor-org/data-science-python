@@ -1,3 +1,4 @@
+[Lambert-Beer'sche Gesetz]: <https://de.wikipedia.org/wiki/Lambert-Beersches_Gesetz>
 [Massenabsorptionskoeffizient]: <https://de.wikipedia.org/wiki/Massenschw%C3%A4chungskoeffizient>
 
 # Beta-Absorption
@@ -36,7 +37,7 @@ Die Steigung der logarithmierten Impulsrate $\mu / \rho$ ist dabei der sogenannt
 
 ## Aufgabe
 
-In der folgenden Aufgabe sollen die Massenabsorptionskoeffizienten von Yttrium und Zirkonium beim Durchgang durch Aluminium bestimmt werden.
+In der folgenden Aufgabe sollen die Massenabsorptionskoeffizienten von Strontium-90 und Yttrium-90 beim Durchgang durch Aluminium bestimmt werden.
 
 1. Im File `beta_absorption.csv` wurde für verschiedene Schichtdicken einer Aluminium-Platte die Messdauer sowie die Anzahl der Impulse im Geiger-Müller-Zähler gespeichert.
    * Spalte 1: Dicke (mm)
@@ -44,9 +45,9 @@ In der folgenden Aufgabe sollen die Massenabsorptionskoeffizienten von Yttrium u
    * Spalte 3: Anzahl Impulse
    Lies das File mit `np.loadtxt` ein und speichere die jeweiligen Schichtdicken, Messdauern und Impulse als NumPy-Arrays mit den Variablennamen `thickness`, `t` und `N`.
 
-2. Berechne die Zählraten aus `N` und `t` in counts per second (cps) und speichere sie im Array `I`. Beachte dabei, dass die Zeiteinheit im Datenfile **Minuten** sind.
+2. Berechne die Zählraten aus `N` und `t` in counts per second (cps) und speichere sie im Array `I`. Beachte dabei, dass die Zeiteinheit im Datenfile **Minuten** ist.
 3. Logarithmiere die Zählraten.
-4. Um die Formel mit der logarithmierten Zählrate fitten zu können, musst du das Array `thickness` noch mit der Dichte von Aluminium multiplizieren. Nimm hierfür eine Dichte von $\rho$ = 2.70 g/cm³ an (achte auf die richtige Einheitenumwandlung!)
+4. Um die Formel mit der logarithmierten Zählrate fitten zu können, musst du das Array `thickness` noch mit der Dichte von Aluminium multiplizieren. Nimm hierfür eine Dichte von $\rho$ = 2.70 g/cm³ an (achte auf die richtige Einheitenumwandlung!).
 5. Plotte die logarithmierten Zählraten in Abhängigkeit von $\rho\cdot d$. Verwende eine strichpunktierte Linie und gib den Daten das Label `Count rate`.
 6. Beschrifte die x-Achse mit `Thickness / cm` und die y-Achse mit `Pulse rate / cps (log-Scale)`. Gib der Graphik den Titel `Beta decay of Sr-90`.
 7. Im Plot wird dir auffallen, dass die Datenkurve an einer bestimmten Stelle einen Knick aufweist. Dies ist jener Punkt, an dem die maximale Reichweite der Sr-90-Strahlung erreicht ist und nur noch die höherenergetische Y-90-Strahlung das Material durchdringen kann. Identifiziere die Position des Knicks anhand der Datenpunkte.
@@ -54,7 +55,7 @@ In der folgenden Aufgabe sollen die Massenabsorptionskoeffizienten von Yttrium u
     * Erstelle mittels Indizierung zwei Arrays `Sr_rate` und `thickness_Sr` für den Bereich links des Knicks sowie `Y_rate` und `thickness_Y` für den Bereich rechts.
     * Führe mithilfe von `np.polyfit` einen linearen Fit durch, um die Steigung der Funktion zu bestimmen.
     * Plotte die 2 gefitteten Funktionen mit den ermittelten Steigungen und y-Achsenabschnitten zusammen mit den Daten in eine Graphik.
-    * Im ersten Teil der Zählrate sind Sr-90-Strahlung und Y-90-Strahlung überlagert. Daher musst du für den Absorptionskoeffizienten von Sr-90 noch die beiden Steigungen voneinander abziehen. Verändere die Steigung im plot nicht.
+    * Im ersten Teil der Zählrate sind Sr-90-Strahlung und Y-90-Strahlung überlagert. Daher musst du für den Absorptionskoeffizienten von Sr-90 noch die beiden Steigungen voneinander abziehen. Verändere die Steigung im Plot nicht.
     * Gib den beiden Fits die Label `Y-Rate Fit` und `Sr-Rate Fit`.
 9. Zum Schluss sollst du einen `f-string` ausgeben, der die ermittelten Koeffizienten zusammen mit ihren Unsicherheiten angibt. Als Unsicherheiten nimmst du die Wurzeln der ersten Einträge der Kovarianzmatrix aus `np.polyfit` an. Die Ausgabe sollte so aussehen:
 

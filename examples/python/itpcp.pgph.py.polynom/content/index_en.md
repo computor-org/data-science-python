@@ -12,7 +12,7 @@ This is now to be implemented using a Python class in `polynom.py`.
 An object of the class `Polynom` should be created by passing a list of coefficients. The first coefficient should correspond to the highest degree of the polynomial, e.g.: `Polynom([5,0,0,2,3])` corresponds to $$5x^4 + 2x + 3.$$
 
 
-Additionally, the Python internal methods `__add__`, `__sub__`, `__mul__`, `__eq__`, `__str__`, `__call__`, and `__len__` should be overwritten (see [function-overloading](https://www.geeksforgeeks.org/operator-overloading-in-python/) for more details). These should make it possible to add, subtract, multiply, and output polynomials.
+Additionally, the Python internal methods `__add__`, `__sub__`, `__mul__`, `__eq__`, `__str__`, `__call__`, and `__len__` should be overridden (see [function-overloading](https://www.geeksforgeeks.org/operator-overloading-in-python/) for more details). These should make it possible to add, subtract, multiply, and output polynomials.
 
 * The addition `__add__` of two polynomials should return a new polynomial that is the sum of the two polynomials, e.g., `Polynom([5,0,0,2,3]) + Polynom([1,0,6,0,0])` yields `Polynom([6,0,6,2,3])`. Similarly for subtraction `__sub__` and multiplication `__mul__`.
 
@@ -33,7 +33,7 @@ Additionally, the Python internal methods `__add__`, `__sub__`, `__mul__`, `__eq
 
 2. Use `assert` statements from pytest for this. To be able to test the methods, you should also have implemented the `__eq__` method so that you can compare the polynomials!
 
-3. For each function-overloading operator, at least one test should be written, and also for the methods `derivative` and `integrate`.
+3. For each overloaded operator, at least one test should be written, and also for the methods `derivative` and `integrate`.
 
 
 ## Hint

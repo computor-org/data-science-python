@@ -31,9 +31,9 @@ Diese Funktion soll die von dir zuvor geschriebenen Funktionen `quadratic_eq` un
 1. Erzeuge 3 Arrays `a`, `b` und `c`. Diese sollen aus Zufallszahlen zwischen
    `rmin` und `rmax` bestehen und die Größe $n \times n$ haben.
 
-1. Setze die mittlere Spalte von `a`, und die mittlere Zeile von `b` auf Null.
+1. Setze die mittlere Spalte von `a` und die mittlere Zeile von `b` auf Null.
    Existiert keine mittlere Spalte/Zeile (wenn `n` eine gerade Zahl ist), werden die
-   Werte in der Spalte/Zeile mit dem nächst niedrigeren Index auf Null gesetzt. Verwende
+   Werte in der Spalte/Zeile mit dem nächstniedrigeren Index auf Null gesetzt. Verwende
    dafür die Funktion [ceil] (z. B. ist bei `n=5` die dritte Spalte bzw. Zeile die Mitte, bei `n=4` soll es die
    zweite sein).
 
@@ -46,14 +46,14 @@ Diese Funktion soll die von dir zuvor geschriebenen Funktionen `quadratic_eq` un
 
 ## Hinweise
 
-- Die numpy-Funktion [rand](n, n) liefert eine $n\times n$ Matrix von Zufallszahlen
+- Die numpy-Funktion [rand](n, n) liefert eine $n\times n$-Matrix von Zufallszahlen
   zwischen 0 und 1. Die Anpassung an das Intervall `(rmin,rmax)` erfolgt durch eine
   Skalierung (Multiplikation) und Verschiebung (Addition). Alternativ kann man auch
   [np.random.uniform] verwenden.
 
 - Es ist wichtig, dass die Reihenfolge der ersten paar Zeilen eingehalten wird. Es
-  könnte sein, dass diese durch das Formatieren verändert wird
-  `from quadratic_eq_eval import quadratic_eq_eval` muss als letztes kommen!:
+  könnte sein, dass diese durch das Formatieren verändert wird.
+  `from quadratic_eq_eval import quadratic_eq_eval` muss als Letztes kommen:
 
 ```python
 import numpy as np

@@ -1,3 +1,4 @@
+[nan]: https://numpy.org/doc/stable/user/misc.html "nan"
 # Calculation of the Left Side of a Quadratic Equation
 
 ## Introduction
@@ -18,7 +19,7 @@ def quadratic_eq_eval(a,b,c,x1,x2):
     return r1, r2
 ```
 
-which calculates the left side of this equation for given `x1` and `x2`, or coefficients `a`, `b`, `c`, and stores it in `r1` or `r2`. I.e., implement the following formula:
+which calculates the left side of this equation for given `x1` and `x2` and coefficients `a`, `b`, `c`, and stores it in `r1` and `r2`, respectively. I.e., implement the following formula:
 
   $$
     r_{1,2} = ax_{1,2}^2 + bx_{1,2} + c \qquad a,b,c \in \mathbb{R}

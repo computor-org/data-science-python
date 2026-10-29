@@ -33,7 +33,7 @@ Erledige folgende Aufgaben:
 
 2. Erzeuge drei Nullvektoren `[pi_norm, pi_gamma, pi_sin]`, die die Länge von `iteration_steps` haben.
 
-3. Speichere die zu integrierenden Funktionen (siehe oben) als [lambda] Funktionen in `fun_norm`, `fun_gamma` bzw. `fun_sin`. Dabei ist mit `fun_norm` bspw. $e^{-x^2}$ gemeint.
+3. Speichere die zu integrierenden Funktionen (siehe oben) als [lambda]-Funktionen in `fun_norm`, `fun_gamma` bzw. `fun_sin`. Dabei ist mit `fun_norm` bspw. $e^{-x^2}$ gemeint.
 
 4. Integriere die Funktionen mit [integrate.quad] folgendermaßen:
     * Um zu sehen, wie die Integrale gegen den Grenzwert $\pi$ konvergieren, soll in der Variablen `pi_i(n)` jeweils der Wert des Integrals, das von `0` bis `iteration_steps(n)` reicht, stehen.
@@ -50,7 +50,7 @@ Erledige folgende Aufgaben:
 7. Setze für beide Diagramme `xlim` entsprechend der maximalen Integralgrenzen. Beschrifte zudem beide Diagramme:
     * Die x-Achsen sollen jeweils mit "$x$" gekennzeichnet werden.
     * Die y-Achse soll beim ersten Plot mit "$f(x)$" und beim zweiten Plot mit "$|\pi - f(x)|$" beschriftet werden.
-    * Der Titel des ersten Diagramms soll "`Values of the Integrals`" heißen.
+    * Der Titel des ersten Diagramms soll "`Values of the Integrals`" heißen (die Titel bleiben englisch).
     * Der Titel des zweiten Plots soll "`Convergence of the Integrals`" lauten.
 
 8. Füge zu beiden Diagrammen jeweils noch eine Legende hinzu:

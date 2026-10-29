@@ -11,7 +11,7 @@ In this task, a linear system of equations is to be solved. The result is examin
 Write a script `linalg_diag_matrix` that solves a given system of equations and verifies the result.
 
 
-1. Read a variable `n` using input. Make sure that `n` is an integer. If `n` is not an integer, set `n` = $5$.
+1. Read a variable `n` using `input`. Make sure that `n` is an integer. If `n` is not an integer, set `n` = $5$.
 
 2. Create a $2n \times 2n$ matrix `A` whose main diagonal consists of ones and whose off-diagonals contain only `0.5`. Create this matrix with the commands [eye] and [diag].
     $$

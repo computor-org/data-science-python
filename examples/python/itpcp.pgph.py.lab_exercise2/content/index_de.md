@@ -23,7 +23,7 @@ In der folgenden Aufgabe sollst du die Messdaten einer Messung am Oszilloskop au
 
 4. Es handelt sich offenbar um eine gedämpfte harmonische Schwingung, deren Amplitude von 1 exponentiell abfällt. Verwende [np.exp], um die beiden einhüllenden exponentiellen Funktionen der Amplitude zu plotten. Verwende eine durchgezogene rote Linie und setze dabei die Dämpfungskonstante auf $\delta = 0.03$.
 
-5. Beschrifte die x-Achse mit `Time (s)` und die y-Achse mit `Signal (mV)`. Gib deiner Graphik den Titel `Damped harmonic oscillation`.
+5. Beschrifte die x-Achse mit `Time (s)` und die y-Achse mit `Signal (mV)`. Gib deiner Graphik den Titel `Damped harmonic oscillation` (die Beschriftungen bleiben englisch, weil die Tests sie prüfen).
 
 
 ## Hinweise

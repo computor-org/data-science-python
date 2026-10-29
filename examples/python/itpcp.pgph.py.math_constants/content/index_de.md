@@ -22,7 +22,7 @@ alle Variablen definierst, die unten in der Tabelle angegeben sind.
 
 ## Einleitung
 
-In dieser Aufgabe wird das Modul NumPy vorgestellt, und zur Definition erster Variablen
+In dieser Aufgabe wird das Modul NumPy vorgestellt und zur Definition erster Variablen
 verwendet.
 
 ### NumPy
@@ -144,7 +144,7 @@ $$
 
 - Python-Hilfe zu einzelnen Befehlen findest du unter [exp] und [sin].
 
-- Best practice: Verwende wie in der Angabe beschrieben `np.exp(1)` anstatt `np.e`
+- Empfehlung: Verwende wie in der Angabe beschrieben `np.exp(1)` anstatt `np.e`
   für die Euler'sche Zahl `e`. Bei Verwendung von `np.e` wird im Test eine
   Fehlermeldung ausgegeben. Dies liegt daran, dass `np.exp(1)` und `np.e` verschiedene
   Datentypen haben. NumPy verwendet eigene Datentypen wie `numpy.float64`, um die

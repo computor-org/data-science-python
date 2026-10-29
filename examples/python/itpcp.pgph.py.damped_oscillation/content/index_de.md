@@ -10,7 +10,7 @@ $$
   y(t,A,\omega,\phi,\tau) &= A \sin(\omega t + \phi) \cdot \exp(-t / \tau)\; , \\
 \end{aligned}
 $$
-wobei $t$ die Zeit ist, $A$ eine Amplitude, $\omega$ eine Frequenz, $\phi$ eine Phasenverschiebung, und $\tau$ eine Abklingzeit ist. Für die Modellfunktion, die zur Anpassung verwendet wird, verwenden wir die Zeit `t` und die Koeffizienten $A$ (`A`), $\omega$ (`omega`), $\phi$ (`phi`), $\tau$ (`tau`).
+wobei $t$ die Zeit ist, $A$ eine Amplitude, $\omega$ eine Frequenz, $\phi$ eine Phasenverschiebung und $\tau$ eine Abklingzeit ist. Für die Modellfunktion, die zur Anpassung verwendet wird, verwenden wir die Zeit `t` und die Koeffizienten $A$ (`A`), $\omega$ (`omega`), $\phi$ (`phi`), $\tau$ (`tau`).
 
 
 ## Aufgabe

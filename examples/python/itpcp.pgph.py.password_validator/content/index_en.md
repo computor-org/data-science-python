@@ -17,13 +17,13 @@ This function should not return anything! Proceed as follows:
 1. Check the criteria with `if` and/or `elif`/`else` statements.
 1. To check whether the password contains special characters, numbers, and uppercase letters, you can import the [string] module and work with the formats defined there (e.g., with `string.digits`).
 1. You can then iterate over the digits/uppercase letters/special characters and check whether at least one of them is present in the proposed password. If the criteria are not met, the following strings should be output in the console:
-   - Less than 8 characters: *"Password too short!"*
-   - No number: *"Password contains no number!"*
-   - No special character: *"Password contains no special character!"*
-   - No uppercase letters: *"Password contains no uppercase letter!"*
-   - Consecutive or repeating numbers/letters: *"Password contains more than 3 consecutive or repeated characters!"*
+   - Less than 8 characters: `"Password too short!"`
+   - No number: `"Password contains no number!"`
+   - No special character: `"Password contains no special character!"`
+   - No uppercase letters: `"Password contains no uppercase letter!"`
+   - Consecutive or repeating numbers/letters: `"Password contains more than 3 consecutive or repeated characters!"`
 1. The logical check whether *none* of the defined characters is present can be elegantly solved with the keywords [all] and `not`.
-1. If all criteria are met, *"Strong password"* should be output in the console.
+1. If all criteria are met, `"Strong password"` should be output in the console.
 
 ## Hints
 

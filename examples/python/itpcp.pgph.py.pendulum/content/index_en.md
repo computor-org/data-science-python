@@ -57,13 +57,13 @@ $$
 This means that the function $f$ in the pendulum case does not explicitly depend on time and we can write the function as
 
 ```python
-def pendulum_ode(t, y, g = 9.81, L = 3.0):
+def pendulum_ode(t, y, L=3.0, g=9.81):
   """
   input:
   t: current time point
   y: Array [theta, omega], consisting of the current angle and angular velocity
   g: gravitational constant (default: 9.81 m/s^2)
-  L: length of the pendulum (default: 1.0 m)
+  L: length of the pendulum (default: 3.0 m)
 
   output:
   Array [omega, - (g / L) * np.sin(theta)], representing the first derivative of theta and omega respectively
@@ -78,7 +78,7 @@ where $ \omega = \dot{\theta}$ is the angular velocity.
 
 
 
-  1. Write in `integrators.py` a function that uses the explicit Euler method according to the formula given above.
+  1. In `integrators.py`, write a function that uses the explicit Euler method according to the formula given above.
 ```python
   def euler_explicit(fun, dt, t_max, y_0):
       """
@@ -94,7 +94,7 @@ where $ \omega = \dot{\theta}$ is the angular velocity.
       """
 ```
 
-2. Write in `integrators.py` analogously a function that uses the midpoint method according to the formula given above.
+2. In `integrators.py`, write an analogous function that uses the midpoint method according to the formula given above.
 
 
 ```python
@@ -117,7 +117,7 @@ where $ \omega = \dot{\theta}$ is the angular velocity.
 3. Now use your functions in `pendulum.py` to solve the initial value problem. Create a subplot showing the angle and the angular velocity. Test different time steps `dt` $(\Delta t)$ and initial conditions `y_0`. Also add the solutions from the Runge-Kutta 45 method (RK45) from [solve_ivp], as well as those from the symplectic Euler method.
 
 
-4. Write in `pendulum.py` the function `compute_energy(y, m=2.0, L=3.0, g=9.81,)`, which returns the total energy of the pendulum (kinetic and potential energy). The potential energy should be $0$ when the pendulum is at rest. Plot the energy as a function of time. Check whether the energy remains constant (increase `t_max` for this).
+4. In `pendulum.py`, write the function `compute_energy(y, m=2.0, L=3.0, g=9.81,)`, which returns the total energy of the pendulum (kinetic and potential energy). The potential energy should be $0$ when the pendulum is at rest. Plot the energy as a function of time. Check whether the energy remains constant (increase `t_max` for this).
 
 ### Hints
 

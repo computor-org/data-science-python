@@ -35,7 +35,7 @@ print(s1 + 'c' + s2)
 
 bracket
 ```
-Da `strings` eine Abfolge von Zeichenketten darstellen, kann man durch Indizierung auf einzelne Zeichen zugreifen. Beachte
+Da `strings` eine Abfolge von Zeichen darstellen, kann man durch Indizierung auf einzelne Zeichen zugreifen. Beachte
 hierbei, dass in Python die Indizes immer bei `0` beginnen. Weitere Informationen zum Arbeiten mit Zeichenketten und zur Indizierung findest du in den Hinweisen.
  
 ## Aufgabe

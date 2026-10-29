@@ -69,7 +69,7 @@ Write a Python script `plot_beat` that graphically displays the results of the
 function `beat`.
 
 1. Create a vector `t` using the function `np.linspace` that contains 400
-    support points in the range from 0 to 4.
+    sample points in the range from 0 to 4.
 
 2. Call `beat` so that apart from `t`, the default values are used.
 
@@ -79,15 +79,15 @@ function `beat`.
       The first line should represent $x(t)$ and the second line $y(t)$.
       The $y(t)$ graph should also be drawn in red color.
 
-    * Give the figure the title *Beat Oscillation*, label the x-axis
-      with *t*, the y-axis with *Amplitude*
+    * Give the figure the title `Beat Oscillation`, label the x-axis
+      with `t`, the y-axis with `Amplitude`.
 
 4. Create another figure that displays a Lissajous figure:
     * Display $y(x)$. The result yields a Lissajous figure
-      (provided `nu1` and `nu2` form a rational ratio)
+      (provided `nu1` and `nu2` form a rational ratio).
 
-    * Give the figure the title *Lissajous-Figure*, label the x-axis
-      with *x*, the y-axis with *y*.
+    * Give the figure the title `Lissajous-Figure`, label the x-axis
+      with `x`, the y-axis with `y`.
 
 ## Hints
 

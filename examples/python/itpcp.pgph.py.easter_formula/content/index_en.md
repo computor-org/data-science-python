@@ -47,7 +47,7 @@ Easter formula.
 
 The script should do the following:
 
- 1. Read the year number under the variable `X` from the keyboard ([input]).
+ 1. Read the year from the keyboard into the variable `X` ([input]).
   The text for the input prompt should be **`"Year for calculating Easter: "`**. To convert the read string to an integer, use
   the function [int].
 
@@ -64,7 +64,7 @@ The script should do the following:
       easter_sunday -= 31
       month = 'April'
   ```
-  The above if-else control structure, which assigns to the correct month,
+  The above if-else control structure, which assigns the correct month,
   will be discussed in more detail in a later week and should not confuse you here.
   The operator `-=` means that the value 31 is subtracted from the variable `easter_sunday`;
   with this notation, you don't have to repeat the variable name.
@@ -73,7 +73,7 @@ The script should do the following:
   [print]. To insert the respective values into the
   string, [f-string]s are suitable. The following sentence (string) should be output by `print`:
 
-  **Easter Sunday in the year "value of X" is on "value of easter_sunday" "value of month"**
+  **Easter Sunday in the year "value of X" is on "value of month" "value of easter_sunday"**
 
 
 ## Hints

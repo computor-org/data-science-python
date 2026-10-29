@@ -8,13 +8,13 @@
 ## Einleitung
 
 Die Übung beschäftigt sich mit dem Erstellen und Plotten eigener Funktionen.
-Hierfür sind zwei Python-Funktionen `sgauss` und `secansh`, sowie ein Python-Skript `pscript` zu erzeugen.
+Hierfür sind zwei Python-Funktionen `sgauss` und `secansh` sowie ein Python-Skript `pscript` zu erzeugen.
 Beachte, dass du <span style="color: red;">3 verschiedene py-Files</span> befüllen musst!
 
 ### Funktionen
 
-Funktionen ermöglichen es, einen bestimmten Code (z.B. einen Algorithmus) nur einmal zu definieren, und öfters mit unterschiedlichen Parametern auszuführen.
-Funktionen erhalten beim Aufruf Werte für die Inputvariablen, (Argumente), führen damit Berechnungen durch und geben Outputvariablen zurück.
+Funktionen ermöglichen es, einen bestimmten Code (z.B. einen Algorithmus) nur einmal zu definieren und öfters mit unterschiedlichen Parametern auszuführen.
+Funktionen erhalten beim Aufruf Werte für die Inputvariablen (Argumente), führen damit Berechnungen durch und geben Outputvariablen zurück.
 (Du hast in den bisherigen Übungen auch schon einige vordefinierte Funktionen kennengelernt, zum Beispiel `print` oder `plot`).
 
 Funktionen werden mit dem Schlüsselwort **`def`** definiert.
@@ -88,9 +88,9 @@ ab_sum, ab_diff = sum_and_diff(3, 4)
 ### Wahrscheinlichkeitsverteilungen
 
 * Die Funktion $$g = \frac{1}{s\sqrt{2\pi}} \exp \left( -\frac{(x-x_0)^2}{2s^2} \right)$$
-    ist die Gaussfunktion. Sie dient der Berechnung und dem einfachen Plotten der Gaußschen Glockenkurve. Ebenso kann der Secans Hyperbolicus auf Basis der Funktion [exp] erzeugt werden.
+    ist die Gaussfunktion. Sie dient der Berechnung und dem einfachen Plotten der gaußschen Glockenkurve. Ebenso kann der Secans Hyperbolicus auf Basis der Funktion [exp] erzeugt werden.
 
-* Überleg dir, was passiert, wenn man die Funktionsfiles wie ein Python-Skript ausführt! Die Funktion `g` entspricht der Wahrscheinlichkeitsdichte einer Wahrscheinlichkeitsverteilung, nämlich der Normalverteilung. Eine Wahrscheinlichkeitsdichte genügt der Bedingung, dass die Fläche unter der gesamten Funktion den Wert 1 annimmt. Diese sogenannte Normierung wird durch den Normierungsfaktor sichergestellt. Der Normierungsfaktor der Funktion g ist der Term $1/(s\sqrt{2\pi})$.
+* Überleg dir, was passiert, wenn man die Funktionsfiles wie ein Python-Skript ausführt! Die Funktion `g` entspricht der Wahrscheinlichkeitsdichte einer Wahrscheinlichkeitsverteilung, nämlich der Normalverteilung. Eine Wahrscheinlichkeitsdichte genügt der Bedingung, dass die Fläche unter der gesamten Funktion den Wert 1 annimmt. Diese sogenannte Normierung wird durch den Normierungsfaktor sichergestellt. Der Normierungsfaktor der Funktion `g` ist der Term $1/(s\sqrt{2\pi})$.
 
 * Die Funktion $$h = \frac{1}{\pi s} {\operatorname{sech}} \left( -\frac{x-x_0}{s} \right)$$
     ist der Secans Hyperbolicus. Er stellt wie die Gaussfunktion eine
@@ -101,7 +101,7 @@ ab_sum, ab_diff = sum_and_diff(3, 4)
 
 ## Aufgabe
 
-### Berechnung der Gaussschen Glockenkurve
+### Berechnung der gaußschen Glockenkurve
 
 Erzeuge die Funktion `sgauss` im gleichnamigen File,
 die mit dem Aufruf
@@ -129,7 +129,7 @@ die mit dem Aufruf
 h = secansh(x, x_0, s)
 ```
 
-die Secans Hyperbolicus Funktion `h` aus der Einleitung berechnet. Die Inputs der
+die Secans-Hyperbolicus-Funktion `h` aus der Einleitung berechnet. Die Inputs der
 Funktion sollen
 
 ```
@@ -140,7 +140,7 @@ s   : Skalar, Halbwertsbreite
 
 sein.
 
-### Berechnung und einfaches Plotten der Gaussschen Glockenkurve und des Secans Hyperbolicus
+### Berechnung und einfaches Plotten der gaußschen Glockenkurve und des Secans Hyperbolicus
 
 Erzeuge im Skript `pscript.py` ein Programm, das die beiden
 Funktionen berechnet und graphisch darstellt.
@@ -170,7 +170,7 @@ Halbwertsbreite sind.
     und $h(x)$ (blau).
 
 5. Versieh die Zeichnung mit einer Beschriftung der x-Achse (`x`) und der y-Achse (`f(x)`).
-    Ausserdem soll es eine Legende geben, wobei die Bezeichnung der beiden
+    Außerdem soll es eine Legende geben, wobei die Bezeichnung der beiden
     Linien in der Legende `Gauss` und `Sech` sein soll.
 
 ## Hinweise

@@ -85,9 +85,9 @@ contents:
     max_group_size: 1
     path: linalg_network
     position: 1.0
-    title: Lineare Gleichungssysteme und die Kirchhoffschen Regeln
+    title: Lineare Gleichungssysteme und die kirchhoffschen Regeln
     title_i18n:
-      de: Lineare Gleichungssysteme und die Kirchhoffschen Regeln
+      de: Lineare Gleichungssysteme und die kirchhoffschen Regeln
       en: Linear Systems of Equations and Kirchhoff's Rules
   - content_type: advanced
     example_identifier: itpcp.pgph.py.linalg_diag_matrix
@@ -145,9 +145,9 @@ contents:
     max_group_size: 1
     path: differentiate
     position: 1.0
-    title: 'Kurvendiskussion: Analytische und Numerische Lösung'
+    title: 'Kurvendiskussion: Analytische und numerische Lösung'
     title_i18n:
-      de: 'Kurvendiskussion: Analytische und Numerische Lösung'
+      de: 'Kurvendiskussion: Analytische und numerische Lösung'
       en: 'Curve Analysis: Analytical and Numerical Solution'
   - content_type: advanced
     example_identifier: itpcp.pgph.py.integrate

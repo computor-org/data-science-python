@@ -9,7 +9,7 @@
 
 ## Einleitung
 
-Bei der Gaußschen Osterformel handelt es sich um einen Satz von Gleichungen, mithilfe welcher das Datum des Ostersonntages für ein gewähltes Jahr berechnet werden kann.
+Bei der Gaußschen Osterformel handelt es sich um einen Satz von Gleichungen, mit deren Hilfe das Datum des Ostersonntages für ein gewähltes Jahr berechnet werden kann.
 
 Im Folgenden werden nur die Gleichungen wiedergegeben (Variable `X` ist die Jahreszahl). 
 Nähere Informationen zum Algorithmus findet man in diesem [Wikipedia-Artikel].
@@ -31,7 +31,7 @@ E & = 22 + d + e \\
 $$
 Die Variable $E$ steht hier für die Python-Variable `easter_sunday`.
 
-Bei diesen Formeln ist zu beachten, dass das Ergebnis von `easter_sunday` das Datum des Ostersonntages in Märztagen darstellt (d.h. 32. März = 1. April,
+Bei diesen Formeln ist zu beachten, dass das Ergebnis von `easter_sunday` das Datum des Ostersonntages in Märztagen darstellt (d.h. 32. März = 1. April
 usw.). 
 
 Die Operation $\div$ stellt die Ganzzahldivision (Division ohne Rest) dar, die in Python mit dem [arithmetischen Operator] `//` anstelle von `/` notiert wird.
@@ -73,12 +73,12 @@ Das Skript soll folgende Dinge tun:
   [print] aus. Um die jeweiligen Werte in die
   Zeichenkette einzusetzen, bieten sich [f-string]s an. Folgender Satz (Zeichenkette) sollte von `print` ausgegeben werden:
 
-  **Easter Sunday in the year "value of X" is on "value of easter_sunday" "value of month"**
+  **Easter Sunday in the year "value of X" is on "value of month" "value of easter_sunday"**
    
 
 ## Hinweise
 
-* Dieses Skript verwendet die Python-Funktion [input]. Benutze daher _Run Python File_ statt _Run in Interactive Window_, um das Skript im _Terminal_ auszuführen, wo du das gewünschte Jahr eingeben kannst
+* Dieses Skript verwendet die Python-Funktion [input]. Benutze daher _Run Python File_ statt _Run in Interactive Window_, um das Skript im _Terminal_ auszuführen, wo du das gewünschte Jahr eingeben kannst.
 
 * Achte darauf, die Variablen der Osterformel richtig zu berechnen, siehe Einleitung. 
 Achte ebenfalls auf die korrekte Wahl der verwendeten Operatoren.

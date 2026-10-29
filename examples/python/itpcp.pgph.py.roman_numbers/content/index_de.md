@@ -37,11 +37,11 @@ Die römischen Ziffern und entsprechenden arabischen Zahlen der obigen Tabelle s
 arabic = int_roman("XV")  # ergibt 15
 ```
 
-2. Weiters soll die Funktion einen Docs-String haben, der die Funktionsweise der Funktion beschreibt, dieser sollte den [numpy-docstring](https://numpydoc.readthedocs.io/en/latest/format.html) Konventionen folgen.
+2. Weiters soll die Funktion einen Docstring haben, der die Funktionsweise der Funktion beschreibt, dieser sollte den [numpy-docstring](https://numpydoc.readthedocs.io/en/latest/format.html) Konventionen folgen.
 
 3. Ebenfalls soll die Funktion einen `ValueError` werfen, wenn die Eingabe keine römischen Ziffern enthält oder nicht vom Datentyp `str` ist.
 
 ## Hinweise
 
 * Eine Einführung zu römischen Zahlen findet sich auf [Wikipedia].
-Hier sollen die einfachen Regeln verwendet werden wie sie in dem Artikel im Punkt `Subtraktionsregel` beschrieben sind.
+Hier sollen die einfachen Regeln verwendet werden, wie sie in dem Artikel im Punkt `Subtraktionsregel` beschrieben sind.

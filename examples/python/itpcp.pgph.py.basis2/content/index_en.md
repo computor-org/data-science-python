@@ -23,7 +23,7 @@ algebraic expressions is typically implemented in programming.
 A few examples:
 
 *  Variable indices, such as $y_{1}$ or $x_{\text{end}}$,
-are often written as `y_1` or `x_end`. By the way, the underscore `_` is the only special character that is permitted in variable and programme names.
+are often written as `y_1` or `x_end`. By the way, the underscore `_` is the only special character that is permitted in variable and program names.
 
 *  The absolute value $\lvert x_{1} \rvert$ must be calculated with a
 (predefined) program. For this, [abs] is used.
@@ -110,7 +110,7 @@ the endpoints are not included in the generated array. Think about how you
 can still include the endpoint in subtask 2.
 
 * In test mode, it is essential that the curves are drawn in the specified order.
-    So here definitely in the order hyperbolic sine, hyperbolic cosine, and hyperbolic tangent.
+    Here, this means the order hyperbolic sine, hyperbolic cosine, and hyperbolic tangent.
 
 * If you write `plt.title = 'Your Title'` in your program
     instead of `plt.title('Your Title')` and execute this program, then

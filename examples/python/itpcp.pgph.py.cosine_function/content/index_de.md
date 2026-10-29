@@ -41,9 +41,9 @@ Erzeuge damit eine Figure mit mehreren Linien:
 3. Plotte $-A(x)$; durchgehende Linie; blau
 4. Limits für Abszisse auf Minimum und Maximum von $x$
 5. Limits für Ordinate auf Minimum von $-A(x)$ und Maximum von $A(x)$
-6. Bezeichne die Abszisse mit $x$
-7. Bezeichne die Ordinate mit $y(x)$
-8. Schreibe einen Titel mit der Bezeichnung `Decaying Cosine`
+6. Bezeichne die Abszisse mit `x`
+7. Bezeichne die Ordinate mit `y(x)`
+8. Schreibe einen Titel mit der Bezeichnung `Decaying Cosine` (der Titel bleibt englisch)
 
 
 ## Hinweise

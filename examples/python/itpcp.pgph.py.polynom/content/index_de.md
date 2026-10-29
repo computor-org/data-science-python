@@ -6,10 +6,10 @@ $$a_n x^n + a_{n-1} x^{n-1} + \ldots + a_1 x + a_0$$
 
 Polynome kann man aufgrund ihrer einfachen Struktur gut addieren, subtrahieren, multiplizieren und auch ableiten und integrieren.
 
-Dies soll nun mittels einer Python Klasse in `polynom.py` umgesetzt werden. 
+Dies soll nun mittels einer Python-Klasse in `polynom.py` umgesetzt werden. 
 
-### Polynom Klasse: 
-Ein Objekt der Klasse `Polynom` sollte durch Übergabe einer Liste von Koeffizienten erstellt werden. Dabei sollte der erste Koeffizient dem höchsten Grad des Polynoms entsprechen z.B.: `Polynom([5,0,0,2,3])` entspricht $$5x^4 + 2x + 3.$$
+### Polynom-Klasse: 
+Ein Objekt der Klasse `Polynom` sollte durch Übergabe einer Liste von Koeffizienten erstellt werden. Dabei sollte der erste Koeffizient dem höchsten Grad des Polynoms entsprechen, z.B.: `Polynom([5,0,0,2,3])` entspricht $$5x^4 + 2x + 3.$$
 
 
 Zudem sollte die Klasse die Python-internen Methoden `__add__`, `__sub__`, `__mul__`, `__eq__`, `__str__`, `__call__` und `__len__` überschreiben (siehe [function-overloading](https://www.geeksforgeeks.org/operator-overloading-in-python/) für mehr Details). Diese sollen es möglich machen, Polynome zu addieren, subtrahieren, multiplizieren und auszugeben. 
@@ -31,9 +31,9 @@ Zudem sollte die Klasse die Python-internen Methoden `__add__`, `__sub__`, `__mu
 ## Aufgabe 
 1. Schreibe Tests für die Klasse `Polynom` in `test_polynom.py`, um sicherzustellen, dass die Implementierung der Methoden korrekt ist. 
 
-2. Nutze dazu `assert`-Statements von pytest. Um die Methoden testen zu können, solltest du auch die `__eq__` Methode implementiert haben, damit du die Polynome vergleichen kannst!
+2. Nutze dazu `assert`-Statements von pytest. Um die Methoden testen zu können, solltest du auch die `__eq__`-Methode implementiert haben, damit du die Polynome vergleichen kannst!
 
-3. Für jeden function-overloading Operator soll mindestens ein Test geschrieben werden und auch für die Methoden `derivative` und `integrate`.
+3. Für jeden überladenen Operator soll mindestens ein Test geschrieben werden und auch für die Methoden `derivative` und `integrate`.
 
 
 ## Hinweis 

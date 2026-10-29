@@ -13,7 +13,7 @@
 ## Einleitung
 
 In dieser Aufgabe geht es darum, den Umgang mit Indexierung und Slicing in Python zu vertiefen. Dabei werden wir lernen, wie man effizient auf Elemente, Vektoren und Matrizen innerhalb einer zweidimensionalen Datenstruktur zugreift und diese manipuliert.
-Durch die Arbeit mit einer Matrix M und verschiedenen Operationen darauf, werden Funktionen wie `np.ravel`, `np.copy`, `np.delete` und `np.astype` vorgestellt und geübt.
+Durch die Arbeit mit einer Matrix M und verschiedenen Operationen darauf werden Funktionen wie `np.ravel`, `np.copy`, `np.delete` und `np.astype` vorgestellt und geübt.
 
 ### Indexierung
 
@@ -35,7 +35,7 @@ die Hinweise (siehe unten) durch:
     `M`     | (9 x 8)-Matrix mit allen ganzen Zahlen im Intervall [-36, 35] (aufsteigende Reihenfolge)
     `prop1` | Dimension von `M`
     `prop2` | „Länge“ von `M`
-    `prop3` | Größe „Form" von `M`
+    `prop3` | Größe „Form“ von `M`
     `prop4` | Anzahl der Elemente in `M`
 
 2. Speichere folgende Skalare aus `M`:
@@ -97,10 +97,10 @@ die Hinweise (siehe unten) durch:
 
 * Verwendet man in einer zweidimensionalen Matrix zwei Indices, dann steht der erste für die Zeile und der zweite für die Spalte.
 
-* Um das n-te Element einer Matrix zu erhalten (die Zahl an der n-ten Position) wandle die Matrix vorher in einen Vektor um ([np.ravel]).
+* Um das n-te Element einer Matrix zu erhalten (die Zahl an der n-ten Position), wandle die Matrix vorher in einen Vektor um ([np.ravel]).
 
 * Definiere dir einen Vektor der Matrixelemente, um später nur auf diese zuzugreifen. 
- Z.B. `Avec = np.ravel(A)` um später `Avec[1]` anstatt `np.ravel(A)[1]`
+ Z.B. `Avec = np.ravel(A)`, um später `Avec[1]` anstatt `np.ravel(A)[1]` zu verwenden.
 
 * Bei einer geraden Anzahl von Spalten gibt es keine mittlere Spalte. Gemeint ist dann die nachfolgende Spalte, also z.B. $6/2=3$, bzw. $5/2=2.5\rightarrow 3$.
  D.h., die mittlere Spalte bei sechs
@@ -114,4 +114,4 @@ die Hinweise (siehe unten) durch:
 ## Keywords
 
 - Indizierung
-- Matrix Manipulation
+- Matrixmanipulation

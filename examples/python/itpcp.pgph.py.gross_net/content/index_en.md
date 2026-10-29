@@ -43,9 +43,9 @@ Net salary: 16,319.04 Euro
 
 
 ## Task
-1. Write a function that takes a gross salary (float) and outputs the corresponding net salary rounded to the nearest cent.
+1. Write a function `gross_net` that takes a gross salary (`float`) and returns the corresponding net salary rounded to the nearest cent.
 
 
 ## Hints
 
-* Relevant for our calculation here is only the income tax from the gross amount minus social security. This is a modified formula from the one actually used.
+* Relevant for our calculation here is only the income tax from the gross amount minus social security. This formula is a modified version of the one actually used.

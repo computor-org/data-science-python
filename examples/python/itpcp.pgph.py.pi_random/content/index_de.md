@@ -36,9 +36,9 @@ Erledige folgende Aufgaben:
     * `p` als blaue Punkte und 
     * `ps` als rote Linie mit Punkten
        
-    in dieser Reihenfolge einzeichnest 
+    in dieser Reihenfolge einzeichnest. 
 
-7. Gib den genauen Wert für $\pi$, den letzten Wert der Variable `ps` und den relativen Fehler `err_r` untereinander mit `print` aus. Dabei sollen $\pi$ und der letzte Mittelwert mit jeweils zehn Nachkommastellen, und `err_r` mit drei Nachkommastellen in Exponentialdarstellung ausgegeben werden. Für den Test ist es dabei wichtig, dass es sich um ein großes E handelt, sprich zum Beispiel `1.234E-05`.
+7. Gib den genauen Wert für $\pi$, den letzten Wert der Variable `ps` und den relativen Fehler `err_r` untereinander mit `print` aus. Dabei sollen $\pi$ und der letzte Mittelwert mit jeweils zehn Nachkommastellen und `err_r` mit drei Nachkommastellen in Exponentialdarstellung ausgegeben werden. Für den Test ist es dabei wichtig, dass es sich um ein großes E handelt, sprich zum Beispiel `1.234E-05`.
 
 8. Erstelle eine passende Achsenbeschriftung und wähle einen passenden Titel.
 

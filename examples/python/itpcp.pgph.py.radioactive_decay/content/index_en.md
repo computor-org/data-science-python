@@ -17,13 +17,13 @@ We now measure $N_2$ at various times and want to fit the function.
 
 2. Write the function `f_model`, which takes $t$ and the above-mentioned parameters as input to calculate $N_2$.
 
-3. Use [curve_fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) from scipy to calculate `N_01`, `lambda_1`, and `lambda_2`. Use `t` from $0$ to $25$ with $500$ support points and `[100, 4, 0.5]` as initial values.
+3. Use [curve_fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) from scipy to calculate `N_01`, `lambda_1`, and `lambda_2`. Use `t` from $0$ to $25$ with $500$ sample points and `[100, 4, 0.5]` as initial values.
 
-4. Use your function to determine `N_2(t)`.
+4. Use your function to determine `N_2`.
 
 5. Use [fmin](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) to obtain the maximum value of $N_2$, `N_2max`, together with the corresponding time point `t_max`.
 
-6. Display your results graphically. Plot $N_2(t)$, the measured values, and mark the maximum of $N_2(t)$.
+6. Display your results graphically. Plot $N_2(t)$ and the measured values, and mark the maximum of $N_2(t)$.
 
 7. Additionally calculate and plot `N_1` and `N_3`, as well as the sum of the $3$ isotopes. Label the graph appropriately. Formulas:
 

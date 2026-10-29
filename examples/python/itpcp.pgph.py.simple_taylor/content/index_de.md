@@ -78,7 +78,7 @@ Ordnung dazuaddiert werden.
 - Streng genommen ist die Bezeichnung der Terme mit den Indizes 1 bis 4
 ungenau. Mathematisch gesehen ist bei einer Taylorreihe nämlich der erste Term
 jener, in dem $x^{0}$ vorkommt, der zweite jener mit $x^{1}$, der dritte
-(quadratische) mit $x^{2}$ usw. Hier werden nur die Terme durchnumeriert,
+(quadratische) mit $x^{2}$ usw. Hier werden nur die Terme durchnummeriert,
 die nicht verschwinden.
 
 - Deine Graphik sollte so aussehen:
@@ -86,7 +86,7 @@ die nicht verschwinden.
 ![Taylor-Entwicklung](mediaFiles/simple_taylor.png "Taylor-Entwicklung")
 
 - Achte darauf, dass die Achsenbeschriftungen und Überschriften der Referenz-Graphik entsprechen. 
-Achte ebenfalls darauf, keine Leerzeichen vor oder nach den Labels und Titeln einzufügen (Verwende (`'x'`) nicht (`' x '`))
+Achte ebenfalls darauf, keine Leerzeichen vor oder nach den Labels und Titeln einzufügen (verwende `'x'`, nicht `' x '`).
 
 
 ## Keywords

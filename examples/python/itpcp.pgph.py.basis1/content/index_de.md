@@ -22,7 +22,7 @@ In den Hinweisen findest du weitere Erläuterungen zu den Operatoren und Funktio
 die Variablen `a` und `b` und gib ihnen die Werte
 `5.4` und `1.2`.
 
-2. Berechne nun folgende Größen, wobei links die Variablennamen stehen. Benutze dazu das Pythonmodul `numpy`, wie in Aufgabe 01.
+2. Berechne nun folgende Größen, wobei links die Variablennamen stehen. Benutze dazu das Python-Modul `numpy`, wie in Aufgabe 01.
 
 $$
 \begin{aligned}
@@ -50,10 +50,10 @@ Das Python-Tutorial befasst sich darüber hinaus mit Einschränkungen bei der Ve
 * Die Zahl $e$ als solche existiert in Python nicht. Sie muss mit Hilfe
 der Funktion [exp] erzeugt werden.
 
-* Variablennamen, die bereits von Python belegt sind (wie zum Beispiel ```sum```) sollten unbedingt vermieden werden, da diese Funktionen ansonsten nicht aufrufbar sind! 
+* Variablennamen, die bereits von Python belegt sind (wie zum Beispiel ```sum```), sollten unbedingt vermieden werden, da diese Funktionen ansonsten nicht aufrufbar sind! 
 
 
 ## Keywords
 
 - Arithmetische Operatoren
-- NumPy Funktionen
+- NumPy-Funktionen

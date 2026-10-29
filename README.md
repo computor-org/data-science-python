@@ -28,8 +28,8 @@ remain available when hosted Computor workspaces are full. Codespaces does not r
 
 The source snapshot is
 `git@gitlab.tugraz.at:codeability/development/examples.git` at
-[`3e0acb6191ea30891735a7b5fce1965382b83de3`](https://gitlab.tugraz.at/codeability/development/examples/-/commit/3e0acb6191ea30891735a7b5fce1965382b83de3)
-(2026-10-29T20:34:49+01:00; “Merge branch 'l10n/bilingual-metadata' into 'main'”). Each example keeps its upstream authors,
+[`bc05fc4d47f4cfb2bd86c81893f4c72838334762`](https://gitlab.tugraz.at/codeability/development/examples/-/commit/bc05fc4d47f4cfb2bd86c81893f4c72838334762)
+(2026-10-29T21:28:28+01:00; “Merge branch 'l10n/english-identifiers' into 'main'”). Each example keeps its upstream authors,
 maintainers, links, and `license` declaration in `meta.yaml`; the current
 snapshot declares MIT for all 70 Python examples. See [`RIGHTS.md`](RIGHTS.md)
 for the generated ledger and [`LANGUAGE_AUDIT.md`](LANGUAGE_AUDIT.md) for the

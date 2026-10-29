@@ -37,11 +37,11 @@ Erzeuge das Python-Skript `compare`, welches mathematische Identitäten überpr�
     |8|$\sin(2x)$|$2 \sin(x) \cos(x)$
     |9|$\cosh(x)$|$\dfrac{\exp(x) + \exp(-x)}{2}$
 
-    ! Achtung, der Datentyp muss `np.cdouble, np.complex128, np.complex_, np.cdouble,`oder `complex` sein, sodass der Test funktioniert. 
+    ! Achtung, der Datentyp muss `np.cdouble, np.complex128, np.complex_, np.cdouble,`oder `complex` sein, damit der Test funktioniert. 
 
-3. Überprüfe, ob die beiden Arrays die gleichen Inhalte haben. Nutze dafür den Operator `==` und speichere das Ergebnis in die Variable `v_exact`. Wie du merken wirst, werden nicht alle Spalten übereinstimmen. Dies liegt daran, dass wegen den unterschiedlichen Berechnungsarten Differenzen in den letzten Kommastellen auftreten können.
+3. Überprüfe, ob die beiden Arrays die gleichen Inhalte haben. Nutze dafür den Operator `==` und speichere das Ergebnis in die Variable `v_exact`. Wie du merken wirst, werden nicht alle Spalten übereinstimmen. Dies liegt daran, dass wegen der unterschiedlichen Berechnungsarten Differenzen in den letzten Kommastellen auftreten können.
 
-4. Überprüfe daher, ob die absolute Differenz von den Arrays kleiner ist als $10 \varepsilon$ und speichere das Ergebnis in die Variable `v_epsilon`. $\varepsilon$ ist dabei die Maschinengenauigkeit, die die obere Grenze für Rundungsfehler und die Distanz zwischen 1.0 und der nächsthöheren Nachkommazahl angibt. Für `np.float64` liegt $\varepsilon$ bei $2^{-52}$. In wenigen Fällen reicht sogar $\varepsilon$ noch nicht aus, um numerisch die Äquivalenz von zwei Ergebnissen zu zeigen, mit $10 \varepsilon$ ist man aber meist auf der sicheren Seite.
+4. Überprüfe daher, ob die absolute Differenz von den Arrays kleiner ist als $10 \varepsilon$ und speichere das Ergebnis in die Variable `v_epsilon`. $\varepsilon$ ist dabei die Maschinengenauigkeit, die die obere Grenze für Rundungsfehler und die Distanz zwischen 1,0 und der nächsthöheren darstellbaren Gleitkommazahl angibt. Für `np.float64` liegt $\varepsilon$ bei $2^{-52}$. In wenigen Fällen reicht sogar $\varepsilon$ noch nicht aus, um numerisch die Äquivalenz von zwei Ergebnissen zu zeigen, mit $10 \varepsilon$ ist man aber meist auf der sicheren Seite.
 
 5. Gib `v_exact` und `v_epsilon` mittels [print] mit vorangestelltem erklärenden Text aus. Überleg dir oder diskutiere mit deinem Tutor die Ausgabe dieses Beispiels.
 

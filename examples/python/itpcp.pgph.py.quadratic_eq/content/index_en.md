@@ -49,7 +49,7 @@ Create the Python script `quadratic_eq_for`, which contains the function `quadra
 ```python
 def quadratic_eq_for(a, b, c):
     # ...
-    return x_1, x_2
+    return x1, x2
 ```
 
 to solve the quadratic equation with coefficients `a`, `b`, and `c`.
@@ -58,7 +58,7 @@ to solve the quadratic equation with coefficients `a`, `b`, and `c`.
    This makes it possible to solve the equation for multiple values of the coefficients at once.
 
 1. The results should be calculated as explained in the *Mathematical Background* and
-   stored in the arrays `x_1` and `x_2`. `x_1` and `x_2` must then have the
+   stored in the arrays `x1` and `x2`. `x1` and `x2` must then have the
    same size as the input parameters and may contain **complex values**.
    In the case that only one solution exists, the second
    return argument should be set to the value [nan].
@@ -66,12 +66,12 @@ to solve the quadratic equation with coefficients `a`, `b`, and `c`.
 1. To solve the problem, a `for` loop, `if`, and `elif` are to be used, and the
    following strategy is recommended:
 
-   - Create arrays for `x_1` and `x_2` of the size of `a` and fill them everywhere
+   - Create arrays for `x1` and `x2` of the size of `a` and fill them everywhere
      with the value [nan] (use e.g. [ones_like] for this). Make sure that the arrays have the correct data type so that they can also store complex values later on.
    - Then go through all values of the arrays `a`, `b`, `c` in a loop,
      make a case distinction regarding the current parameters, calculate
      the solutions $x_1$ (and $x_2$) accordingly, and store them at the
-     corresponding position in `x_1` (or `x_2`). Make **no** case distinction regarding the discriminant!
+     corresponding position in `x1` (or `x2`). Make **no** case distinction regarding the discriminant!
 
 1. To verify the function, create the following arrays in the same script after the function:
 
@@ -92,17 +92,17 @@ Create the Python script `quadratic_eq`, which contains the function `quadratic_
 ```python
 def quadratic_eq(a, b, c):
     # ...
-    return x_1, x_2
+    return x1, x2
 ```
 
 to solve the quadratic equation with coefficients `a`, `b`, and `c`.
 
 1. The beginning of the task is identical to the previous example using a `for` loop. To solve the problem, *logical indexing* should be used this time, and the following strategy is recommended:
 
-   - Create arrays for `x_1` and `x_2` of the size of `a` and fill them everywhere
+   - Create arrays for `x1` and `x2` of the size of `a` and fill them everywhere
      with the value [nan] (use e.g. [ones_like] for this). Make sure that the arrays have the correct data type so that they can also store complex values later on.
    - Then, use logical indexing to make a case distinction regarding the current parameters, which you can then use to calculate the solutions $x_1$ (and $x_2$) and store them in the
-    corresponding location in `x_1` (or `x_2`). Make **no** case distinction regarding the discriminant!
+    corresponding location in `x1` (or `x2`). Make **no** case distinction regarding the discriminant!
 
 1. To verify the function, create the following matrices in the same script after the function:
 
@@ -148,7 +148,7 @@ Three things should be considered and taken into account:
  -0.05555556+2.99948555j -0.05      +3.16188235j]
 ```
 
-**Attention!** This is not the correct solution, other values for a, b, and c were
+**Attention!** This is not the correct solution; other values for a, b, and c were
 used.
 
 [nan]: https://numpy.org/doc/stable/user/misc.html "nan"

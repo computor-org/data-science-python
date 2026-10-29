@@ -56,7 +56,7 @@ Schreib ein Python-Skript `kerr_cell`, in dem du die Daten des Laborversuchs aus
   
     Achte dabei auf die genaue Schreibweise!
 
-5. Plotte die 3 Ausgleichsgeraden `y_green = c_green*x` etc., über einem Vektor
+5. Plotte die 3 Ausgleichsgeraden `y_green = c_green*x` etc. über einem Vektor
     `[0, 1.1*max(U^2)]` mit 100 Stützstellen.
 
 6. Schalte das Gitternetz (`grid`) für die Grafik ein.
@@ -103,7 +103,7 @@ Schreib ein Python-Skript `kerr_cell`, in dem du die Daten des Laborversuchs aus
     U^2 dependence of phi for blue light: 0.00062186
     ```
 
-    Um die korrekte Anzahl der Stellen der Zahl zu bekommen, verwende .nf, wobei n die Anzahl der gewünschten Stellen angibt. Zum Beispiel:
+    Um die korrekte Anzahl der Nachkommastellen zu bekommen, verwende `.nf`, wobei `n` die Anzahl der gewünschten Nachkommastellen angibt. Zum Beispiel:
 
     ```
     print(f"U^2 dependence of phi for green light: {c_green:.8f}")

@@ -18,7 +18,7 @@ def randmeanlog(R):
     return R
 ```
 
-that using logical indexing and the numpy command `np.mean`
+that, using logical indexing and the numpy command `np.mean`,
 
 1. replaces all values in the array `R` that are less than zero with the mean of the negative numbers;
 1. replaces all values in the array `R` that are greater than zero with the mean of the positive numbers.
@@ -28,7 +28,7 @@ Make sure that
 - the main part of the function has a maximum of four lines,
 - **no** conditional statements or loops (`for`, `while` and `if`) are used.
 
-### 2. With Loop
+### 2. With a Loop
 
 In the second part, complete the same task in a new file with the function
 
@@ -45,7 +45,7 @@ using loops. The following approach is recommended:
 1. Calculate the respective means.
 1. Assign these to the corresponding positions in a second loop.
 
-### With Mathematical Function
+### 3. With a Mathematical Function
 
 In the third part, complete a slightly different task with the function
 
@@ -55,7 +55,7 @@ def randsignum(R):
     return R
 ```
 
-Replace in `R`
+In `R`, replace
 
 1. all values $< 0$ with $-1$ and
 

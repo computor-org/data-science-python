@@ -15,17 +15,17 @@ Wir messen nun $N_2$ zu verschiedenen Zeiten und wollen die Funktion fitten.
 
 1. Lies die Datei `expfun.dat` ein. Diese enthält die Messdaten, in der ersten Spalte befinden sich die Zeitpunkte, in der zweiten die Messwerte für $N_2(t)$.
 
-2. Schreibe die Funktion `f_model`, welche $t$ und die oben genannten Parameter als input nimmt um $N_2$ zu berechnen.
+2. Schreibe die Funktion `f_model`, welche $t$ und die oben genannten Parameter als Input nimmt, um $N_2$ zu berechnen.
 
-3. Nutze [curve_fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) von scipy um `N_01`, `lambda_1` und `lambda_2` auszurechnen. Nutze dafür `t` von $0$ bis $25$ mit $500$ Stützstellen und `[100, 4, 0.5]` als Startwerte.
+3. Nutze [curve_fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) von scipy, um `N_01`, `lambda_1` und `lambda_2` auszurechnen. Nutze dafür `t` von $0$ bis $25$ mit $500$ Stützstellen und `[100, 4, 0.5]` als Startwerte.
 
-4. Nutze deine Funktion um `N_2(t)` zu bestimmen.
+4. Nutze deine Funktion, um `N_2` zu bestimmen.
 
-5. Nutze [fmin](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) um den Maximalwert von $N_2$, `N_2max`, zusammen mit dem dazugehörigen Zeitpunkt `t_max` zu erhalten.
+5. Nutze [fmin](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html), um den Maximalwert von $N_2$, `N_2max`, zusammen mit dem dazugehörigen Zeitpunkt `t_max` zu erhalten.
 
 6. Stelle deine Ergebnisse graphisch dar. Plotte dazu $N_2(t)$ sowie die Messwerte und markiere das Maximum von $N_2(t)$.
 
-7. Berechne und plotte zusätzlich `N_1` und `N_3`, sowie die Summe von den $3$ Isotopen. Beschrifte die Graphik passend. Formeln:
+7. Berechne und plotte zusätzlich `N_1` und `N_3` sowie die Summe von den $3$ Isotopen. Beschrifte die Graphik passend. Formeln:
   
 $$
   N_1(t) = N_{01} \exp(-\lambda_1 t),

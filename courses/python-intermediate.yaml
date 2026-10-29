@@ -10,18 +10,18 @@ title_i18n:
   en: Data Science with Python II – Intermediate
 position: 20
 description: |-
-  Der Aufbaukurs setzt den Grundlagenkurs fort und führt von einzelnen Rechnungen zu eigenen kleinen Programmen. Du lernst Datentypen und die Grenzen der Rechengenauigkeit kennen, steuerst den Programmablauf mit if-Entscheidungen sowie for- und while-Schleifen und wählst Daten mit logischer Indizierung gezielt aus. Später speicherst du Daten in Dictionaries und JSON-Dateien, erstellst 3D-Plots, Animationen und Histogramme und passt mit SciPy Modelle an Messdaten an.
+  Der Aufbaukurs setzt den Grundlagenkurs fort und führt von einzelnen Rechnungen zu eigenen kleinen Programmen. Du lernst Datentypen und die Grenzen der Rechengenauigkeit kennen, steuerst den Programmablauf mit if-Anweisungen sowie for- und while-Schleifen und wählst Daten mit logischer Indizierung gezielt aus. Später speicherst du Daten in Dictionaries und JSON-Dateien, erstellst 3D-Plots, Animationen und Histogramme und passt mit SciPy Modelle an Messdaten an.
 
   Der Kurs umfasst fünf Wochen mit jeweils fünf bis sieben Aufgaben, darunter Zusatzaufgaben für alle, die mehr üben wollen, und eine Wiederholung in der vierten Woche. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet.
 
-  Du solltest mit dem Stoff von „Data Science mit Python I – Grundlagen“ vertraut sein, also mit Variablen, NumPy-Vektoren, Funktionen und einfachen Plots. Du brauchst ein Computor-Konto und arbeitest wie dort in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
+  Du solltest mit dem Stoff von „Data Science mit Python I – Grundlagen“ vertraut sein, also mit Variablen, NumPy-Vektoren, Funktionen und einfachen Plots. Du brauchst ein Computor-Konto und arbeitest wie im Grundlagenkurs in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
 description_i18n:
   de: |-
-    Der Aufbaukurs setzt den Grundlagenkurs fort und führt von einzelnen Rechnungen zu eigenen kleinen Programmen. Du lernst Datentypen und die Grenzen der Rechengenauigkeit kennen, steuerst den Programmablauf mit if-Entscheidungen sowie for- und while-Schleifen und wählst Daten mit logischer Indizierung gezielt aus. Später speicherst du Daten in Dictionaries und JSON-Dateien, erstellst 3D-Plots, Animationen und Histogramme und passt mit SciPy Modelle an Messdaten an.
+    Der Aufbaukurs setzt den Grundlagenkurs fort und führt von einzelnen Rechnungen zu eigenen kleinen Programmen. Du lernst Datentypen und die Grenzen der Rechengenauigkeit kennen, steuerst den Programmablauf mit if-Anweisungen sowie for- und while-Schleifen und wählst Daten mit logischer Indizierung gezielt aus. Später speicherst du Daten in Dictionaries und JSON-Dateien, erstellst 3D-Plots, Animationen und Histogramme und passt mit SciPy Modelle an Messdaten an.
 
     Der Kurs umfasst fünf Wochen mit jeweils fünf bis sieben Aufgaben, darunter Zusatzaufgaben für alle, die mehr üben wollen, und eine Wiederholung in der vierten Woche. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet.
 
-    Du solltest mit dem Stoff von „Data Science mit Python I – Grundlagen“ vertraut sein, also mit Variablen, NumPy-Vektoren, Funktionen und einfachen Plots. Du brauchst ein Computor-Konto und arbeitest wie dort in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
+    Du solltest mit dem Stoff von „Data Science mit Python I – Grundlagen“ vertraut sein, also mit Variablen, NumPy-Vektoren, Funktionen und einfachen Plots. Du brauchst ein Computor-Konto und arbeitest wie im Grundlagenkurs in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
   en: |-
     The intermediate course continues the fundamentals course and takes you from single calculations to small programs of your own. You learn about data types and the limits of numerical precision, control the flow of a program with if statements and for and while loops, and select data with logical indexing. Later you store data in dictionaries and JSON files, create 3D plots, animations and histograms, and fit models to measured data with SciPy.
 
@@ -86,9 +86,9 @@ contents:
   title_i18n:
     de: Woche 1
     en: Week 1
-  description: Datentypen, Rechengenauigkeit, Zeichenketten und die if-Entscheidung.
+  description: Datentypen, Rechengenauigkeit, Zeichenketten und die if-Anweisung.
   description_i18n:
-    de: Datentypen, Rechengenauigkeit, Zeichenketten und die if-Entscheidung.
+    de: Datentypen, Rechengenauigkeit, Zeichenketten und die if-Anweisung.
     en: Data types, numerical precision, strings and the if statement.
   contents:
   - content_type: intermediate

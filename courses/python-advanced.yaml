@@ -10,24 +10,24 @@ title_i18n:
   en: Data Science with Python III – Advanced
 position: 30
 description: |-
-  Die Vertiefung richtet sich an alle, die den Aufbaukurs abgeschlossen haben oder Python bereits sicher beherrschen. Statt einzelne Sprachelemente zu üben, löst du größere Aufgaben aus Mathematik und Naturwissenschaften weitgehend selbstständig: Du löst lineare Gleichungssysteme, etwa für elektrische Netzwerke, führst Kurvendiskussionen mit SymPy durch, integrierst numerisch, löst Anfangswertprobleme und schätzt Unsicherheiten mit Fehlerfortpflanzung und Monte-Carlo-Methoden ab. Zum Abschluss schreibst du eigene Klassen und lernst die objektorientierte Programmierung kennen; außerdem testest du Code mit pytest und misst seine Laufzeit mit cProfile.
+  Die Vertiefung richtet sich an alle, die den Aufbaukurs abgeschlossen haben oder Python bereits sicher beherrschen. Statt einzelne Sprachelemente zu üben, bearbeitest du größere Aufgaben aus Mathematik und Naturwissenschaften weitgehend selbstständig: Du löst lineare Gleichungssysteme, etwa für elektrische Netzwerke, führst Kurvendiskussionen mit SymPy durch, integrierst numerisch, löst Anfangswertprobleme und schätzt Unsicherheiten mit Fehlerfortpflanzung und Monte-Carlo-Methoden ab. Außerdem testest du Code mit pytest und misst seine Laufzeit mit cProfile, und zum Abschluss schreibst du eigene Klassen und lernst die objektorientierte Programmierung kennen.
 
   Der Kurs umfasst vier Wochen mit jeweils drei bis fünf Aufgaben, ergänzt durch Zusatzaufgaben. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet.
 
   Du solltest mit dem Stoff von „Data Science mit Python II – Aufbau“ vertraut sein, vor allem mit Schleifen, logischer Indizierung und NumPy-Arrays, und Grundkenntnisse in linearer Algebra und Analysis mitbringen. Du brauchst ein Computor-Konto und arbeitest in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
 description_i18n:
   de: |-
-    Die Vertiefung richtet sich an alle, die den Aufbaukurs abgeschlossen haben oder Python bereits sicher beherrschen. Statt einzelne Sprachelemente zu üben, löst du größere Aufgaben aus Mathematik und Naturwissenschaften weitgehend selbstständig: Du löst lineare Gleichungssysteme, etwa für elektrische Netzwerke, führst Kurvendiskussionen mit SymPy durch, integrierst numerisch, löst Anfangswertprobleme und schätzt Unsicherheiten mit Fehlerfortpflanzung und Monte-Carlo-Methoden ab. Zum Abschluss schreibst du eigene Klassen und lernst die objektorientierte Programmierung kennen; außerdem testest du Code mit pytest und misst seine Laufzeit mit cProfile.
+    Die Vertiefung richtet sich an alle, die den Aufbaukurs abgeschlossen haben oder Python bereits sicher beherrschen. Statt einzelne Sprachelemente zu üben, bearbeitest du größere Aufgaben aus Mathematik und Naturwissenschaften weitgehend selbstständig: Du löst lineare Gleichungssysteme, etwa für elektrische Netzwerke, führst Kurvendiskussionen mit SymPy durch, integrierst numerisch, löst Anfangswertprobleme und schätzt Unsicherheiten mit Fehlerfortpflanzung und Monte-Carlo-Methoden ab. Außerdem testest du Code mit pytest und misst seine Laufzeit mit cProfile, und zum Abschluss schreibst du eigene Klassen und lernst die objektorientierte Programmierung kennen.
 
     Der Kurs umfasst vier Wochen mit jeweils drei bis fünf Aufgaben, ergänzt durch Zusatzaufgaben. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet.
 
     Du solltest mit dem Stoff von „Data Science mit Python II – Aufbau“ vertraut sein, vor allem mit Schleifen, logischer Indizierung und NumPy-Arrays, und Grundkenntnisse in linearer Algebra und Analysis mitbringen. Du brauchst ein Computor-Konto und arbeitest in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
   en: |-
-    The advanced course is for anyone who has completed the intermediate course or is already confident with Python. Instead of practising single language features, you work largely on your own through larger problems from mathematics and science: you solve linear systems of equations, for example for electrical networks, analyse curves with SymPy, integrate numerically, solve initial value problems and estimate uncertainties with error propagation and Monte Carlo methods. To finish, you write your own classes and learn object-oriented programming; you also test code with pytest and measure its run time with cProfile.
+    The advanced course is for anyone who has completed the intermediate course or is already confident with Python. Instead of practising single language features, you work largely on your own through larger problems from mathematics and science: you solve linear systems of equations, for example for electrical networks, sketch curves with SymPy, integrate numerically, solve initial value problems and estimate uncertainties with error propagation and Monte Carlo methods. You also test code with pytest and measure its run time with cProfile, and to finish you write your own classes and learn object-oriented programming.
 
     The course runs over four weeks with three to five assignments each, complemented by extra assignments. Every assignment has instructions in German and English, and the solution you submit is tested automatically.
 
-    You should be familiar with the material of "Data Science with Python II – Intermediate", above all loops, logical indexing and NumPy arrays, and bring basic linear algebra and calculus. You need a Computor account and work in a workspace provided by Computor or locally in VS Code with the Computor extension.
+    You should be familiar with the material of "Data Science with Python II – Intermediate", above all loops, logical indexing and NumPy arrays, and have a basic knowledge of linear algebra and calculus. You need a Computor account and work in a workspace provided by Computor or locally in VS Code with the Computor extension.
 language_code: de
 path: python.advanced
 services:
@@ -137,7 +137,7 @@ contents:
   description_i18n:
     de: Kurvendiskussion mit SymPy, numerische Integration und Anfangswertprobleme
       am Beispiel des Pendels.
-    en: Curve analysis with SymPy, numerical integration and initial value problems,
+    en: Curve sketching with SymPy, numerical integration and initial value problems,
       using the pendulum as an example.
   contents:
   - content_type: advanced
@@ -252,10 +252,11 @@ contents:
   title_i18n:
     de: Woche 4
     en: Week 4
-  description: Objektorientierte Programmierung mit eigenen und abstrakten Klassen.
+  description: Objektorientierte Programmierung mit eigenen Klassen, auch abstrakten.
   description_i18n:
-    de: Objektorientierte Programmierung mit eigenen und abstrakten Klassen.
-    en: Object-oriented programming with your own and abstract classes.
+    de: Objektorientierte Programmierung mit eigenen Klassen, auch abstrakten.
+    en: 'Object-oriented programming: writing your own classes, including abstract
+      ones.'
   contents:
   - content_type: advanced
     example_identifier: itpcp.pgph.py.planets

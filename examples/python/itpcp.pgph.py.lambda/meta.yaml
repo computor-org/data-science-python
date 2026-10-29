@@ -1,8 +1,8 @@
 slug: itpcp.pgph.py.lambda
 version: 1.0.2
-title: Lambda Funktionen
+title: Lambda-Funktionen
 title_i18n:
-  de: Lambda Funktionen
+  de: Lambda-Funktionen
   en: Lambda Functions
 description: Du lernst Lambda-Funktionen in Python kennen. Du erstellst anonyme Funktionen
   für verschiedene Zwecke, verwendest sie mit filter und sorted und berechnest den

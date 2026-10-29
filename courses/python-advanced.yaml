@@ -121,9 +121,9 @@ contents:
     max_group_size: 1
     path: caesar
     position: 5.0
-    title: Caesar Verschlüsselung
+    title: Caesar-Verschlüsselung
     title_i18n:
-      de: Caesar Verschlüsselung
+      de: Caesar-Verschlüsselung
       en: Caesar Cipher
 - content_type: weekly
   path: week_2

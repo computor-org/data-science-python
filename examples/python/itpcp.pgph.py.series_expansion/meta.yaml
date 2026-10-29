@@ -1,8 +1,8 @@
 slug: itpcp.pgph.py.series_expansion
 version: 1.0.3
-title: Sinus Reihenentwicklung
+title: Sinus-Reihenentwicklung
 title_i18n:
-  de: Sinus Reihenentwicklung
+  de: Sinus-Reihenentwicklung
   en: Sine Series Expansion
 description: Du berechnest die Taylorreihe der Sinusfunktion ohne Schleifen mit Matrixoperationen
   in NumPy. Mit np.meshgrid berechnest du alle Reihenglieder gleichzeitig, vergleichst

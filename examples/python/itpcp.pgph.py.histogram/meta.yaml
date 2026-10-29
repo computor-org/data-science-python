@@ -5,11 +5,11 @@ title_i18n:
   de: Histogramm mit Fehlerabschätzung
   en: Histogram with Error Estimation
 description: Du untersuchst die Mittelwerte von Stichproben eines fairen Würfels statistisch
-  und stellst sie grafisch dar. Dazu implementierst du die Gaußverteilung, berechnest
+  und stellst sie grafisch dar. Dazu implementierst du die Gauß-Verteilung, berechnest
   Unsicherheiten und erstellst Histogramme mit Fehlerbalken.
 description_i18n:
   de: Du untersuchst die Mittelwerte von Stichproben eines fairen Würfels statistisch
-    und stellst sie grafisch dar. Dazu implementierst du die Gaußverteilung, berechnest
+    und stellst sie grafisch dar. Dazu implementierst du die Gauß-Verteilung, berechnest
     Unsicherheiten und erstellst Histogramme mit Fehlerbalken.
   en: In this exercise you will statistically visualize and analyze sample means of
     a fair die. You will implement the Gaussian distribution, calculate uncertainties

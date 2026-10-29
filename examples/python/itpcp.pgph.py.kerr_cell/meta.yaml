@@ -1,14 +1,14 @@
 slug: itpcp.pgph.py.kerr_cell
 version: 1.1.2
-title: Kerrzelle
+title: Kerr-Zelle
 title_i18n:
-  de: Kerrzelle
+  de: Kerr-Zelle
   en: Kerr Cell
-description: Du wertest Daten eines Laborversuchs zur Kerrzelle aus. Dabei lernst
+description: Du wertest Daten eines Laborversuchs zur Kerr-Zelle aus. Dabei lernst
   du das empirische Kerr-Gesetz kennen, plottest Messdaten mit Fehlerbalken und legst
   für verschiedene Wellenlängen des Lichts Ausgleichsgeraden durch den Ursprung.
 description_i18n:
-  de: Du wertest Daten eines Laborversuchs zur Kerrzelle aus. Dabei lernst du das
+  de: Du wertest Daten eines Laborversuchs zur Kerr-Zelle aus. Dabei lernst du das
     empirische Kerr-Gesetz kennen, plottest Messdaten mit Fehlerbalken und legst für
     verschiedene Wellenlängen des Lichts Ausgleichsgeraden durch den Ursprung.
   en: In this exercise you will evaluate data from a laboratory experiment on the

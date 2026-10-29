@@ -1,10 +1,10 @@
-# Gaussverteilung
+# Gauß-Verteilung
 
 ## Einleitung
 
 ### Mathematische Grundlagen
 
-In der Wahrscheinlichkeitsrechnung und auch in der Physik hat die Normalverteilung bzw. Gaussverteilung eine große Bedeutung. Sie ist definiert durch
+In der Wahrscheinlichkeitsrechnung und auch in der Physik hat die Normalverteilung bzw. Gauß-Verteilung eine große Bedeutung. Sie ist definiert durch
 
 $$
 \begin{align}
@@ -43,7 +43,7 @@ Schreib eine Funktion `gauss1d`, die mit folgendem Aufruf
 g = gauss1d(x, x0, sig)
 ```
 
-die Gaussverteilung als Funktion des Vektors `x` berechnet.
+die Gauß-Verteilung als Funktion des Vektors `x` berechnet.
 
 1. Setze die Default-Werte
 

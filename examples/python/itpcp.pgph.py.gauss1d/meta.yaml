@@ -1,8 +1,8 @@
 slug: itpcp.pgph.py.gauss1d
 version: 1.0.3
-title: Gaussverteilung
+title: Gauß-Verteilung
 title_i18n:
-  de: Gaussverteilung
+  de: Gauß-Verteilung
   en: Gaussian Distribution
 description: Du implementierst die Gauß- oder Normalverteilung. Deine Funktion berechnet
   die Summe mehrerer Gaußfunktionen mit unterschiedlichen Parametern, deren Ergebnis

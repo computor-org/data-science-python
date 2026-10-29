@@ -150,9 +150,9 @@ contents:
     max_group_size: 1
     path: gross_net
     position: 7.0
-    title: Brutto Netto Rechner
+    title: Brutto-Netto-Rechner
     title_i18n:
-      de: Brutto Netto Rechner
+      de: Brutto-Netto-Rechner
       en: Gross Net Calculator
 - content_type: weekly
   path: week_2
@@ -161,9 +161,9 @@ contents:
   title_i18n:
     de: Woche 2
     en: Week 2
-  description: for- und while-Schleifen, Summen und Reihen sowie die Gaußverteilung.
+  description: for- und while-Schleifen, Summen und Reihen sowie die Gauß-Verteilung.
   description_i18n:
-    de: for- und while-Schleifen, Summen und Reihen sowie die Gaußverteilung.
+    de: for- und while-Schleifen, Summen und Reihen sowie die Gauß-Verteilung.
     en: for and while loops, sums and series, and the Gaussian distribution.
   contents:
   - content_type: intermediate
@@ -207,9 +207,9 @@ contents:
     max_group_size: 1
     path: gauss1d
     position: 5.0
-    title: Gaussverteilung
+    title: Gauß-Verteilung
     title_i18n:
-      de: Gaussverteilung
+      de: Gauß-Verteilung
       en: Gaussian Distribution
   - content_type: extra
     example_identifier: itpcp.pgph.py.password_validator
@@ -308,9 +308,9 @@ contents:
     max_group_size: 1
     path: series_expansion
     position: 1.0
-    title: Sinus Reihenentwicklung
+    title: Sinus-Reihenentwicklung
     title_i18n:
-      de: Sinus Reihenentwicklung
+      de: Sinus-Reihenentwicklung
       en: Sine Series Expansion
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.torus_visualization
@@ -362,9 +362,9 @@ contents:
     max_group_size: 1
     path: review_advanced
     position: 7.0
-    title: Kontrollstrukturen und Arrays Review
+    title: 'Review: Kontrollstrukturen und Arrays'
     title_i18n:
-      de: Kontrollstrukturen und Arrays Review
+      de: 'Review: Kontrollstrukturen und Arrays'
       en: Control Flow and Arrays Review
 - content_type: weekly
   path: week_5
@@ -385,9 +385,9 @@ contents:
     max_group_size: 1
     path: lambda
     position: 1.0
-    title: Lambda Funktionen
+    title: Lambda-Funktionen
     title_i18n:
-      de: Lambda Funktionen
+      de: Lambda-Funktionen
       en: Lambda Functions
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.damped_oscillation

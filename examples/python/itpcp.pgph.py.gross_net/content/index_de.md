@@ -1,6 +1,6 @@
 [Lohnsteuer]: <https://www.finanz.at/steuern/lohnsteuertabelle/#Lohnsteuertabelle_2024> "Lohnsteuer - finanz.at"
 [Sozialversicherung]: <https://www.gesundheitskasse.at/cdscontent/?contentid=10007.870462> "Sozialversicherung - sozialversicherung.at"
-# Brutto Netto Rechner
+# Brutto-Netto-Rechner
 
 ## Einleitung
 

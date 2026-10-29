@@ -1,8 +1,8 @@
 slug: itpcp.pgph.py.caesar
 version: 1.0.3
-title: Caesar Verschlüsselung
+title: Caesar-Verschlüsselung
 title_i18n:
-  de: Caesar Verschlüsselung
+  de: Caesar-Verschlüsselung
   en: Caesar Cipher
 description: Du lernst die Caesar-Verschlüsselung kennen, schreibst Funktionen zum
   Ver- und Entschlüsseln und knackst verschlüsselte Nachrichten, deren Schlüssel du

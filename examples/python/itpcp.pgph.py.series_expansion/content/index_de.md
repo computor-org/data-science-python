@@ -2,7 +2,7 @@
 [np.ravel]: <https://numpy.org/doc/stable/reference/generated/numpy.ndarray.ravel.html> "ravel"
 [np.meshgrid]: <https://numpy.org/doc/stable/reference/generated/numpy.meshgrid.html> "meshgrid"
 
-# Sinus Reihenentwicklung
+# Sinus-Reihenentwicklung
 
 ## Einleitung
 

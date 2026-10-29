@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.histogram
-version: 1.0.2
-title: Histogram with Error Estimation
-description: 'In this exercise you will statistically visualize and analyze sample
-  means of a
-
-  fair die. You will implement the Gaussian distribution, calculate
-
-  uncertainties and create histograms with error bars.
-
-  '
+version: 1.0.3
+title: Histogramm mit Fehlerabschätzung
+title_i18n:
+  de: Histogramm mit Fehlerabschätzung
+  en: Histogram with Error Estimation
+description: Du untersuchst die Mittelwerte von Stichproben eines fairen Würfels statistisch
+  und stellst sie grafisch dar. Dazu implementierst du die Gauß-Verteilung, berechnest
+  Unsicherheiten und erstellst Histogramme mit Fehlerbalken.
+description_i18n:
+  de: Du untersuchst die Mittelwerte von Stichproben eines fairen Würfels statistisch
+    und stellst sie grafisch dar. Dazu implementierst du die Gauß-Verteilung, berechnest
+    Unsicherheiten und erstellst Histogramme mit Fehlerbalken.
+  en: In this exercise you will statistically visualize and analyze sample means of
+    a fair die. You will implement the Gaussian distribution, calculate uncertainties
+    and create histograms with error bars.
 language: de
 license: MIT
 authors:

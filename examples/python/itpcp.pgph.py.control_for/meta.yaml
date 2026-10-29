@@ -1,9 +1,19 @@
 slug: itpcp.pgph.py.control_for
-version: 1.0.2
-title: 'Control Structures: For Loops'
-description: This exercise covers for loops in Python using climate data from the
-  city of Graz. Monthly average temperatures from different years are analyzed and
-  compared with long-term averages. The results are output as f-strings.
+version: 1.0.3
+title: 'Steuerstrukturen: for-Schleifen'
+title_i18n:
+  de: 'Steuerstrukturen: for-Schleifen'
+  en: 'Control Structures: for Loops'
+description: Anhand von Klimadaten der Stadt Graz übst du for-Schleifen in Python.
+  Du wertest die Monatsmittel der Temperatur aus verschiedenen Jahren aus, vergleichst
+  sie mit dem langjährigen Mittel und gibst die Ergebnisse mit f-Strings aus.
+description_i18n:
+  de: Anhand von Klimadaten der Stadt Graz übst du for-Schleifen in Python. Du wertest
+    die Monatsmittel der Temperatur aus verschiedenen Jahren aus, vergleichst sie
+    mit dem langjährigen Mittel und gibst die Ergebnisse mit f-Strings aus.
+  en: This exercise covers for loops in Python using climate data from the city of
+    Graz. Monthly average temperatures from different years are analyzed and compared
+    with long-term averages. The results are output as f-strings.
 language: de
 license: MIT
 authors:

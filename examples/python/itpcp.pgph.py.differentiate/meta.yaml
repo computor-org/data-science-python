@@ -1,13 +1,19 @@
 slug: itpcp.pgph.py.differentiate
-version: 1.0.1
-title: 'Curve Analysis: Analytical and Numerical Solution'
-description: 'In this exercise you will perform a curve analysis by solving a function
-
-  both analytically with SymPy and numerically with NumPy. You will determine
-
-  zeros, extrema and derivatives and visualize the results.
-
-  '
+version: 1.0.2
+title: 'Kurvendiskussion: Analytische und Numerische Lösung'
+title_i18n:
+  de: 'Kurvendiskussion: Analytische und Numerische Lösung'
+  en: 'Curve Analysis: Analytical and Numerical Solution'
+description: In dieser Kurvendiskussion untersuchst du eine Funktion analytisch mit
+  SymPy und numerisch mit NumPy. Du bestimmst Nullstellen, Extrema und Ableitungen
+  und stellst die Ergebnisse grafisch dar.
+description_i18n:
+  de: In dieser Kurvendiskussion untersuchst du eine Funktion analytisch mit SymPy
+    und numerisch mit NumPy. Du bestimmst Nullstellen, Extrema und Ableitungen und
+    stellst die Ergebnisse grafisch dar.
+  en: In this exercise you will perform a curve analysis by solving a function both
+    analytically with SymPy and numerically with NumPy. You will determine zeros,
+    extrema and derivatives and visualize the results.
 language: de
 license: MIT
 authors:

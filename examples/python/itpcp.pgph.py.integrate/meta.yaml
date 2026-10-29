@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.integrate
-version: 1.0.1
-title: Numerical Integration
-description: 'In this exercise you will implement numerical integration methods: the
-  trapezoidal method
-
-  and Simpson''s method. You will analyze the integration error as a function of
-
-  the step size and visualize the results in a log-log plot.
-
-  '
+version: 1.0.2
+title: Numerische Integration
+title_i18n:
+  de: Numerische Integration
+  en: Numerical Integration
+description: Du implementierst zwei Verfahren der numerischen Integration, die Trapezregel
+  und die Simpsonregel. Du untersuchst, wie der Integrationsfehler von der Schrittweite
+  abhängt, und stellst das Ergebnis doppelt logarithmisch dar.
+description_i18n:
+  de: Du implementierst zwei Verfahren der numerischen Integration, die Trapezregel
+    und die Simpsonregel. Du untersuchst, wie der Integrationsfehler von der Schrittweite
+    abhängt, und stellst das Ergebnis doppelt logarithmisch dar.
+  en: 'In this exercise you will implement numerical integration methods: the trapezoidal
+    method and Simpson''s method. You will analyze the integration error as a function
+    of the step size and visualize the results in a log-log plot.'
 language: de
 license: MIT
 authors:

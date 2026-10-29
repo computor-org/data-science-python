@@ -1,14 +1,18 @@
 slug: itpcp.pgph.py.simple_animation
-version: 1.0.1
+version: 1.0.2
 title: Animation
-description: 'In this example you will learn how to create animations with matplotlib.
-  You
-
-  will animate two cosine functions with the FuncAnimation class and export
-
-  the result as a GIF file.
-
-  '
+title_i18n:
+  de: Animation
+  en: Animation
+description: Du lernst, mit matplotlib Animationen zu erstellen. Du animierst zwei
+  Kosinusfunktionen mit der Klasse FuncAnimation und exportierst das Ergebnis als
+  GIF-Datei.
+description_i18n:
+  de: Du lernst, mit matplotlib Animationen zu erstellen. Du animierst zwei Kosinusfunktionen
+    mit der Klasse FuncAnimation und exportierst das Ergebnis als GIF-Datei.
+  en: In this example you will learn how to create animations with matplotlib. You
+    will animate two cosine functions with the FuncAnimation class and export the
+    result as a GIF file.
 language: de
 license: MIT
 authors:

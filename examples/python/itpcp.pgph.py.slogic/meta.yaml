@@ -1,9 +1,19 @@
 slug: itpcp.pgph.py.slogic
-version: 1.0.2
-title: Simple Logical Indexing
-description: This exercise introduces logical indexing with NumPy. Using a matrix,
-  various conditions are formulated and logical arrays are created from them. np.all,
-  np.any, np.where and combinations of conditions are covered.
+version: 1.0.3
+title: Einfache logische Indizierung
+title_i18n:
+  de: Einfache logische Indizierung
+  en: Simple Logical Indexing
+description: Diese Aufgabe führt in die logische Indizierung mit NumPy ein. An einer
+  Matrix formulierst du verschiedene Bedingungen, erzeugst daraus logische Arrays
+  und verwendest np.all, np.any, np.where sowie Verknüpfungen von Bedingungen.
+description_i18n:
+  de: Diese Aufgabe führt in die logische Indizierung mit NumPy ein. An einer Matrix
+    formulierst du verschiedene Bedingungen, erzeugst daraus logische Arrays und verwendest
+    np.all, np.any, np.where sowie Verknüpfungen von Bedingungen.
+  en: This exercise introduces logical indexing with NumPy. Using a matrix, various
+    conditions are formulated and logical arrays are created from them. np.all, np.any,
+    np.where and combinations of conditions are covered.
 language: de
 license: MIT
 authors:

@@ -1,9 +1,19 @@
 slug: itpcp.pgph.py.vector_compute
-version: 1.0.2
-title: Computing with Vectors
-description: This exercise covers mathematical operations with NumPy vectors. The
-  same calculations as with scalars are now applied to vectors. The broadcasting behavior
-  of NumPy for element-wise operations is utilized.
+version: 1.0.3
+title: Rechnen mit Vektoren
+title_i18n:
+  de: Rechnen mit Vektoren
+  en: Computing with Vectors
+description: Du rechnest mit NumPy-Vektoren und wendest dieselben Rechnungen, die
+  du von Skalaren kennst, auf Vektoren an. Dabei nutzt du das Broadcasting von NumPy
+  für elementweise Operationen.
+description_i18n:
+  de: Du rechnest mit NumPy-Vektoren und wendest dieselben Rechnungen, die du von
+    Skalaren kennst, auf Vektoren an. Dabei nutzt du das Broadcasting von NumPy für
+    elementweise Operationen.
+  en: This exercise covers mathematical operations with NumPy vectors. The same calculations
+    as with scalars are now applied to vectors. The broadcasting behavior of NumPy
+    for element-wise operations is utilized.
 language: de
 license: MIT
 authors:

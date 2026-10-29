@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.lambda
-version: 1.0.1
-title: Lambda Functions
-description: 'In this exercise you will learn about lambda functions in Python. You
-  will create anonymous
-
-  functions for various applications, use filter and sorted with lambda functions,
-
-  and calculate the mean value and RMS value of periodic signals.
-
-  '
+version: 1.0.2
+title: Lambda-Funktionen
+title_i18n:
+  de: Lambda-Funktionen
+  en: Lambda Functions
+description: Du lernst Lambda-Funktionen in Python kennen. Du erstellst anonyme Funktionen
+  für verschiedene Zwecke, verwendest sie mit filter und sorted und berechnest den
+  Mittelwert und den Effektivwert periodischer Signale.
+description_i18n:
+  de: Du lernst Lambda-Funktionen in Python kennen. Du erstellst anonyme Funktionen
+    für verschiedene Zwecke, verwendest sie mit filter und sorted und berechnest den
+    Mittelwert und den Effektivwert periodischer Signale.
+  en: In this exercise you will learn about lambda functions in Python. You will create
+    anonymous functions for various applications, use filter and sorted with lambda
+    functions, and calculate the mean value and RMS value of periodic signals.
 language: de
 license: MIT
 authors:

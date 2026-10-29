@@ -1,9 +1,20 @@
 slug: itpcp.pgph.py.control_while
-version: 1.0.1
-title: 'Control Structures: The While Loop'
-description: This exercise covers while loops in Python. An array is repeatedly divided
-  by random numbers until all values are less than 1. The number of iterations is
-  counted and a limit can be set to terminate the loop early.
+version: 1.0.2
+title: 'Steuerstrukturen: Die while-Schleife'
+title_i18n:
+  de: 'Steuerstrukturen: Die while-Schleife'
+  en: 'Control Structures: The while Loop'
+description: In dieser Aufgabe übst du die while-Schleife in Python. Ein Array wird
+  so lange durch Zufallszahlen geteilt, bis alle Werte kleiner als 1 sind; du zählst
+  die Durchläufe und kannst eine Obergrenze setzen, mit der die Schleife vorzeitig
+  endet.
+description_i18n:
+  de: In dieser Aufgabe übst du die while-Schleife in Python. Ein Array wird so lange
+    durch Zufallszahlen geteilt, bis alle Werte kleiner als 1 sind; du zählst die
+    Durchläufe und kannst eine Obergrenze setzen, mit der die Schleife vorzeitig endet.
+  en: This exercise covers while loops in Python. An array is repeatedly divided by
+    random numbers until all values are less than 1. The number of iterations is counted
+    and a limit can be set to terminate the loop early.
 language: de
 license: MIT
 authors:

@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.forsum_sin
-version: 1.0.2
-title: Sine Taylor Series
-description: 'In this exercise you will calculate the Taylor series of the sine using
-  a for loop.
-
-  You will build the series step by step and visualize how the
-
-  approximation of the sine improves with an increasing number of terms.
-
-  '
+version: 1.0.3
+title: Taylorreihe des Sinus
+title_i18n:
+  de: Taylorreihe des Sinus
+  en: Sine Taylor Series
+description: Du berechnest die Taylorreihe des Sinus mit einer for-Schleife. Dabei
+  baust du die Reihe Glied für Glied auf und zeigst grafisch, wie sich die Näherung
+  mit jedem weiteren Glied verbessert.
+description_i18n:
+  de: Du berechnest die Taylorreihe des Sinus mit einer for-Schleife. Dabei baust
+    du die Reihe Glied für Glied auf und zeigst grafisch, wie sich die Näherung mit
+    jedem weiteren Glied verbessert.
+  en: In this exercise you will calculate the Taylor series of the sine using a for
+    loop. You will build the series step by step and visualize how the approximation
+    of the sine improves with an increasing number of terms.
 language: de
 license: MIT
 authors:

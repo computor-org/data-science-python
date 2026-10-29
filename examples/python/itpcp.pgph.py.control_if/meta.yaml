@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.control_if
-version: 1.0.1
-title: 'Control Structures: If Statements'
-description: This exercise familiarizes you with if statements in Python. A function
-  is written that returns different strings depending on the number of positive values
-  in an array. The commands np.all, np.any and np.ravel are used for arrays of arbitrary
-  dimensions.
+version: 1.0.2
+title: 'Steuerstrukturen: if-Entscheidung'
+title_i18n:
+  de: 'Steuerstrukturen: if-Entscheidung'
+  en: 'Control Structures: if Statement'
+description: In dieser Aufgabe lernst du die if-Anweisung in Python kennen. Du schreibst
+  eine Funktion, die je nach Anzahl der positiven Werte in einem Array unterschiedliche
+  Zeichenketten zurückgibt, und verwendest np.all, np.any und np.ravel, damit sie
+  für Arrays beliebiger Dimension funktioniert.
+description_i18n:
+  de: In dieser Aufgabe lernst du die if-Anweisung in Python kennen. Du schreibst
+    eine Funktion, die je nach Anzahl der positiven Werte in einem Array unterschiedliche
+    Zeichenketten zurückgibt, und verwendest np.all, np.any und np.ravel, damit sie
+    für Arrays beliebiger Dimension funktioniert.
+  en: This exercise familiarizes you with if statements in Python. A function is written
+    that returns different strings depending on the number of positive values in an
+    array. The commands np.all, np.any and np.ravel are used for arrays of arbitrary
+    dimensions.
 language: de
 license: MIT
 authors:

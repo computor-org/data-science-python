@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.quadratic_eq
-version: 1.0.1
-title: 'Control Structures: The For Loop vs. Logical Indexing'
-description: This exercise covers solving quadratic equations once with a for loop
-  and once with logical indexing. The function calculates the solutions of the general
-  quadratic equation ax^2 + bx + c = 0 for arrays of coefficients. Real and complex
-  solutions as well as special cases are considered.
+version: 1.0.2
+title: 'Steuerstrukturen: Die for-Schleife'
+title_i18n:
+  de: 'Steuerstrukturen: Die for-Schleife'
+  en: 'Control Structures: The for Loop'
+description: Du löst quadratische Gleichungen einmal mit einer for-Schleife und einmal
+  mit logischer Indizierung. Die Funktion berechnet die Lösungen der allgemeinen quadratischen
+  Gleichung ax^2 + bx + c = 0 für Arrays von Koeffizienten und berücksichtigt reelle
+  und komplexe Lösungen sowie Sonderfälle.
+description_i18n:
+  de: Du löst quadratische Gleichungen einmal mit einer for-Schleife und einmal mit
+    logischer Indizierung. Die Funktion berechnet die Lösungen der allgemeinen quadratischen
+    Gleichung ax^2 + bx + c = 0 für Arrays von Koeffizienten und berücksichtigt reelle
+    und komplexe Lösungen sowie Sonderfälle.
+  en: This exercise covers solving quadratic equations once with a for loop and once
+    with logical indexing. The function calculates the solutions of the general quadratic
+    equation ax^2 + bx + c = 0 for arrays of coefficients. Real and complex solutions
+    as well as special cases are considered.
 language: de
 license: MIT
 authors:

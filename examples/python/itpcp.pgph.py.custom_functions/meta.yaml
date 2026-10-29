@@ -1,15 +1,19 @@
 slug: itpcp.pgph.py.custom_functions
-version: 1.0.1
-title: Creating and Plotting Custom Functions
-description: 'This exercise deals with creating and plotting custom functions.
-
-  You will learn to define Python functions with def, write docstrings and
-
-  implement the Gaussian bell curve and the hyperbolic secant as
-
-  probability distributions.
-
-  '
+version: 1.0.2
+title: Erstellen und Plotten eigener Funktionen
+title_i18n:
+  de: Erstellen und Plotten eigener Funktionen
+  en: Creating and Plotting Custom Functions
+description: In dieser Aufgabe definierst du eigene Funktionen und plottest sie. Du
+  schreibst Python-Funktionen mit def und Docstrings und implementierst die Gaußsche
+  Glockenkurve und den hyperbolischen Sekans als Wahrscheinlichkeitsverteilungen.
+description_i18n:
+  de: In dieser Aufgabe definierst du eigene Funktionen und plottest sie. Du schreibst
+    Python-Funktionen mit def und Docstrings und implementierst die Gaußsche Glockenkurve
+    und den hyperbolischen Sekans als Wahrscheinlichkeitsverteilungen.
+  en: This exercise deals with creating and plotting custom functions. You will learn
+    to define Python functions with def, write docstrings and implement the Gaussian
+    bell curve and the hyperbolic secant as probability distributions.
 language: de
 license: MIT
 authors:

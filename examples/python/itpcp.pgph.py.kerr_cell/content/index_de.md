@@ -4,7 +4,7 @@
 [plt.errorbar]: <https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.errorbar.html> "plt.errorbar"
 [np.polyfit]: <https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html> "np.polyfit"
 
-# Kerrzelle
+# Kerr-Zelle
 
 ## Einleitung
 

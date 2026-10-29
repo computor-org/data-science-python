@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.regular_polyhedra
-version: 1.0.2
-title: Regular Polyhedra
-description: This exercise calculates geometric properties of the five regular convex
-  polyhedra (tetrahedron, cube, octahedron, dodecahedron, icosahedron). For a given
-  edge length, volume, surface area and the radii of the inscribed and circumscribed
-  spheres are calculated. The function also processes vectors of edge lengths.
+version: 1.0.3
+title: Reguläre Polyeder
+title_i18n:
+  de: Reguläre Polyeder
+  en: Regular Polyhedra
+description: Du berechnest geometrische Eigenschaften der fünf regulären konvexen
+  Polyeder (Tetraeder, Würfel, Oktaeder, Dodekaeder, Ikosaeder). Für eine gegebene
+  Kantenlänge bestimmst du Volumen, Oberfläche sowie In- und Umkugelradius; die Funktion
+  verarbeitet auch Vektoren von Kantenlängen.
+description_i18n:
+  de: Du berechnest geometrische Eigenschaften der fünf regulären konvexen Polyeder
+    (Tetraeder, Würfel, Oktaeder, Dodekaeder, Ikosaeder). Für eine gegebene Kantenlänge
+    bestimmst du Volumen, Oberfläche sowie In- und Umkugelradius; die Funktion verarbeitet
+    auch Vektoren von Kantenlängen.
+  en: This exercise calculates geometric properties of the five regular convex polyhedra
+    (tetrahedron, cube, octahedron, dodecahedron, icosahedron). For a given edge length,
+    volume, surface area and the radii of the inscribed and circumscribed spheres
+    are calculated. The function also processes vectors of edge lengths.
 language: de
 license: MIT
 authors:

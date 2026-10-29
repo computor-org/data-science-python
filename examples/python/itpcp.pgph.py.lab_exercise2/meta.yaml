@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.lab_exercise2
-version: 1.0.2
-title: Lab Exercise 2
-description: 'In this exercise you will evaluate oscilloscope measurement data of
-  a damped harmonic
-
-  oscillation. You will calibrate the signal, plot the data and draw the
-
-  envelope exponential functions.
-
-  '
+version: 1.0.3
+title: Laborübung 2
+title_i18n:
+  de: Laborübung 2
+  en: Lab Exercise 2
+description: Du wertest Oszilloskop-Messdaten einer gedämpften harmonischen Schwingung
+  aus. Du kalibrierst das Signal, plottest die Daten und zeichnest die einhüllenden
+  Exponentialfunktionen ein.
+description_i18n:
+  de: Du wertest Oszilloskop-Messdaten einer gedämpften harmonischen Schwingung aus.
+    Du kalibrierst das Signal, plottest die Daten und zeichnest die einhüllenden Exponentialfunktionen
+    ein.
+  en: In this exercise you will evaluate oscilloscope measurement data of a damped
+    harmonic oscillation. You will calibrate the signal, plot the data and draw the
+    envelope exponential functions.
 language: de
 license: MIT
 authors:

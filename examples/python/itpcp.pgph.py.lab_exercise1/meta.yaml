@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.lab_exercise1
-version: 1.0.2
-title: Lab Exercise 1
-description: 'This exercise shows how Python can be used in laboratory exercises.
-  You will read
-
-  temperature data from a file, calculate mean and standard deviation,
-
-  and create a labeled plot with f-strings.
-
-  '
+version: 1.0.3
+title: Laborübung 1
+title_i18n:
+  de: Laborübung 1
+  en: Lab Exercise 1
+description: Diese Aufgabe zeigt, wie du Python in Laborübungen einsetzen kannst.
+  Du liest Temperaturdaten aus einer Datei, berechnest Mittelwert und Standardabweichung
+  und erstellst mit f-Strings einen beschrifteten Plot.
+description_i18n:
+  de: Diese Aufgabe zeigt, wie du Python in Laborübungen einsetzen kannst. Du liest
+    Temperaturdaten aus einer Datei, berechnest Mittelwert und Standardabweichung
+    und erstellst mit f-Strings einen beschrifteten Plot.
+  en: This exercise shows how Python can be used in laboratory exercises. You will
+    read temperature data from a file, calculate mean and standard deviation, and
+    create a labeled plot with f-strings.
 language: de
 license: MIT
 authors:

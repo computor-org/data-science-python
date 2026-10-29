@@ -5,9 +5,30 @@ git:
   - managed
   - download
 name: Data Science mit Python I – Grundlagen
+title_i18n:
+  de: Data Science mit Python I – Grundlagen
+  en: Data Science with Python I – Fundamentals
 position: 10
-description: Der Einstieg in Python mit Programmierumgebung, Syntax, Funktionen, Skripten,
-  Indizierung und ersten Plots.
+description: |-
+  Dieser Kurs ist der Einstieg in die Datenanalyse mit Python und setzt keine Programmiererfahrung voraus. Er richtet sich an Studierende der Naturwissenschaften und an alle, die Python für Berechnungen, Messdaten und Grafiken nutzen wollen. Du rechnest mit Variablen, Vektoren und den Funktionen von NumPy, verarbeitest Zeichenketten, schreibst eigene Funktionen und stellst Ergebnisse mit matplotlib dar; in Laborübungen wertest du Messdaten aus Versuchen aus.
+
+  Der Kurs ist in drei Wochen mit jeweils sieben Aufgaben gegliedert, und die letzte Aufgabe ist eine Wiederholung der Grundlagen. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet, sodass du sofort siehst, was schon funktioniert.
+
+  Du brauchst ein Computor-Konto und einen Rechner mit Internetzugang. Programmieren kannst du in einem Arbeitsbereich, den Computor bereitstellt, oder lokal in VS Code mit der Computor-Erweiterung. Auf diesen Kurs bauen „Data Science mit Python II – Aufbau“ und „III – Vertiefung“ auf.
+description_i18n:
+  de: |-
+    Dieser Kurs ist der Einstieg in die Datenanalyse mit Python und setzt keine Programmiererfahrung voraus. Er richtet sich an Studierende der Naturwissenschaften und an alle, die Python für Berechnungen, Messdaten und Grafiken nutzen wollen. Du rechnest mit Variablen, Vektoren und den Funktionen von NumPy, verarbeitest Zeichenketten, schreibst eigene Funktionen und stellst Ergebnisse mit matplotlib dar; in Laborübungen wertest du Messdaten aus Versuchen aus.
+
+    Der Kurs ist in drei Wochen mit jeweils sieben Aufgaben gegliedert, und die letzte Aufgabe ist eine Wiederholung der Grundlagen. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet, sodass du sofort siehst, was schon funktioniert.
+
+    Du brauchst ein Computor-Konto und einen Rechner mit Internetzugang. Programmieren kannst du in einem Arbeitsbereich, den Computor bereitstellt, oder lokal in VS Code mit der Computor-Erweiterung. Auf diesen Kurs bauen „Data Science mit Python II – Aufbau“ und „III – Vertiefung“ auf.
+  en: |-
+    This course is an introduction to data analysis with Python and assumes no programming experience. It is meant for science students and anyone who wants to use Python for calculations, measured data and plots. You compute with variables, vectors and NumPy functions, work with strings, write your own functions and plot results with matplotlib; in lab exercises you analyse data from lab experiments.
+
+    The course runs over three weeks with seven assignments each, and the last assignment is a review of the fundamentals. Every assignment has instructions in German and English, and the solution you submit is tested automatically, so you see at once what already works.
+
+    You need a Computor account and a computer with internet access. You can program in a workspace provided by Computor or locally in VS Code with the Computor extension. "Data Science with Python II – Intermediate" and "III – Advanced" build on this course.
+language_code: de
 path: python.beginner
 services:
 - slug: itpcp.exec.py
@@ -16,19 +37,51 @@ content_types:
   kind: unit
   slug: weekly
   title: Woche
+  title_i18n:
+    de: Woche
+    en: Week
+  description: Eine Kurswoche mit ihren Aufgaben.
+  description_i18n:
+    de: Eine Kurswoche mit ihren Aufgaben.
+    en: One week of the course with its assignments.
 - color: yellow
   kind: assignment
   slug: beginner
   title: Aufgabe
+  title_i18n:
+    de: Aufgabe
+    en: Assignment
+  description: Eine Programmieraufgabe, die du einreichst und die automatisch getestet
+    wird.
+  description_i18n:
+    de: Eine Programmieraufgabe, die du einreichst und die automatisch getestet wird.
+    en: A programming assignment that you submit and that is tested automatically.
 - color: '#00bd74'
   kind: assignment
   slug: exam
   title: Wiederholung
+  title_i18n:
+    de: Wiederholung
+    en: Review
+  description: Eine Aufgabe, die den Stoff der vorangegangenen Wochen wiederholt.
+  description_i18n:
+    de: Eine Aufgabe, die den Stoff der vorangegangenen Wochen wiederholt.
+    en: An assignment that reviews the material of the previous weeks.
 contents:
 - content_type: weekly
   path: week_1
   position: 1.0
   title: Woche 1
+  title_i18n:
+    de: Woche 1
+    en: Week 1
+  description: 'Erste Schritte mit Python und NumPy: Konstanten, einfache Berechnungen,
+    erste Plots, Docstrings, Zeichenketten und die Gaußsche Osterformel.'
+  description_i18n:
+    de: 'Erste Schritte mit Python und NumPy: Konstanten, einfache Berechnungen, erste
+      Plots, Docstrings, Zeichenketten und die Gaußsche Osterformel.'
+    en: 'First steps with Python and NumPy: constants, simple calculations, first
+      plots, docstrings, strings and Gauss''s Easter formula.'
   contents:
   - content_type: beginner
     example_identifier: itpcp.pgph.py.math_constants
@@ -36,46 +89,77 @@ contents:
     path: math_constants
     position: 1.0
     title: Mathematische Konstanten
+    title_i18n:
+      de: Mathematische Konstanten
+      en: Mathematical Constants
   - content_type: beginner
     example_identifier: itpcp.pgph.py.basis1
     max_group_size: 1
     path: basis1
     position: 2.0
     title: Einfache Berechnungen
+    title_i18n:
+      de: Einfache Berechnungen
+      en: Simple Calculations
   - content_type: beginner
     example_identifier: itpcp.pgph.py.basis2
     max_group_size: 1
     path: basis2
     position: 3.0
     title: Einfacher Plot von Vektoren - P1
+    title_i18n:
+      de: Einfacher Plot von Vektoren - P1
+      en: Simple Plot of Vectors - P1
   - content_type: beginner
     example_identifier: itpcp.pgph.py.plot_docstr
     max_group_size: 1
     path: plot_docstr
     position: 4.0
     title: Einfacher Plot mit DocString
+    title_i18n:
+      de: Einfacher Plot mit DocString
+      en: Simple Plot with DocString
   - content_type: beginner
     example_identifier: itpcp.pgph.py.simple_taylor
     max_group_size: 1
     path: simple_taylor
     position: 5.0
     title: Taylorreihe des Sinus
+    title_i18n:
+      de: Taylorreihe des Sinus
+      en: Taylor Series of the Sine
   - content_type: beginner
     example_identifier: itpcp.pgph.py.chars
     max_group_size: 1
     path: chars
     position: 6.0
     title: Zeichenketten
+    title_i18n:
+      de: Zeichenketten
+      en: Strings
   - content_type: beginner
     example_identifier: itpcp.pgph.py.easter_formula
     max_group_size: 1
     path: easter_formula
     position: 7.0
     title: Gaußsche Osterformel
+    title_i18n:
+      de: Gaußsche Osterformel
+      en: Gaussian Easter Formula
 - content_type: weekly
   path: week_2
   position: 2.0
   title: Woche 2
+  title_i18n:
+    de: Woche 2
+    en: Week 2
+  description: Rechnen mit Vektoren, Zufallszahlen und Indizierung sowie die ersten
+    beiden Laborübungen mit Messdaten.
+  description_i18n:
+    de: Rechnen mit Vektoren, Zufallszahlen und Indizierung sowie die ersten beiden
+      Laborübungen mit Messdaten.
+    en: Computing with vectors, random numbers and indexing, and the first two lab
+      exercises with measured data.
   contents:
   - content_type: beginner
     example_identifier: itpcp.pgph.py.vector_compute
@@ -83,46 +167,79 @@ contents:
     path: vector_compute
     position: 1.0
     title: Rechnen mit Vektoren
+    title_i18n:
+      de: Rechnen mit Vektoren
+      en: Computing with Vectors
   - content_type: beginner
     example_identifier: itpcp.pgph.py.vector_create
     max_group_size: 1
     path: vector_create
     position: 2.0
     title: Erzeugung von Vektoren
+    title_i18n:
+      de: Erzeugung von Vektoren
+      en: Creating Vectors
   - content_type: beginner
     example_identifier: itpcp.pgph.py.vector_random
     max_group_size: 1
     path: vector_random
     position: 3.0
     title: Erzeugen von Zufallszahlen
+    title_i18n:
+      de: Erzeugen von Zufallszahlen
+      en: Generating Random Numbers
   - content_type: beginner
     example_identifier: itpcp.pgph.py.basis3
     max_group_size: 1
     path: basis3
     position: 4.0
     title: Kombination von Funktionen
+    title_i18n:
+      de: Kombination von Funktionen
+      en: Combination of Functions
   - content_type: beginner
     example_identifier: itpcp.pgph.py.sindex
     max_group_size: 1
     path: sindex
     position: 5.0
     title: Index und Doppelpunkt
+    title_i18n:
+      de: Index und Doppelpunkt
+      en: Index and Colon
   - content_type: beginner
     example_identifier: itpcp.pgph.py.lab_exercise1
     max_group_size: 1
     path: lab_exercise1
     position: 6.0
     title: Laborübung 1
+    title_i18n:
+      de: Laborübung 1
+      en: Lab Exercise 1
   - content_type: beginner
     example_identifier: itpcp.pgph.py.lab_exercise2
     max_group_size: 1
     path: lab_exercise2
     position: 7.0
     title: Laborübung 2
+    title_i18n:
+      de: Laborübung 2
+      en: Lab Exercise 2
 - content_type: weekly
   path: week_3
   position: 3.0
   title: Woche 3
+  title_i18n:
+    de: Woche 3
+    en: Week 3
+  description: Eigene Funktionen mit Standardwerten für Parameter, Ausgleichsgeraden
+    mit Fehlerbalken und die Auswertung von Laborversuchen, zum Abschluss eine Wiederholung
+    der Grundlagen.
+  description_i18n:
+    de: Eigene Funktionen mit Standardwerten für Parameter, Ausgleichsgeraden mit
+      Fehlerbalken und die Auswertung von Laborversuchen, zum Abschluss eine Wiederholung
+      der Grundlagen.
+    en: Writing functions with default arguments, straight-line fits with error bars
+      and the analysis of lab experiments, ending with a review of the fundamentals.
   contents:
   - content_type: beginner
     example_identifier: itpcp.pgph.py.lab_exercise3
@@ -130,39 +247,60 @@ contents:
     path: lab_exercise3
     position: 1.0
     title: Laborübung 3
+    title_i18n:
+      de: Laborübung 3
+      en: Lab Exercise 3
   - content_type: beginner
     example_identifier: itpcp.pgph.py.kerr_cell
     max_group_size: 1
     path: kerr_cell
     position: 2.0
-    title: Kerrzelle
+    title: Kerr-Zelle
+    title_i18n:
+      de: Kerr-Zelle
+      en: Kerr Cell
   - content_type: beginner
     example_identifier: itpcp.pgph.py.custom_functions
     max_group_size: 1
     path: custom_functions
     position: 3.0
     title: Erstellen und Plotten eigener Funktionen
+    title_i18n:
+      de: Erstellen und Plotten eigener Funktionen
+      en: Creating and Plotting Custom Functions
   - content_type: beginner
     example_identifier: itpcp.pgph.py.cosine_function
     max_group_size: 1
     path: cosine_function
     position: 4.0
     title: Abklingende Cosinus-Funktion
+    title_i18n:
+      de: Abklingende Cosinus-Funktion
+      en: Decaying Cosine Function
   - content_type: beginner
     example_identifier: itpcp.pgph.py.beat_oscillation
     max_group_size: 1
     path: beat_oscillation
     position: 5.0
     title: Setzen von Default-Werten – Schwebung
+    title_i18n:
+      de: Setzen von Default-Werten – Schwebung
+      en: Setting Default Values - Beat Frequency
   - content_type: beginner
     example_identifier: itpcp.pgph.py.week3_summary
     max_group_size: 1
     path: week3_summary
     position: 6.0
     title: Beta-Absorption
+    title_i18n:
+      de: Beta-Absorption
+      en: Beta Absorption
   - content_type: exam
     example_identifier: itpcp.pgph.py.review_fundamentals
     max_group_size: 1
     path: review_fundamentals
     position: 7.0
-    title: Python Grundlagen Review
+    title: Python-Grundlagen-Review
+    title_i18n:
+      de: Python-Grundlagen-Review
+      en: Python Fundamentals Review

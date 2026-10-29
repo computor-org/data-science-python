@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.pendulum
-version: 1.0.2
-title: Numerical Solution of Initial Value Problems
-description: This exercise covers the numerical solution of initial value problems
-  using the example of a simple pendulum. The explicit Euler method and the midpoint
-  method are implemented and compared with the scipy function solve_ivp. Additionally,
-  the energy conservation of the different methods is examined.
+version: 1.0.3
+title: Numerische Lösung von Anfangswertproblemen
+title_i18n:
+  de: Numerische Lösung von Anfangswertproblemen
+  en: Numerical Solution of Initial Value Problems
+description: Am Beispiel eines einfachen Pendels löst du Anfangswertprobleme numerisch.
+  Du implementierst das explizite Euler-Verfahren und die Mittelpunktsmethode, vergleichst
+  sie mit der scipy-Funktion solve_ivp und untersuchst, wie gut die einzelnen Verfahren
+  die Energie erhalten.
+description_i18n:
+  de: Am Beispiel eines einfachen Pendels löst du Anfangswertprobleme numerisch. Du
+    implementierst das explizite Euler-Verfahren und die Mittelpunktsmethode, vergleichst
+    sie mit der scipy-Funktion solve_ivp und untersuchst, wie gut die einzelnen Verfahren
+    die Energie erhalten.
+  en: This exercise covers the numerical solution of initial value problems using
+    the example of a simple pendulum. The explicit Euler method and the midpoint method
+    are implemented and compared with the scipy function solve_ivp. Additionally,
+    the energy conservation of the different methods is examined.
 language: de
 license: MIT
 authors:

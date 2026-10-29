@@ -1,16 +1,20 @@
 slug: itpcp.pgph.py.basis1
-version: 1.0.2
-title: Simple Calculations
-description: 'In this exercise arithmetic operators (+, -, *, /) are introduced as
-  well as
-
-  the exponential function and trigonometric functions from NumPy are reviewed.
-
-  You will learn to perform simple calculations with variables and apply mathematical
-
-  functions such as sqrt, exp, sin and cos.
-
-  '
+version: 1.0.3
+title: Einfache Berechnungen
+title_i18n:
+  de: Einfache Berechnungen
+  en: Simple Calculations
+description: Diese Aufgabe führt die arithmetischen Operatoren (+, -, *, /) ein und
+  wiederholt die Exponential- und Winkelfunktionen aus NumPy. Du rechnest mit Variablen
+  und wendest mathematische Funktionen wie sqrt, exp, sin und cos an.
+description_i18n:
+  de: Diese Aufgabe führt die arithmetischen Operatoren (+, -, *, /) ein und wiederholt
+    die Exponential- und Winkelfunktionen aus NumPy. Du rechnest mit Variablen und
+    wendest mathematische Funktionen wie sqrt, exp, sin und cos an.
+  en: In this exercise arithmetic operators (+, -, *, /) are introduced as well as
+    the exponential function and trigonometric functions from NumPy are reviewed.
+    You will learn to perform simple calculations with variables and apply mathematical
+    functions such as sqrt, exp, sin and cos.
 language: de
 license: MIT
 authors:

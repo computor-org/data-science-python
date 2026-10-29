@@ -1,13 +1,19 @@
 slug: itpcp.pgph.py.math_constants
-version: 1.0.3
-title: Mathematical Constants
-description: 'This first exercise introduces NumPy and shows how to define variables.
-
-  You will learn about mathematical constants like Pi and e, trigonometric functions,
-
-  complex numbers and the concept of numerical precision.
-
-  '
+version: 1.0.4
+title: Mathematische Konstanten
+title_i18n:
+  de: Mathematische Konstanten
+  en: Mathematical Constants
+description: Diese erste Aufgabe führt in NumPy ein und zeigt, wie du Variablen definierst.
+  Du lernst mathematische Konstanten wie π und e, Winkelfunktionen, komplexe Zahlen
+  und den Begriff der numerischen Genauigkeit kennen.
+description_i18n:
+  de: Diese erste Aufgabe führt in NumPy ein und zeigt, wie du Variablen definierst.
+    Du lernst mathematische Konstanten wie π und e, Winkelfunktionen, komplexe Zahlen
+    und den Begriff der numerischen Genauigkeit kennen.
+  en: This first exercise introduces NumPy and shows how to define variables. You
+    will learn about mathematical constants like Pi and e, trigonometric functions,
+    complex numbers and the concept of numerical precision.
 language: de
 license: MIT
 authors:

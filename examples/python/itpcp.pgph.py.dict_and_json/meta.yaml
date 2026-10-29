@@ -1,16 +1,19 @@
 slug: itpcp.pgph.py.dict_and_json
-version: 1.0.2
+version: 1.0.3
 title: Dictionaries und JSON-Dateien
-description: 'In this exercise you will learn to save and read Python dictionaries
-  in JSON files.
-
-  You will read configuration parameters from a JSON file, generate
-
-  normally distributed random numbers and save the results with metadata
-
-  as a JSON file.
-
-  '
+title_i18n:
+  de: Dictionaries und JSON-Dateien
+  en: Dictionaries and JSON Files
+description: Du speicherst Python-Dictionaries in JSON-Dateien und liest sie wieder
+  ein. Dazu liest du Konfigurationsparameter aus einer JSON-Datei, erzeugst normalverteilte
+  Zufallszahlen und speicherst die Ergebnisse samt Metadaten wieder als JSON-Datei.
+description_i18n:
+  de: Du speicherst Python-Dictionaries in JSON-Dateien und liest sie wieder ein.
+    Dazu liest du Konfigurationsparameter aus einer JSON-Datei, erzeugst normalverteilte
+    Zufallszahlen und speicherst die Ergebnisse samt Metadaten wieder als JSON-Datei.
+  en: In this exercise you will learn to save and read Python dictionaries in JSON
+    files. You will read configuration parameters from a JSON file, generate normally
+    distributed random numbers and save the results with metadata as a JSON file.
 language: de
 license: MIT
 authors:

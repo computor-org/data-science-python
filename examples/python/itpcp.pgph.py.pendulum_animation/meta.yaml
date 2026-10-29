@@ -1,9 +1,21 @@
 slug: itpcp.pgph.py.pendulum_animation
-version: 1.0.1
-title: Animation of a Pendulum
-description: In this exercise a pendulum is animated and displayed in phase space.
-  The symplectic Euler method is adapted to restrict the angle to the range from -pi
-  to pi. Additionally, contours of constant total energy are displayed with matplotlib.
+version: 1.0.2
+title: Animation eines Pendels
+title_i18n:
+  de: Animation eines Pendels
+  en: Animation of a Pendulum
+description: Du animierst ein Pendel und stellst seine Bewegung im Phasenraum dar.
+  Dazu passt du das symplektische Euler-Verfahren so an, dass der Winkel im Bereich
+  von -π bis π bleibt, und zeichnest mit matplotlib Höhenlinien konstanter Gesamtenergie
+  ein.
+description_i18n:
+  de: Du animierst ein Pendel und stellst seine Bewegung im Phasenraum dar. Dazu passt
+    du das symplektische Euler-Verfahren so an, dass der Winkel im Bereich von -π
+    bis π bleibt, und zeichnest mit matplotlib Höhenlinien konstanter Gesamtenergie
+    ein.
+  en: In this exercise a pendulum is animated and displayed in phase space. The symplectic
+    Euler method is adapted to restrict the angle to the range from -pi to pi. Additionally,
+    contours of constant total energy are displayed with matplotlib.
 language: de
 license: MIT
 authors:

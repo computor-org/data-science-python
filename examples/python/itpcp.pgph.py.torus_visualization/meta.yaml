@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.torus_visualization
-version: 1.0.2
-title: Plot of a Circular Torus
-description: 'In this example you will display the surface of a torus as a 3D plot.
-  You will learn
-
-  the parametric representation of a torus with toroidal and poloidal angles,
-
-  work with meshgrid and create a 3D surface graphic with matplotlib.
-
-  '
+version: 1.0.3
+title: Plot eines kreisförmigen Torus
+title_i18n:
+  de: Plot eines kreisförmigen Torus
+  en: Plot of a Circular Torus
+description: Du stellst die Oberfläche eines Torus als 3D-Plot dar. Dabei lernst du
+  die Parameterdarstellung eines Torus mit toroidalem und poloidalem Winkel kennen,
+  arbeitest mit meshgrid und erstellst mit matplotlib eine 3D-Flächengrafik.
+description_i18n:
+  de: Du stellst die Oberfläche eines Torus als 3D-Plot dar. Dabei lernst du die Parameterdarstellung
+    eines Torus mit toroidalem und poloidalem Winkel kennen, arbeitest mit meshgrid
+    und erstellst mit matplotlib eine 3D-Flächengrafik.
+  en: In this example you will display the surface of a torus as a 3D plot. You will
+    learn the parametric representation of a torus with toroidal and poloidal angles,
+    work with meshgrid and create a 3D surface graphic with matplotlib.
 language: de
 license: MIT
 authors:

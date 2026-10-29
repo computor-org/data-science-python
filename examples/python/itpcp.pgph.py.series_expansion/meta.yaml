@@ -1,10 +1,20 @@
 slug: itpcp.pgph.py.series_expansion
-version: 1.0.2
-title: Sine Series Expansion
-description: This exercise implements the Taylor series of the sine function without
-  loops using NumPy matrix operations. With np.meshgrid all series terms are calculated
-  simultaneously. The partial sums are compared with the analytical solution and displayed
-  graphically.
+version: 1.0.3
+title: Sinus-Reihenentwicklung
+title_i18n:
+  de: Sinus-Reihenentwicklung
+  en: Sine Series Expansion
+description: Du berechnest die Taylorreihe der Sinusfunktion ohne Schleifen mit Matrixoperationen
+  in NumPy. Mit np.meshgrid berechnest du alle Reihenglieder gleichzeitig, vergleichst
+  die Partialsummen mit der analytischen Lösung und stellst sie grafisch dar.
+description_i18n:
+  de: Du berechnest die Taylorreihe der Sinusfunktion ohne Schleifen mit Matrixoperationen
+    in NumPy. Mit np.meshgrid berechnest du alle Reihenglieder gleichzeitig, vergleichst
+    die Partialsummen mit der analytischen Lösung und stellst sie grafisch dar.
+  en: This exercise implements the Taylor series of the sine function without loops
+    using NumPy matrix operations. With np.meshgrid all series terms are calculated
+    simultaneously. The partial sums are compared with the analytical solution and
+    displayed graphically.
 language: de
 license: MIT
 authors:

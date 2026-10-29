@@ -1,13 +1,19 @@
 slug: itpcp.pgph.py.forsum
-version: 1.0.2
-title: Sums and Loops
-description: 'In this exercise you will learn how to implement np.sum with for loops.
-
-  You will sum over rows, columns and all elements of a matrix, both with
-
-  NumPy functions and with manual loops.
-
-  '
+version: 1.0.3
+title: Summen und Schleifen
+title_i18n:
+  de: Summen und Schleifen
+  en: Sums and Loops
+description: Du bildest np.sum mit for-Schleifen nach. Du summierst über die Zeilen,
+  die Spalten und alle Elemente einer Matrix, einmal mit NumPy-Funktionen und einmal
+  mit eigenen Schleifen.
+description_i18n:
+  de: Du bildest np.sum mit for-Schleifen nach. Du summierst über die Zeilen, die
+    Spalten und alle Elemente einer Matrix, einmal mit NumPy-Funktionen und einmal
+    mit eigenen Schleifen.
+  en: In this exercise you will learn how to implement np.sum with for loops. You
+    will sum over rows, columns and all elements of a matrix, both with NumPy functions
+    and with manual loops.
 language: de
 license: MIT
 authors:

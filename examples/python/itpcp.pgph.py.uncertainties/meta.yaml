@@ -1,10 +1,22 @@
 slug: itpcp.pgph.py.uncertainties
-version: 1.0.1
-title: 'Error Propagation: Linear vs Monte Carlo'
-description: This exercise compares linear error propagation with the Monte Carlo
-  method. The Python package uncertainties is used to propagate measurement uncertainties.
-  The limits of the linear approximation for nonlinear functions are visualized through
-  histograms.
+version: 1.0.2
+title: 'Fehlerfortpflanzung: linear und Monte Carlo'
+title_i18n:
+  de: 'Fehlerfortpflanzung: linear und Monte Carlo'
+  en: 'Error Propagation: Linear and Monte Carlo'
+description: Du vergleichst die lineare Fehlerfortpflanzung mit der Monte-Carlo-Methode.
+  Mit dem Python-Paket uncertainties pflanzt du Messunsicherheiten fort und zeigst
+  mit Histogrammen, wo die lineare Näherung bei nichtlinearen Funktionen an ihre Grenzen
+  stößt.
+description_i18n:
+  de: Du vergleichst die lineare Fehlerfortpflanzung mit der Monte-Carlo-Methode.
+    Mit dem Python-Paket uncertainties pflanzt du Messunsicherheiten fort und zeigst
+    mit Histogrammen, wo die lineare Näherung bei nichtlinearen Funktionen an ihre
+    Grenzen stößt.
+  en: This exercise compares linear error propagation with the Monte Carlo method.
+    The Python package uncertainties is used to propagate measurement uncertainties.
+    The limits of the linear approximation for nonlinear functions are visualized
+    through histograms.
 language: de
 license: MIT
 authors:

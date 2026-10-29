@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.easter_formula
-version: 1.0.2
-title: Easter Formula
-description: 'In this exercise you will calculate the date of Easter Sunday using
-  the Gaussian
-
-  Easter formula. You will practice arithmetic operators (modulo, integer division),
-
-  user input with input and formatted output with f-strings.
-
-  '
+version: 1.0.3
+title: Gaußsche Osterformel
+title_i18n:
+  de: Gaußsche Osterformel
+  en: Gaussian Easter Formula
+description: Mit der Gaußschen Osterformel berechnest du das Datum des Ostersonntags.
+  Dabei übst du arithmetische Operatoren wie Modulo und ganzzahlige Division, Benutzereingaben
+  mit input und formatierte Ausgaben mit f-Strings.
+description_i18n:
+  de: Mit der Gaußschen Osterformel berechnest du das Datum des Ostersonntags. Dabei
+    übst du arithmetische Operatoren wie Modulo und ganzzahlige Division, Benutzereingaben
+    mit input und formatierte Ausgaben mit f-Strings.
+  en: In this exercise you will calculate the date of Easter Sunday using the Gaussian
+    Easter formula. You will practice arithmetic operators (modulo, integer division),
+    user input with input and formatted output with f-strings.
 language: de
 license: MIT
 authors:

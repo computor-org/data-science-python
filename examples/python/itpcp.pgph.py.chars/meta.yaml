@@ -1,13 +1,19 @@
 slug: itpcp.pgph.py.chars
-version: 1.0.2
-title: Strings
-description: 'In this example you will receive an introduction to working with strings
-
-  in Python. You will learn to create strings, concatenate them, index individual
-
-  characters, and convert between uppercase and lowercase.
-
-  '
+version: 1.0.3
+title: Zeichenketten
+title_i18n:
+  de: Zeichenketten
+  en: Strings
+description: Dieses Beispiel führt in die Arbeit mit Zeichenketten in Python ein.
+  Du erzeugst Zeichenketten, fügst sie zusammen, greifst über den Index auf einzelne
+  Zeichen zu und wandelst zwischen Groß- und Kleinbuchstaben um.
+description_i18n:
+  de: Dieses Beispiel führt in die Arbeit mit Zeichenketten in Python ein. Du erzeugst
+    Zeichenketten, fügst sie zusammen, greifst über den Index auf einzelne Zeichen
+    zu und wandelst zwischen Groß- und Kleinbuchstaben um.
+  en: In this example you will receive an introduction to working with strings in
+    Python. You will learn to create strings, concatenate them, index individual characters,
+    and convert between uppercase and lowercase.
 language: de
 license: MIT
 authors:

@@ -1,14 +1,19 @@
 slug: itpcp.pgph.py.password_validator
-version: 1.0.3
-title: Password Validator
-description: 'In this exercise you will program a password validator that checks the
-  strength of a
-
-  password according to various criteria: length, numbers, special characters,
-
-  uppercase letters and consecutive/repeating characters.
-
-  '
+version: 1.0.4
+title: Passwortprüfung
+title_i18n:
+  de: Passwortprüfung
+  en: Password Validator
+description: 'Du programmierst eine Passwortprüfung, die die Stärke eines Passworts
+  nach mehreren Kriterien bewertet: Länge, Ziffern, Sonderzeichen, Großbuchstaben
+  sowie aufeinanderfolgende oder sich wiederholende Zeichen.'
+description_i18n:
+  de: 'Du programmierst eine Passwortprüfung, die die Stärke eines Passworts nach
+    mehreren Kriterien bewertet: Länge, Ziffern, Sonderzeichen, Großbuchstaben sowie
+    aufeinanderfolgende oder sich wiederholende Zeichen.'
+  en: 'In this exercise you will program a password validator that checks the strength
+    of a password according to various criteria: length, numbers, special characters,
+    uppercase letters and consecutive/repeating characters.'
 language: de
 license: MIT
 authors:

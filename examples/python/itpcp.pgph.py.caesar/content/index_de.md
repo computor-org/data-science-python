@@ -1,7 +1,7 @@
 <!-- Ceasar source wiki -->
 [caesar]: <https://en.wikipedia.org/wiki/Caesar_cipher> "caesar"
 
-# Caesar Verschlüsselung
+# Caesar-Verschlüsselung
 
 ## Einleitung
 

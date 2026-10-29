@@ -1,7 +1,7 @@
 [np.mod]: <https://numpy.org/doc/stable/reference/generated/numpy.mod.html> "np.mod"
 [np.sign]: <https://numpy.org/doc/stable/reference/generated/numpy.sign.html> "np.sign"
 
-# Lambda Funktionen
+# Lambda-Funktionen
 
 ## Einleitung
 

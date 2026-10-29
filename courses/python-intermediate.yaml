@@ -5,9 +5,30 @@ git:
   - managed
   - download
 name: Data Science mit Python II – Aufbau
+title_i18n:
+  de: Data Science mit Python II – Aufbau
+  en: Data Science with Python II – Intermediate
 position: 20
-description: Kontrollstrukturen, logische Operatoren und die Auswertung von Messdaten.
-  Baut auf dem Grundlagenkurs auf.
+description: |-
+  Der Aufbaukurs setzt den Grundlagenkurs fort und führt von einzelnen Rechnungen zu eigenen kleinen Programmen. Du lernst Datentypen und die Grenzen der Rechengenauigkeit kennen, steuerst den Programmablauf mit if-Anweisungen sowie for- und while-Schleifen und wählst Daten mit logischer Indizierung gezielt aus. Später speicherst du Daten in Dictionaries und JSON-Dateien, erstellst 3D-Plots, Animationen und Histogramme und passt mit SciPy Modelle an Messdaten an.
+
+  Der Kurs umfasst fünf Wochen mit jeweils fünf bis sieben Aufgaben, darunter Zusatzaufgaben für alle, die mehr üben wollen, und eine Wiederholung in der vierten Woche. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet.
+
+  Du solltest mit dem Stoff von „Data Science mit Python I – Grundlagen“ vertraut sein, also mit Variablen, NumPy-Vektoren, Funktionen und einfachen Plots. Du brauchst ein Computor-Konto und arbeitest wie im Grundlagenkurs in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
+description_i18n:
+  de: |-
+    Der Aufbaukurs setzt den Grundlagenkurs fort und führt von einzelnen Rechnungen zu eigenen kleinen Programmen. Du lernst Datentypen und die Grenzen der Rechengenauigkeit kennen, steuerst den Programmablauf mit if-Anweisungen sowie for- und while-Schleifen und wählst Daten mit logischer Indizierung gezielt aus. Später speicherst du Daten in Dictionaries und JSON-Dateien, erstellst 3D-Plots, Animationen und Histogramme und passt mit SciPy Modelle an Messdaten an.
+
+    Der Kurs umfasst fünf Wochen mit jeweils fünf bis sieben Aufgaben, darunter Zusatzaufgaben für alle, die mehr üben wollen, und eine Wiederholung in der vierten Woche. Jede Aufgabe hat eine Anleitung auf Deutsch und auf Englisch, und deine eingereichte Lösung wird automatisch getestet.
+
+    Du solltest mit dem Stoff von „Data Science mit Python I – Grundlagen“ vertraut sein, also mit Variablen, NumPy-Vektoren, Funktionen und einfachen Plots. Du brauchst ein Computor-Konto und arbeitest wie im Grundlagenkurs in einem Arbeitsbereich von Computor oder lokal in VS Code mit der Computor-Erweiterung.
+  en: |-
+    The intermediate course continues the fundamentals course and takes you from single calculations to small programs of your own. You learn about data types and the limits of numerical precision, control the flow of a program with if statements and for and while loops, and select data with logical indexing. Later you store data in dictionaries and JSON files, create 3D plots, animations and histograms, and fit models to measured data with SciPy.
+
+    The course runs over five weeks with five to seven assignments each, including extra assignments for anyone who wants more practice and a review in the fourth week. Every assignment has instructions in German and English, and the solution you submit is tested automatically.
+
+    You should be familiar with the material of "Data Science with Python I – Fundamentals", that is variables, NumPy vectors, functions and simple plots. You need a Computor account and, as before, work in a workspace provided by Computor or locally in VS Code with the Computor extension.
+language_code: de
 path: python.intermediate
 services:
 - slug: itpcp.exec.py
@@ -16,23 +37,59 @@ content_types:
   kind: unit
   slug: weekly
   title: Woche
+  title_i18n:
+    de: Woche
+    en: Week
+  description: Eine Kurswoche mit ihren Aufgaben.
+  description_i18n:
+    de: Eine Kurswoche mit ihren Aufgaben.
+    en: One week of the course with its assignments.
 - color: yellow
   kind: assignment
   slug: intermediate
   title: Aufgabe
+  title_i18n:
+    de: Aufgabe
+    en: Assignment
+  description: Eine Programmieraufgabe, die du einreichst und die automatisch getestet
+    wird.
+  description_i18n:
+    de: Eine Programmieraufgabe, die du einreichst und die automatisch getestet wird.
+    en: A programming assignment that you submit and that is tested automatically.
 - color: orange
   kind: assignment
   slug: extra
   title: Zusatzaufgabe
+  title_i18n:
+    de: Zusatzaufgabe
+    en: Extra assignment
+  description: Eine zusätzliche Aufgabe für alle, die mehr üben wollen.
+  description_i18n:
+    de: Eine zusätzliche Aufgabe für alle, die mehr üben wollen.
+    en: An additional assignment for anyone who wants more practice.
 - color: '#00bd74'
   kind: assignment
   slug: exam
   title: Wiederholung
+  title_i18n:
+    de: Wiederholung
+    en: Review
+  description: Eine Aufgabe, die den Stoff der vorangegangenen Wochen wiederholt.
+  description_i18n:
+    de: Eine Aufgabe, die den Stoff der vorangegangenen Wochen wiederholt.
+    en: An assignment that reviews the material of the previous weeks.
 contents:
 - content_type: weekly
   path: week_1
   position: 1.0
   title: Woche 1
+  title_i18n:
+    de: Woche 1
+    en: Week 1
+  description: Datentypen, Rechengenauigkeit, Zeichenketten und die if-Anweisung.
+  description_i18n:
+    de: Datentypen, Rechengenauigkeit, Zeichenketten und die if-Anweisung.
+    en: Data types, numerical precision, strings and the if statement.
   contents:
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.data_types
@@ -40,46 +97,74 @@ contents:
     path: data_types
     position: 1.0
     title: Datentypen (Klassen) in Python
+    title_i18n:
+      de: Datentypen (Klassen) in Python
+      en: Data Types (Classes) in Python
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.machine_precision
     max_group_size: 1
     path: machine_precision
     position: 2.0
     title: Vergleich von Formeln
+    title_i18n:
+      de: Vergleich von Formeln
+      en: Comparison of Formulas
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.basis_char
     max_group_size: 1
     path: basis_char
     position: 3.0
     title: Zeichen und Zeichenketten
+    title_i18n:
+      de: Zeichen und Zeichenketten
+      en: Characters and Strings
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.control_if
     max_group_size: 1
     path: control_if
     position: 4.0
     title: 'Steuerstrukturen: if-Entscheidung'
+    title_i18n:
+      de: 'Steuerstrukturen: if-Entscheidung'
+      en: 'Control Structures: if Statement'
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.if_vocal
     max_group_size: 1
     path: if_vocal
     position: 5.0
     title: Vokal oder Konsonant
+    title_i18n:
+      de: Vokal oder Konsonant
+      en: Vowel or Consonant
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.regular_polyhedra
     max_group_size: 1
     path: regular_polyhedra
     position: 6.0
     title: Reguläre Polyeder
+    title_i18n:
+      de: Reguläre Polyeder
+      en: Regular Polyhedra
   - content_type: extra
     example_identifier: itpcp.pgph.py.gross_net
     max_group_size: 1
     path: gross_net
     position: 7.0
-    title: Brutto Netto Rechner
+    title: Brutto-Netto-Rechner
+    title_i18n:
+      de: Brutto-Netto-Rechner
+      en: Gross Net Calculator
 - content_type: weekly
   path: week_2
   position: 2.0
   title: Woche 2
+  title_i18n:
+    de: Woche 2
+    en: Week 2
+  description: for- und while-Schleifen, Summen und Reihen sowie die Gauß-Verteilung.
+  description_i18n:
+    de: for- und while-Schleifen, Summen und Reihen sowie die Gauß-Verteilung.
+    en: for and while loops, sums and series, and the Gaussian distribution.
   contents:
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.control_for
@@ -87,40 +172,67 @@ contents:
     path: control_for
     position: 1.0
     title: 'Steuerstrukturen: for-Schleifen'
+    title_i18n:
+      de: 'Steuerstrukturen: for-Schleifen'
+      en: 'Control Structures: for Loops'
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.control_while
     max_group_size: 1
     path: control_while
     position: 2.0
     title: 'Steuerstrukturen: Die while-Schleife'
+    title_i18n:
+      de: 'Steuerstrukturen: Die while-Schleife'
+      en: 'Control Structures: The while Loop'
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.forsum
     max_group_size: 1
     path: forsum
     position: 3.0
     title: Summen und Schleifen
+    title_i18n:
+      de: Summen und Schleifen
+      en: Sums and Loops
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.forsum_sin
     max_group_size: 1
     path: forsum_sin
     position: 4.0
     title: Taylorreihe des Sinus
+    title_i18n:
+      de: Taylorreihe des Sinus
+      en: Sine Taylor Series
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.gauss1d
     max_group_size: 1
     path: gauss1d
     position: 5.0
-    title: Gaussverteilung
+    title: Gauß-Verteilung
+    title_i18n:
+      de: Gauß-Verteilung
+      en: Gaussian Distribution
   - content_type: extra
     example_identifier: itpcp.pgph.py.password_validator
     max_group_size: 1
     path: password_validator
     position: 6.0
     title: Passwortprüfung
+    title_i18n:
+      de: Passwortprüfung
+      en: Password Validator
 - content_type: weekly
   path: week_3
   position: 3.0
   title: Woche 3
+  title_i18n:
+    de: Woche 3
+    en: Week 3
+  description: Logische Indizierung im Vergleich mit Schleifen, angewandt auf quadratische
+    Gleichungen.
+  description_i18n:
+    de: Logische Indizierung im Vergleich mit Schleifen, angewandt auf quadratische
+      Gleichungen.
+    en: Logical indexing compared with loops, applied to quadratic equations.
   contents:
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.slogic
@@ -128,115 +240,188 @@ contents:
     path: slogic
     position: 1.0
     title: Einfache logische Indizierung
+    title_i18n:
+      de: Einfache logische Indizierung
+      en: Simple Logical Indexing
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.slogcomp
     max_group_size: 1
     path: slogcomp
     position: 2.0
     title: Vergleich logische Indizierung mit Schleife bzw. Mathematik
+    title_i18n:
+      de: Vergleich logische Indizierung mit Schleife bzw. Mathematik
+      en: Comparison of Logical Indexing with Loops and Mathematics
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.pivot_index
     max_group_size: 1
     path: pivot_index
     position: 3.0
     title: Finden des Pivot-Index
+    title_i18n:
+      de: Finden des Pivot-Index
+      en: Finding the Pivot Index
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.quadratic_eq
     max_group_size: 1
     path: quadratic_eq
     position: 4.0
     title: 'Steuerstrukturen: Die for-Schleife'
+    title_i18n:
+      de: 'Steuerstrukturen: Die for-Schleife'
+      en: 'Control Structures: The for Loop'
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.quadratic_eq_eval
     max_group_size: 1
     path: quadratic_eq_eval
     position: 5.0
     title: Berechnung der linken Seite einer quadratischen Gleichung
+    title_i18n:
+      de: Berechnung der linken Seite einer quadratischen Gleichung
+      en: Calculation of the Left Side of a Quadratic Equation
   - content_type: extra
     example_identifier: itpcp.pgph.py.quadratic_eq_test
     max_group_size: 1
     path: quadratic_eq_test
     position: 6.0
     title: Analyse der Lösungen einer quadratischen Gleichung 1
+    title_i18n:
+      de: Analyse der Lösungen einer quadratischen Gleichung 1
+      en: Analysis of Solutions of a Quadratic Equation 1
 - content_type: weekly
   path: week_4
   position: 4.0
   title: Woche 4
+  title_i18n:
+    de: Woche 4
+    en: Week 4
+  description: Vektorisierte Reihen, 3D-Plots, Animationen, Histogramme, Dictionaries
+    und JSON-Dateien, dazu eine Wiederholung von Kontrollstrukturen und Arrays.
+  description_i18n:
+    de: Vektorisierte Reihen, 3D-Plots, Animationen, Histogramme, Dictionaries und
+      JSON-Dateien, dazu eine Wiederholung von Kontrollstrukturen und Arrays.
+    en: Vectorised series, 3D plots, animations, histograms, dictionaries and JSON
+      files, plus a review of control flow and arrays.
   contents:
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.series_expansion
     max_group_size: 1
     path: series_expansion
     position: 1.0
-    title: Sinus Reihenentwicklung
+    title: Sinus-Reihenentwicklung
+    title_i18n:
+      de: Sinus-Reihenentwicklung
+      en: Sine Series Expansion
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.torus_visualization
     max_group_size: 1
     path: torus_visualization
     position: 2.0
     title: Plot eines kreisförmigen Torus
+    title_i18n:
+      de: Plot eines kreisförmigen Torus
+      en: Plot of a Circular Torus
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.simple_animation
     max_group_size: 1
     path: simple_animation
     position: 3.0
     title: Animation
+    title_i18n:
+      de: Animation
+      en: Animation
   - content_type: extra
     example_identifier: itpcp.pgph.py.histogram
     max_group_size: 1
     path: histogram
     position: 4.0
     title: Histogramm mit Fehlerabschätzung
+    title_i18n:
+      de: Histogramm mit Fehlerabschätzung
+      en: Histogram with Error Estimation
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.roman_numbers
     max_group_size: 1
     path: roman_numbers
     position: 5.0
     title: Römische Ziffern
+    title_i18n:
+      de: Römische Ziffern
+      en: Roman Numerals
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.dict_and_json
     max_group_size: 1
     path: dict_and_json
     position: 6.0
     title: Dictionaries und JSON-Dateien
+    title_i18n:
+      de: Dictionaries und JSON-Dateien
+      en: Dictionaries and JSON Files
   - content_type: exam
     example_identifier: itpcp.pgph.py.review_advanced
     max_group_size: 1
     path: review_advanced
     position: 7.0
-    title: Kontrollstrukturen und Arrays Review
+    title: 'Review: Kontrollstrukturen und Arrays'
+    title_i18n:
+      de: 'Review: Kontrollstrukturen und Arrays'
+      en: Control Flow and Arrays Review
 - content_type: weekly
   path: week_5
   position: 5.0
   title: Woche 5
+  title_i18n:
+    de: Woche 5
+    en: Week 5
+  description: Lambda-Funktionen, das Anpassen von Modellen an Messdaten, Interpolation
+    und Rekursion.
+  description_i18n:
+    de: Lambda-Funktionen, das Anpassen von Modellen an Messdaten, Interpolation und
+      Rekursion.
+    en: Lambda functions, fitting models to measured data, interpolation and recursion.
   contents:
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.lambda
     max_group_size: 1
     path: lambda
     position: 1.0
-    title: Lambda Funktionen
+    title: Lambda-Funktionen
+    title_i18n:
+      de: Lambda-Funktionen
+      en: Lambda Functions
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.damped_oscillation
     max_group_size: 1
     path: damped_oscillation
     position: 2.0
     title: Fitten von abklingenden Oszillationen
+    title_i18n:
+      de: Fitten von abklingenden Oszillationen
+      en: Fitting Damped Oscillations
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.radioactive_decay
     max_group_size: 1
     path: radioactive_decay
     position: 3.0
     title: Fitten von radioaktiven Zerfällen
+    title_i18n:
+      de: Fitten von radioaktiven Zerfällen
+      en: Fitting Radioactive Decays
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.interpolate
     max_group_size: 1
     path: interpolate
     position: 4.0
     title: Interpolation von Daten
+    title_i18n:
+      de: Interpolation von Daten
+      en: Data Interpolation
   - content_type: extra
     example_identifier: itpcp.pgph.py.hanoi
     max_group_size: 1
     path: hanoi
     position: 5.0
     title: Türme von Hanoi
+    title_i18n:
+      de: Türme von Hanoi
+      en: Towers of Hanoi

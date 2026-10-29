@@ -1,9 +1,19 @@
 slug: itpcp.pgph.py.vector_field
-version: 1.0.1
-title: Vector Fields and Eigenvectors
-description: This exercise visualizes vector fields and eigenvectors using matplotlib.
-  A gradient field is generated and transformed by a matrix. The eigenvectors of the
-  transformation matrix are calculated and displayed graphically.
+version: 1.0.2
+title: Vektorfelder und Eigenvektoren
+title_i18n:
+  de: Vektorfelder und Eigenvektoren
+  en: Vector Fields and Eigenvectors
+description: Du stellst Vektorfelder und Eigenvektoren mit matplotlib dar. Du erzeugst
+  ein Gradientenfeld, transformierst es mit einer Matrix, berechnest die Eigenvektoren
+  der Transformationsmatrix und stellst sie grafisch dar.
+description_i18n:
+  de: Du stellst Vektorfelder und Eigenvektoren mit matplotlib dar. Du erzeugst ein
+    Gradientenfeld, transformierst es mit einer Matrix, berechnest die Eigenvektoren
+    der Transformationsmatrix und stellst sie grafisch dar.
+  en: This exercise visualizes vector fields and eigenvectors using matplotlib. A
+    gradient field is generated and transformed by a matrix. The eigenvectors of the
+    transformation matrix are calculated and displayed graphically.
 language: de
 license: MIT
 authors:

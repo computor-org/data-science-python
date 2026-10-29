@@ -53,42 +53,9 @@ def test_course_titles_are_german_and_match_the_assignment_heading():
                         / "content" / "index_de.md").read_text()
                 heading = re.search(r"^#\s+(.+?)\s*#*\s*$", text, re.M).group(1)
                 assert title == plain_title(heading), f"{manifest.name}: {node['path']}"
-            elif node["path"] == "welcome":
-                assert title == "Willkommen", f"{manifest.name}: {node['path']}"
             else:
+                # Units are weeks only: the extension's generic Welcome page is
+                # the guide, a course item would repeat it (computor-org/issues#546).
                 week = re.fullmatch(r"week_(\d+)", node["path"]).group(1)
                 assert title == f"Woche {week}", f"{manifest.name}: {node['path']}"
 
-
-def test_beginner_course_opens_with_a_welcome_item_for_the_extension():
-    """The VS Code extension opens this item when a workspace launches.
-
-    The conditions mirror ``welcomeItem()`` in computor-vscode
-    (src/services/WorkspaceCourseLanding.ts) and the welcome ids of
-    computor-web/scripts/build-public-learning.mjs in computor-backend.
-    """
-    course = yaml.safe_load((ROOT / "courses" / "python-beginner.yaml").read_text())
-    welcome, first_week = course["contents"][:2]
-    kinds = {kind["slug"]: kind["kind"] for kind in course["content_types"]}
-    assert kinds[welcome["content_type"]] == "unit", "Only non-assignment items are welcome items"
-    assert welcome["position"] < first_week["position"]
-    assert welcome["path"] in ("welcome", "start_here", "introduction")
-    assert re.fullmatch(r"willkommen", welcome["title"], re.I)
-    assert not welcome.get("contents") and "example_identifier" not in welcome
-    text = welcome["description"]
-    # CourseContent.description is String(4096) in computor-backend.
-    assert len(text) <= 4096, "Both languages must fit into one description"
-    # One section per language behind a "<!-- lang: xx -->" line, as read by
-    # the extension and the public reader; German comes first as the fallback.
-    parts = re.split(r"^<!--\s*lang:\s*([a-z]{2})\s*-->\s*$", text, flags=re.M)
-    assert not parts[0].strip(), "Nothing may precede the first language marker"
-    sections = dict(zip(parts[1::2], (part.strip() for part in parts[2::2])))
-    assert list(sections) == ["de", "en"]
-    first = first_week["contents"][0]
-    for language, section in sections.items():
-        assert first_week["title"] in section and first["title"] in section, language
-        assert "Lena" in section, "Help in this course comes from Lena"
-        assert "@lena" not in section, "Ordinary questions reach Lena without a mandatory mention"
-        assert ("Nachrichten anzeigen" if language == "de" else "Show Messages") in section
-        assert len(section) < 2000, "The welcome text should stay short"
-    assert not re.search(r"\b(Sie|Ihre?[nmrs]?)\b", sections["de"]), "The German text says du, like the web UI"

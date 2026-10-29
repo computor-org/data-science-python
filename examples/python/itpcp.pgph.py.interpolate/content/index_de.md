@@ -1,4 +1,4 @@
-# Fitten von radioaktiven Zerfällen
+# Interpolation von Daten
 
 ## Einleitung
 

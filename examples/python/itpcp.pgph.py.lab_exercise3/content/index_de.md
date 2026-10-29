@@ -27,7 +27,7 @@ Schreib ein Skript `lab_exercise3.py`, in dem du die Daten des Laborversuchs aus
 
 1. Lade die Daten aus `data_lab3.dat` und speichere die Spalten in dafür geeigneten Vektoren. Achte darauf, dass im ganzen Programm nur mit **Milliampere** und nicht mit Ampere gerechnet wird.
 
-2. Erstelle zwei Vektoren der richtigen Länge, die mit der Unsicherheit der Messungen gefüllt sind. Die Unsicherheit der Strommessung beträgt 0.5 mA, die der Spannungsmessung 1 V.
+2. Erstelle zwei Vektoren der richtigen Länge, die mit der Unsicherheit der Messungen gefüllt sind. Die Unsicherheit der Strommessung beträgt 0,5 mA, die der Spannungsmessung 1 V.
 
 3. Fitte die Daten mit einer Geraden (Polynom erster Ordnung). Verwende dazu den Befehl [np.polyfit].
 

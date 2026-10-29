@@ -1,6 +1,6 @@
 [for]: <https://docs.python.org/3/tutorial/controlflow.html#for-statements> "for"
 
-# Sums and Loops
+# Sine Taylor Series
 
 ## Introduction
 

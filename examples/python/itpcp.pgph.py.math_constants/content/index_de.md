@@ -28,7 +28,7 @@ verwendet.
 ### NumPy
 
 Python bietet mit dem [Modul] NumPy Funktionen für numerische Berechnungen.
-Wie in der [NumPy Dokumentation] verwenden wir dafür das Kürzel `np`:
+Wie in der [NumPy-Dokumentation] verwenden wir dafür das Kürzel `np`:
 
 ```python
 import numpy as np
@@ -162,7 +162,7 @@ $$
 
 [arithmetische operatoren]: https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex "arithmetische Operatoren"
 [double]: https://numpy.org/doc/stable/user/basics.types.html "double"
-[NumPy Dokumentation]: https://numpy.org/doc/stable/index.html "NumPy Dokumentation"
+[NumPy-Dokumentation]: https://numpy.org/doc/stable/index.html "NumPy-Dokumentation"
 [exp]: https://numpy.org/doc/stable/reference/generated/numpy.exp.html "exp"
 [gleitkommazahl]: https://de.wikipedia.org/wiki/Gleitkommazahl "Gleitkommazahl"
 [modul]: https://docs.python.org/3/tutorial/modules.html "Modul"

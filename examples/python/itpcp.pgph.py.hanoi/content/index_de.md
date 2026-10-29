@@ -16,7 +16,7 @@ Programmiere die Funktion
 ```python
 solve_hanoi(n, start, destination, auxiliary)
 ```
-die die Türme von Hanoi löst.
+Diese Funktion soll die Türme von Hanoi lösen.
 
 Dabei ist `n` die Anzahl an Scheiben, `start` die Position am Anfang (A, B oder C), `destination` das Ziel und `auxiliary` der verbliebene Stab.
 

@@ -115,7 +115,7 @@ should also be calculated. Proceed as follows:
 
 1. Save the size of `x` ([np.shape]) in a variable and then convert the variable to a vector ([np.ravel]). Further calculations are easier with a vector, and no information is lost by saving the original size.
 
-2. Use the command [np.meshgrid] to calculate the series, as described in the introduction. This eliminates the need for for loops. Save the result of the $n$-th partial sum in `r`.
+2. Use the command [np.meshgrid] to calculate the series, as described in the introduction. This makes `for` loops unnecessary. Save the result of the $n$-th partial sum in `r`.
 
 3. Calculate the analytical value for `u`.
 

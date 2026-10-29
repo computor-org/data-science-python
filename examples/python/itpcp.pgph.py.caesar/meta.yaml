@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.caesar
-version: 1.0.1
+version: 1.0.2
 title: Caesar Cipher
 description: Learn about Caesar cipher encryption and decryption. Implement encryption/decryption
   functions and crack encoded messages with unknown keys.

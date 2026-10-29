@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.series_expansion
-version: 1.0.1
+version: 1.0.2
 title: Sine Series Expansion
 description: This exercise implements the Taylor series of the sine function without
   loops using NumPy matrix operations. With np.meshgrid all series terms are calculated

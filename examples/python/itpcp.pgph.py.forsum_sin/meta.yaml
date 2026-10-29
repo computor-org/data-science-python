@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.forsum_sin
-version: 1.0.1
+version: 1.0.2
 title: Sine Taylor Series
 description: 'In this exercise you will calculate the Taylor series of the sine using
   a for loop.

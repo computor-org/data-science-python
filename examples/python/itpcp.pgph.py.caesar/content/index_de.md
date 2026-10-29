@@ -37,8 +37,8 @@ So jetzt wollen wir einmal richtig Codes knacken!
 
     Der Text gliedert sich in 3 Unterabschnitte, die jeweils unterschiedlich verschlüsselt wurden und sukzessive schwerer zu entschlüsseln sind.
 
-    1) Well this is easy: Dieser Text ist mit einem unbekannten Schlüssel verschlüsselt worden, versuche diesen zu knacken. Speichere den entschlüsselten Text in der Datei `dec1.txt`.
-    2) This is a bit harder: Vielleicht sind in diesem Text die Zeilen unterschiedlich verschlüsselt. Der Titel und Text aus 1) geben vielleicht einen Hinweis. Gibt es Zeichenfolgen, die gehäuft vorkommen? Speichere den entschlüsselten Text in der Datei `dec2.txt`.
-    3) This is the hardest: Das ist wohl noch schwieriger. Vielleicht gibt es ja Tipps in Text 2) Speichere den entschlüsselten Text in der Datei `dec3.txt`.
+    1) Der leichteste Teil: Dieser Text ist mit einem unbekannten Schlüssel verschlüsselt worden, versuche diesen zu knacken. Speichere den entschlüsselten Text in der Datei `dec1.txt`.
+    2) Etwas schwieriger: Vielleicht sind in diesem Text die Zeilen unterschiedlich verschlüsselt. Der Titel und Text aus 1) geben vielleicht einen Hinweis. Gibt es Zeichenfolgen, die gehäuft vorkommen? Speichere den entschlüsselten Text in der Datei `dec2.txt`.
+    3) Am schwierigsten: Hier wird es noch kniffliger. Vielleicht gibt es ja Tipps in Text 2). Speichere den entschlüsselten Text in der Datei `dec3.txt`.
 
 #### Viel Spaß beim Knacken!

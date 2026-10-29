@@ -1,6 +1,6 @@
 # Rights and provenance ledger
 
-Source: `git@gitlab.tugraz.at:codeability/development/examples.git` commit `172ed0eeec021ac072debbd67990e5809f30228f`.
+Source: `git@gitlab.tugraz.at:codeability/development/examples.git` commit `2cc9776af6007f6b3908b18e782c0a0411c5b134`.
 
 | Example | License | Authors | Maintainers |
 | --- | --- | --- | --- |

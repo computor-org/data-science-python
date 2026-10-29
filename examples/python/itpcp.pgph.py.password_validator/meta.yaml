@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.password_validator
-version: 1.0.2
+version: 1.0.3
 title: Password Validator
 description: 'In this exercise you will program a password validator that checks the
   strength of a

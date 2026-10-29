@@ -59,3 +59,16 @@ def test_course_titles_are_german_and_match_the_assignment_heading():
                 week = re.fullmatch(r"week_(\d+)", node["path"]).group(1)
                 assert title == f"Woche {week}", f"{manifest.name}: {node['path']}"
 
+
+def test_course_item_titles_are_unique_within_a_course():
+    """The title is all a learner sees in the tree, so it must name one item."""
+    for manifest in sorted((ROOT / "courses").glob("*.yaml")):
+        course = yaml.safe_load(manifest.read_text())
+        seen: dict[str, str] = {}
+        for node in titled_nodes(course["contents"]):
+            title = node["title"]
+            assert title not in seen, (
+                f"{manifest.name}: title '{title}' used by '{seen[title]}' "
+                f"and '{node['path']}'"
+            )
+            seen[title] = node["path"]

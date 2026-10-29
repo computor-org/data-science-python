@@ -18,7 +18,7 @@ def quadratic_eq_test(n, rmin, rmax):
     return x1, x2, r1, r2
 ```
 
-die die von dir zuvor geschriebenen Funktionen `quadratic_eq` und `quadratic_eq_eval` auswertet.
+Diese Funktion soll die von dir zuvor geschriebenen Funktionen `quadratic_eq` und `quadratic_eq_eval` auswerten.
 
 1. Setze die Default-Werte
 
@@ -34,8 +34,8 @@ die die von dir zuvor geschriebenen Funktionen `quadratic_eq` und `quadratic_eq_
 1. Setze die mittlere Spalte von `a`, und die mittlere Zeile von `b` auf Null.
    Existiert keine mittlere Spalte/Zeile (wenn `n` eine gerade Zahl ist), werden die
    Werte in der Spalte/Zeile mit dem nächst niedrigeren Index auf Null gesetzt. Verwende
-   dafür die Funktion [ceil] (z.B. bei `n=5` ist die Mitte `3.te`, bei `n=4` soll die
-   Mitte `2.te` sein).
+   dafür die Funktion [ceil] (z. B. ist bei `n=5` die dritte Spalte bzw. Zeile die Mitte, bei `n=4` soll es die
+   zweite sein).
 
 1. Rufe mit `a`, `b` und `c` die Funktion `quadratic_eq` auf.
 

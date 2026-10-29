@@ -1,11 +1,11 @@
-# Dictionaries und JSON files
+# Dictionaries und JSON-Dateien
 
 ## Einleitung
 
 Wenn z.B. bei Computersimulationen Daten erzeugt werden, welche anschließend auszuwerten
 sind, ist es empfehlenswert, diese zwischenzuspeichern und die Auswertung vom Generieren
 der Daten zu trennen. Eine Möglichkeit, das in einer übersichtlichen Art und Weise zu
-tun, ist Python dictionaries in JSON files zu speichern, welche als Textdateien für
+tun, ist, Python-Dictionaries in JSON-Dateien zu speichern, welche als Textdateien für
 Menschen lesbar und syntaktisch gleich wie dictionaries aufgebaut sind.
 
 Dabei muss man beachten, dass nicht alle Datentypen als Text darstellbar sind.
@@ -13,7 +13,7 @@ NumPy-Arrays zum Beispiel müssen in Listen umgewandelt werden.
 
 ## Aufgabe
 
-In dieser Übungseinheit schreibst du ein Skript, welches beispielhaft ein JSON file mit
+In dieser Übungseinheit schreibst du ein Skript, welches beispielhaft eine JSON-Datei mit
 Konfigurationsparametern einliest und mit von dir berechneten Werten befüllt.
 
 Das Skript `generate_data.py` soll die Datei `data_file.json` mit dem [json] module als

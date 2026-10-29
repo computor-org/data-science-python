@@ -1,4 +1,4 @@
-# Fitting Radioactive Decays
+# Data Interpolation
 
 ## Introduction
 

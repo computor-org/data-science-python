@@ -1,4 +1,4 @@
-# Password Validator
+# Passwortprüfung
 
 ## Einleitung
 

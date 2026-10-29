@@ -104,7 +104,7 @@ contents:
     max_group_size: 1
     path: forsum_sin
     position: 4.0
-    title: Summen und Schleifen
+    title: Taylorreihe des Sinus
   - content_type: intermediate
     example_identifier: itpcp.pgph.py.gauss1d
     max_group_size: 1
@@ -116,7 +116,7 @@ contents:
     max_group_size: 1
     path: password_validator
     position: 6.0
-    title: Password Validator
+    title: Passwortprüfung
 - content_type: weekly
   path: week_3
   position: 3.0
@@ -198,7 +198,7 @@ contents:
     max_group_size: 1
     path: dict_and_json
     position: 6.0
-    title: Dictionaries und JSON files
+    title: Dictionaries und JSON-Dateien
   - content_type: exam
     example_identifier: itpcp.pgph.py.review_advanced
     max_group_size: 1
@@ -233,7 +233,7 @@ contents:
     max_group_size: 1
     path: interpolate
     position: 4.0
-    title: Fitten von radioaktiven Zerfällen
+    title: Interpolation von Daten
   - content_type: extra
     example_identifier: itpcp.pgph.py.hanoi
     max_group_size: 1

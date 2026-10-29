@@ -1,6 +1,6 @@
 slug: itpcp.pgph.py.dict_and_json
-version: 1.0.1
-title: Dictionaries und JSON files
+version: 1.0.2
+title: Dictionaries und JSON-Dateien
 description: 'In this exercise you will learn to save and read Python dictionaries
   in JSON files.
 

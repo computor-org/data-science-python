@@ -29,7 +29,7 @@ which evaluates the functions `quadratic_eq` and `quadratic_eq_eval` that you wr
 1. Create 3 arrays `a`, `b`, and `c`. These should consist of random numbers between
    `rmin` and `rmax` and have the size $n \times n$.
 
-1. Set the middle column of `a`, and the middle row of `b` to zero.
+1. Set the middle column of `a` and the middle row of `b` to zero.
    If there is no middle column/row (when `n` is an even number), the
    values in the column/row with the next lower index are set to zero. Use
    the function [ceil] for this (e.g., for `n=5` the middle is `3rd`, for `n=4` the
@@ -50,8 +50,8 @@ which evaluates the functions `quadratic_eq` and `quadratic_eq_eval` that you wr
   [np.random.uniform].
 
 - It is important that the order of the first few lines is maintained. It
-  could be that this is changed by formatting
-  `from quadratic_eq_eval import quadratic_eq_eval` must come last!:
+  could be that this is changed by formatting.
+  `from quadratic_eq_eval import quadratic_eq_eval` must come last:
 
 ```python
 import numpy as np

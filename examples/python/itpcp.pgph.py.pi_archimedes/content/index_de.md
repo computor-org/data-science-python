@@ -6,7 +6,7 @@ Archimedes (287-212 v. Chr.), wohl einer der bedeutendsten Mathematiker und Phys
 Durch geometrische Überlegungen fand er heraus, dass der Umfang $U_{2n}$ des äußeren $2n$-Ecks durch das harmonische Mittel von $U_n$ und $u_n$ (Umfang des äußeren bzw. inneren $n$-Ecks) gegeben ist, d.h.
 $$U_{2n}=\frac{2 \cdot U_n \cdot u_n}{U_n + u_n}$$
 
-Der Umfang $u_{2n}$ des eingeschriebenen $2n$-Ecks ergibt sich aus dem arithmetischen Mittel des Umfangs $U_{2n}$ des äußeren $2n$-Ecks und des Umfangs $u_n$ des inneren $n$-Ecks:
+Der Umfang $u_{2n}$ des eingeschriebenen $2n$-Ecks ergibt sich aus dem geometrischen Mittel des Umfangs $U_{2n}$ des äußeren $2n$-Ecks und des Umfangs $u_n$ des inneren $n$-Ecks:
 $$u_{2n}=\sqrt{U_{2n} \cdot u_n}$$
 
 <div align="center">
@@ -22,7 +22,7 @@ Archimedes begann für die Näherung von $\pi$ beim regelmäßigen 6-Eck, das in
 
 beträgt, wie man leicht nachprüfen kann.
 
-Archimedes schaffte es mit dieser Methode bis zum regelmäßigen 96-Eck zu rechnen, indem er die Quadratwurzel durch geeignete Brüche approximierte, und konnte so $\pi$ auf 
+Archimedes schaffte es, mit dieser Methode bis zum regelmäßigen 96-Eck zu rechnen, indem er die Quadratwurzel durch geeignete Brüche approximierte, und konnte so $\pi$ auf 
 $$3\frac{10}{71} < \pi < 3\frac{1}{7}$$
 
 eingrenzen.
@@ -31,9 +31,9 @@ eingrenzen.
 
 Erledige folgende Aufgaben:
 
-1. Definiere die Variable `N=20` und initialisiere die Variablen `ua` und `ui` als Zeilenvektoren der Länge `N`, die später die Approximationen für $\pi$ enthalten sollen.
+1. Definiere die Variable `N=20` und initialisiere die Variablen `uo` und `ui` als Zeilenvektoren der Länge `N`, die später die Approximationen für $\pi$ enthalten sollen.
 
-2. Implementiere nun den Algorithmus von Archimedes, wobei du vom regelmäßigen 6-Eck ausgehst und insgesamt `N` Schritte ausführst. Speichere dabei an `i`-ter Stelle der Variable `ua` die Näherung mithilfe des äußeren $n$-Ecks  im `i`-ten Schritt. Die Werte der inneren $n$-Ecke sollen in die Variable `ui` gespeichert werden. Beachte, dass du den Umfang ($ U = 2 r \pi$, $r=1$) für die $\pi$-Näherung halbieren musst, d.h. dass zum Beispiel `ui[0] = 3` ist.
+2. Implementiere nun den Algorithmus von Archimedes, wobei du vom regelmäßigen 6-Eck ausgehst und insgesamt `N` Schritte ausführst. Speichere dabei an `i`-ter Stelle der Variable `uo` die Näherung mithilfe des äußeren $n$-Ecks  im `i`-ten Schritt. Die Werte der inneren $n$-Ecke sollen in die Variable `ui` gespeichert werden. Beachte, dass du den Umfang ($ U = 2 r \pi$, $r=1$) für die $\pi$-Näherung halbieren musst, d.h. dass zum Beispiel `ui[0] = 3` ist.
 
 3. Bilde den arithmetischen Mittelwert der Werte der äußeren und inneren $n$-Ecke für jeden Schritt und speichere diese in der Variable `m`.
 
@@ -43,7 +43,7 @@ Erledige folgende Aufgaben:
         `Middle:`&nbsp;&nbsp;`"jeweiliger Wert der Approximation"`     
         `Pi:`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"jeweiliger Wert der Approximation"`     
 
-5. Erstelle zwei Plots untereinander (mit subplot). Stelle im ersten dar, wie `ui`, `ua` und `m` nach $\pi$ konvergieren. Der zweite Plot soll ein halblogarithmischer sein, in dem jeweils die absolute Differenz dargestellt ist.
+5. Erstelle zwei Plots untereinander (mit subplot). Stelle im ersten dar, wie `ui`, `uo` und `m` nach $\pi$ konvergieren. Der zweite Plot soll ein halblogarithmischer sein, in dem jeweils die absolute Differenz dargestellt ist.
 
 6. Füge passende Beschriftungen hinzu.
 

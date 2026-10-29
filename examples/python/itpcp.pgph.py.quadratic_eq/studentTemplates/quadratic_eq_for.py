@@ -1,3 +1,3 @@
 def quadratic_eq_for(a, b, c):
     # ...
-    return x_1, x_2
+    return x1, x2

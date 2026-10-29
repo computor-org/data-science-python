@@ -17,9 +17,9 @@ $$
 
 mit den folgenden Toruskoordinaten:
 
-* $\phi$: der toroidale Winkel $\phi \in [0, 2 \pi]$ und entspricht `t` auf Wikipedia.
+* $\phi$: der toroidale Winkel mit $\phi \in [0, 2 \pi]$; er entspricht `t` auf Wikipedia.
 
-* $\theta$: der poloidale Winkel mit $\theta \in [0, 2 \pi]$ und entspricht `p` auf Wikipedia.
+* $\theta$: der poloidale Winkel mit $\theta \in [0, 2 \pi]$; er entspricht `p` auf Wikipedia.
 
 * $R$: der Hauptradius, sprich der Abstand vom Mittelpunkt bis zum Mittelpunkt der Röhre.
 
@@ -30,7 +30,7 @@ mit den folgenden Toruskoordinaten:
 
 Schreib nun das Skript `torus`, in dem du einen Torus darstellst. 
 
-1. Für die Berechnung der Toruskoordinaten schreibst du eine Funktion `torus_coor(phi, theta, r, R)`, die die eindimensionalen Winkel und skalaren Radien als Input nimmt und die zweidimensionalen ([meshgrid]) Koordinaten `x`, `y` und `z` ausgibt.
+1. Für die Berechnung der Toruskoordinaten schreibst du eine Funktion `torus_coor(phi, theta, r, R)`, die die eindimensionalen Winkel und skalaren Radien als Input nimmt und die zweidimensionalen ([meshgrid]) Koordinaten `x`, `y` und `z` zurückgibt.
 
 2. Plotte anschließend die Oberfläche des Torus in einem 3D-Plot, wobei du die Stützstellen frei wählen kannst, sowie die Details der Darstellung im Plot. Die Beschriftung sollte allerdings sinnvoll sein.
 

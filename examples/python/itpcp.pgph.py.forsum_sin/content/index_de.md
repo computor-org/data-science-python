@@ -17,7 +17,7 @@ erfüllt:
 2. Erzeuge eine Figure und plotte $y(x)$.
 
 3. Addiere nun in einer [for]-Schleife von $n=0$ bis $n=6$
-    jeweils eine Teilsumme $s_n$ der Reihe für den Sinus
+    jeweils den Term $s_n$ der Reihe für den Sinus
     $$ s_n(x) = (-1)^n \frac{x^{2n+1}}{(2n+1)!} $$
     zum vorherigen Wert von $y$ und plotte in der gleichen Figure $y(x)$.
 

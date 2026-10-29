@@ -18,8 +18,8 @@ calculated to best describe the data. For a polynomial of degree `n`, the functi
 popt, pcov = np.polyfit(xdata, ydata, deg=n, cov=True)
 ```
 
-Here `popt` are the optimized parameters and `pcov` is the so-called covariance matrix. The square roots of the diagonal elements of the matrix are the standard deviation of the determined parameters
-(for details see script [Probability Theory]). The fitted functions can then be plotted with the uncertainties as error bars using [plt.errorbar] (see documentation).
+Here `popt` are the optimized parameters and `pcov` is the so-called covariance matrix. The square roots of the diagonal elements of the matrix are the standard deviations of the determined parameters
+(for details see the lecture notes [Probability Theory]). The fitted functions can then be plotted with the uncertainties as error bars using [plt.errorbar] (see documentation).
 
 ## Task
 
@@ -39,7 +39,7 @@ Write a script `lab_exercise3.py` in which you analyze the data from the laborat
 
 7. Create a vector `I_fit` in which the current values of the line are calculated using `U_fit`, the slope `slope`, and the offset `offset`.
 
-8. Create a graph and plot with [plt.errorbar] the current values in mA on the y-axis against the voltage values in V on the x-axis with their respective uncertainties from point 2.
+8. Create a graph and use [plt.errorbar] to plot the current values in mA on the y-axis against the voltage values in V on the x-axis with their respective uncertainties from point 2.
     * Use red as the line color for the error bars.
     * For the markers, use blue `x`.
     * Do **not** connect the data points.
@@ -58,7 +58,7 @@ Write a script `lab_exercise3.py` in which you analyze the data from the laborat
     The text for the label for the fit should be defined in a variable you create:
 
     ```
-    linear fit: k = `slope` ± `delta_slope` mA/V, d = `offset` ± `delta_offset` V
+    linear fit: k = `slope` ± `delta_slope` mA/V, d = `offset` ± `delta_offset` mA
     ```
 
     The variables are to be inserted as in the previous example with f-strings. The number of decimal places should be chosen so that the uncertainty has exactly one digit not equal to 0. The associated parameter should also be set to this number of decimal places. The determination of the number of digits can be done manually; no program is needed for this!
@@ -67,7 +67,7 @@ Write a script `lab_exercise3.py` in which you analyze the data from the laborat
 
 * Pay attention to the commented first line of the data file!
 
-* To get the 95% confidence interval with 2 sigma, multiply the uncertainty of the fit parameters by 2
+* To get the 95% confidence interval with 2 sigma, multiply the uncertainty of the fit parameters by 2.
 
 * When plotting with [plt.errorbar], you can use the *keyword arguments* `fmt`, `color`, and `ecolor` to set the marker and the colors of the data points and error bars. With `capsize`, you modify the size of the error bars.
 

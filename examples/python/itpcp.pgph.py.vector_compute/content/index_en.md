@@ -10,7 +10,7 @@ In the submission version of the example, no output should be made in the consol
 
 ## Task
 
- 1. Create in the script `vector_compute` (File: `vector_compute.py`) the following vectors:
+ 1. In the script `vector_compute` (File: `vector_compute.py`), create the following vectors:
 
 |Variable|Value|
 |----|:----------------------------------------|

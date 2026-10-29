@@ -56,7 +56,7 @@ The resulting currents can be conveniently determined using Kirchhoff's rules:
 
 * Junction Q: $-i_1+i_2-i_3=0$
 
- In this case, these are equivalent equations, meaning they give us the same information. Therefore, we only need one of them, which form does not matter.
+ In this case, these are equivalent equations, meaning they give us the same information. Therefore, we only need one of them; it does not matter which one.
 
 **Loop rule:** *In every loop, the sum of the voltage drops equals the sum of the voltage sources.*
 
@@ -74,7 +74,7 @@ $
 \begin{bmatrix} 0 \\ U_1 \\ U_2 \end{bmatrix} \; .
 $
 
-Where the first row of the coefficient matrix is our equation from the junction rule and the other two rows come from the loop rule. In general, we write our "current vector" as vector $\mathbf{x}$
+Here, the first row of the coefficient matrix is our equation from the junction rule and the other two rows come from the loop rule. In general, we write our "current vector" as vector $\mathbf{x}$
 
 $
 \begin{bmatrix}

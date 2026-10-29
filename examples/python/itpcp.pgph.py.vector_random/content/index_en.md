@@ -12,7 +12,7 @@ following subtask.
 
 ## Task
 
-1. Create in the file `vector_random.py` the following vectors with random numbers:
+1. In the file `vector_random.py`, create the following vectors with random numbers:
 
 | Variable      |Value|
 |---------------|:-----------------------------------------|

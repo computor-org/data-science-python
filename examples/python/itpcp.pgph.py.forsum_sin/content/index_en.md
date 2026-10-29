@@ -16,8 +16,8 @@ tasks:
 
 2. Create a figure and plot $y(x)$.
 
-3. Now add in a [for] loop from $n=0$ to $n=6$
-    a partial sum $s_n$ of the series for the sine
+3. Now, in a [for] loop from $n=0$ to $n=6$, add
+    the term $s_n$ of the series for the sine
     $$ s_n(x) = (-1)^n \frac{x^{2n+1}}{(2n+1)!} $$
     to the previous value of $y$ and plot $y(x)$ in the same figure.
 

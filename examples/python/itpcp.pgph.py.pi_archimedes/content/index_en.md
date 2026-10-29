@@ -17,8 +17,8 @@ $$u_{2n}=\sqrt{U_{2n} \cdot u_n}$$
 
 Archimedes began the approximation of $\pi$ with the regular hexagon inscribed in the unit circle. The special thing about the regular hexagon is that
 
-* the inner circumference $u_6=6$ and
-* the outer circumference $U_6=4\sqrt{3}$
+* the inner circumference is $u_6=6$ and
+* the outer circumference is $U_6=4\sqrt{3}$,
 
 as can easily be verified.
 
@@ -29,9 +29,9 @@ $$3\frac{10}{71} < \pi < 3\frac{1}{7}$$
 
 Complete the following tasks:
 
-1. Define the variable `N=20` and initialize variables `ua` and `ui` as row vectors of length `N`, which should later contain the approximations for $\pi$.
+1. Define the variable `N=20` and initialize variables `uo` and `ui` as row vectors of length `N`, which should later contain the approximations for $\pi$.
 
-2. Now implement Archimedes' algorithm, starting from the regular hexagon and executing a total of `N` steps. Store at the `i`-th position of variable `ua` the approximation using the outer $n$-gon in the `i`-th step. The values of the inner $n$-gons should be stored in variable `ui`. Note that you must halve the circumference ($ U = 2 r \pi$, $r=1$) for the $\pi$ approximation, i.e., for example `ui[0] = 3`.
+2. Now implement Archimedes' algorithm, starting from the regular hexagon and executing a total of `N` steps. At the `i`-th position of variable `uo`, store the approximation using the outer $n$-gon in the `i`-th step. The values of the inner $n$-gons should be stored in variable `ui`. Note that you must halve the circumference ($ U = 2 r \pi$, $r=1$) for the $\pi$ approximation, i.e., for example `ui[0] = 3`.
 
 3. Form the arithmetic mean of the values of the outer and inner $n$-gons for each step and store them in variable `m`.
 
@@ -41,7 +41,7 @@ Complete the following tasks:
         `Middle:`&nbsp;&nbsp;`"respective value of the approximation"`     
         `Pi:`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`"respective value of the approximation"`     
 
-5. Create two plots stacked vertically (with subplot). In the first, show how `ui`, `ua`, and `m` converge to $\pi$. The second plot should be semi-logarithmic showing the absolute difference in each case.
+5. Create two plots stacked vertically (with subplot). In the first, show how `ui`, `uo`, and `m` converge to $\pi$. The second plot should be semi-logarithmic showing the absolute difference in each case.
 
 6. Add appropriate labels.
 

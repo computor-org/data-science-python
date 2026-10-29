@@ -12,7 +12,7 @@ The Gaussian distribution is given by:
   f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp{\left({-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}\right)}
   $$
 
-With the mean $\mu$ and the standard deviation $\sigma$.
+Here, $\mu$ is the mean and $\sigma$ the standard deviation.
 
 
 ## Tasks
@@ -27,7 +27,7 @@ With the mean $\mu$ and the standard deviation $\sigma$.
 2. **Gaussian Distribution**
     - Implement the function `calc_gauss`, which calculates the Gaussian distribution with the parameters `mu` (mean) and `sigma` (standard deviation).
 3. **Generation of Sample Means**
-    - Implement the function `get_dice_mean`. This should output the sample means of a fair die as a list (`N` samples of `N_throws` throws each).
+    - Implement the function `get_dice_mean`. This should return the sample means of a fair die as a list (`N` samples of `N_throws` throws each).
     ```python
     def get_dice_mean(N, N_throws = 10000):
         """
@@ -46,7 +46,7 @@ With the mean $\mu$ and the standard deviation $\sigma$.
     ```
 
 5. **Uncertainty Estimation**
-    - Implement the function `calc_frequentist_uncertainty`, which outputs the height of the bins, their uncertainty, and their center.
+    - Implement the function `calc_frequentist_uncertainty`, which returns the height of the bins, their uncertainty, and their center.
     ```python
     def calc_frequentist_uncertainty(sample_means, N_bins):
     """

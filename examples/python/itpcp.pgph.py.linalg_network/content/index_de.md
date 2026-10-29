@@ -1,6 +1,6 @@
 [linalg.solve]: <https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html> "linalg.solve"
 
-# Lineare Gleichungssysteme und die Kirchhoffschen Regeln
+# Lineare Gleichungssysteme und die kirchhoffschen Regeln
 
 ## Einleitung
 
@@ -47,7 +47,7 @@ Gegeben ist ein Netzwerk mit 4 ohmschen Widerständen und 2 Spannungsquellen:
 <img src="mediaFiles/stromkreis.jpg" alt="Image" width="100%" name="Stromkreis"/>
 </div>
 
-Die sich einstellenden Ströme kann man bequem über die Kirchhoffschen Regeln bestimmen:
+Die sich einstellenden Ströme kann man bequem über die kirchhoffschen Regeln bestimmen:
  
 **Knotenregel:** *An jedem Knoten ist die Summe der einfließenden Ströme gleich der Summe der ausfließenden Ströme.*      
   In unserem Beispiel heißt das:
@@ -74,7 +74,7 @@ $
 \begin{bmatrix} 0 \\ U_1 \\ U_2 \end{bmatrix} \; .
 $
 
-Wobei die erste Zeile der Koeffizientenmatrix unsere Gleichung aus der Knotenregel ist und die anderen zwei Zeilen aus der Maschenregel kommen. Allgemein schreiben wir unseren "Stromvektor" als Vektor $\mathbf{x}$
+Dabei ist die erste Zeile der Koeffizientenmatrix unsere Gleichung aus der Knotenregel, und die anderen zwei Zeilen kommen aus der Maschenregel. Allgemein schreiben wir unseren "Stromvektor" als Vektor $\mathbf{x}$
 
 $
 \begin{bmatrix}

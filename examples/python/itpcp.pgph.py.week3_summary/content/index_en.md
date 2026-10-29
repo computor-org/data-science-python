@@ -1,15 +1,16 @@
+[Lambert-Beer Law]: <https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law>
 [Mass Absorption Coefficient]: <https://en.wikipedia.org/wiki/Mass_attenuation_coefficient>
 
 # Beta Absorption
 
-This example is intended to give you a summary of the topics from the first 3 weeks of this exercise.
+This example is intended to give you a summary of the topics from the first 3 weeks of this course.
 If possible, you should be able to solve the task without hints or help from tutors. If after
 several attempts you cannot make progress, we will be happy to help you.
 
 ## Introduction
 
 In a laboratory experiment, the radioactive decay of a sample is measured using a Geiger-Muller counter.
-This involves Strontium-90 (Sr-90), a $\beta$-emitter that decays into Y-90. Y-90 itself is still
+This involves strontium-90 (Sr-90), a $\beta$-emitter that decays into Y-90. Y-90 itself is still
 an unstable nucleus that transforms into Zr-90 through another $\beta$-decay with a different half-life.
 
 $$
@@ -36,7 +37,7 @@ The slope of the logarithmic pulse rate $\mu / \rho$ is the so-called *[Mass Abs
 
 ## Task
 
-In the following task, the mass absorption coefficients of Yttrium and Zirconium when passing through Aluminum are to be determined.
+In the following task, the mass absorption coefficients of strontium-90 and yttrium-90 when passing through aluminum are to be determined.
 
 1. In the file `beta_absorption.csv`, the measurement duration and the number of pulses in the Geiger-Muller counter were stored for various layer thicknesses of an aluminum plate.
    * Column 1: Thickness (mm)
@@ -46,7 +47,7 @@ In the following task, the mass absorption coefficients of Yttrium and Zirconium
 
 2. Calculate the count rates from `N` and `t` in counts per second (cps) and save them in the array `I`. Note that the time unit in the data file is **minutes**.
 3. Take the logarithm of the count rates.
-4. To fit the formula with the logarithmic count rate, you need to multiply the array `thickness` by the density of aluminum. Assume a density of $\rho$ = 2.70 g/cm³ (pay attention to the correct unit conversion!)
+4. To fit the formula with the logarithmic count rate, you need to multiply the array `thickness` by the density of aluminum. Assume a density of $\rho$ = 2.70 g/cm³ (pay attention to the correct unit conversion!).
 5. Plot the logarithmic count rates as a function of $\rho\cdot d$. Use a dash-dot line and give the data the label `Count rate`.
 6. Label the x-axis with `Thickness / cm` and the y-axis with `Pulse rate / cps (log-Scale)`. Give the graph the title `Beta decay of Sr-90`.
 7. In the plot, you will notice that the data curve has a kink at a certain point. This is the point at which the maximum range of the Sr-90 radiation is reached and only the higher-energy Y-90 radiation can still penetrate the material. Identify the position of the kink based on the data points.

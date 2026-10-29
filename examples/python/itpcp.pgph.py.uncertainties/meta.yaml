@@ -1,5 +1,5 @@
 slug: itpcp.pgph.py.uncertainties
-version: 1.0.2
+version: 1.0.3
 title: 'Fehlerfortpflanzung: linear und Monte Carlo'
 title_i18n:
   de: 'Fehlerfortpflanzung: linear und Monte Carlo'

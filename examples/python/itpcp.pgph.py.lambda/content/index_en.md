@@ -18,12 +18,12 @@ Complete the following tasks:
 
 1. Write a lambda function `adder` that calculates the sum of two numbers.
 
-2. Initialize `data = [(2, 3), (12, 3), (-4, 5), (6, -7), (8, 9), (-3, 11)]`, a list with $x$ and $y$ values as tuples. Use lambda functions as key input for the `sorted` command to sort the list once by the $y$ value and once by the distance to the origin. Save the sorted lists as `sorted_y` and `sorted_r` respectively.
+2. Initialize `data = [(2, 3), (12, 3), (-4, 5), (6, -7), (8, 9), (-3, 11)]`, a list with $x$ and $y$ values as tuples. Use lambda functions as `key` input for the `sorted` command to sort the list once by the $y$ value and once by the distance to the origin. Save the sorted lists as `sorted_y` and `sorted_r` respectively.
 
 3. Initialize `l = [7, 2, 3, 12, 6, 13, 4]` and use `list` and `filter` together with a lambda function to generate the list `evens` that contains only even numbers. The command `list(filter(lambda x: x >= 7, l))` for example generates a list with all values greater than or equal to $7$.
 
 
-4. Create the named function `calc_multiple(n)` that returns a lambda function. This lambda function multiplies its own argument by the value `n` that is passed when calling calc_multiple. In this example, $12$ should be output:
+4. Create the named function `calc_multiple(n)` that returns a lambda function. This lambda function multiplies its own argument by the value `n` that is passed when calling `calc_multiple`. In this example, $12$ should be output:
 
     ```python
     doubler = calc_multiple(2)
@@ -39,11 +39,11 @@ and the [RMS value](http://en.wikipedia.org/wiki/Root_mean_square)
 
 $$U_{\mathrm{eff}}(t) = \sqrt{\frac{1}{T}\int_0^T U(t)^2 dt}$$
 
-of a periodic signal
+of a periodic signal.
 
 
 
-1. Save in the variable `U_0` the amplitude voltage $U_0 = 230\sqrt{2}$ and in `f` the frequency $f=50$.
+1. Save the amplitude voltage $U_0 = 230\sqrt{2}$ in the variable `U_0` and the frequency $f=50$ in `f`.
 
 2. Calculate the period duration from the frequency in the variable `T`.
 

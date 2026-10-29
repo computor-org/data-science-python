@@ -12,7 +12,7 @@ Die Gauß-Verteilung ist gegeben durch:
   f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp{\left({-\frac{1}{2} \left(\frac{x - \mu}{\sigma}\right)^2}\right)}
   $$
 
-Mit dem Mittelwert $\mu$ und der Standardabweichung $\sigma$.
+Dabei ist $\mu$ der Mittelwert und $\sigma$ die Standardabweichung.
 
 
 ## Aufgaben
@@ -27,7 +27,7 @@ Mit dem Mittelwert $\mu$ und der Standardabweichung $\sigma$.
 2. **Gauß-Verteilung**
     - Implementiere die Funktion `calc_gauss`, welche die Gauß-Verteilung mit den Parametern `mu` (Mittelwert) und `sigma` (Standardabweichung) berechnet. 
 3. **Erzeugung von Stichprobenmittelwerten**
-    - Implementiere die Funktion `get_dice_mean`. Diese soll die Stichprobenmittelwerte eines fairen Würfels als Liste ausgeben (`N` Stichproben zu jeweils `N_throws` Würfen).
+    - Implementiere die Funktion `get_dice_mean`. Diese soll die Stichprobenmittelwerte eines fairen Würfels als Liste zurückgeben (`N` Stichproben zu jeweils `N_throws` Würfen).
     ```python
     def get_dice_mean(N, N_throws = 10000):
         """
@@ -46,7 +46,7 @@ Mit dem Mittelwert $\mu$ und der Standardabweichung $\sigma$.
     ```
 
 5. **Unsicherheitsabschätzung**
-    - Implementiere die Funktion `calc_frequentist_uncertainty`, welche die Höhe der bins, deren Unsicherheit und deren Zentrum ausgibt.
+    - Implementiere die Funktion `calc_frequentist_uncertainty`, welche die Höhe der Bins, deren Unsicherheit und deren Zentrum zurückgibt.
     ```python
     def calc_frequentist_uncertainty(sample_means, N_bins):
     """
@@ -70,11 +70,11 @@ Mit dem Mittelwert $\mu$ und der Standardabweichung $\sigma$.
     $$
       \sigma_{h_i} = \frac{1}{b_i N} \sqrt{N_i (1 - \frac{N_i}{N})},
     $$
-    wobei $N_i$ die Anzahl an Werten in bin $i$ ist und $b_i$ die Breite von bin $i$ (für uns haben alle bins die gleiche Breite).
+    wobei $N_i$ die Anzahl an Werten in Bin $i$ ist und $b_i$ die Breite von Bin $i$ (für uns haben alle Bins die gleiche Breite).
 1. **Visualisierung**
     - Visualisiere nun die Ergebnisse in `histogram` in Form eines (Überraschung) Histogramms. Setze dafür den Parameter `density` in der Funktion `matplotlib.pyplot.hist` auf `True`, um die Wahrscheinlichkeitsdichte zu erhalten.
     - Erstelle die zu deinen Stichprobenmittelwerten korrespondierende Gauß-Verteilung.
-    - Erstelle errorbars mittels `calc_frequentist_uncertainty`.
+    - Erstelle Errorbars mittels `calc_frequentist_uncertainty`.
     - Beschrifte die Graphik.
 
 2. **Überlegungen**

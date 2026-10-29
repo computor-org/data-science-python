@@ -15,7 +15,7 @@ von einfachen Funktionen.
 
 ### Kommentare
 
-Es ist empfehlenswert sich anzugewöhnen, den Code zu kommentieren, um in Zukunft mit einem Blick sofort zu wissen, was in diesem Teil des Programms passiert (und vor allem warum).
+Es ist empfehlenswert, sich anzugewöhnen, den Code zu kommentieren, um in Zukunft mit einem Blick sofort zu wissen, was in diesem Teil des Programms passiert (und vor allem warum).
     Eine gute Methode ist, bevor man mit dem Programmieren beginnt, den Programmablauf zu planen und als Kommentare hinzuschreiben, also zum Beispiel:
 
         # Define the parameters
@@ -26,7 +26,7 @@ Es ist empfehlenswert sich anzugewöhnen, den Code zu kommentieren, um in Zukunf
 
         # Plot the results
 
-    Nun lässt man die Kommentare einfach stehen, und schreibt unter die jeweiligen Zeilen den entsprechenden Code. Es mag hier trivial erscheinen, aber übe das auch schon in einfachen Beispielen!
+Nun lässt man die Kommentare einfach stehen und schreibt unter die jeweiligen Zeilen den entsprechenden Code. Es mag hier trivial erscheinen, aber übe das auch schon in einfachen Beispielen!
 
 
 ## Aufgabe

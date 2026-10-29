@@ -9,7 +9,7 @@ In this example, you will get an introduction to working with strings in Python.
 
 ### Strings
 
-Chains of characters are stored as so-called `strings` and are fundamental data types in all common higher-level programming languages. A `string` generally consists
+Character sequences are stored as so-called `strings` and are fundamental data types in all common higher-level programming languages. A `string` generally consists
 of a sequence of characters that are converted into binary language through a defined character encoding (usually UTF-8).
 This allows text files to be imported, displayed, and manipulated.
 
@@ -35,7 +35,7 @@ print(s1 + 'c' + s2)
 
 bracket
 ```
-Since `strings` represent a sequence of character strings, you can access individual characters through indexing. Note
+Since `strings` represent a sequence of characters, you can access individual characters through indexing. Note
 that in Python, indices always start at `0`. More information on working with strings and indexing can be found in the hints.
 
 ## Task

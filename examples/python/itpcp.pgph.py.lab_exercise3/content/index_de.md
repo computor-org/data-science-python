@@ -18,7 +18,7 @@ berechnet werden, dass sie die Daten am besten beschreiben. Die Funktion ist fü
 popt, pcov = np.polyfit(xdata, ydata, deg=n, cov=True)
 ```
 
-`popt` sind hierbei die optimierten Parameter und `pcov` ist die sogenannte Kovarianzmatrix. Die Wurzeln der Diagonalelemente der Matrix sind dabei die Standardabweichung der ermittelten Parameter
+`popt` sind hierbei die optimierten Parameter und `pcov` ist die sogenannte Kovarianzmatrix. Die Wurzeln der Diagonalelemente der Matrix sind dabei die Standardabweichungen der ermittelten Parameter
 (für Details siehe Skript [Wahrscheinlichkeitstheorie]). Die gefitteten Funktionen lassen sich dann mit den Unsicherheiten als Fehlerbalken mithilfe von [plt.errorbar] plotten (siehe Dokumentation).
 
 ## Aufgabe
@@ -44,9 +44,9 @@ Schreib ein Skript `lab_exercise3.py`, in dem du die Daten des Laborversuchs aus
     * Für die Marker verwendest du blaue `x`.
     * Verbinde die Datenpunkte **nicht**.
 
-9. Plotte die Gerade (`I_fit` gegen `U_fit`) als durchgezogene Linie in grün.
+9. Plotte die Gerade (`I_fit` gegen `U_fit`) als durchgezogene Linie in Grün.
 
-10. Gib der Grafik den Titel *Linear Fit* und beschrifte die Achsen wie in **Laboruebung 1** gelernt.
+10. Gib der Grafik den Titel *Linear Fit* und beschrifte die Achsen wie in **Laborübung 1** gelernt.
 
 11. Erstelle eine Legende für die Plots.
     Gib dafür jeder Linie ein `label`-Attribut mit dem jeweiligen Text. Anschließend zeigst du die Legende an mit
@@ -58,16 +58,16 @@ Schreib ein Skript `lab_exercise3.py`, in dem du die Daten des Laborversuchs aus
     Der Text für das Label für den Fit soll in einer von dir zu erstellenden Variable definiert werden:
 
     ```
-    linear fit: k = `slope` ± `delta_slope` mA/V, d = `offset` ± `delta_offset` V
+    linear fit: k = `slope` ± `delta_slope` mA/V, d = `offset` ± `delta_offset` mA
     ```
 
-    Die Variablen sind dabei wie im vorangegangenen Beispiel mit f-Strings einzusetzen. Die Anzahl an Nachkommastellen soll dabei so gewählt werden, dass die Unsicherheit genau einen Zahlenwert ungleich 0 besitzt. Auf diese Anzahl an Nachkommastellen ist auch der zugehörige Parameter zu setzen. Die Ermittlung der Anzahl an Stellen kann händisch erfolgen, es benötigt dazu kein Programm!
+    Die Variablen sind dabei wie im vorangegangenen Beispiel mit f-Strings einzusetzen. Die Anzahl an Nachkommastellen soll dabei so gewählt werden, dass die Unsicherheit genau eine Ziffer ungleich 0 besitzt. Auf diese Anzahl an Nachkommastellen ist auch der zugehörige Parameter zu setzen. Die Ermittlung der Anzahl an Stellen kann händisch erfolgen, es benötigt dazu kein Programm!
 
 ## Hinweise
 
 * Achte auf die kommentierte erste Zeile des Datenfiles!
 
-* Um das 95%-Konfidenzintervall mit 2 Sigma zu erhalten, multiplizierst du die Unsicherheit der Fit-Parameter mit 2
+* Um das 95%-Konfidenzintervall mit 2 Sigma zu erhalten, multiplizierst du die Unsicherheit der Fit-Parameter mit 2.
 
 * Beim Plotten mit [plt.errorbar] kannst du mit den *keyword arguments* `fmt`, `color` und `ecolor` den Marker sowie die Farben der Datenpunkte und der Fehlerbalken einstellen. Mit `capsize` modifizierst du die Größe der Fehlerbalken.
 

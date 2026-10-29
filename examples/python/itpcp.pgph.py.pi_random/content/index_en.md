@@ -25,7 +25,7 @@ Complete the following tasks:
 
 2. Now consider only a quarter of the circle/square. The ratio of points (inside)/outside remains the same. However, you can now use [np.random.rand] to create an `(Nx2)` array with random numbers between `0` and `1`. In this array, each row corresponds to a coordinate vector in the quarter square. Using the length of these vectors, you can determine whether the point is inside the quarter circle or not.
 
-3. Initialize a row vector `p` of length `k`. In a loop, calculate `k` times an approximation for $\pi$ using (new) random numbers each time. Store all results in the vector `p`.
+3. Initialize a row vector `p` of length `k`. In a loop, calculate an approximation for $\pi$ `k` times, using (new) random numbers each time. Store all results in the vector `p`.
 
 4. To better estimate $\pi$, also create the row vector `ps` of length `k`. At the `i`-th position, it should contain the mean of all previous results (mean of entries up to the `i`-th value of `p`).
 
@@ -36,7 +36,7 @@ Complete the following tasks:
     * `p` as blue dots, and
     * `ps` as a red line with dots
 
-    in this order
+    in this order.
 
 7. Output the exact value of $\pi$, the last value of the variable `ps`, and the relative error `err_r` one below the other with `print`. Here, $\pi$ and the last mean should be displayed with ten decimal places each, and `err_r` with three decimal places in exponential notation. For the test, it is important that it is a capital E, for example `1.234E-05`.
 

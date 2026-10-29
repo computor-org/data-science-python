@@ -4,7 +4,7 @@
 # Control Structures: for Loops
 
 ## Introduction
-This week you will receive an introduction to the `for` and `while` control structures in Python. So-called loops (*loops*) are among the most important components of source code in all common programming languages.
+This week you will receive an introduction to the `for` and `while` control structures in Python. Loops are among the most important components of source code in all common programming languages.
 They generally serve to iterate over entries in lists, tuples, and arrays and then work with them. Proper handling therefore requires a basic understanding of Python arrays and their indexing.
 
 In this task, you will write a program with a so-called `for-loop`. The syntax in Python looks something like this:
@@ -25,7 +25,7 @@ for index, entry in enumerate(mylist):
 The attached py-files should serve as examples of how *for-loops* can be used.
 
 ## Task
-In this task, you should read the file "climate_data_graz.csv", which contains the mean monthly temperatures of the years 2013 and 2023 in Graz (University location). It also contains the long-term monthly averages, which are calculated from the average of the years 1981-2010.
+In this task, you should read the file `climate_data_graz.csv`, which contains the mean monthly temperatures of the years 2013 and 2023 in Graz (University location). It also contains the long-term monthly averages, which are calculated from the average of the years 1981-2010.
 The first column contains the monthly averages for 2013, the second column the monthly averages for 2023, and the third column the long-term averages.
 
 1. Read the file using `np.loadtxt` and name it `temp_file`. Make sure that you do not read the headers (first lines) along with it.

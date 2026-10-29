@@ -101,7 +101,7 @@ commands defined for it (`+` for example as function `__add__()`).
    Now cast all the just defined decimal numbers to integer (replace the
    old variables with the new values). Use **no** bit specifications (like `int8` or `uint16`).
 
-   Next, declare the variables `a` to `f` with the function [chr] to the
+   Next, convert the variables `a` to `f` with the function [chr] to the
    data type `str`. Save the result under the variables `char_a` to
    `char_f`.
 
@@ -131,7 +131,7 @@ commands defined for it (`+` for example as function `__add__()`).
    Try to cast the variables `test2` to `test4` to the type `uint8`
    (`cast_test2` to `cast_test4`). What do you notice? What happens when you
    cast `cast_test4` to the type `int8` (`cast_test5`)? Now try for yourself whether
-   casting also works for `test_4`. Answer the following question for yourself: Does
+   casting also works for `test4`. Answer the following question for yourself: Does
    this have something to do with the size of the data type? (To answer this, the
    `view` member function of numpy's data types (`np.uint16(22).view(np.int16)`)
    can be used)
@@ -159,7 +159,7 @@ commands defined for it (`+` for example as function `__add__()`).
    sum of the first and the second, the first and the third, and the first and the
    fourth variable respectively.
 
-   Do both results match? Can you explain the results?
+   Do the results match? Can you explain the results?
 
 ## Hints
 

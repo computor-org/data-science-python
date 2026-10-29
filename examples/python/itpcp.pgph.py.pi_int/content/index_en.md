@@ -14,7 +14,7 @@ $$
 \int \limits_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$
 
-*  Also very important in physics is the function value of the [Gamma function](https://en.wikipedia.org/wiki/Gamma_function) at position $\frac{1}{2}$:
+*  Also very important in physics is the function value of the [Gamma function](https://en.wikipedia.org/wiki/Gamma_function) at the point $\frac{1}{2}$:
 $$
 \Gamma \left(\frac{1}{2}\right) = \int \limits_0^\infty e^{-x}
 x^{-\frac{1}{2}}  dx = \sqrt{\pi}

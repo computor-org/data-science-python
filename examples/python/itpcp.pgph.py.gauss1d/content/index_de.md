@@ -55,7 +55,7 @@ die Gauß-Verteilung als Funktion des Vektors `x` berechnet.
 2. Initialisiere `g` als Feld mit Nullen in der Größe von `x`.
 
 3. Bilde die Summe über alle $k$-Werte der Parameter ($k = 1, \dotsc, n$) mit
-  Hilfe einer einzigen for-Schleife. Vergiss dabei nicht,
+  Hilfe einer einzigen `for`-Schleife. Vergiss dabei nicht,
   dass $x$ ein Array sein kann.
     
 ### Skript
@@ -77,7 +77,7 @@ Aufgaben:
 
 ## Hinweise
 
-* Eine for-Schleife hilft bei der Summation über
+* Eine `for`-Schleife hilft bei der Summation über
   die einzelnen Beiträge zur Summe. Dabei ist es
   praktisch, wenn man noch vor der Schleife ein Feld erzeugt, das gleich
   groß ist wie die Inputvariable `x`, das aber ausschließlich Nullen

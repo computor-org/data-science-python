@@ -17,9 +17,9 @@ $$
 
 with the following torus coordinates:
 
-* $\phi$: the toroidal angle $\phi \in [0, 2 \pi]$ and corresponds to `t` on Wikipedia.
+* $\phi$: the toroidal angle with $\phi \in [0, 2 \pi]$; it corresponds to `t` on Wikipedia.
 
-* $\theta$: the poloidal angle with $\theta \in [0, 2 \pi]$ and corresponds to `p` on Wikipedia.
+* $\theta$: the poloidal angle with $\theta \in [0, 2 \pi]$; it corresponds to `p` on Wikipedia.
 
 * $R$: the major radius, i.e., the distance from the center to the center of the tube.
 
@@ -30,9 +30,9 @@ with the following torus coordinates:
 
 Now write the script `torus` in which you display a torus.
 
-1. For calculating the torus coordinates, write a function `torus_coor(phi, theta, r, R)` that takes the one-dimensional angles and scalar radii as input and outputs the two-dimensional ([meshgrid]) coordinates `x`, `y`, and `z`.
+1. For calculating the torus coordinates, write a function `torus_coor(phi, theta, r, R)` that takes the one-dimensional angles and scalar radii as input and returns the two-dimensional ([meshgrid]) coordinates `x`, `y`, and `z`.
 
-2. Then plot the surface of the torus in a 3D plot, where you can freely choose the support points as well as the details of the representation in the plot. However, the labeling should be meaningful.
+2. Then plot the surface of the torus in a 3D plot, where you can freely choose the sample points as well as the details of the representation in the plot. However, the labeling should be meaningful.
 
 3. Make sure that the axes are equally scaled.
 

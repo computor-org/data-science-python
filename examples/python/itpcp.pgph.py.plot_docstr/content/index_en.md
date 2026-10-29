@@ -14,7 +14,7 @@ In this task, three curves are again created using the [plot] command. It is oft
 
 Docstrings are used to provide general information about a class, a module, or a function.
 Usually this is a descriptive text to explain in more detail what function the following lines of code (or the class, module, function) have and how they are used.
-At the beginning of a code, information such as the creation date, which person wrote the code for what purpose, the version, etc. is also specified as a docstring.
+At the beginning of a script, information such as the creation date, which person wrote the code for what purpose, the version, etc. is also specified as a docstring.
 A docstring is therefore important for documenting the code.
 
 While short comments for individual lines of code and expressions are written using `#`:

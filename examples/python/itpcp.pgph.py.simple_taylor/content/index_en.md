@@ -24,11 +24,11 @@ approaches the exact result with each calculated term.
   |Variable|Value|
   |-|-|
   |`x_max`|$2 \pi$|
-  |`x`|Vector with 200 support points on $[-x_{\text{max}}, x_{\text{max}}]$ ([linspace])|
+  |`x`|Vector with 200 sample points on $[-x_{\text{max}}, x_{\text{max}}]$ ([linspace])|
   |`lim`|$1.5$|
 
 2. Calculate the variable `y`, which should contain the sine of `x` as values.
-Also calculate `y1`, `y2`, `y3`, and `y4`, which should contain the values for the (above visible) first four terms of the Taylor series (e.g., $\texttt{y1} = x$, $\texttt{y4} = -\dfrac{x^7}{5040}$).
+Also calculate `y1`, `y2`, `y3`, and `y4`, which should contain the values for the first four terms (shown above) of the Taylor series (e.g., $\texttt{y1} = x$, $\texttt{y4} = -\dfrac{x^7}{5040}$).
 
 3. Use the command [subplots] to create a [figure] with
 multiple coordinate systems.
@@ -85,7 +85,7 @@ do not vanish are numbered.
 ![Taylor expansion](mediaFiles/simple_taylor.png "Taylor expansion")
 
 - Make sure that the axis labels and titles correspond to the reference graphic.
-Also make sure not to insert spaces before or after labels and titles (Use (`'x'`) not (`' x '`))
+Also make sure not to insert spaces before or after labels and titles (use `'x'`, not `' x '`).
 
 
 ## Keywords

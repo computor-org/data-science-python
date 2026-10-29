@@ -14,7 +14,7 @@ In dieser Aufgabe werden erneut drei Kurven mithilfe des Befehls [plot] erzeugt.
 
 Docstrings werden dazu verwendet, allgemeine Informationen zu einer Klasse, einem Modul oder einer Funktion anzugeben. 
 Meist ist dies ein beschreibender Text, um näher zu erläutern, welche Funktion die folgenden Codezeilen (bzw. die Klasse, das Modul, die Funktion) haben und wie sie verwendet werden. 
-Am Anfang eines Codes werden auch Informationen wie das Erstellungsdatum, welche Person den Code zu welchem Zweck schrieb, die Version, etc. als Docstring angegeben.
+Am Anfang eines Codes werden auch Informationen wie das Erstellungsdatum, welche Person den Code zu welchem Zweck schrieb, die Version etc. als Docstring angegeben.
 Ein Docstring ist also wichtig für die Dokumentation des Codes.
 
 Während kurze Kommentare für einzelne Codezeilen und Ausdrücke mithilfe des `#` geschrieben werden:
@@ -81,7 +81,7 @@ einfügen (Copy&Paste). Ersetze alles unter Anführungszeichen (`"`) durch
 den notwendigen Text oder das notwendige Datum, also `"Vorname"` z.B. durch
 `Carmen`. Andere Teile des Textes lässt du, wie sie sind.
 
-* Für den Test dürfen die Anführungszeichen (`"`) im docstring **nicht** bestehen bleiben.
+* Für den Test dürfen die Anführungszeichen (`"`) im Docstring **nicht** bestehen bleiben.
 
 
 ## Keywords

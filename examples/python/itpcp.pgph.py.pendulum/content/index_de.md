@@ -58,13 +58,13 @@ $$
 Das bedeutet, dass die Funktion $f$ im Pendelfall nicht explizit von der Zeit abhängt und wir die Funktion schreiben können als
 
 ```python
-def pendulum_ode(t, y, g = 9.81, L = 3.0):
+def pendulum_ode(t, y, L=3.0, g=9.81):
   """
   input:
   t: aktueller Zeitpunkt
   y: Array [theta, omega], bestehend aus dem aktuellen Winkel und der Winkelgeschwindigkeit
   g: Gravitationskonstante (Standardwert: 9.81 m/s^2)
-  L: Länge des Pendels (Standardwert: 1.0 m)
+  L: Länge des Pendels (Standardwert: 3.0 m)
 
   output:
   Array [omega, - (g / L) * np.sin(theta)], die die erste Ableitung von theta bzw. omega darstellt
@@ -115,7 +115,7 @@ wobei $ \omega = \dot{\theta}$ die Winkelgeschwindigkeit ist.
 
 
 
-3. Nutze in `pendulum.py` nun deine Funktionen, um das Anfangswertproblem zu lösen. Erstelle dazu einen Subplot, der den Winkel sowie die Winkelgeschwindigkeit darstellt. Teste verschiedene Zeitschritte `dt` $(\Delta t)$ und Anfangsbedingungen `y_0` aus. Füge außerdem die Lösungen des Runge-Kutta 45 Verfahrens (RK45) von [solve_ivp], sowie die der symplektischen Eulermethode hinzu.
+3. Nutze in `pendulum.py` nun deine Funktionen, um das Anfangswertproblem zu lösen. Erstelle dazu einen Subplot, der den Winkel sowie die Winkelgeschwindigkeit darstellt. Teste verschiedene Zeitschritte `dt` $(\Delta t)$ und Anfangsbedingungen `y_0` aus. Füge außerdem die Lösungen des Runge-Kutta-45-Verfahrens (RK45) von [solve_ivp] sowie die der symplektischen Eulermethode hinzu.
 
 
 4. Schreib in `pendulum.py` die Funktion `compute_energy(y, m=2.0, L=3.0, g=9.81,)`, welche die Gesamtenergie des Pendels retourniert (kinetische und potentielle Energie). Dabei soll die potentielle Energie $0$ sein, wenn sich das Pendel in Ruhelage befindet. Plotte die Energie als Funktion der Zeit. Überprüfe, ob die Energie konstant bleibt (erhöhe hierfür `t_max`).

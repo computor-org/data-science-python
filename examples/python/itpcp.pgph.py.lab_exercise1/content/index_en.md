@@ -30,7 +30,7 @@ The first column contains the time of measurement, the second contains the tempe
 
 3. Use your new knowledge about indexing and save the time values in the variable `t` and the temperature values in `T`.
 
-4. Calculate the [Mean] and the [Standard Deviation] (see links) of the temperature over the entire measurement period. Save the mean under `mean_T` and the standard deviation under `std_T`. **Note**: When no exact mean is known (it is also estimated from the data here), the parameter `ddof` in `np.std` must be set to `1` (yields *[unbiased] estimator*).
+4. Calculate the [Mean] and the [Standard Deviation] (see links) of the temperature over the entire measurement period. Save the mean under `mean_T` and the standard deviation under `std_T`. **Note**: When no exact mean is known (it is also estimated from the data here), the parameter `ddof` in `np.std` must be set to `1` (yields an *[unbiased] estimator*).
 
 5. Plot the temperature values against time.
 
@@ -46,11 +46,11 @@ The first column contains the time of measurement, the second contains the tempe
 
 ## Hints
 
-* When loading data, attention must be paid to the data type in the file as well as the marking of the separation. Here we load a text file. If we do this 'just like that', Python will first interpret the data type as `string`. For further calculations with NumPy, however, the data type should be `np.float64`. Add `dtype=np.float64` within `np.loadtxt()` for this.
+* When loading data, attention must be paid to the data type in the file as well as the delimiter. Here we load a text file. If we do this 'just like that', Python will first interpret the data type as `string`. For further calculations with NumPy, however, the data type should be `np.float64`. Add `dtype=np.float64` within `np.loadtxt()` for this.
 
 * For the test, when loading the data using `np.loadtxt()`, only the name of the file may be entered, e.g., `np.loadtxt('Daten.dat', dtype=np.float64, comments="%")`. If a relative path is entered instead, the test cannot check this.
 
-* To test your code locally (without the testing system), you must first ensure your terminal is in the folder containing the python script. If it isn't, right-click the `Lab Exercise1` exercise, select "Copy path" and paste it into your terminal as `cd <path/to/folder>`. You can then execute the script by clicking the "Run" button or by entering `python lab_exercise1.py` in your terminal. If you are prompted "*See text and images copied to the clipboard*", click "*Allow*".
+* To test your code locally (without the testing system), you must first ensure your terminal is in the folder containing the Python script. If it isn't, right-click the `Lab Exercise1` exercise, select "Copy path" and paste it into your terminal as `cd <path/to/folder>`. You can then execute the script by clicking the "Run" button or by entering `python lab_exercise1.py` in your terminal. If you are prompted "*See text and images copied to the clipboard*", click "*Allow*".
 
 * In the first line in `data_lab1.dat`, you will find the description of the columns as a comment (`%`). When importing the data, difficulties arise in interpreting this description as a float like the following data points.
 To mark the comments in the data file as such when loading, add `comments="%"` within `np.loadtxt()`.

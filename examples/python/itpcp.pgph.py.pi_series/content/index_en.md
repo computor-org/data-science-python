@@ -1,3 +1,4 @@
+[semilogy]: <https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.semilogy.html> "semilogy"
 [np.cumsum]: <https://numpy.org/doc/stable/reference/generated/numpy.cumsum.html> "np.cumsum"
 # Approximation of $\pi$ with Series
 

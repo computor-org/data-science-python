@@ -55,7 +55,7 @@ $$
   s_1 x_d^2 + 2 s_2 x_d y_d + s_4 x_d + s_5 y_d + s_6 = -y_d^2 \; ,
 $$
 
-or respectively
+or equivalently
 
 $$
 \begin{bmatrix}
@@ -107,9 +107,9 @@ $$
    logical vector `L` or its negation `~L` for this. See hints. Pay attention to
    the signs!
 
-1. Solve the corresponding system of equations $\mathbf{As}=\mathbf{b}$. Make sure
+1. Solve the corresponding system of equations $\mathbf{As}=\mathbf{b}$. Note
    that `s` must be $1$ at position `n`. So solve only for `s[L]` and
-   set the one at the remaining position. With this, the problem is solved and the
+   set the remaining position to one. With this, the problem is solved and the
    result must still be visualized.
 
 1. For this, create two vectors `x` and `y` with `30` points between `-1` and `1`.
@@ -148,8 +148,8 @@ $$
 </div>
 
 - If you start the Python script not in Interactive Mode, but in the terminal
-  ("Run Python-File in VSCode), a window opens for the plot where you can rotate the 3D
-  plot with the cursor and change the perspective. (Don't forget plt.show()!)
+  ("Run Python File" in VSCode), a window opens for the plot where you can rotate the 3D
+  plot with the cursor and change the perspective. (Don't forget `plt.show()`!)
 
 - Before generating random numbers with numpy for the first time, set the seed to
   a fixed value. You can change the value to get different pseudo-random numbers

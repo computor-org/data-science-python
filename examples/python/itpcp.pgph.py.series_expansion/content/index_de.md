@@ -20,9 +20,9 @@ $$
 $$
 
 welche für alle $\lvert x \rvert < \infty$ konvergiert.
-Solche unendlichen Reihen kann man am Computer durch endliche Partialsummen näherungsweise berechnen. Abhängig von der gewählten Reihe und von den Werten für $x$, konvergieren sie langsamer, schneller oder eben gar nicht zum gewünschten Wert.
+Solche unendlichen Reihen kann man am Computer durch endliche Partialsummen näherungsweise berechnen. Abhängig von der gewählten Reihe und von den Werten für $x$ konvergieren sie langsamer, schneller oder eben gar nicht zum gewünschten Wert.
 
-Summen dieser Art kann man in NumPy sehr gut ohne die Verwendung von for-Schleifen programmieren. Nützlich sind dabei folgende Informationen:
+Summen dieser Art kann man in NumPy sehr gut ohne die Verwendung von `for`-Schleifen programmieren. Nützlich sind dabei folgende Informationen:
 
 Äußerst praktisch für die Berechnung solcher Reihen ist der Befehl [np.meshgrid]. Damit kann man aus einem Vektor `x` mit allen $x$-Werten und einem Vektor `k` mit allen $k$-Werten zwei gleich große Matrizen erzeugen:
 
@@ -69,7 +69,7 @@ array([[   -2,    -1,     0,     1,     2],
        [-2048,    -1,     0,     1,  2048]])
 ```
 
-Die Summe über alle $k$-Werte kann man dann mit Hilfe des `np.sum`-Befehles erhalten, wobei die Dimension entlang derer summiert werden soll über das Schlüsselwort `axis` angegeben wird. Hier wollen wir entlang der Zeilen (Achse 0) summieren, sodass pro $x$-Wert ein Eintrag bleibt:
+Die Summe über alle $k$-Werte kann man dann mit Hilfe des `np.sum`-Befehles erhalten, wobei die Dimension, entlang derer summiert werden soll, über das Schlüsselwort `axis` angegeben wird. Hier wollen wir entlang der Zeilen (Achse 0) summieren, sodass pro $x$-Wert ein Eintrag bleibt:
 
 ```python
 >>> S = np.sum(A, axis=0)
@@ -77,11 +77,11 @@ Die Summe über alle $k$-Werte kann man dann mit Hilfe des `np.sum`-Befehles erh
 array([-2730,    -6,     0,     6,  2730])
 ```
 
-Dabei wird jedes Element von `S`, ($\{S\}_{x}$) durch Aufsummieren über die $x$-Spalte berechnet
+Dabei wird jedes Element von `S` ($\{S\}_{x}$) durch Aufsummieren über die $x$-Spalte berechnet
 
 $$\{S\}_{x} = \sum_{k = 0}^{n} A_{k, x} = A_{0, x} + \dotsb + A_{n, x} \; .$$
 
-Da NumPy auf Rechnen mit Matrizen optimiert ist, läuft das Programm bei größeren Datenmengen so wesentlich schneller als mit den sonst üblichen for-Schleifen.
+Da NumPy auf Rechnen mit Matrizen optimiert ist, läuft das Programm bei größeren Datenmengen so wesentlich schneller als mit den sonst üblichen `for`-Schleifen.
 
 Statt mit der Summe kann die gesamte Reihenauswertung auch mit Hilfe der Matrizenmultiplikation durchgeführt werden. Aus der linearen Algebra ist bekannt, dass für einen $(1 \times n)$-Vektor $f$ (Zeilenvektor) und eine $(n \times m)$-Matrix $A$ gilt
 
@@ -116,7 +116,7 @@ berechnet werden. Gehe wie folgt vor:
 
 1. Speichere dir die Größe von `x` ([np.shape]) in einer Variable und wandle anschließend die Variable in einen Vektor um ([np.ravel]). Die weiteren Rechnungen sind mit einem Vektor angenehmer und durch das Speichern der ursprünglichen Größe geht keine Information verloren.
 
-2. Verwende für die Berechnung der Reihe den Befehl [np.meshgrid], wie in der Einleitung beschrieben. Dadurch erübrigen sich for-Schleifen. Speichere das Ergebnis der $n$-ten Partialsumme in `r`.
+2. Verwende für die Berechnung der Reihe den Befehl [np.meshgrid], wie in der Einleitung beschrieben. Dadurch erübrigen sich `for`-Schleifen. Speichere das Ergebnis der $n$-ten Partialsumme in `r`.
 
 3. Berechne den analytischen Wert für `u`.
 

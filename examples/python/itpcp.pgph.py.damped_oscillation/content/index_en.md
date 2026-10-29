@@ -26,4 +26,4 @@ where $t$ is the time, $A$ is an amplitude, $\omega$ is a frequency, $\phi$ is a
 
 5. Use [fmin](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin.html) to obtain the minimum value of $y$, `y_min`, together with the corresponding time point `t_min`. Similarly, find `y_max` with the corresponding `t_max`.
 
-6. Display your results graphically. Plot $y(t)$, the measured values, and mark the minimum and maximum of $y(t)$.
+6. Display your results graphically. Plot $y(t)$ and the measured values, and mark the minimum and maximum of $y(t)$.

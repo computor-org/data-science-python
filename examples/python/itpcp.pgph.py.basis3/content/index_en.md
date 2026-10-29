@@ -26,7 +26,7 @@ It is recommended to get into the habit of commenting your code, so that in the 
 
         # Plot the results
 
-    Now simply leave the comments in place and write the corresponding code under the respective lines. It may seem trivial here, but practice this even in simple examples!
+Now simply leave the comments in place and write the corresponding code under the respective lines. It may seem trivial here, but practice this even in simple examples!
 
 
 ## Task

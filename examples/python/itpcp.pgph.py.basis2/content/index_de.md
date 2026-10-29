@@ -68,7 +68,7 @@ und einer Schrittweite von `Eins`. Verwende dafür [arange] (achte auf die Inter
     Damit solltest du nun insgesamt 4 Zeilenvektoren der Länge `n` haben, die man zeichnen
     kann.
 
-6. Um unsere Funktionen zu visualisieren, werden wir die [matplotlib] Bibliothek verwenden. Plotte in einer [figure] die folgenden Größen in der vorgegebenen Reihenfolge:
+6. Um unsere Funktionen zu visualisieren, werden wir die [matplotlib]-Bibliothek verwenden. Plotte in einer [figure] die folgenden Größen in der vorgegebenen Reihenfolge:
 
     | Abszisse |Ordinate|Linienspezifikation|
     |----------|---|---|
@@ -102,7 +102,7 @@ und einer Schrittweite von `Eins`. Verwende dafür [arange] (achte auf die Inter
     Um die Grafik anzuzeigen, ist nach den [plot]-Befehlen noch der [show]-Befehl notwendig.
 
 9. Überleg dir, warum die rote Kurve (die mit `x_1` erzeugt wurde)
-viel eckiger aussieht als die anderen Kurven
+viel eckiger aussieht als die anderen Kurven.
 
 
 ## Hinweise
@@ -112,7 +112,7 @@ sind die Endpunkte im erzeugten Array nicht inbegriffen. Überleg dir, wie du
 den Endpunkt in Unterpunkt 2 trotzdem inkludieren kannst.
 
 * Im Testbetrieb ist es unbedingt notwendig, dass die Kurven in der angegebenen Reihenfolge
-    gezeichnet werden. Hier also unbedingt in der Reihenfolge Sinus Hyperbolicus, Cosinus Hyperbolicus und Tangens Hyperbolicus.
+    gezeichnet werden. Hier also unbedingt in der Reihenfolge Sinus hyperbolicus, Cosinus hyperbolicus und Tangens hyperbolicus.
 
 * Wenn du statt `plt.title('Dein Titel')` in deinem Programm
     `plt.title = 'Dein Titel'` schreibst und dieses Programm ausführst, dann

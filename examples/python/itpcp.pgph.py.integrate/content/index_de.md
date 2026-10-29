@@ -6,7 +6,7 @@
 
 ## Einleitung
 
-Um numerisch zu integrieren, teilen wir unser Integral in mehrere kleinere Integrale auf. Unsere erste Integrationsmethode ist die simple Trapezmethode. Dabei konzentrieren wir uns zuerst nur auf das Teilintegral in blau, siehe Skizze. Dieses können wir allgemein als $\int_{x_i}^{x_{i + 1}} f(x) \, dx$ schreiben und approximieren es als
+Um numerisch zu integrieren, teilen wir unser Integral in mehrere kleinere Integrale auf. Unsere erste Integrationsmethode ist die simple Trapezmethode. Dabei konzentrieren wir uns zuerst nur auf das Teilintegral in Blau, siehe Skizze. Dieses können wir allgemein als $\int_{x_i}^{x_{i + 1}} f(x) \, dx$ schreiben und approximieren es als
 
 $$
 \int_{x_i}^{x_{i + 1}} f(x) \, dx \approx f_{i + 1} \cdot h + \frac{(f_{i} - f_{i + 1})}{2} \cdot h \\ = \frac{h(f_{i} + f_{i + 1})}{2},
@@ -72,7 +72,7 @@ Geh auch hier ohne Schleife vor. Nutze [ValueError], falls $N$ ungerade ist, da 
 ```
 
 
-3. Nutze in `integrate.py` nun deine Funktionen, um analytisch lösbare Integrale zu berechnen. Nutze lambda Funktionen für $\int_0^1 x~dx, \int_0^1 x^2~dx, \int_0^1 x^3~dx, \int_0^1 x^4~dx$ und $\int_0^1 e^{-x^2}~dx$. Damit können wir den absoluten Fehler der Methoden als Funktion vom Abstand der Intervalle, $h$, analysieren. Erstelle dazu das $3$-dimensionale Array `errors` mit den Dimensionen `(i, j, 2)`, wobei in `[i, j, 0]` die Fehler für die Trapezmethode und `[i, j, 1]` die Fehler für die Simpsonmethode gespeichert werden sollen. Hierbei ist $i$ der Index für die verschiedenen Funktionen und $j$ der Index für die verschiedenen $N$ (und damit $h$, da wir die Intervallbreite verkleinern, wenn wir die Anzahl an Intervallen erhöhen). Dabei soll $N$ die Werte `[10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000]` annehmen. Probier deine Funktion jedoch zuvor mit niedrigeren Werten von $N$ aus (hier wirst du lange warten müssen, falls du Schleifen genutzt hast).
+3. Nutze in `integrate.py` nun deine Funktionen, um analytisch lösbare Integrale zu berechnen. Nutze `lambda`-Funktionen für $\int_0^1 x~dx, \int_0^1 x^2~dx, \int_0^1 x^3~dx, \int_0^1 x^4~dx$ und $\int_0^1 e^{-x^2}~dx$. Damit können wir den absoluten Fehler der Methoden als Funktion vom Abstand der Intervalle, $h$, analysieren. Erstelle dazu das $3$-dimensionale Array `errors` mit den Dimensionen `(i, j, 2)`, wobei in `[i, j, 0]` die Fehler für die Trapezmethode und `[i, j, 1]` die Fehler für die Simpsonmethode gespeichert werden sollen. Hierbei ist $i$ der Index für die verschiedenen Funktionen und $j$ der Index für die verschiedenen $N$ (und damit $h$, da wir die Intervallbreite verkleinern, wenn wir die Anzahl an Intervallen erhöhen). Dabei soll $N$ die Werte `[10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000]` annehmen. Probier deine Funktion jedoch zuvor mit niedrigeren Werten von $N$ aus (hier wirst du lange warten müssen, falls du Schleifen genutzt hast).
 
 4. Setze Fehler, die kleiner sind als die Maschinengenauigkeit (epsilon), auf [epsilon].
 
@@ -82,9 +82,9 @@ Geh auch hier ohne Schleife vor. Nutze [ValueError], falls $N$ ungerade ist, da 
 ## Hinweise
 * $\int_0^1 e^{-x^2}~dx = \frac{\sqrt{\pi}}{2} \cdot \text{erf(1)}$, wobei [erf] die Fehlerfunktion ist.
 
-* Nutze für die Integrationsmethoden [np.sum] anstelle von sum. Siehst du einen Unterschied?
+* Nutze für die Integrationsmethoden [np.sum] anstelle von `sum`. Siehst du einen Unterschied?
 
-* Food for thought: Warum skalieren die Fehler der verschiedenen Funktionen unterschiedlich? Überleg dir, warum der Fehler für sehr kleine Abstände von $h$ ansteigt. Was schließt du daraus?
+* Zum Nachdenken: Warum skalieren die Fehler der verschiedenen Funktionen unterschiedlich? Überleg dir, warum der Fehler für sehr kleine Abstände von $h$ ansteigt. Was schließt du daraus?
 
 * Deine Abbildung sollte in etwa so aussehen:
 

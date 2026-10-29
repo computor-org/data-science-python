@@ -7,19 +7,19 @@
 
 ## Introduction
 
-The following examples are intended to familiarize you with control structures, especially the `if statement` in Python. With `if statements`, logical conditions are checked in the script. If these are true in the Boolean sense (`True`), then the code indented below is executed; otherwise, it is ignored during execution.
+The following examples are intended to familiarize you with control structures, especially the `if` statement in Python. With `if` statements, logical conditions are checked in the script. If these are true in the Boolean sense (`True`), then the code indented below is executed; otherwise, it is ignored during execution.
 
-You should already have been introduced to the concept of control structures in the lecture. The following Python files should show you in which context `if statements` can be used.
+You should already have been introduced to the concept of control structures in the lecture. The following Python files should show you in which context `if` statements can be used.
 
 * `if_test1`: Simple [if], various notations.
 * `if_test2`: In combination with logical operators.
 * `if_test3`: Nested [if].
 * `if_test4`: No matrices in conditions, [all], [any].
 * `if_test5`: Order of conditions is important, as only the branch with the first correct condition is executed.
-* `if_test6`: Another if with [all] and [any]. Insert
+* `if_test6`: Another `if` with [all] and [any]. Insert
   the additional line from the comment at the correct position.
 
-Now you should write your own script using `if statements`.
+Now you should write your own script using `if` statements.
 
 ## Task
 
@@ -50,7 +50,7 @@ function yourself,</span> then read all the hints!
     `else` can, but does not have to occur. (Think about why!)
 
 * Do not forget that `z` can be an **arbitrarily dimensional** array.
-    (This applies especially to 3d arrays!) The command [np.ravel] can be helpful here.
+    (This applies especially to 3D arrays!) The command [np.ravel] can be helpful here.
 
 * You should call a function yourself in the console and check
   for errors. To do this, proceed as follows:

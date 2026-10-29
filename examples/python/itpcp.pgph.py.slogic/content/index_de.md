@@ -10,7 +10,7 @@
 
 ## Einleitung
 
-Erzeuge eine Matrix `M` mit Einträgen von `1` bis `72`, die `9` Zeilen und `8` Spalten aufweist. Da wir diese kopieren und mit ihr rechnen werden, achte darauf, dass es sich um `np.float64` Einträge handelt und keine `numpy.int32`. Verwende die Matrix für die unten angegebenen Operationen. Die Aufgaben sollen mittels logischer Indizierung erledigt werden. Schleifen und `if-else` Anweisungen sind **nicht** erlaubt. 
+Erzeuge eine Matrix `M` mit Einträgen von `1` bis `72`, die `9` Zeilen und `8` Spalten aufweist. Da wir diese kopieren und mit ihr rechnen werden, achte darauf, dass es sich um `np.float64`-Einträge handelt und keine `numpy.int32`. Verwende die Matrix für die unten angegebenen Operationen. Die Aufgaben sollen mittels logischer Indizierung erledigt werden. Schleifen und `if-else`-Anweisungen sind **nicht** erlaubt. 
 
 ## Aufgabe
 
@@ -23,7 +23,7 @@ Erzeuge ein Python-Skript `slogic`, das folgende Aufgaben erfüllt:
     :------------|:------
     `L1` | Werte größer als 8
     `L2` | Werte größer gleich 14 und kleiner gleich 30
-    `L3` | Werte durch drei teilbar (siehe modulo-Operator)
+    `L3` | Werte durch drei teilbar (siehe Modulo-Operator)
     `L4` | Werte durch vier und fünf teilbar
     `L5` | Werte durch vier oder fünf teilbar
     `L6` | Werte nicht durch drei teilbar
@@ -42,7 +42,7 @@ Erzeuge ein Python-Skript `slogic`, das folgende Aufgaben erfüllt:
     * nicht `L5` (Variable: `w_L5`)
     * `L2` und `L5` (Variable: `w_L2_L5`).
 
-5. Berechne die **Zeilen- und Spaltenindizes** der Werte, für die die Bedingung `L6` gilt, in den Variablen `iz6` und `is6` ([np.where]).
+5. Berechne die **Zeilen- und Spaltenindizes** der Werte, für die die Bedingung `L6` gilt, in den Variablen `ir6` und `ic6` ([np.where]).
 
 6. Berechne die **linearen** (abgeflachten) **Indizes** der Werte, für die die Bedingung `L6` gilt, in der Variablen `i6` ([np.where], [np.ravel]).
 
@@ -75,11 +75,11 @@ Variable     | Aufgabe
 :------------|:------
 `s1`   | Summe über alle Zeilen entlang der Spalten von `M`
 `sm1`  | Mittelwert der Werte in `s1`
-`Lsm1` | Logischer Vektor; `true` dort, wo `s1` zwischen 80% und 100% von `sm1` liegt (einschließlich).
+`Lsm1` | Logischer Vektor; `True` dort, wo `s1` zwischen 80% und 100% von `sm1` liegt (einschließlich).
 `Ssm1` | Jene Teile (Spalten) von `M`, für die `Lsm1` gilt
 `s2`   | Summe über alle Spalten entlang der Zeilen von `M`.
 `sm2`  | Mittelwert der Werte in `s2`
-`Lsm2` | Logischer Vektor; `true` dort, wo `s2` zwischen 80% und 100% von `sm2` liegt (einschließlich).
+`Lsm2` | Logischer Vektor; `True` dort, wo `s2` zwischen 80% und 100% von `sm2` liegt (einschließlich).
 `Ssm2` | Jene Teile (Zeilen) von `M`, für die `Lsm2` gilt
 `S3`   | Jene Teile von `M`, für die `Lsm1` und `Lsm2` gilt
 
@@ -87,6 +87,6 @@ Variable     | Aufgabe
 
 * Logisch wahr (``True``) wird in arithmetischen Operationen wie Addition und Multiplikation als 1 behandelt, logisch falsch (``False``) als 0. Die Anzahl wahrer Werte ist damit gleich ihrer Summe.
 
-* Mit sogenannten *masks* kann man in Python Bool'sche Indizierung durchführen.
+* Mit sogenannten *masks* kann man in Python boolesche Indizierung durchführen.
 
 * Wie oben angemerkt, sind die Befehle [np.all] und [np.any] recht praktisch. Denk bei deren Verwendung daran, wie Befehle dieser Art angewandt werden müssen (siehe z.B. auch [np.sum]).

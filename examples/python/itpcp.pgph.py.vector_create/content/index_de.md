@@ -30,7 +30,7 @@ Bei der Abgabeversion des Beispiels soll in der Konsole keine Ausgabe gemacht we
 | `lin1`      | 90 Punkte im geschlossenen Intervall $[0,5]$ (linearer Abstand)                                                     |
 | `log1`      | 9 Punkte im geschlossenen Intervall $[10^{-2},10^{2}]$ (logarithmischer Abstand, Basis $10$)                        |
 | `log2`      | Zehner-Logarithmus ($\log_{10}$) von `log1`                                                                          |
-| `log3`      | 6 Punkte im geschlossenen Intervall $[\mathrm{e}^{-2},\mathrm{e}^{3}]$ (logarithmischer Abstand, Basis $\mathrm{e}$) | |
+| `log3`      | 6 Punkte im geschlossenen Intervall $[\mathrm{e}^{-2},\mathrm{e}^{3}]$ (logarithmischer Abstand, Basis $\mathrm{e}$) |
 | `calc1`     | Die Zahlen $[1, 2, 4, 8, \dotsc, 1024]$ berechnet mit einer Vektoroperation                                         |
 | `calc2`     | Die Zahlen  $[1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \dotsc, \frac{1}{32}]$ berechnet mit einer Vektoroperation  |
 | `calc3`     | Die Zahlen  $[1,3,6,10,15,21]$ mit einer Operation                                                                  |

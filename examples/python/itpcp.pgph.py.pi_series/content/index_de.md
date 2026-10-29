@@ -1,9 +1,10 @@
+[semilogy]: <https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.semilogy.html> "semilogy"
 [np.cumsum]: <https://numpy.org/doc/stable/reference/generated/numpy.cumsum.html> "np.cumsum"
 # Approximation von $\pi$ mit Reihen
 
 ## Einleitung
 
-Eine der wohl wichtigsten und zum Teil schnellsten Methoden $\pi$ zu berechnen, ist jene mit Reihen. Aus diesem Grund sollen hier verschiedene Reihen vorgestellt werden, die in der Geschichte von $\pi$ eine große Rolle gespielt haben:
+Eine der wohl wichtigsten und zum Teil schnellsten Methoden, $\pi$ zu berechnen, ist jene mit Reihen. Aus diesem Grund sollen hier verschiedene Reihen vorgestellt werden, die in der Geschichte von $\pi$ eine große Rolle gespielt haben:
 
 
 1. Gottfried W. Leibniz, einer der Begründer der Differenzialrechnung, leitete 1682 eine Reihendarstellung von $\frac{\pi}{4}$ her, die heute noch ihm zu Ehren Leibnizreihe genannt wird.

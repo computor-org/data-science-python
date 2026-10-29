@@ -12,7 +12,7 @@ g(x)= \frac{1}{{\color{red}\sigma} \sqrt{2\pi}} \exp\left\{-\frac{(x-{\color{red
 \end{align}
 $$
 
-where $x_{0}$ and $\sigma$ are the parameters of the distribution. At $x_{0}$ lies both the maximum and the center of symmetry, and $\sigma$ is the distance from this center to the inflection points. As for any probability distribution,
+where $x_{0}$ and $\sigma$ are the parameters of the distribution. Both the maximum and the center of symmetry lie at $x_{0}$, and $\sigma$ is the distance from this center to the inflection points. As for any probability distribution, we have
 
 $$
 \begin{align}
@@ -52,7 +52,7 @@ calculates the Gaussian distribution as a function of the vector `x`.
         sig = [ 0.5, 1.0]
     ```
 
-2. Initialize `g` as a field of zeros with the size of `x`.
+2. Initialize `g` as an array of zeros with the size of `x`.
 
 3. Form the sum over all $k$ values of the parameters ($k = 1, \dotsc, n$) using
   a single for loop. Don't forget
@@ -79,7 +79,7 @@ tasks:
 
 * A for loop helps with the summation over
   the individual contributions to the sum. It is
-  practical if you create a field before the loop that is the same
+  practical if you create an array before the loop that is the same
   size as the input variable `x`, but contains only zeros.
   The most sensible command for this is:
 

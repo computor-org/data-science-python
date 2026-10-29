@@ -41,8 +41,8 @@ Use this to create a figure with multiple lines:
 3. Plot $-A(x)$; solid line; blue
 4. Limits for abscissa to minimum and maximum of $x$
 5. Limits for ordinate to minimum of $-A(x)$ and maximum of $A(x)$
-6. Label the abscissa with $x$
-7. Label the ordinate with $y(x)$
+6. Label the abscissa with `x`
+7. Label the ordinate with `y(x)`
 8. Write a title with the label `Decaying Cosine`
 
 

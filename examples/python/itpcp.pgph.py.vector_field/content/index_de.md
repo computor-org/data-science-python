@@ -11,11 +11,11 @@ $$
 
 wobei $\hat{A}$ die Transformationsmatrix, $\vec{x}$ der Eigenvektor und $\lambda$ der Eigenwert ist.
 
-Diese Gleichung kann durch:
+Umgeformt lautet sie
 $$
-\det(\hat{A} - \lambda \hat{I})\vec{x} = 0
+(\hat{A} - \lambda \hat{I})\vec{x} = 0 ,
 $$
-gelöst werden, wobei $\hat{I}$ die Einheitsmatrix ist.
+wobei $\hat{I}$ die Einheitsmatrix ist. Eine Lösung $\vec{x} \neq 0$ gibt es genau dann, wenn $\det(\hat{A} - \lambda \hat{I}) = 0$ gilt; aus dieser Bedingung erhält man die Eigenwerte.
 
 Dieses Beispiel sollte das Konzept der Eigenvektoren und Eigenwerte anschaulich machen. Zusätzlich erhältst du einen Einblick in die Visualisierung von Vektorfeldern.
 
@@ -72,13 +72,13 @@ Dieses Beispiel sollte das Konzept der Eigenvektoren und Eigenwerte anschaulich 
 
   nicht dargestellt werden?
 
-<dev align="center">
+<div align="center">
   <img src="mediaFiles/gradient_field.png" width="100%">
-</dev>
+</div>
 
 ## Hinweise
 
-* Für die lineare Transformation kannst du den `@` Operator oder `np.matmul` verwenden.
+* Für die lineare Transformation kannst du den `@`-Operator oder `np.matmul` verwenden.
 
 * Die Befehle `np.vstack` und `np.ravel` könnten hilfreich sein.
 

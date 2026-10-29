@@ -6,7 +6,7 @@
 
 ## Introduction
 
-In a script `simpleanim`, two curves are to be animated:
+In a script `simple_anim`, two curves are to be animated:
 
 $f_1(x, t) = \cos(x) \cos(t)$
 
@@ -25,7 +25,7 @@ For [FuncAnimation], you only need to define an update function that updates the
 3. Create a vector `t` with `48` points between `0` and $2 \pi$. This vector represents the time scale over which the animation should run. Calculate `cos_t = cos(t)`.
 
 4. Before the actual animation, create a figure with [plt.subplots].
-Save in `line1` and `line2` the plot handles of two lines (plt.plot), where both the `x_data` and the `y_data` should be empty
+Store the plot handles of two lines (`plt.plot`) in `line1` and `line2`, where both the `x_data` and the `y_data` should be empty
  (`[]`). Specify the function definition for $f_1$ and $f_2$ (see above) as the label and create the legend.
  The data for the lines will be updated during the animation.
 
@@ -47,7 +47,7 @@ def update(frame_num):
 ```
 Here the function `f(t)` is assumed for the `y` values.
 
-7. Now you can create an object of the class [FuncAnimation], to which you pass the figure, the update function, a number of frames (here 48), and an interval (here 16). Also pass the argument `blit=True`. Then you can display the animation with `plt.show()`. The display may only work if you run the script in a Python terminal and not in Interactive Mode. More on this see [MatplotlibTutorial].
+7. Now you can create an object of the class [FuncAnimation], to which you pass the figure, the update function, a number of frames (here 48), and an interval (here 16). Also pass the argument `blit=True`. Then you can display the animation with `plt.show()`. The display may only work if you run the script in a Python terminal and not in Interactive Mode. For more information, see [MatplotlibTutorial].
 
 
 8. Export a gif of the animation with

@@ -31,7 +31,7 @@ $$
 $$
 
 wird dabei als Diskriminante bezeichnet. Im Falle $a \neq 0$ entscheidet ihr Wert, ob es
-zwei reelle Lösungen, eine reelle Doppellösung, oder zwei konjugiert komplexe Lösungen
+zwei reelle Lösungen, eine reelle Doppellösung oder zwei konjugiert komplexe Lösungen
 gibt. Wir definieren, dass $x_1$ die Lösung mit $+$ und $x_2$ die Lösung mit $-$ ist.
 
 Für den Fall
@@ -51,7 +51,7 @@ beinhaltet, die mit dem Aufruf
 ```python
 def quadratic_eq_for(a, b, c):
     # ...
-    return x_1, x_2
+    return x1, x2
 ```
 
 die quadratische Gleichung mit den Koeffizienten `a`, `b` und `c` löst.
@@ -61,7 +61,7 @@ die quadratische Gleichung mit den Koeffizienten `a`, `b` und `c` löst.
    zu lösen.
 
 1. Die Ergebnisse sollen wie in den *Mathematischen Grundlagen* erläutert berechnet und
-   in den Arrays `x_1` und `x_2` gespeichert werden. `x_1` und `x_2` müssen anschließend die
+   in den Arrays `x1` und `x2` gespeichert werden. `x1` und `x2` müssen anschließend die
    gleiche Größe wie die Eingabeparameter haben und enthalten gegebenenfalls **komplexe
    Werte**. Für den Fall, dass nur eine Lösung existiert, sollte das zweite
    Rückgabeargument auf den Wert [nan] gesetzt werden.
@@ -69,12 +69,12 @@ die quadratische Gleichung mit den Koeffizienten `a`, `b` und `c` löst.
 1. Zur Lösung des Problems sind eine `for`-Schleife, `if` und `elif` zu verwenden und es
    empfiehlt sich folgende Strategie:
 
-   - Lege für `x_1` und `x_2` Arrays der Größe von `a` an und beschreibe diese
+   - Lege für `x1` und `x2` Arrays der Größe von `a` an und beschreibe diese
      überall mit dem Wert [nan] (verwende dafür z.B. [ones_like]). Achte darauf, dass die Arrays den richtigen Datentyp haben, damit sie später auch komplexe Werte speichern können.
    - Gehe anschließend in einer Schleife alle Werte der Arrays `a`, `b`, `c` durch,
      mache eine Fallunterscheidung bezüglich der aktuellen Parameter, berechne
      demnach die Lösungen $x_1$ (und $x_2$) und speichere diese auf der
-     entsprechenden Stelle in `x_1` (bzw. `x_2`). Mache **keine** Fallunterscheidung bezüglich der Diskriminante!
+     entsprechenden Stelle in `x1` (bzw. `x2`). Mache **keine** Fallunterscheidung bezüglich der Diskriminante!
 
 1. Um die Funktion zu überprüfen, lege im selben Skript nach der Funktion folgende
    Arrays an:
@@ -97,17 +97,17 @@ beinhaltet, die mit dem Aufruf
 ```python
 def quadratic_eq(a, b, c):
     # ...
-    return x_1, x_2
+    return x1, x2
 ```
 
 die quadratische Gleichung mit den Koeffizienten `a`, `b` und `c` löst.
 
 1. Der Beginn der Aufgabe gleicht dem vorherigen Beispiel mit `for`-Schleife. Zur Lösung des Problems ist diesmal *logische Indizierung* zu verwenden und es empfiehlt sich folgende Strategie:
 
-   - Lege für `x_1` und `x_2` Arrays der Größe von `a` an und beschreibe diese
+   - Lege für `x1` und `x2` Arrays der Größe von `a` an und beschreibe diese
      überall mit dem Wert [nan] (verwende dafür z.B. [ones_like]). Achte auch hier darauf, dass die Arrays den richtigen Datentyp haben, damit sie später auch komplexe Werte speichern können.
    - Mache anschließend mittels logischer Indizierung eine Fallunterscheidung bezüglich der aktuellen Parameter, mit der du demnach die Lösungen $x_1$ (und $x_2$) berechnest und diese auf der
-    entsprechenden Stelle in `x_1` (bzw. `x_2`) speicherst. Mache **keine** Fallunterscheidung bezüglich der Diskriminante!
+    entsprechenden Stelle in `x1` (bzw. `x2`) speicherst. Mache **keine** Fallunterscheidung bezüglich der Diskriminante!
 
 1. Um die Funktion zu überprüfen, lege im selben Skript nach der Funktion folgende
    Matrizen an:
@@ -127,7 +127,7 @@ Drei Dinge sollte man sich noch überlegen und berücksichtigen:
   für $x_{1,2}$ zu verwenden? Ist es eigentlich nicht auch besser, vorher die Wurzel aus der Diskriminante zu ziehen,
   um dann gleich diese Größe in der Formel für $x_{1,2}$ zu verwenden?
 - Kann die Diskriminante auch negativ werden? Inwiefern ist dies zu berücksichtigen?
-- Wie könnte man die `for`-Schleifen Variante so anpassen, dass sie auch mehrdimensionale Indizierung unterstützt?
+- Wie könnte man die `for`-Schleifen-Variante so anpassen, dass sie auch mehrdimensionale Indizierung unterstützt?
 
 ## Hinweise
 
@@ -137,7 +137,7 @@ Drei Dinge sollte man sich noch überlegen und berücksichtigen:
 - Du kannst mit `np.sqrt()` auch die Wurzel von negativen Zahlen ziehen, indem du
   `dtype=np.complex128` hinzufügst. Zum Beispiel `np.sqrt(-1, dtype=np.complex128)`.
 
-- Beispiele für einen $x_1$ output könnten so aussehen:
+- Beispiele für einen $x_1$-Output könnten so aussehen:
 
 ```python
 [-0.00000000e+00       +0.j          1.19160798e+01       +0.j
@@ -155,7 +155,7 @@ Drei Dinge sollte man sich noch überlegen und berücksichtigen:
  -0.05555556+2.99948555j -0.05      +3.16188235j]
 ```
 
-**Achtung!** Das ist nicht die korrekte Lösung, andere Werte für a, b, und c wurden
+**Achtung!** Das ist nicht die korrekte Lösung, andere Werte für a, b und c wurden
 verwendet.
 
 [nan]: https://numpy.org/doc/stable/user/misc.html "nan"

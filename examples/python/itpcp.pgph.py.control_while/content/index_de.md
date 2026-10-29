@@ -2,7 +2,7 @@
 
 ## Einleitung
 
-In der `while`-Schleife wird, anders als bei der `for`-Schleife, so lange über einen Code-Block iteriert, wie eine festgelegte Bedingung logisch wahr (`True`) ist. Oft wird dabei vor der Schleife eine Anfangsvariable initiiert, die dann während der Execution verändert wird:
+In der `while`-Schleife wird, anders als bei der `for`-Schleife, so lange über einen Code-Block iteriert, wie eine festgelegte Bedingung logisch wahr (`True`) ist. Oft wird dabei vor der Schleife eine Anfangsvariable initialisiert, die dann während der Execution verändert wird:
 
 ```python
 counter = 0
@@ -26,7 +26,7 @@ z, count = while_test(z, count_lim)
 `z` ist dabei ein Double-Vektor und `count_lim` ein Integer-Skalar.
 Die Aufgaben der Funktion sollen sein:
 
-1. `z` soll solange (punktweise) durch ein gleich großes Array gleichverteilter
+1. `z` soll so lange (punktweise) durch ein gleich großes Array gleichverteilter
    Zufallszahlen im halboffenen Intervall `[1,2)` dividiert werden, bis alle Werte in `z` kleiner
    als `1` sind. **Für jede Division sollen neue Zufallszahlen erzeugt werden**.
 
@@ -37,7 +37,7 @@ Die Aufgaben der Funktion sollen sein:
 
 ## Hinweise
 
-- Falls du die Funktion nicht mit einem eindimensionalen Double-Array `z` testest, sondern z.B. mit einem Skalar, einem mehrdimensionalen Array, einem Integer-Vektor oder einer Python-Liste, könnten je nach Implementation unerwartete Fehler auftreten. Da hier der erwartete Datentyp genau definiert ist, liegt die Verantwortung beim User, auch diesen Datentyp bereitzustellen. Möchtest du deine Funktion aber so schreiben, dass sie allgemeinere Inputs akzeptiert, ist bei diesem konkreten Beispiel [np.asarray] und ggf. [np.random.random_sample] hilfreich.
+- Falls du die Funktion nicht mit einem eindimensionalen Double-Array `z` testest, sondern z.B. mit einem Skalar, einem mehrdimensionalen Array, einem Integer-Vektor oder einer Python-Liste, könnten je nach Implementation unerwartete Fehler auftreten. Da hier der erwartete Datentyp genau definiert ist, liegt die Verantwortung beim User, auch diesen Datentyp bereitzustellen. Möchtest du deine Funktion aber so schreiben, dass sie allgemeinere Inputs akzeptiert, sind bei diesem konkreten Beispiel [np.asarray] und ggf. [np.random.random_sample] hilfreich.
 - Schleifen können mit dem Keyword [break] abgebrochen werden.
 
 [break]: https://docs.python.org/3/reference/simple_stmts.html#break "break"

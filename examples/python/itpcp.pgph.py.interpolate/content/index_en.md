@@ -10,7 +10,7 @@ In this Python script, various interpolation methods are applied to data and the
 1. Load the measurement data from the `inter_data.dat` file. The first column of the file contains the $x$ values and the second column contains the $y$ values.
 
 
-2. Create the array `x_int`, which contains evenly distributed numbers from the first to and including the last $x$ value with $500$ support points.
+2. Create the array `x_int`, which contains evenly distributed numbers from the first to and including the last $x$ value with $500$ points.
 
 3. Apply various interpolation methods using scipy:
 

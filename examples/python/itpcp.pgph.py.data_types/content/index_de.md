@@ -4,7 +4,7 @@
 
 In dieser Aufgabe werden Variablen verschiedener (numerischer) Datentypen (File:
 `data_types.py`) erzeugt, der Datentyp der Variablen wird überprüft und die Variablen
-werden umdeklariert (in einen anderen Typ verwandeln).
+werden umdeklariert (in einen anderen Typ umgewandelt).
 
 ### Klassen in Python und NumPy
 
@@ -29,7 +29,7 @@ var_compl = 4 + 1j          # complex double
 ```
 
 Diese werden für numerische Programme mit den [NumPy-Datentypen] erweitert, welche
-NumPy-Arrays zu Grunde liegen können. Zum Beispiel entspricht der Python `float` einem
+NumPy-Arrays zu Grunde liegen können. Zum Beispiel entspricht der Python-`float` einem
 `np.float64` (`numpy` wird oft mit `np` abgekürzt). Es gibt jedoch auch `np.float32`,
 `np.float16`, etc. mit entsprechend vielen Bits für die Darstellung der Zahlen.
 
@@ -37,7 +37,7 @@ Einfach vorzustellen sind die Einschränkungen der Größe der Datentypen für I
 Ganzzahlen (Integer) beinhalten die *signed* (vorzeichenbehafteten, z.B. `int8`,
 `int16`, …) und *unsigned* (nicht vorzeichenbehafteten, z.B. `uint8`, `uint16`, ...)
 Integer. Hier hat `np.int8` zum Beispiel 8 Bit zur Verfügung. Die größte mögliche Zahl?
-$127$, da natürlich auch negative Zahlen $\\ge -128$ möglich sind.
+$127$, da natürlich auch negative Zahlen $\ge -128$ möglich sind.
 
 Und bei `uint8` (u steht für unsigned)? Hier ist die größte Zahl $2^8-1 = 255$.
 
@@ -114,7 +114,7 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
    Reihenfolge zusammenfügst, und gib den resultierenden String mit `print` aus.
    Überrascht?
 
-1. Nun gehen wir auf die Gefahren dieser casts ein.
+1. Nun gehen wir auf die Gefahren dieser Casts ein.
 
    Mit kleineren Datentypen kann einerseits Speicherplatz gespart werden, es kann daher
    aber auch beim Umdeklarieren (casten) Information verloren gehen. Definiere
@@ -122,7 +122,7 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
 
    | Variable | Wert                  |
    | -------- | --------------------- |
-   | `test1`  | $1.8 \\cdot 10^{-60}$ |
+   | `test1`  | $1.8 \cdot 10^{-60}$ |
    | `test2`  | $1.4$                 |
    | `test3`  | $1.5$                 |
    | `test4`  | $128$                 |
@@ -133,12 +133,12 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
    Versuche, die Variablen `test2` bis `test4` auf den Typ `uint8` zu casten
    (`cast_test2` bis `cast_test4`). Was fällt dir auf? Was passiert, wenn du
    `cast_test4` auf den Typ `int8` castest (`cast_test5`)? Probiere nun für dich aus, ob
-   das Casten auch für `test_4` funktioniert. Beantworte dir selbst folgende Frage: Hat
-   das etwas mit der Größe von dem Datentyp zu tun? (Um dies zu beantworten kann die
-   `view` member Funktion von numpy's Datentypen (`np.uint16(22).view(np.int16)`)
+   das Casten auch für `test4` funktioniert. Beantworte dir selbst folgende Frage: Hat
+   das etwas mit der Größe von dem Datentyp zu tun? (Um dies zu beantworten, kann die
+   `view`-Member-Funktion von numpy's Datentypen (`np.uint16(22).view(np.int16)`)
    verwendet werden)
 
-   Die Unterschiede, die man sieht, hängen zum Teil mit den größten, bzw., kleinsten
+   Die Unterschiede, die man sieht, hängen zum Teil mit den größten bzw. kleinsten
    darstellbaren Zahlen für einen bestimmten Datentyp zusammen. Der
    Python-Standarddatentyp `int` (`long`) hat keine Grenze in der Darstellbarkeit,
    allerdings sind die [NumPy-Datentypen] auf ihre Bitzahl beschränkt und meist
@@ -146,7 +146,7 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
    `np.finfo(np.float64)`, siehe Dokumentation zu [floatinfo] und [numpy.finfo].
 
 1. Bei der Kombination verschiedener Datentypen ist zu beachten, dass Python (bzw.
-   Numpy) automatisch auf den umfassenderen Datentyp castet.
+   NumPy) automatisch auf den umfassenderen Datentyp castet.
 
    Erstelle folgende Variablen
 
@@ -161,13 +161,13 @@ sie definierten Befehle (`+` zum Beispiel als Funktion `__add__()`) anzeigen las
    Summe der ersten und der zweiten, der ersten und der dritten bzw. der ersten und der
    vierten Variable.
 
-   Stimmen die beiden Ergebnisse überein? Kannst du die Ergebnisse erklären?
+   Stimmen die Ergebnisse überein? Kannst du die Ergebnisse erklären?
 
 ## Hinweise
 
 - Die Deklaration erfolgt in Python einfach in Form von `var = datentyp(wert)`, also
   z.B. `var = np.float32(1.13)`. Der Datentyp `double` bzw. `int` muss nicht
-  spezifiziert werden, da dieser der Standardfall ist (Je nach Definition des Werts: 1.0
+  spezifiziert werden, da dieser der Standardfall ist (je nach Definition des Werts: 1.0
   oder 1).
 
 [chr]: https://docs.python.org/3/library/functions.html#chr

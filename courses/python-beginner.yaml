@@ -12,10 +12,6 @@ path: python.beginner
 services:
 - slug: itpcp.exec.py
 content_types:
-- color: blue
-  kind: unit
-  slug: welcome
-  title: Einstieg
 - color: green
   kind: unit
   slug: weekly
@@ -29,44 +25,6 @@ content_types:
   slug: exam
   title: Wiederholung
 contents:
-- content_type: welcome
-  path: welcome
-  position: 0.0
-  title: Willkommen
-  description: |
-    <!-- lang: de -->
-    In drei Wochen lernst du die Grundlagen von Python für die Datenanalyse: Programmierumgebung, Variablen und Funktionen, Skripte, das Indizieren von Vektoren mit NumPy und erste Plots mit Matplotlib. Vorkenntnisse brauchst du keine, und in der Computor-Arbeitsumgebung ist alles installiert.
-
-    So kommst du zur ersten Abgabe:
-
-    1. Links siehst du die Kursübersicht mit „Willkommen“ und den Wochen 1 bis 3. Ist sie nicht zu sehen, klicke in der Aktivitätsleiste auf das Buchsymbol von Computor.
-    2. Öffne „Woche 1“ und klicke auf „Mathematische Konstanten“. Die Aufgabenstellung öffnet sich automatisch rechts und die Python-Datei links. Auf schmalen Bildschirmen erscheinen beide als Tabs.
-    3. Lies zuerst die Aufgabenstellung und schreibe dann deine Lösung in die Python-Datei. Mit dem Pfeil vor der Aufgabe kannst du weitere Dateien anzeigen.
-    4. Die Aktionssymbole erscheinen, wenn du über die Aufgabenzeile fährst oder sie auswählst. Klicke auf „Aufgabe testen“, um deine Lösung zu testen. Die Aktionen findest du auch per Rechtsklick.
-    5. Mit „Abgeben“ reichst du deine Lösung ein. Ein grünes Häkchen bedeutet „Tests bestanden“, ein grünes Doppelhäkchen „bestanden und abgegeben“. Dann ist die Aufgabe erledigt.
-
-    Deine Dateien liegen in einem persönlichen Git-Repository, das Computor beim ersten Start für dich anlegt. Über dieses Repository gibst du auch ab.
-
-    Bei Fragen hilft dir Lena, die KI-Tutorin des Kurses. Öffne bei der Aufgabe „Nachrichten anzeigen“ und stelle dort deine Frage. Hilfe zu Computor selbst findest du per Rechtsklick auf eine Zeile unter „Hilfe“.
-
-    Alle Aufgabentexte kannst du auch ohne Anmeldung auf der [öffentlichen Kursseite](https://computor.at/learn/python-beginner) lesen. Wie du lokal in VS Code oder in GitHub Codespaces arbeitest, steht in der [Anleitung zum Einstieg](https://github.com/computor-org/data-science-python/blob/main/docs/GETTING_STARTED.md). „Willkommen“ bleibt als Tab angeheftet. Klicke in der Kursübersicht darauf, um zu diesem Text zurückzukehren.
-
-    <!-- lang: en -->
-    In three weeks you learn the basics of Python for data analysis: the programming environment, variables and functions, scripts, indexing vectors with NumPy and first plots with Matplotlib. You need no prior knowledge, and everything is installed in the Computor workspace.
-
-    How to reach your first submission:
-
-    1. On the left you see the course tree with “Willkommen” (Welcome) and weeks 1 to 3. If it is hidden, click the Computor book icon in the activity bar.
-    2. Open “Woche 1” (Week 1) and click “Mathematische Konstanten” (Mathematical Constants). The instructions open automatically on the right and the Python file on the left. On narrow screens, both open as tabs.
-    3. Read the instructions first, then write your solution in the Python file. Expand the assignment’s arrow to see other files.
-    4. Hover over the assignment row or select it to reveal its action icons. Click “Test Assignment” to test your solution. You can also access these actions by right-clicking the assignment.
-    5. Click “Submit” next to the assignment to hand in your solution. A green check means “tests passed”, a green double check “passed and submitted”. Then the assignment is done.
-
-    Your files live in a personal Git repository that Computor creates for you on the first start, and you submit through this repository.
-
-    For questions about an assignment, ask Lena, the AI tutor of this course. Click “Show Messages” next to the assignment and ask your question there. For help with Computor itself, right-click a row and choose “Help”.
-
-    You can also read every assignment without signing in on the [public course page](https://computor.at/learn/python-beginner). How to work in a local VS Code or in GitHub Codespaces is explained in the [getting started guide](https://github.com/computor-org/data-science-python/blob/main/docs/GETTING_STARTED.md). “Willkommen” stays open as a pinned tab. Select it in the course tree to return to this same text at any time.
 - content_type: weekly
   path: week_1
   position: 1.0

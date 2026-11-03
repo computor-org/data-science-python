@@ -18,7 +18,7 @@ with `python -m pytest tests`.
 
 [Create a Codespace](https://codespaces.new/computor-org/data-science-python?quickstart=1).
 A GitHub account is required; GitHub's quota and billing apply. The devcontainer
-installs the pinned Python dependencies and recommends the Computor extension.
+installs the pinned Python dependencies and the Computor extension.
 Code runs in your Codespace, not on Computor's servers. No AI model is installed.
 
 ## Courses and Lena

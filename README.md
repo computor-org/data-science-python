@@ -3,9 +3,9 @@
 Open educational resources for the three German-first Computor courses at
 TU Graz / ITPCP:
 
-- **Data Science mit Python – Grundlagen** (`python.beginner`)
-- **Data Science mit Python – Aufbau** (`python.intermediate`)
-- **Data Science mit Python – Vertiefung** (`python.advanced`)
+- **Data Science mit Python I – Grundlagen** (`python.beginner`)
+- **Data Science mit Python II – Aufbau** (`python.intermediate`)
+- **Data Science mit Python III – Vertiefung** (`python.advanced`)
 
 The exercise texts are bilingual. The German file (`content/index_de.md`) is
 the source text; the English file (`content/index_en.md`) is provided for
@@ -53,3 +53,7 @@ upstream copyright and MIT permission notices, including when using the
 additional CC BY licence; [`RIGHTS.md`](RIGHTS.md) records the upstream licensing. Attribution: "Data Science mit Python — ITPcp, TU Graz and
 contributors (see RIGHTS.md), computor.at". Code (templates, solutions scaffolds,
 tests) stays MIT.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).

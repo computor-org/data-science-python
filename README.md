@@ -21,7 +21,7 @@ input/media files are retained where the metadata names them.
 ## Start learning
 
 [Read the course map](COURSE_MAP.md) without signing in. For desktop VS Code or
-GitHub Codespaces, follow [Getting started](docs/GETTING_STARTED.md). Both options
+GitHub Codespaces, follow [Getting started](docs/GETTING_STARTED.md) ([Deutsch](docs/GETTING_STARTED_de.md)). Both options
 remain available when hosted Computor workspaces are full. Codespaces does not run an AI model on its VM. Enrolled learners can ask Lena through Computor course messages.
 
 ## Provenance and licensing

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Regenerate the public example mirror from the private GitLab examples repository.
+"""Regenerate the public example mirror from the private examples repository.
 
-The exercise texts are written in ``codeability/development/examples`` on
-gitlab.tugraz.at. This script copies the learner-facing part of every example
+The exercise texts are written in the private repository
+``computor-org/examples`` on GitHub. This script copies the learner-facing part of every example
 named in ``courses/*.yaml`` from a given commit of a local checkout of that
 repository, then rewrites ``RIGHTS.md``, ``LANGUAGE_AUDIT.md`` and the
 provenance paragraph of ``README.md`` so that they name the source commit.
@@ -36,8 +36,8 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_URL = "git@gitlab.tugraz.at:codeability/development/examples.git"
-COMMIT_URL = "https://gitlab.tugraz.at/codeability/development/examples/-/commit/{sha}"
+SOURCE_URL = "git@github.com:computor-org/examples.git"
+COMMIT_URL = "https://github.com/computor-org/examples/commit/{sha}"
 SOURCE_PREFIX = "python"
 MIRROR_DIR = Path("examples") / SOURCE_PREFIX
 
@@ -257,7 +257,7 @@ def tree_files(base: Path) -> dict[str, bytes]:
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--source", type=Path, required=True,
-                        help="local checkout of codeability/development/examples")
+                        help="local checkout of computor-org/examples")
     parser.add_argument("--ref", default="main", help="commit, branch or tag (default: main)")
     parser.add_argument("--check", action="store_true",
                         help="only report whether the mirror differs; change nothing")

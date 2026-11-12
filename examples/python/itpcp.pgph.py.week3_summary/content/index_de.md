@@ -43,13 +43,13 @@ In der folgenden Aufgabe sollen die Massenabsorptionskoeffizienten von Strontium
    * Spalte 1: Dicke (mm)
    * Spalte 2: Messdauer (min)
    * Spalte 3: Anzahl Impulse
-   Lies das File mit `np.loadtxt` ein und speichere die jeweiligen Schichtdicken, Messdauern und Impulse als NumPy-Arrays mit den Variablennamen `thickness`, `t` und `N`. Die Werte sind durch Kommas getrennt, und die erste Zeile ist eine Kopfzeile; verwende deshalb `delimiter=","` und `skiprows=1`.
+   Lies das File mit `np.loadtxt` ein und speichere die jeweiligen Schichtdicken, Messdauern und Impulse als NumPy-Arrays mit den Variablennamen `thickness`, `t` und `N`.
 
 2. Berechne die Zählraten aus `N` und `t` in counts per second (cps) und speichere sie im Array `I`. Beachte dabei, dass die Zeiteinheit im Datenfile **Minuten** ist.
 3. Logarithmiere die Zählraten.
 4. Um die Formel mit der logarithmierten Zählrate fitten zu können, musst du das Array `thickness` noch mit der Dichte von Aluminium multiplizieren. Nimm hierfür eine Dichte von $\rho$ = 2.70 g/cm³ an (achte auf die richtige Einheitenumwandlung!).
 5. Plotte die logarithmierten Zählraten in Abhängigkeit von $\rho\cdot d$. Verwende eine strichpunktierte Linie und gib den Daten das Label `Count rate`.
-6. Beschrifte die x-Achse mit `Areal density / (g/cm^2)` und die y-Achse mit `Pulse rate / cps (log-Scale)`. Gib der Graphik den Titel `Beta decay of Sr-90`.
+6. Beschrifte die x-Achse mit `Thickness / cm` und die y-Achse mit `Pulse rate / cps (log-Scale)`. Gib der Graphik den Titel `Beta decay of Sr-90`.
 7. Im Plot wird dir auffallen, dass die Datenkurve an einer bestimmten Stelle einen Knick aufweist. Dies ist jener Punkt, an dem die maximale Reichweite der Sr-90-Strahlung erreicht ist und nur noch die höherenergetische Y-90-Strahlung das Material durchdringen kann. Identifiziere die Position des Knicks anhand der Datenpunkte.
 8. Um die Massenabsorptionskoeffizienten von jeweils Sr-90 und Y-90 in Aluminium bestimmen zu können, musst du nun links und rechts des Knicks 2 lineare Fits durchführen. Geh folgendermaßen vor:
     * Erstelle mittels Indizierung zwei Arrays `Sr_rate` und `thickness_Sr` für den Bereich links des Knicks sowie `Y_rate` und `thickness_Y` für den Bereich rechts.

@@ -97,7 +97,7 @@ def test_build_writes_mirror_ledger_and_provenance(tmp_path):
     assert "secret" not in "".join((mirror / name).read_text() for name in published)
     assert "a" * 40 in (out / "RIGHTS.md").read_text()
     readme = (out / "README.md").read_text()
-    assert f"[`{'a' * 40}`](https://gitlab.tugraz.at/" in readme and "“Use du”" in readme
+    assert f"[`{'a' * 40}`](https://github.com/computor-org/examples/" in readme and "“Use du”" in readme
     assert "for all 1 Python examples" in readme
     assert "no solution or test artifacts: **1/1**" in (out / "LANGUAGE_AUDIT.md").read_text()
 

@@ -67,7 +67,7 @@ Write a Python script `kerr_cell` in which you analyze the data from the laborat
 8. Title the graph with `Linear Fit`.
 
 9. Create a legend with `green`, `yellow`, and
-  `blue`. (This is also useful when the image is printed in black and white).
+  `blue`. (This is also useful when the image is printed in black and white). You can either use the `label` option of the [plt.errorbar] function directly or add the entries to the legend afterwards (see hints).
 
 10. Position the legend in the upper left.
 
@@ -94,6 +94,13 @@ Write a Python script `kerr_cell` in which you analyze the data from the laborat
     plt.title(r"$\Delta U$")
     ```
 
+* The entries in the legend can also be added afterwards:
+
+    ```python
+    plt.legend(["label1", "label2"])
+    ```
+  You must pay attention to the order in which the plots were created.
+  
 * The text output should look like this:
 
     ```

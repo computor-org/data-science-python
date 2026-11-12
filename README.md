@@ -27,9 +27,9 @@ remain available when hosted Computor workspaces are full. Codespaces does not r
 ## Provenance and licensing
 
 The source snapshot is
-`git@gitlab.tugraz.at:codeability/development/examples.git` at
-[`bc05fc4d47f4cfb2bd86c81893f4c72838334762`](https://gitlab.tugraz.at/codeability/development/examples/-/commit/bc05fc4d47f4cfb2bd86c81893f4c72838334762)
-(2026-10-29T21:28:28+01:00; “Merge branch 'l10n/english-identifiers' into 'main'”). Each example keeps its upstream authors,
+`git@github.com:computor-org/examples.git` at
+[`2989873f9b9a2baaa1ebc5628808cbd5c037e239`](https://github.com/computor-org/examples/commit/2989873f9b9a2baaa1ebc5628808cbd5c037e239)
+(2026-11-12T13:22:51+01:00; “Merge branch 'chore/kerr-cell-1.1.4' into 'main'”). Each example keeps its upstream authors,
 maintainers, links, and `license` declaration in `meta.yaml`; the current
 snapshot declares MIT for all 70 Python examples. See [`RIGHTS.md`](RIGHTS.md)
 for the generated ledger and [`LANGUAGE_AUDIT.md`](LANGUAGE_AUDIT.md) for the

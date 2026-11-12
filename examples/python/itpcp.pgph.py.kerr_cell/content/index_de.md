@@ -68,7 +68,7 @@ Schreib ein Python-Skript `kerr_cell`, in dem du die Daten des Laborversuchs aus
 
 9. Erstelle eine Legende mit `green`, `yellow` und
   `blue`. (Das ist auch sinnvoll, wenn das Bild schwarz-weiß
-  ausgedruckt wird).
+  ausgedruckt wird). Sie können dafür entweder direkt die `label`-Option der [plt.errorbar] Funktion verwenden oder die Einträge nachträglich in der Legende hinzufügen (siehe Hinweise).
 
 10. Positioniere die Legende links oben.
 
@@ -94,6 +94,13 @@ Schreib ein Python-Skript `kerr_cell`, in dem du die Daten des Laborversuchs aus
     ```python
     plt.title(r"$\Delta U$")
     ```
+
+* Die Einträge in der Legende können Sie auch nachträglich hinzufügen:
+
+    ```python
+    plt.legend(["label1", "label2"])
+    ```
+  Dabei müssen Sie auf die Reihenfolge achten, in der die Plots erstellt wurden
 
 * Die Textausgabe sollte so aussehen:
 
